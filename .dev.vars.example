@@ -1,0 +1,26 @@
+# 本地开发用：复制为 .dev.vars（该文件已被 .gitignore 忽略）
+
+# ---- 数据抓取 ----
+# GitHub 令牌，把接口限额从 10 次/分 提升到 30 次/分（建议配置）
+GH_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# B 站 Cookie，降低风控概率（不配也能匿名检索）
+BILI_COOKIE=
+
+# ---- 构建期翻译（可选，配一组即可把快照描述全部译完）----
+# 方案 A：Workers AI REST（权限 Workers AI: Read）
+CF_ACCOUNT_ID=
+CF_AI_TOKEN=
+# 方案 B：任意 OpenAI 兼容接口（DeepSeek / 通义 / Kimi / GLM 均可）
+OPENAI_API_KEY=
+OPENAI_BASE_URL=https://api.deepseek.com/v1
+OPENAI_MODEL=deepseek-chat
+
+# ---- GitHub 登录（可选）----
+# 在 https://github.com/settings/developers 新建 OAuth App：
+#   Homepage URL            填 https://<你的域名>
+#   Authorization callback  填 https://<你的域名>/api/auth/callback
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+# 会话签名密钥（可选）：设置后会话用 HMAC 签名 Cookie，不依赖 KV 写入。
+# 不设置则回退使用 GITHUB_CLIENT_SECRET 作为密钥。建议单独设置一串 32+ 位随机字符。
+SESSION_SECRET=

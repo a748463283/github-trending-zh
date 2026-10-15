@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 热门项目中文榜 · 周/月/年分区 + 哔哩哔哩安装教程</title>
+<meta name="description" content="自动汇总 GitHub 本周、本月、今年最热门的开源项目，按 3D 打印、AI 插件、自托管、开发工具等分区整理，自动翻译为中文并匹配哔哩哔哩安装教程。">
+<meta name="theme-color" content="#1f6feb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f6feb'/%3E%3Ctext x='32' y='43' font-family='sans-serif' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3EGH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">GH</span>
+      <div>
+        <h1>GitHub 热门项目中文榜</h1>
+        <p>按分区浏览 · 自动匹配哔哩哔哩安装教程</p>
+      </div>
+    </div>
+
+    <div class="segmented" role="group" aria-label="统计周期">
+      <button type="button" data-period="week" aria-pressed="true">本周</button>
+      <button type="button" data-period="month" aria-pressed="false">本月</button>
+      <button type="button" data-period="year" aria-pressed="false">今年</button>
+    </div>
+
+    <button class="icon-button" id="theme-toggle" type="button">切换主题</button>
+
+    <div class="auth" id="auth-slot" aria-live="polite"></div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h2>分区导航</h2>
+    <nav class="cat-nav" id="cat-nav" aria-label="分区导航"></nav>
+  </aside>
+
+  <main class="content" id="main">
+    <div id="notice-slot"></div>
+
+    <div class="toolbar">
+      <div class="field">
+        <label for="q">搜索</label>
+        <input type="search" id="q" placeholder="项目名 / 描述 / 标签" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="sort">排序</label>
+        <select id="sort">
+          <option value="star">Star 最多</option>
+          <option value="new">最新创建</option>
+          <option value="fork">Fork 最多</option>
+          <option value="name">名称</option>
+        </select>
+      </div>
+      <label class="switch" for="expand-all">
+        <input type="checkbox" id="expand-all">
+        展开每个分区全部项目
+      </label>
+      <label class="switch" for="only-fav" id="only-fav-wrap" hidden>
+        <input type="checkbox" id="only-fav">
+        只看我的收藏
+      </label>
+      <button class="icon-button" id="refresh" type="button">强制刷新</button>
+      <p class="stat-line" id="stat-line" aria-live="polite">正在加载…</p>
+    </div>
+
+    <div id="sections"></div>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>
+    数据来源：<a href="https://docs.github.com/rest/search" target="_blank" rel="noopener">GitHub Search API</a>
+    （口径：统计周期内新建、按 Star 数排序的项目）。
+    教程来源：<a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a> 公开搜索接口，仅收录标题与本项目相关的教程视频，未匹配到则给出站内搜索入口。
+  </p>
+  <p>
+    中文描述由 Cloudflare Workers AI 机器翻译并缓存在 KV，可能不准确；未翻译的条目会同时显示英文原文。
+    本站与 GitHub、哔哩哔哩无关联，内容版权归原作者所有。
+  </p>
+  <p>
+    更新频率：Pages Functions 缓存 30 分钟自动刷新；也可由 GitHub Actions 定时重建静态快照。
+  </p>
+</footer>
+
+<script type="module" src="./app.js"></script>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+name: 构建并部署到 Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 每天 01:15 UTC（北京时间 09:15）重建静态快照，让快照数据保持新鲜
+    - cron: '15 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 用于把更新后的缓存提交回仓库
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # Node 24：node:sqlite 无需 flag，D1 的真实 SQL 测试才能在 CI 里跑起来
+          node-version: '24'
+          cache: npm
+
+      - name: 安装依赖（wrangler 等）
+        run: npm ci
+
+      - name: 部署前自检（密钥扫描 / 配置检查）
+        run: npm run preflight
+
+      - name: 拉取 GitHub 数据、翻译、匹配 B 站教程
+        env:
+          # 仓库 Secrets 里配置 GH_TOKEN（只读 public_repo 即可），可把接口限额提到 30 次/分
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # 可选：配置下面任意一组即可让静态快照带上完整中文翻译
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          # 可选：B 站 Cookie，可降低被风控概率
+          BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
+          TRANSLATE_MAX_CALLS: '300'
+        run: |
+          node scripts/build-static.mjs --periods=week,month,year --bili-budget=40 --translate-max=300
+          node scripts/test.mjs
+
+      - name: 提交缓存（让增量翻译/教程缓存跨天累积）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/ public/
+          if git diff --staged --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: 更新热门数据快照与缓存 [skip ci]"
+            git push
+          fi
+
+      # Cloudflare 出口 IP 常被 B 站风控（HTTP 412），运行时抓不到教程，
+      # 因此把构建期缓存灌进 KV，线上接口直接命中教程与译文。
+      - name: 灌入 KV 缓存（教程 / 译文 / 聚合结果）
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/seed-kv.mjs --upload
+
+      # D1 表结构迁移（幂等：已应用的迁移会自动跳过）
+      - name: 应用 D1 迁移（用户 / 收藏表）
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 migrations apply github-trending-zh-users --remote
+
+      - name: 部署到 Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=github-trending-zh --branch=main

@@ -1,0 +1,8 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+/data/*
+  Cache-Control: public, max-age=600
+/api/*
+  Cache-Control: public, max-age=300

@@ -1,0 +1,25 @@
+# 缁熶竴鎹㈣绗︾瓥鐣?
+# 鑳屾櫙锛氭湰鍦版槸 Windows銆丆I 鏄?Linux锛孏it 榛樿鐨?autocrlf 浼氳鍚屼竴浠?JSON
+# 鍦ㄣ€屾湰鍦版彁浜?鈫?CI 妫€鍑?鈫?CI 鎻愪氦鍥炰粨搴撱€嶄箣闂村弽澶嶈浆鎹紝浜х敓鏃犳剰涔?diff銆?
+# 杩欓噷鎶婁粨搴撳唴鐨勬枃鏈枃浠朵竴寰嬮拤鎴?LF锛屽苟缁欏繀椤?CRLF 鐨勮剼鏈被鍨嬪崟鐙紑鍙ｅ瓙銆?
+
+* text=auto eol=lf
+
+# Windows 鑴氭湰淇濇寔 CRLF锛圥owerShell 5.1 瀵圭函 LF 鐨?.ps1 鏈夊吋瀹归棶棰橈級
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 鏄庣‘鐨勪簩杩涘埗绫诲瀷
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+# 鏋勫缓浜х墿 / 缂撳瓨锛氭爣璁颁负鐢熸垚鏂囦欢锛孏itHub 璇█缁熻涓?diff 鍣０鏇村皯
+public/data/*.json linguist-generated=true
+cache/*.json linguist-generated=true

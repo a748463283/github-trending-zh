@@ -1,0 +1,30 @@
+{
+  "name": "github-trending-zh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub 周/月/年热门项目中文分区站，自动整合哔哩哔哩安装教程，部署于 Cloudflare Pages",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "build:offline": "node scripts/build-static.mjs --offline",
+    "dev": "npm run build:offline && wrangler pages dev",
+    "dev:remote": "wrangler pages dev --remote",
+    "preview": "npm run build:offline && node scripts/serve.mjs",
+    "test": "node scripts/test.mjs",
+    "test:all": "node scripts/test.mjs --integration --bili",
+    "preflight": "node scripts/preflight.mjs",
+    "check:render": "node scripts/check-render.mjs",
+    "seed:kv": "node scripts/seed-kv.mjs --upload",
+    "db:create": "wrangler d1 create github-trending-zh-users",
+    "db:migrate": "wrangler d1 migrations apply github-trending-zh-users --remote",
+    "db:migrate:local": "wrangler d1 migrations apply github-trending-zh-users --local",
+    "probe:bili": "node scripts/bili-wbi-probe.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
