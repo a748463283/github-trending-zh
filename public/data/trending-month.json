@@ -3,15 +3,15 @@
   "period": "month",
   "periodName": "本月",
   "periodNote": "近 30 天内新建的仓库",
-  "generatedAt": "2026-10-16T14:08:41.518Z",
+  "generatedAt": "2026-10-16T14:26:10.875Z",
   "source": "static-snapshot:build",
   "meta": {
     "period": "month",
     "query": "created:>=2026-09-16 stars:>=100",
-    "totalCount": 1857,
+    "totalCount": 1858,
     "fetched": 100,
     "rateLimitRemaining": "8",
-    "generatedAt": "2026-10-16T14:08:41.519Z",
+    "generatedAt": "2026-10-16T14:26:10.875Z",
     "translation": {
       "targets": 87,
       "translated": 87,
@@ -24,8 +24,8 @@
     },
     "starHistory": {
       "loaded": 100,
-      "written": 89,
-      "skipped": 11
+      "written": 0,
+      "skipped": 100
     },
     "snapshot": true,
     "categories": 14
@@ -62,7 +62,7 @@
           "descriptionZh": "在任何比赛中指向Claude。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频。",
           "language": "Python",
           "license": "MIT",
-          "stars": 8024,
+          "stars": 8028,
           "starsText": "8k",
           "forks": 861,
           "forksText": "861",
@@ -142,7 +142,7 @@
           "descriptionZh": "Claude Code插件将压缩摘要替换为JEV决策：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 7665,
+          "stars": 7666,
           "starsText": "7.7k",
           "forks": 551,
           "forksText": "551",
@@ -173,7 +173,7 @@
             "keyword": "fast-jev-compaction 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=fast-jev-compaction%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -187,11 +187,11 @@
           "descriptionZh": "Mac和iPhone上的小朋友，密切关注您的AI编码代理： Claude Code、Codex、Cursor、Gemini CLI、Antigravity等。从缺口或锁定屏幕进行审批。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 5352,
+          "stars": 5353,
           "starsText": "5.4k",
           "forks": 926,
           "forksText": "926",
-          "openIssues": 408,
+          "openIssues": 407,
           "archived": false,
           "topics": [
             {
@@ -267,7 +267,7 @@
           "descriptionZh": "Claude Code/Codex插件，可帮助您学习如何在人工智能编写代码时进行构建。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3659,
+          "stars": 3660,
           "starsText": "3.7k",
           "forks": 146,
           "forksText": "146",
@@ -298,7 +298,7 @@
             "keyword": "vibe-wise 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=vibe-wise%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -312,7 +312,7 @@
           "descriptionZh": "用HTML回答我，这是一种客服代表技能，可以用您实际可以阅读的单页HTML来回答难题。让AI Agent 用一页 HTML 回答复杂问题。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3507,
+          "stars": 3511,
           "starsText": "3.5k",
           "forks": 243,
           "forksText": "243",
@@ -368,7 +368,7 @@
             "keyword": "answer-me-with-html 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=answer-me-with-html%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -382,7 +382,7 @@
           "descriptionZh": "向其展示您喜爱的视频。获取相同风格的新视频。人工智能团队（Claude Code或Codex）与您一起计划、构建和审查它。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3346,
+          "stars": 3347,
           "starsText": "3.3k",
           "forks": 317,
           "forksText": "317",
@@ -438,7 +438,7 @@
             "keyword": "reelmimic 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=reelmimic%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -452,10 +452,10 @@
           "descriptionZh": "发现照片拍摄地点的代理技能— OpenStreetMap几何图形、高程天际线、卫星图像和街景—并显示其工作。适用于Claude Code、Codex、Cursor、Gemini CLI、OpenCode和GitHub Copilot。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3061,
+          "stars": 3064,
           "starsText": "3.1k",
-          "forks": 405,
-          "forksText": "405",
+          "forks": 407,
+          "forksText": "407",
           "openIssues": 10,
           "archived": false,
           "topics": [
@@ -508,7 +508,7 @@
             "keyword": "geo-sleuth 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=geo-sleuth%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -578,7 +578,7 @@
             "keyword": "replica-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=replica-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -592,7 +592,7 @@
           "descriptionZh": "适用于无视频模特的短片的Claude Code技巧： 51种电影风格，每种风格提示加上完全由Claude Opus 5.5 （包括OPUSCAR 98和新的证据电影）。作者： Lemomo. · Opus5.5 x 51 种影片风格：风格提示词纯代码样片导演与技术指南+新增「实证影像」 +",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 2618,
+          "stars": 2620,
           "starsText": "2.6k",
           "forks": 279,
           "forksText": "279",
@@ -662,10 +662,10 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 2399,
+          "stars": 2409,
           "starsText": "2.4k",
-          "forks": 470,
-          "forksText": "470",
+          "forks": 471,
+          "forksText": "471",
           "openIssues": 4,
           "archived": false,
           "topics": [
@@ -732,7 +732,7 @@
           "descriptionZh": "AI生成の日本語を自然な日本語へ推敲する代理技能 / 代理技能改良人工智能生成的日本語為自然的日本語",
           "language": "Python",
           "license": "MIT",
-          "stars": 2038,
+          "stars": 2039,
           "starsText": "2k",
           "forks": 59,
           "forksText": "59",
@@ -811,7 +811,7 @@
           "descriptionZh": "非自回归系统1决策引擎。在100多种语言的单个转发通道中对任何文本进行键入选择、评分和是/否决定，路由器可为每个请求选择正确的检查点。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 33132,
+          "stars": 33134,
           "starsText": "3.3 万",
           "forks": 2976,
           "forksText": "3k",
@@ -909,11 +909,11 @@
           "descriptionZh": "任何消费硬件上的Qwen3.8-Flash-Next：一键安装Windows/Linux。Strata推理引擎， localhost上的OpenAI/Anthropic API，可选图像输入。",
           "language": "C++",
           "license": "MIT",
-          "stars": 26001,
+          "stars": 26013,
           "starsText": "2.6 万",
           "forks": 2688,
           "forksText": "2.7k",
-          "openIssues": 1058,
+          "openIssues": 1062,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -982,7 +982,7 @@
           "descriptionZh": "最快、最便宜的网络代理",
           "language": "Python",
           "license": "MIT",
-          "stars": 23070,
+          "stars": 23069,
           "starsText": "2.3 万",
           "forks": 1717,
           "forksText": "1.7k",
@@ -1037,10 +1037,10 @@
           "descriptionZh": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key， DeepSeek就能使用包括 V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费，你所不限量。要做的就是在dsh中安装这个插件：无需登录，无需注册，无需API key--前沿型号就在那里， DeepSeek V4.1 Flash和Kimi K3就是其中之一。完全免费，没有使用上限。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 18939,
+          "stars": 18960,
           "starsText": "1.9 万",
-          "forks": 390,
-          "forksText": "390",
+          "forks": 391,
+          "forksText": "391",
           "openIssues": 222,
           "archived": false,
           "topics": [
@@ -1093,7 +1093,7 @@
             "keyword": "dsh-our-free-model 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dsh-our-free-model%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1107,11 +1107,11 @@
           "descriptionZh": "每个代理的模型。一个地方。DeepSeek上的Codex，菜单栏中的Kimi上的Claude Code。",
           "language": "Go",
           "license": "MIT",
-          "stars": 14019,
+          "stars": 14028,
           "starsText": "1.4 万",
-          "forks": 982,
-          "forksText": "982",
-          "openIssues": 918,
+          "forks": 983,
+          "forksText": "983",
+          "openIssues": 919,
           "archived": false,
           "topics": [
             {
@@ -1205,9 +1205,9 @@
           "descriptionZh": "用于创建真实世界机器和复杂系统的详细交互式等距插图的代理技能。使用可选的WebGL着色器和3D效果生成精美的SVG。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 13611,
+          "stars": 13624,
           "starsText": "1.4 万",
-          "forks": 1000,
+          "forks": 1003,
           "forksText": "1k",
           "openIssues": 23,
           "archived": false,
@@ -1330,7 +1330,7 @@
             "keyword": "kev 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=kev%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1417,7 +1417,7 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 7870,
+          "stars": 7872,
           "starsText": "7.9k",
           "forks": 1896,
           "forksText": "1.9k",
@@ -1473,7 +1473,7 @@
             "keyword": "AIHOT 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=AIHOT%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1543,7 +1543,7 @@
             "keyword": "laya-mlx 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=laya-mlx%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1557,7 +1557,7 @@
           "descriptionZh": "始终在线的人工智能同事可以在短信、通话和Slack之间切换。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 5475,
+          "stars": 5476,
           "starsText": "5.5k",
           "forks": 781,
           "forksText": "781",
@@ -1612,9 +1612,9 @@
           "descriptionZh": "",
           "language": "Go",
           "license": "AGPL-3.0",
-          "stars": 4386,
+          "stars": 4392,
           "starsText": "4.4k",
-          "forks": 6598,
+          "forks": 6601,
           "forksText": "6.6k",
           "openIssues": 1,
           "archived": false,
@@ -1723,7 +1723,7 @@
             "keyword": "aurelio-finance 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=aurelio-finance%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1737,7 +1737,7 @@
           "descriptionZh": "为Claude、Gemini CLI、Codex和其他AI代理提供全面的徽标设计技能：原则、流程、SVG工艺、测试工具和1,400多个徽标参考库。",
           "language": "HTML",
           "license": "MIT",
-          "stars": 3495,
+          "stars": 3498,
           "starsText": "3.5k",
           "forks": 270,
           "forksText": "270",
@@ -1793,7 +1793,7 @@
             "keyword": "logo-design-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=logo-design-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1838,7 +1838,7 @@
             "keyword": "jev-trader 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=jev-trader%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1852,7 +1852,7 @@
           "descriptionZh": "让人工智能模型使用带有$ 7 ESP32的真实iPhone： AirPlay眼睛， USB HID指针，任何与OpenAI兼容的视觉模型。没有Mac，没有开发者帐户，没有越狱。",
           "language": "C",
           "license": "MIT",
-          "stars": 2777,
+          "stars": 2778,
           "starsText": "2.8k",
           "forks": 357,
           "forksText": "357",
@@ -1908,7 +1908,7 @@
             "keyword": "esp32-iphone-agent 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=esp32-iphone-agent%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -1970,7 +1970,7 @@
             "keyword": "omdrop-owl 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=omdrop-owl%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -2054,7 +2054,7 @@
           "descriptionZh": "JEV的纳米复制品：并行决策、动态候选和端到端培训流水线。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2556,
+          "stars": 2557,
           "starsText": "2.6k",
           "forks": 263,
           "forksText": "263",
@@ -2144,7 +2144,7 @@
           "descriptionZh": "DeepSeek Harness的长期机器人团队,主要机器人,机器人对机器人的消息和组聊天。",
           "language": "JavaScript",
           "license": "Apache-2.0",
-          "stars": 2115,
+          "stars": 2118,
           "starsText": "2.1k",
           "forks": 201,
           "forksText": "201",
@@ -2206,9 +2206,9 @@
           "descriptionZh": "专门的AI模型用于标志设计 - 品牌分析模型将业务变成限制,打字和符号模型构建标志,组成引擎产生真正的锁定和清晰空间规则。",
           "language": "TypeScript",
           "license": "",
-          "stars": 1838,
+          "stars": 1839,
           "starsText": "1.8k",
-          "forks": 1874,
+          "forks": 1875,
           "forksText": "1.9k",
           "openIssues": 0,
           "archived": false,
@@ -2294,7 +2294,7 @@
                 0
               ],
               [
-                1792159721,
+                1792160770,
                 1598
               ]
             ],
@@ -2364,7 +2364,7 @@
                 0
               ],
               [
-                1792159721,
+                1792160770,
                 1588
               ]
             ],
@@ -2393,7 +2393,7 @@
           "license": "AGPL-3.0",
           "stars": 1572,
           "starsText": "1.6k",
-          "forks": 1858,
+          "forks": 1859,
           "forksText": "1.9k",
           "openIssues": 10,
           "archived": false,
@@ -2434,7 +2434,7 @@
                 0
               ],
               [
-                1792159721,
+                1792160770,
                 1572
               ]
             ],
@@ -2470,11 +2470,11 @@
           "descriptionZh": "SolidCraft：用纯Rust构建的开源参数化3D CAD应用程序。通过MCP实现桌面、网络和自动化。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2956,
+          "stars": 2965,
           "starsText": "3k",
-          "forks": 317,
-          "forksText": "317",
-          "openIssues": 434,
+          "forks": 319,
+          "forksText": "319",
+          "openIssues": 439,
           "archived": false,
           "topics": [
             {
@@ -2526,7 +2526,7 @@
             "keyword": "solidcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=solidcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -2763,7 +2763,7 @@
             "keyword": "SemIf-OpenJev 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=SemIf-OpenJev%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -2777,9 +2777,9 @@
           "descriptionZh": "适用于暗黑破坏神II的开源iOS/macOS兼容层：随着术士统治扩展而复活。在iPhone、iPad和Mac上本地运行您自己的Switch副本—全触摸控件、60 fps、新的游戏结束模式。带上您自己的游戏文件。开源的《暗黑破坏神II：狱火重生》术士君临 iOS/macOS 兼容层",
           "language": "C",
           "license": "MIT",
-          "stars": 3460,
+          "stars": 3468,
           "starsText": "3.5k",
-          "forks": 1011,
+          "forks": 1012,
           "forksText": "1k",
           "openIssues": 24,
           "archived": false,
@@ -2902,7 +2902,7 @@
           "descriptionZh": "原生 PC 端口 P.T. (从您自己的 PS4 游戏文件运行)",
           "language": "C++",
           "license": "",
-          "stars": 1835,
+          "stars": 1836,
           "starsText": "1.8k",
           "forks": 119,
           "forksText": "119",
@@ -2947,7 +2947,7 @@
           "descriptionZh": "Steam Play 适用于 macOS",
           "language": "Scala",
           "license": "GPL-3.0",
-          "stars": 1672,
+          "stars": 1675,
           "starsText": "1.7k",
           "forks": 98,
           "forksText": "98",
@@ -3010,7 +3010,7 @@
                 0
               ],
               [
-                1792159721,
+                1792160770,
                 1631
               ]
             ],
@@ -3046,7 +3046,7 @@
           "descriptionZh": "React、Vue、Svelte、Solid、JS和Framer的WebGPU组件",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 4943,
+          "stars": 4944,
           "starsText": "4.9k",
           "forks": 210,
           "forksText": "210",
@@ -3144,7 +3144,7 @@
           "descriptionZh": "可免费访问前沿模型的桌面编码代理。",
           "language": "TypeScript",
           "license": "",
-          "stars": 3469,
+          "stars": 3470,
           "starsText": "3.5k",
           "forks": 78,
           "forksText": "78",
@@ -3175,7 +3175,7 @@
             "keyword": "omnirush-gui 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=omnirush-gui%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -3220,7 +3220,7 @@
             "keyword": "disktree 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=disktree%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -3279,7 +3279,7 @@
           "descriptionZh": "从不剪切到下一张幻灯片的运动胶片：每一个节拍都从前一个节拍中生长出来，一个连续的相机，由预言机测量的连续性。产品发布电影和特写演示，由编码代理制作。",
           "language": "Python",
           "license": "",
-          "stars": 2513,
+          "stars": 2514,
           "starsText": "2.5k",
           "forks": 166,
           "forksText": "166",
@@ -3394,11 +3394,11 @@
           "descriptionZh": "在 Go 中使用原生 UI 或 Web frontend 开发桌面应用程序",
           "language": "Go",
           "license": "MIT",
-          "stars": 2154,
+          "stars": 2156,
           "starsText": "2.2k",
           "forks": 115,
           "forksText": "115",
-          "openIssues": 46,
+          "openIssues": 45,
           "archived": false,
           "topics": [],
           "category": "web",
@@ -3439,7 +3439,7 @@
           "descriptionZh": "六个同位素线数字,以响应指针. 对于 React 和任何有 DOM 的东西。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2105,
+          "stars": 2107,
           "starsText": "2.1k",
           "forks": 122,
           "forksText": "122",
@@ -3518,11 +3518,11 @@
           "descriptionZh": "PhotoCraft：用纯Rust编写的开源照片编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 64410,
+          "stars": 64431,
           "starsText": "6.4 万",
-          "forks": 11209,
+          "forks": 11216,
           "forksText": "1.1 万",
-          "openIssues": 2348,
+          "openIssues": 2352,
           "archived": false,
           "topics": [
             {
@@ -3616,7 +3616,7 @@
           "descriptionZh": "适用于Mac的Photoshop替代品",
           "language": "Swift",
           "license": "MIT",
-          "stars": 17163,
+          "stars": 17164,
           "starsText": "1.7 万",
           "forks": 1679,
           "forksText": "1.7k",
@@ -3680,11 +3680,11 @@
           "descriptionZh": "LightCraft：用纯Rust编写的开源无损照片编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 13107,
+          "stars": 13110,
           "starsText": "1.3 万",
-          "forks": 4913,
+          "forks": 4917,
           "forksText": "4.9k",
-          "openIssues": 775,
+          "openIssues": 776,
           "archived": false,
           "topics": [
             {
@@ -3736,7 +3736,7 @@
             "keyword": "lightcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=lightcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -3750,7 +3750,7 @@
           "descriptionZh": "“I 'm Upping My P (DOOM)”的代码渲染音乐视频",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2820,
+          "stars": 2821,
           "starsText": "2.8k",
           "forks": 308,
           "forksText": "308",
@@ -3781,7 +3781,7 @@
             "keyword": "pdoom-video 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pdoom-video%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -3919,11 +3919,11 @@
           "descriptionZh": "GridCraft：纯Rust的开源洁净室电子表格（Microsoft Excel风格）。由ArtCraft提供。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 5321,
+          "stars": 5325,
           "starsText": "5.3k",
-          "forks": 2416,
+          "forks": 2417,
           "forksText": "2.4k",
-          "openIssues": 985,
+          "openIssues": 986,
           "archived": false,
           "topics": [],
           "category": "data",
@@ -3950,7 +3950,7 @@
             "keyword": "gridcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=gridcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         }
@@ -3973,11 +3973,11 @@
           "descriptionZh": "PdfCraft：用纯Rust通过scratch编写的开源PDF阅读器和编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 14768,
+          "stars": 14779,
           "starsText": "1.5 万",
-          "forks": 5711,
+          "forks": 5716,
           "forksText": "5.7k",
-          "openIssues": 1307,
+          "openIssues": 1309,
           "archived": false,
           "topics": [
             {
@@ -4029,7 +4029,7 @@
             "keyword": "pdfcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pdfcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4043,9 +4043,9 @@
           "descriptionZh": "FilmCraft：用纯Rust编写的开源非线性视频编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 14072,
+          "stars": 14076,
           "starsText": "1.4 万",
-          "forks": 5805,
+          "forks": 5810,
           "forksText": "5.8k",
           "openIssues": 1087,
           "archived": false,
@@ -4099,7 +4099,7 @@
             "keyword": "filmcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=filmcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4113,11 +4113,11 @@
           "descriptionZh": "VectorCraft：用纯Rust编写的开源矢量艺术工具",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 9359,
+          "stars": 9366,
           "starsText": "9.4k",
-          "forks": 4517,
+          "forks": 4520,
           "forksText": "4.5k",
-          "openIssues": 493,
+          "openIssues": 494,
           "archived": false,
           "topics": [
             {
@@ -4169,7 +4169,7 @@
             "keyword": "vectorcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=vectorcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4183,7 +4183,7 @@
           "descriptionZh": "CADCraft：计算机辅助设计和绘图—纯Rust的开源、无尘室AutoCAD风格应用程序",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 5303,
+          "stars": 5306,
           "starsText": "5.3k",
           "forks": 2344,
           "forksText": "2.3k",
@@ -4214,7 +4214,7 @@
             "keyword": "cadcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=cadcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4228,11 +4228,11 @@
           "descriptionZh": "DesignCraft：用纯Rust编写的开源页面和布局设计编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 4161,
+          "stars": 4164,
           "starsText": "4.2k",
           "forks": 2864,
           "forksText": "2.9k",
-          "openIssues": 292,
+          "openIssues": 286,
           "archived": false,
           "topics": [
             {
@@ -4276,7 +4276,7 @@
             "keyword": "designcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=designcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4290,11 +4290,11 @@
           "descriptionZh": "演示文稿和幻灯片放映：在纯Rust中重新实现Microsoft PowerPoint的开源洁净室。ArtCraft Crafting应用程序的一部分。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 3530,
+          "stars": 3531,
           "starsText": "3.5k",
-          "forks": 1983,
+          "forks": 1984,
           "forksText": "2k",
-          "openIssues": 323,
+          "openIssues": 324,
           "archived": false,
           "topics": [],
           "category": "devtools",
@@ -4321,7 +4321,7 @@
             "keyword": "deckcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=deckcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4391,7 +4391,7 @@
             "keyword": "invisible_playwright_mcp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=invisible_playwright_mcp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4405,11 +4405,11 @@
           "descriptionZh": "FigCraft：界面设计和原型设计；纯Rust中协作设计工作流程的开源、无尘室重新实现",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 1660,
+          "stars": 1669,
           "starsText": "1.7k",
-          "forks": 703,
-          "forksText": "703",
-          "openIssues": 196,
+          "forks": 706,
+          "forksText": "706",
+          "openIssues": 198,
           "archived": false,
           "topics": [
             {
@@ -4472,7 +4472,7 @@
           "descriptionZh": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机。Mac、Windows和Linux上的设备，基于Google DeepMind的EmbeddingGemma 2构建。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 4242,
+          "stars": 4244,
           "starsText": "4.2k",
           "forks": 295,
           "forksText": "295",
@@ -4528,7 +4528,7 @@
             "keyword": "DigUp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=DigUp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4542,11 +4542,11 @@
           "descriptionZh": "MacOS Sequoia上的NVIDIA GeForce卡金属驱动程序",
           "language": "Rust",
           "license": "",
-          "stars": 3212,
+          "stars": 3214,
           "starsText": "3.2k",
           "forks": 307,
           "forksText": "307",
-          "openIssues": 156,
+          "openIssues": 157,
           "archived": false,
           "topics": [
             {
@@ -4598,7 +4598,7 @@
             "keyword": "nvidia-macos-driver 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=nvidia-macos-driver%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4614,8 +4614,8 @@
           "license": "GPL-3.0",
           "stars": 2886,
           "starsText": "2.9k",
-          "forks": 72,
-          "forksText": "72",
+          "forks": 73,
+          "forksText": "73",
           "openIssues": 75,
           "archived": false,
           "topics": [
@@ -4668,7 +4668,7 @@
             "keyword": "SCSKiller 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=SCSKiller%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -4736,7 +4736,7 @@
           "descriptionZh": "适用于兼容Android头显的独立CarPlay接收器。有线和无线公共预览。",
           "language": "Kotlin",
           "license": "GPL-3.0",
-          "stars": 11077,
+          "stars": 11080,
           "starsText": "1.1 万",
           "forks": 1411,
           "forksText": "1.4k",
@@ -4809,10 +4809,10 @@
           "descriptionZh": "DroidDeck为Android带来SteamOS体验",
           "language": "Kotlin",
           "license": "GPL-3.0",
-          "stars": 9319,
+          "stars": 9330,
           "starsText": "9.3k",
-          "forks": 457,
-          "forksText": "457",
+          "forks": 458,
+          "forksText": "458",
           "openIssues": 284,
           "archived": false,
           "topics": [],
@@ -4938,7 +4938,7 @@
             "keyword": "jev-chat-jarvis 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=jev-chat-jarvis%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5025,7 +5025,7 @@
           "descriptionZh": "Debloat macOS：关闭Apple Intelligence、分析、广告和弹出窗口。原生应用程序和CLI，每个更改都可以撤消。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 4819,
+          "stars": 4821,
           "starsText": "4.8k",
           "forks": 140,
           "forksText": "140",
@@ -5081,7 +5081,7 @@
             "keyword": "RemoveMacAI 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=RemoveMacAI%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5095,10 +5095,10 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "MIT",
-          "stars": 3960,
+          "stars": 3962,
           "starsText": "4k",
-          "forks": 401,
-          "forksText": "401",
+          "forks": 402,
+          "forksText": "402",
           "openIssues": 11,
           "archived": false,
           "topics": [],
@@ -5126,7 +5126,7 @@
             "keyword": "iPhone-use 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=iPhone-use%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5171,7 +5171,7 @@
             "keyword": "craft-launcher 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=craft-launcher%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5185,10 +5185,10 @@
           "descriptionZh": "Mac上的任何窗口，都可以在iPhone或iPad上实时显示。触摸、Apple Pencil、触控板和按键。免费、开源，无服务器。",
           "language": "Swift",
           "license": "Apache-2.0",
-          "stars": 2385,
+          "stars": 2403,
           "starsText": "2.4k",
-          "forks": 109,
-          "forksText": "109",
+          "forks": 110,
+          "forksText": "110",
           "openIssues": 59,
           "archived": false,
           "topics": [
@@ -5228,14 +5228,14 @@
                 0
               ],
               [
-                1792159721,
-                2385
+                1792160770,
+                2403
               ]
             ],
             "source": "projected",
-            "delta": 2385,
+            "delta": 2403,
             "days": 24,
-            "perDay": 99
+            "perDay": 100
           },
           "tutorials": {
             "keyword": "sill 安装教程",
@@ -5255,7 +5255,7 @@
           "descriptionZh": "屏幕截图,挂在干燥上. 一个小小的原生macOS应用程序,将每个屏幕截图挂在屏幕顶部的一行上。",
           "language": "Swift",
           "license": "",
-          "stars": 2242,
+          "stars": 2243,
           "starsText": "2.2k",
           "forks": 194,
           "forksText": "194",
@@ -5300,7 +5300,7 @@
           "descriptionZh": "苹果钱包卡皮肤和锁屏密码主题在iOS 27上。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 1858,
+          "stars": 1859,
           "starsText": "1.9k",
           "forks": 224,
           "forksText": "224",
@@ -5410,7 +5410,7 @@
             "keyword": "awesome-opus5-5-videos 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=awesome-opus5-5-videos%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5620,7 +5620,7 @@
           "descriptionZh": "",
           "language": "Lean",
           "license": "Apache-2.0",
-          "stars": 15000,
+          "stars": 15002,
           "starsText": "1.5 万",
           "forks": 1724,
           "forksText": "1.7k",
@@ -5675,11 +5675,11 @@
           "descriptionZh": "在纯Rust中重新实现Microsoft Word的开源洁净室",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 13501,
+          "stars": 13510,
           "starsText": "1.4 万",
-          "forks": 3491,
+          "forks": 3492,
           "forksText": "3.5k",
-          "openIssues": 1231,
+          "openIssues": 1236,
           "archived": false,
           "topics": [],
           "category": "other",
@@ -5706,7 +5706,7 @@
             "keyword": "wordcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=wordcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5720,10 +5720,10 @@
           "descriptionZh": "",
           "language": "HTML",
           "license": "",
-          "stars": 12201,
+          "stars": 12205,
           "starsText": "1.2 万",
-          "forks": 896,
-          "forksText": "896",
+          "forks": 897,
+          "forksText": "897",
           "openIssues": 9,
           "archived": false,
           "topics": [],
@@ -5775,11 +5775,11 @@
           "descriptionZh": "EffectCraft：用纯Rust编写的开源动态图形和合成工具",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 6938,
+          "stars": 6942,
           "starsText": "6.9k",
-          "forks": 3665,
+          "forks": 3666,
           "forksText": "3.7k",
-          "openIssues": 570,
+          "openIssues": 572,
           "archived": false,
           "topics": [
             {
@@ -5851,7 +5851,7 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 4125,
+          "stars": 4126,
           "starsText": "4.1k",
           "forks": 449,
           "forksText": "449",
@@ -5882,7 +5882,7 @@
             "keyword": "huashu-art-motion 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=huashu-art-motion%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5896,7 +5896,7 @@
           "descriptionZh": "纯Rust中Avid Pro Tools的开源洁净室重新实现",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 3019,
+          "stars": 3021,
           "starsText": "3k",
           "forks": 1902,
           "forksText": "1.9k",
@@ -5951,7 +5951,7 @@
           "descriptionZh": "",
           "language": "C++",
           "license": "GPL-2.0",
-          "stars": 3005,
+          "stars": 3009,
           "starsText": "3k",
           "forks": 691,
           "forksText": "691",
@@ -5982,7 +5982,7 @@
             "keyword": "bloodborne_pc 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=bloodborne_pc%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T14:08:43.490Z",
+            "fetchedAt": "2026-10-16T14:26:12.860Z",
             "videos": []
           }
         },
@@ -5996,7 +5996,7 @@
           "descriptionZh": "DSH中低级操作的工具包，旨在减少令牌使用和任务执行时间/DSH 底层操作工具插件，旨在减少令牌消耗与任务耗时",
           "language": "JavaScript",
           "license": "",
-          "stars": 2499,
+          "stars": 2505,
           "starsText": "2.5k",
           "forks": 61,
           "forksText": "61",
@@ -6107,7 +6107,7 @@
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-09-21T02:12:24Z",
           "avatar": "https://avatars.githubusercontent.com/u/331844194?v=4",
           "curve": {
@@ -6189,7 +6189,7 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 1719,
+          "stars": 1720,
           "starsText": "1.7k",
           "forks": 376,
           "forksText": "376",
