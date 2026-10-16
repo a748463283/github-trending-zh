@@ -3,29 +3,29 @@
   "period": "month",
   "periodName": "本月",
   "periodNote": "近 30 天内新建的仓库",
-  "generatedAt": "2026-10-16T13:26:06.331Z",
+  "generatedAt": "2026-10-16T14:08:41.518Z",
   "source": "static-snapshot:build",
   "meta": {
     "period": "month",
     "query": "created:>=2026-09-16 stars:>=100",
-    "totalCount": 1854,
+    "totalCount": 1857,
     "fetched": 100,
     "rateLimitRemaining": "8",
-    "generatedAt": "2026-10-16T13:26:06.331Z",
+    "generatedAt": "2026-10-16T14:08:41.519Z",
     "translation": {
       "targets": 87,
       "translated": 87,
       "provider": "mymemory"
     },
     "tutorials": {
-      "kvHits": 18,
+      "kvHits": 22,
       "filled": 40,
       "errors": 0
     },
     "starHistory": {
-      "loaded": 95,
-      "written": 5,
-      "skipped": 95
+      "loaded": 100,
+      "written": 89,
+      "skipped": 11
     },
     "snapshot": true,
     "categories": 14
@@ -62,7 +62,7 @@
           "descriptionZh": "在任何比赛中指向Claude。技能、工具和FAL MCP让Claude Code可以修改您拥有的几乎所有PC游戏：侦察、逆向工程、FAL生成的艺术/3D/音频、游戏内测试、展示视频。",
           "language": "Python",
           "license": "MIT",
-          "stars": 8019,
+          "stars": 8024,
           "starsText": "8k",
           "forks": 861,
           "forksText": "861",
@@ -101,18 +101,18 @@
           "curve": {
             "points": [
               [
-                1790744435,
-                0
+                1792072535,
+                7813
               ],
               [
-                1792157166,
-                8019
+                1792159721,
+                8024
               ]
             ],
-            "source": "projected",
-            "delta": 8019,
-            "days": 16,
-            "perDay": 501
+            "source": "measured",
+            "delta": 211,
+            "days": 1,
+            "perDay": 209
           },
           "tutorials": {
             "keyword": "universal-modder 安装教程",
@@ -142,7 +142,7 @@
           "descriptionZh": "Claude Code插件将压缩摘要替换为JEV决策：每个工具调用和结果都在一个快速请求中得分，过时的请求被丢弃或截断，所有内容保持不变。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 7663,
+          "stars": 7665,
           "starsText": "7.7k",
           "forks": 551,
           "forksText": "551",
@@ -156,24 +156,24 @@
           "curve": {
             "points": [
               [
-                1789624640,
-                0
+                1792072535,
+                7638
               ],
               [
-                1792157166,
-                7663
+                1792159721,
+                7665
               ]
             ],
-            "source": "projected",
-            "delta": 7663,
-            "days": 29,
-            "perDay": 264
+            "source": "measured",
+            "delta": 27,
+            "days": 1,
+            "perDay": 27
           },
           "tutorials": {
             "keyword": "fast-jev-compaction 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=fast-jev-compaction%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -187,11 +187,11 @@
           "descriptionZh": "Mac和iPhone上的小朋友，密切关注您的AI编码代理： Claude Code、Codex、Cursor、Gemini CLI、Antigravity等。从缺口或锁定屏幕进行审批。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 5350,
-          "starsText": "5.3k",
-          "forks": 924,
-          "forksText": "924",
-          "openIssues": 407,
+          "stars": 5352,
+          "starsText": "5.4k",
+          "forks": 926,
+          "forksText": "926",
+          "openIssues": 408,
           "archived": false,
           "topics": [
             {
@@ -226,18 +226,18 @@
           "curve": {
             "points": [
               [
-                1790546052,
-                0
+                1792072535,
+                5270
               ],
               [
-                1792157166,
-                5350
+                1792159721,
+                5352
               ]
             ],
-            "source": "projected",
-            "delta": 5350,
-            "days": 19,
-            "perDay": 282
+            "source": "measured",
+            "delta": 82,
+            "days": 1,
+            "perDay": 81
           },
           "tutorials": {
             "keyword": "coucou 安装教程",
@@ -267,7 +267,7 @@
           "descriptionZh": "Claude Code/Codex插件，可帮助您学习如何在人工智能编写代码时进行构建。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3655,
+          "stars": 3659,
           "starsText": "3.7k",
           "forks": 146,
           "forksText": "146",
@@ -275,30 +275,30 @@
           "archived": false,
           "topics": [],
           "category": "ai-plugin",
-          "ageDays": 17,
+          "ageDays": 18,
           "createdAt": "2026-09-29T01:29:57Z",
           "avatar": "https://avatars.githubusercontent.com/u/74839315?v=4",
           "curve": {
             "points": [
               [
-                1790645397,
-                0
+                1792072535,
+                3607
               ],
               [
-                1792157166,
-                3655
+                1792159721,
+                3659
               ]
             ],
-            "source": "projected",
-            "delta": 3655,
-            "days": 17,
-            "perDay": 215
+            "source": "measured",
+            "delta": 52,
+            "days": 1,
+            "perDay": 52
           },
           "tutorials": {
             "keyword": "vibe-wise 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=vibe-wise%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -312,7 +312,7 @@
           "descriptionZh": "用HTML回答我，这是一种客服代表技能，可以用您实际可以阅读的单页HTML来回答难题。让AI Agent 用一页 HTML 回答复杂问题。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3505,
+          "stars": 3507,
           "starsText": "3.5k",
           "forks": 243,
           "forksText": "243",
@@ -351,24 +351,24 @@
           "curve": {
             "points": [
               [
-                1790935060,
-                0
+                1792072535,
+                3427
               ],
               [
-                1792157166,
-                3505
+                1792159721,
+                3507
               ]
             ],
-            "source": "projected",
-            "delta": 3505,
-            "days": 14,
-            "perDay": 250
+            "source": "measured",
+            "delta": 80,
+            "days": 1,
+            "perDay": 79
           },
           "tutorials": {
             "keyword": "answer-me-with-html 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=answer-me-with-html%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -382,7 +382,7 @@
           "descriptionZh": "向其展示您喜爱的视频。获取相同风格的新视频。人工智能团队（Claude Code或Codex）与您一起计划、构建和审查它。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3345,
+          "stars": 3346,
           "starsText": "3.3k",
           "forks": 317,
           "forksText": "317",
@@ -421,24 +421,24 @@
           "curve": {
             "points": [
               [
-                1790622899,
-                0
+                1792072535,
+                3314
               ],
               [
-                1792157166,
-                3345
+                1792159721,
+                3346
               ]
             ],
-            "source": "projected",
-            "delta": 3345,
-            "days": 18,
-            "perDay": 186
+            "source": "measured",
+            "delta": 32,
+            "days": 1,
+            "perDay": 32
           },
           "tutorials": {
             "keyword": "reelmimic 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=reelmimic%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -452,7 +452,7 @@
           "descriptionZh": "发现照片拍摄地点的代理技能— OpenStreetMap几何图形、高程天际线、卫星图像和街景—并显示其工作。适用于Claude Code、Codex、Cursor、Gemini CLI、OpenCode和GitHub Copilot。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3058,
+          "stars": 3061,
           "starsText": "3.1k",
           "forks": 405,
           "forksText": "405",
@@ -491,24 +491,24 @@
           "curve": {
             "points": [
               [
-                1789721494,
-                0
+                1792072535,
+                2936
               ],
               [
-                1792157166,
-                3058
+                1792159721,
+                3061
               ]
             ],
-            "source": "projected",
-            "delta": 3058,
-            "days": 28,
-            "perDay": 109
+            "source": "measured",
+            "delta": 125,
+            "days": 1,
+            "perDay": 124
           },
           "tutorials": {
             "keyword": "geo-sleuth 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=geo-sleuth%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -522,7 +522,7 @@
           "descriptionZh": "克隆任何应用程序的11项免费Claude技能：对其进行逆向工程、重建、测试错误，然后修复用户讨厌的内容。免费，麻省理工学院。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2823,
+          "stars": 2830,
           "starsText": "2.8k",
           "forks": 421,
           "forksText": "421",
@@ -561,24 +561,24 @@
           "curve": {
             "points": [
               [
-                1791029269,
-                0
+                1792072535,
+                2696
               ],
               [
-                1792157166,
-                2823
+                1792159721,
+                2830
               ]
             ],
-            "source": "projected",
-            "delta": 2823,
-            "days": 13,
-            "perDay": 217
+            "source": "measured",
+            "delta": 134,
+            "days": 1,
+            "perDay": 133
           },
           "tutorials": {
             "keyword": "replica-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=replica-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -592,10 +592,10 @@
           "descriptionZh": "适用于无视频模特的短片的Claude Code技巧： 51种电影风格，每种风格提示加上完全由Claude Opus 5.5 （包括OPUSCAR 98和新的证据电影）。作者： Lemomo. · Opus5.5 x 51 种影片风格：风格提示词纯代码样片导演与技术指南+新增「实证影像」 +",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 2613,
+          "stars": 2618,
           "starsText": "2.6k",
-          "forks": 277,
-          "forksText": "277",
+          "forks": 279,
+          "forksText": "279",
           "openIssues": 0,
           "archived": false,
           "topics": [
@@ -631,18 +631,18 @@
           "curve": {
             "points": [
               [
-                1790417441,
-                0
+                1792072535,
+                2425
               ],
               [
-                1792157166,
-                2613
+                1792159721,
+                2618
               ]
             ],
-            "source": "projected",
-            "delta": 2613,
-            "days": 20,
-            "perDay": 131
+            "source": "measured",
+            "delta": 193,
+            "days": 1,
+            "perDay": 191
           },
           "tutorials": {
             "keyword": "lemo-opuscar 安装教程",
@@ -662,10 +662,10 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 2382,
+          "stars": 2399,
           "starsText": "2.4k",
-          "forks": 467,
-          "forksText": "467",
+          "forks": 470,
+          "forksText": "470",
           "openIssues": 4,
           "archived": false,
           "topics": [
@@ -701,18 +701,18 @@
           "curve": {
             "points": [
               [
-                1791860982,
-                0
+                1792072477,
+                1797
               ],
               [
-                1792157166,
-                2382
+                1792159682,
+                2398
               ]
             ],
-            "source": "projected",
-            "delta": 2382,
-            "days": 3,
-            "perDay": 794
+            "source": "measured",
+            "delta": 601,
+            "days": 1,
+            "perDay": 595
           },
           "tutorials": {
             "keyword": "qwen21-nsfw-pose-skill 安装教程",
@@ -732,7 +732,7 @@
           "descriptionZh": "AI生成の日本語を自然な日本語へ推敲する代理技能 / 代理技能改良人工智能生成的日本語為自然的日本語",
           "language": "Python",
           "license": "MIT",
-          "stars": 2034,
+          "stars": 2038,
           "starsText": "2k",
           "forks": 59,
           "forksText": "59",
@@ -771,18 +771,18 @@
           "curve": {
             "points": [
               [
-                1790768972,
-                0
+                1792072535,
+                1990
               ],
               [
-                1792157166,
-                2034
+                1792159721,
+                2038
               ]
             ],
-            "source": "projected",
-            "delta": 2034,
-            "days": 16,
-            "perDay": 127
+            "source": "measured",
+            "delta": 48,
+            "days": 1,
+            "perDay": 48
           },
           "tutorials": {
             "keyword": "yomiyasu 安装教程",
@@ -811,7 +811,7 @@
           "descriptionZh": "非自回归系统1决策引擎。在100多种语言的单个转发通道中对任何文本进行键入选择、评分和是/否决定，路由器可为每个请求选择正确的检查点。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 33125,
+          "stars": 33132,
           "starsText": "3.3 万",
           "forks": 2976,
           "forksText": "3k",
@@ -850,18 +850,18 @@
           "curve": {
             "points": [
               [
-                1789706793,
-                0
+                1792072535,
+                33009
               ],
               [
-                1792157166,
-                33125
+                1792159721,
+                33132
               ]
             ],
-            "source": "projected",
-            "delta": 33125,
-            "days": 28,
-            "perDay": 1183
+            "source": "measured",
+            "delta": 123,
+            "days": 1,
+            "perDay": 122
           },
           "tutorials": {
             "keyword": "laya 安装教程",
@@ -909,11 +909,11 @@
           "descriptionZh": "任何消费硬件上的Qwen3.8-Flash-Next：一键安装Windows/Linux。Strata推理引擎， localhost上的OpenAI/Anthropic API，可选图像输入。",
           "language": "C++",
           "license": "MIT",
-          "stars": 25979,
+          "stars": 26001,
           "starsText": "2.6 万",
-          "forks": 2685,
+          "forks": 2688,
           "forksText": "2.7k",
-          "openIssues": 1055,
+          "openIssues": 1058,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -923,18 +923,18 @@
           "curve": {
             "points": [
               [
-                1790268020,
-                0
+                1792072535,
+                25137
               ],
               [
-                1792157166,
-                25979
+                1792159721,
+                26001
               ]
             ],
-            "source": "projected",
-            "delta": 25979,
-            "days": 22,
-            "perDay": 1181
+            "source": "measured",
+            "delta": 864,
+            "days": 1,
+            "perDay": 856
           },
           "tutorials": {
             "keyword": "Strata 安装教程",
@@ -982,7 +982,7 @@
           "descriptionZh": "最快、最便宜的网络代理",
           "language": "Python",
           "license": "MIT",
-          "stars": 23069,
+          "stars": 23070,
           "starsText": "2.3 万",
           "forks": 1717,
           "forksText": "1.7k",
@@ -996,18 +996,18 @@
           "curve": {
             "points": [
               [
-                1789594212,
-                0
+                1792072535,
+                22978
               ],
               [
-                1792157166,
-                23069
+                1792159721,
+                23070
               ]
             ],
-            "source": "projected",
-            "delta": 23069,
-            "days": 30,
-            "perDay": 769
+            "source": "measured",
+            "delta": 92,
+            "days": 1,
+            "perDay": 91
           },
           "tutorials": {
             "keyword": "jev-ultrafast 安装教程",
@@ -1037,10 +1037,10 @@
           "descriptionZh": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key， DeepSeek就能使用包括 V4.1 Flash、 Kimi K3 在内的前沿模型——完全免费，你所不限量。要做的就是在dsh中安装这个插件：无需登录，无需注册，无需API key--前沿型号就在那里， DeepSeek V4.1 Flash和Kimi K3就是其中之一。完全免费，没有使用上限。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 18880,
+          "stars": 18939,
           "starsText": "1.9 万",
-          "forks": 386,
-          "forksText": "386",
+          "forks": 390,
+          "forksText": "390",
           "openIssues": 222,
           "archived": false,
           "topics": [
@@ -1076,24 +1076,24 @@
           "curve": {
             "points": [
               [
-                1790266639,
-                0
+                1792072535,
+                17436
               ],
               [
-                1792157166,
-                18880
+                1792159721,
+                18939
               ]
             ],
-            "source": "projected",
-            "delta": 18880,
-            "days": 22,
-            "perDay": 858
+            "source": "measured",
+            "delta": 1503,
+            "days": 1,
+            "perDay": 1489
           },
           "tutorials": {
             "keyword": "dsh-our-free-model 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dsh-our-free-model%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1107,11 +1107,11 @@
           "descriptionZh": "每个代理的模型。一个地方。DeepSeek上的Codex，菜单栏中的Kimi上的Claude Code。",
           "language": "Go",
           "license": "MIT",
-          "stars": 13995,
+          "stars": 14019,
           "starsText": "1.4 万",
-          "forks": 977,
-          "forksText": "977",
-          "openIssues": 913,
+          "forks": 982,
+          "forksText": "982",
+          "openIssues": 918,
           "archived": false,
           "topics": [
             {
@@ -1146,18 +1146,18 @@
           "curve": {
             "points": [
               [
-                1790180555,
-                0
+                1792072535,
+                13312
               ],
               [
-                1792157166,
-                13995
+                1792159721,
+                14019
               ]
             ],
-            "source": "projected",
-            "delta": 13995,
-            "days": 23,
-            "perDay": 608
+            "source": "measured",
+            "delta": 707,
+            "days": 1,
+            "perDay": 701
           },
           "tutorials": {
             "keyword": "magpie 安装教程",
@@ -1205,10 +1205,10 @@
           "descriptionZh": "用于创建真实世界机器和复杂系统的详细交互式等距插图的代理技能。使用可选的WebGL着色器和3D效果生成精美的SVG。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 13582,
+          "stars": 13611,
           "starsText": "1.4 万",
-          "forks": 999,
-          "forksText": "999",
+          "forks": 1000,
+          "forksText": "1k",
           "openIssues": 23,
           "archived": false,
           "topics": [
@@ -1236,18 +1236,18 @@
           "curve": {
             "points": [
               [
-                1791454369,
-                0
+                1792072477,
+                12145
               ],
               [
-                1792157166,
-                13582
+                1792159721,
+                13611
               ]
             ],
-            "source": "projected",
-            "delta": 13582,
-            "days": 8,
-            "perDay": 1698
+            "source": "measured",
+            "delta": 1466,
+            "days": 1,
+            "perDay": 1452
           },
           "tutorials": {
             "keyword": "anatomy 安装教程",
@@ -1286,7 +1286,7 @@
           "descriptionZh": "建立在Qwen3.5/3 .8之上的类似Jev的决策模型系列，您可以自己训练和运行",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 9225,
+          "stars": 9226,
           "starsText": "9.2k",
           "forks": 622,
           "forksText": "622",
@@ -1313,24 +1313,24 @@
           "curve": {
             "points": [
               [
-                1789678179,
-                0
+                1792072535,
+                9173
               ],
               [
-                1792157166,
-                9225
+                1792159721,
+                9226
               ]
             ],
-            "source": "projected",
-            "delta": 9225,
-            "days": 29,
-            "perDay": 318
+            "source": "measured",
+            "delta": 53,
+            "days": 1,
+            "perDay": 53
           },
           "tutorials": {
             "keyword": "kev 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=kev%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1344,9 +1344,9 @@
           "descriptionZh": "Z.ai的编码代理线束。强大、智能、可扩展。",
           "language": "TypeScript",
           "license": "Apache-2.0",
-          "stars": 7884,
+          "stars": 7885,
           "starsText": "7.9k",
-          "forks": 2418,
+          "forks": 2419,
           "forksText": "2.4k",
           "openIssues": 11,
           "archived": false,
@@ -1358,18 +1358,18 @@
           "curve": {
             "points": [
               [
-                1789905676,
-                0
+                1792072535,
+                7844
               ],
               [
-                1792157166,
-                7884
+                1792159721,
+                7885
               ]
             ],
-            "source": "projected",
-            "delta": 7884,
-            "days": 26,
-            "perDay": 303
+            "source": "measured",
+            "delta": 41,
+            "days": 1,
+            "perDay": 41
           },
           "tutorials": {
             "keyword": "ZCode 安装教程",
@@ -1417,11 +1417,11 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 7866,
+          "stars": 7870,
           "starsText": "7.9k",
-          "forks": 1893,
+          "forks": 1896,
           "forksText": "1.9k",
-          "openIssues": 5,
+          "openIssues": 6,
           "archived": false,
           "topics": [
             {
@@ -1456,24 +1456,24 @@
           "curve": {
             "points": [
               [
-                1790638805,
-                0
+                1792072535,
+                7766
               ],
               [
-                1792157166,
-                7866
+                1792159721,
+                7870
               ]
             ],
-            "source": "projected",
-            "delta": 7866,
-            "days": 18,
-            "perDay": 437
+            "source": "measured",
+            "delta": 104,
+            "days": 1,
+            "perDay": 103
           },
           "tutorials": {
             "keyword": "AIHOT 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=AIHOT%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1487,7 +1487,7 @@
           "descriptionZh": "Laya类型化决策模型的原生MLX运行时间— M3 Max上的7–14毫秒短决策。无文本生成、PyTorch或云API。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 6950,
+          "stars": 6951,
           "starsText": "7k",
           "forks": 564,
           "forksText": "564",
@@ -1526,24 +1526,24 @@
           "curve": {
             "points": [
               [
-                1789825826,
-                0
+                1792072535,
+                6939
               ],
               [
-                1792157166,
-                6950
+                1792159721,
+                6951
               ]
             ],
-            "source": "projected",
-            "delta": 6950,
-            "days": 27,
-            "perDay": 257
+            "source": "measured",
+            "delta": 12,
+            "days": 1,
+            "perDay": 12
           },
           "tutorials": {
             "keyword": "laya-mlx 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=laya-mlx%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1557,7 +1557,7 @@
           "descriptionZh": "始终在线的人工智能同事可以在短信、通话和Slack之间切换。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 5472,
+          "stars": 5475,
           "starsText": "5.5k",
           "forks": 781,
           "forksText": "781",
@@ -1571,18 +1571,18 @@
           "curve": {
             "points": [
               [
-                1790702038,
-                0
+                1792072535,
+                5397
               ],
               [
-                1792157166,
-                5472
+                1792159721,
+                5475
               ]
             ],
-            "source": "projected",
-            "delta": 5472,
-            "days": 17,
-            "perDay": 322
+            "source": "measured",
+            "delta": 78,
+            "days": 1,
+            "perDay": 77
           },
           "tutorials": {
             "keyword": "OpenDots 安装教程",
@@ -1612,11 +1612,11 @@
           "descriptionZh": "",
           "language": "Go",
           "license": "AGPL-3.0",
-          "stars": 4382,
+          "stars": 4386,
           "starsText": "4.4k",
-          "forks": 6595,
+          "forks": 6598,
           "forksText": "6.6k",
-          "openIssues": 2,
+          "openIssues": 1,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -1626,18 +1626,18 @@
           "curve": {
             "points": [
               [
-                1791437586,
-                0
+                1792072477,
+                4227
               ],
               [
-                1792157166,
-                4382
+                1792159721,
+                4386
               ]
             ],
-            "source": "projected",
-            "delta": 4382,
-            "days": 8,
-            "perDay": 548
+            "source": "measured",
+            "delta": 159,
+            "days": 1,
+            "perDay": 157
           },
           "tutorials": {
             "keyword": "ARTEX 安装教程",
@@ -1706,24 +1706,24 @@
           "curve": {
             "points": [
               [
-                1791317659,
-                0
+                1792072535,
+                3373
               ],
               [
-                1792157166,
+                1792159721,
                 3942
               ]
             ],
-            "source": "projected",
-            "delta": 3942,
-            "days": 10,
-            "perDay": 394
+            "source": "measured",
+            "delta": 569,
+            "days": 1,
+            "perDay": 564
           },
           "tutorials": {
             "keyword": "aurelio-finance 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=aurelio-finance%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1737,7 +1737,7 @@
           "descriptionZh": "为Claude、Gemini CLI、Codex和其他AI代理提供全面的徽标设计技能：原则、流程、SVG工艺、测试工具和1,400多个徽标参考库。",
           "language": "HTML",
           "license": "MIT",
-          "stars": 3492,
+          "stars": 3495,
           "starsText": "3.5k",
           "forks": 270,
           "forksText": "270",
@@ -1776,24 +1776,24 @@
           "curve": {
             "points": [
               [
-                1790411014,
-                0
+                1792072535,
+                3411
               ],
               [
-                1792157166,
-                3492
+                1792159721,
+                3495
               ]
             ],
-            "source": "projected",
-            "delta": 3492,
-            "days": 20,
-            "perDay": 175
+            "source": "measured",
+            "delta": 84,
+            "days": 1,
+            "perDay": 83
           },
           "tutorials": {
             "keyword": "logo-design-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=logo-design-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1821,24 +1821,24 @@
           "curve": {
             "points": [
               [
-                1789594580,
-                0
+                1792072535,
+                2996
               ],
               [
-                1792157166,
+                1792159721,
                 3010
               ]
             ],
-            "source": "projected",
-            "delta": 3010,
-            "days": 30,
-            "perDay": 100
+            "source": "measured",
+            "delta": 14,
+            "days": 1,
+            "perDay": 14
           },
           "tutorials": {
             "keyword": "jev-trader 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=jev-trader%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1852,10 +1852,10 @@
           "descriptionZh": "让人工智能模型使用带有$ 7 ESP32的真实iPhone： AirPlay眼睛， USB HID指针，任何与OpenAI兼容的视觉模型。没有Mac，没有开发者帐户，没有越狱。",
           "language": "C",
           "license": "MIT",
-          "stars": 2770,
+          "stars": 2777,
           "starsText": "2.8k",
-          "forks": 356,
-          "forksText": "356",
+          "forks": 357,
+          "forksText": "357",
           "openIssues": 5,
           "archived": false,
           "topics": [
@@ -1891,24 +1891,24 @@
           "curve": {
             "points": [
               [
-                1791745825,
-                0
+                1792072477,
+                2295
               ],
               [
-                1792157166,
-                2770
+                1792159682,
+                2777
               ]
             ],
-            "source": "projected",
-            "delta": 2770,
-            "days": 5,
-            "perDay": 554
+            "source": "measured",
+            "delta": 482,
+            "days": 1,
+            "perDay": 478
           },
           "tutorials": {
             "keyword": "esp32-iphone-agent 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=esp32-iphone-agent%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1922,7 +1922,7 @@
           "descriptionZh": "非苹果设备空投",
           "language": "Shell",
           "license": "",
-          "stars": 2770,
+          "stars": 2771,
           "starsText": "2.8k",
           "forks": 217,
           "forksText": "217",
@@ -1953,24 +1953,24 @@
           "curve": {
             "points": [
               [
-                1791441513,
-                0
+                1792072477,
+                2715
               ],
               [
-                1792157166,
-                2770
+                1792159721,
+                2771
               ]
             ],
-            "source": "projected",
-            "delta": 2770,
-            "days": 8,
-            "perDay": 346
+            "source": "measured",
+            "delta": 56,
+            "days": 1,
+            "perDay": 55
           },
           "tutorials": {
             "keyword": "omdrop-owl 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=omdrop-owl%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -1984,7 +1984,7 @@
           "descriptionZh": "通过询问代码的作用来查找代码。用于编码代理的CLI，使用JEV发现相关文件和源上下文。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2745,
+          "stars": 2746,
           "starsText": "2.7k",
           "forks": 204,
           "forksText": "204",
@@ -2023,18 +2023,18 @@
           "curve": {
             "points": [
               [
-                1790395616,
-                0
+                1792072535,
+                2702
               ],
               [
-                1792157166,
-                2745
+                1792159721,
+                2746
               ]
             ],
-            "source": "projected",
-            "delta": 2745,
-            "days": 20,
-            "perDay": 137
+            "source": "measured",
+            "delta": 44,
+            "days": 1,
+            "perDay": 44
           },
           "tutorials": {
             "keyword": "jevgrep 安装教程",
@@ -2068,18 +2068,18 @@
           "curve": {
             "points": [
               [
-                1789661310,
-                0
+                1792072535,
+                2552
               ],
               [
-                1792157166,
+                1792159721,
                 2556
               ]
             ],
-            "source": "projected",
-            "delta": 2556,
-            "days": 29,
-            "perDay": 88
+            "source": "measured",
+            "delta": 4,
+            "days": 1,
+            "perDay": 4
           },
           "tutorials": {
             "keyword": "NanoJev 安装教程",
@@ -2113,18 +2113,18 @@
           "curve": {
             "points": [
               [
-                1790032442,
-                0
+                1792072535,
+                2199
               ],
               [
-                1792157166,
+                1792159721,
                 2202
               ]
             ],
-            "source": "projected",
-            "delta": 2202,
-            "days": 25,
-            "perDay": 88
+            "source": "measured",
+            "delta": 3,
+            "days": 1,
+            "perDay": 3
           },
           "tutorials": {
             "keyword": "unreal-agent 安装教程",
@@ -2144,11 +2144,11 @@
           "descriptionZh": "DeepSeek Harness的长期机器人团队,主要机器人,机器人对机器人的消息和组聊天。",
           "language": "JavaScript",
           "license": "Apache-2.0",
-          "stars": 2113,
+          "stars": 2115,
           "starsText": "2.1k",
           "forks": 201,
           "forksText": "201",
-          "openIssues": 63,
+          "openIssues": 36,
           "archived": false,
           "topics": [
             {
@@ -2175,18 +2175,18 @@
           "curve": {
             "points": [
               [
-                1791387456,
-                0
+                1792072535,
+                2006
               ],
               [
-                1792157166,
-                2113
+                1792159721,
+                2115
               ]
             ],
-            "source": "projected",
-            "delta": 2113,
-            "days": 9,
-            "perDay": 235
+            "source": "measured",
+            "delta": 109,
+            "days": 1,
+            "perDay": 108
           },
           "tutorials": {
             "keyword": "DeepSeek-Bot 安装教程",
@@ -2206,9 +2206,9 @@
           "descriptionZh": "专门的AI模型用于标志设计 - 品牌分析模型将业务变成限制,打字和符号模型构建标志,组成引擎产生真正的锁定和清晰空间规则。",
           "language": "TypeScript",
           "license": "",
-          "stars": 1836,
+          "stars": 1838,
           "starsText": "1.8k",
-          "forks": 1872,
+          "forks": 1874,
           "forksText": "1.9k",
           "openIssues": 0,
           "archived": false,
@@ -2245,18 +2245,18 @@
           "curve": {
             "points": [
               [
-                1789890870,
-                0
+                1792072535,
+                1775
               ],
               [
-                1792157166,
-                1836
+                1792159721,
+                1838
               ]
             ],
-            "source": "projected",
-            "delta": 1836,
-            "days": 26,
-            "perDay": 71
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "inkloom 安装教程",
@@ -2294,7 +2294,7 @@
                 0
               ],
               [
-                1792157166,
+                1792159721,
                 1598
               ]
             ],
@@ -2364,7 +2364,7 @@
                 0
               ],
               [
-                1792157166,
+                1792159721,
                 1588
               ]
             ],
@@ -2391,7 +2391,7 @@
           "descriptionZh": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크（上游： Autumn-27/ARTEX， AGPL-3.0）",
           "language": "Go",
           "license": "AGPL-3.0",
-          "stars": 1571,
+          "stars": 1572,
           "starsText": "1.6k",
           "forks": 1858,
           "forksText": "1.9k",
@@ -2434,12 +2434,12 @@
                 0
               ],
               [
-                1792157166,
-                1571
+                1792159721,
+                1572
               ]
             ],
             "source": "projected",
-            "delta": 1571,
+            "delta": 1572,
             "days": 13,
             "perDay": 121
           },
@@ -2470,11 +2470,11 @@
           "descriptionZh": "SolidCraft：用纯Rust构建的开源参数化3D CAD应用程序。通过MCP实现桌面、网络和自动化。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2944,
-          "starsText": "2.9k",
-          "forks": 315,
-          "forksText": "315",
-          "openIssues": 429,
+          "stars": 2956,
+          "starsText": "3k",
+          "forks": 317,
+          "forksText": "317",
+          "openIssues": 434,
           "archived": false,
           "topics": [
             {
@@ -2509,24 +2509,24 @@
           "curve": {
             "points": [
               [
-                1791399468,
-                0
+                1792072535,
+                2595
               ],
               [
-                1792157166,
-                2944
+                1792159721,
+                2956
               ]
             ],
-            "source": "projected",
-            "delta": 2944,
-            "days": 9,
-            "perDay": 327
+            "source": "measured",
+            "delta": 361,
+            "days": 1,
+            "perDay": 358
           },
           "tutorials": {
             "keyword": "solidcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=solidcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -2540,7 +2540,7 @@
           "descriptionZh": "",
           "language": "HTML",
           "license": "MIT",
-          "stars": 2344,
+          "stars": 2348,
           "starsText": "2.3k",
           "forks": 447,
           "forksText": "447",
@@ -2554,18 +2554,18 @@
           "curve": {
             "points": [
               [
-                1790650650,
-                0
+                1792072535,
+                2291
               ],
               [
-                1792157166,
-                2344
+                1792159721,
+                2348
               ]
             ],
-            "source": "projected",
-            "delta": 2344,
-            "days": 17,
-            "perDay": 138
+            "source": "measured",
+            "delta": 57,
+            "days": 1,
+            "perDay": 56
           },
           "tutorials": {
             "keyword": "floorplan-3d 安装教程",
@@ -2594,10 +2594,10 @@
           "descriptionZh": "🦀 Jumper —螃蟹机器人。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 2719,
+          "stars": 2721,
           "starsText": "2.7k",
-          "forks": 284,
-          "forksText": "284",
+          "forks": 285,
+          "forksText": "285",
           "openIssues": 10,
           "archived": false,
           "topics": [
@@ -2621,18 +2621,18 @@
           "curve": {
             "points": [
               [
-                1790574964,
-                0
+                1792072535,
+                2689
               ],
               [
-                1792157166,
-                2719
+                1792159721,
+                2721
               ]
             ],
-            "source": "projected",
-            "delta": 2719,
-            "days": 18,
-            "perDay": 151
+            "source": "measured",
+            "delta": 32,
+            "days": 1,
+            "perDay": 32
           },
           "tutorials": {
             "keyword": "jumper 安装教程",
@@ -2692,18 +2692,18 @@
           "curve": {
             "points": [
               [
-                1789674313,
-                0
+                1792072535,
+                2225
               ],
               [
-                1792157166,
+                1792159721,
                 2275
               ]
             ],
-            "source": "projected",
-            "delta": 2275,
-            "days": 29,
-            "perDay": 78
+            "source": "measured",
+            "delta": 50,
+            "days": 1,
+            "perDay": 50
           },
           "tutorials": {
             "keyword": "Relapse-Exploit 安装教程",
@@ -2732,7 +2732,7 @@
           "descriptionZh": "来自开放模型的语义if，在家中的3090上。独立；不隶属于Jev或TypeSafe。",
           "language": "Python",
           "license": "MIT",
-          "stars": 4835,
+          "stars": 4836,
           "starsText": "4.8k",
           "forks": 356,
           "forksText": "356",
@@ -2746,24 +2746,24 @@
           "curve": {
             "points": [
               [
-                1789530681,
-                0
+                1792072535,
+                4826
               ],
               [
-                1792157166,
-                4835
+                1792159721,
+                4836
               ]
             ],
-            "source": "projected",
-            "delta": 4835,
-            "days": 30,
-            "perDay": 161
+            "source": "measured",
+            "delta": 10,
+            "days": 1,
+            "perDay": 10
           },
           "tutorials": {
             "keyword": "SemIf-OpenJev 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=SemIf-OpenJev%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -2777,9 +2777,9 @@
           "descriptionZh": "适用于暗黑破坏神II的开源iOS/macOS兼容层：随着术士统治扩展而复活。在iPhone、iPad和Mac上本地运行您自己的Switch副本—全触摸控件、60 fps、新的游戏结束模式。带上您自己的游戏文件。开源的《暗黑破坏神II：狱火重生》术士君临 iOS/macOS 兼容层",
           "language": "C",
           "license": "MIT",
-          "stars": 3449,
-          "starsText": "3.4k",
-          "forks": 1007,
+          "stars": 3460,
+          "starsText": "3.5k",
+          "forks": 1011,
           "forksText": "1k",
           "openIssues": 24,
           "archived": false,
@@ -2816,18 +2816,18 @@
           "curve": {
             "points": [
               [
-                1791794479,
-                0
+                1792072477,
+                2814
               ],
               [
-                1792157166,
-                3449
+                1792159682,
+                3460
               ]
             ],
-            "source": "projected",
-            "delta": 3449,
-            "days": 4,
-            "perDay": 862
+            "source": "measured",
+            "delta": 646,
+            "days": 1,
+            "perDay": 640
           },
           "tutorials": {
             "keyword": "d2r-mobile 安装教程",
@@ -2857,7 +2857,7 @@
           "descriptionZh": "局部打字决策、对比性数据采集和模型评估。",
           "language": "Python",
           "license": "",
-          "stars": 2218,
+          "stars": 2219,
           "starsText": "2.2k",
           "forks": 168,
           "forksText": "168",
@@ -2871,18 +2871,18 @@
           "curve": {
             "points": [
               [
-                1789722468,
-                0
+                1792072535,
+                2203
               ],
               [
-                1792157166,
-                2218
+                1792159721,
+                2219
               ]
             ],
-            "source": "projected",
-            "delta": 2218,
-            "days": 28,
-            "perDay": 79
+            "source": "measured",
+            "delta": 16,
+            "days": 1,
+            "perDay": 16
           },
           "tutorials": {
             "keyword": "nimble 安装教程",
@@ -2902,7 +2902,7 @@
           "descriptionZh": "原生 PC 端口 P.T. (从您自己的 PS4 游戏文件运行)",
           "language": "C++",
           "license": "",
-          "stars": 1832,
+          "stars": 1835,
           "starsText": "1.8k",
           "forks": 119,
           "forksText": "119",
@@ -2916,18 +2916,18 @@
           "curve": {
             "points": [
               [
-                1791365611,
-                0
+                1792072535,
+                1751
               ],
               [
-                1792157166,
-                1832
+                1792159721,
+                1835
               ]
             ],
-            "source": "projected",
-            "delta": 1832,
-            "days": 9,
-            "perDay": 204
+            "source": "measured",
+            "delta": 84,
+            "days": 1,
+            "perDay": 83
           },
           "tutorials": {
             "keyword": "pt-pc 安装教程",
@@ -2947,32 +2947,32 @@
           "descriptionZh": "Steam Play 适用于 macOS",
           "language": "Scala",
           "license": "GPL-3.0",
-          "stars": 1671,
+          "stars": 1672,
           "starsText": "1.7k",
           "forks": 98,
           "forksText": "98",
-          "openIssues": 32,
+          "openIssues": 33,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-09-23T01:55:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/332734261?v=4",
           "curve": {
             "points": [
               [
-                1790128523,
-                0
+                1792072535,
+                1630
               ],
               [
-                1792157166,
-                1671
+                1792159721,
+                1672
               ]
             ],
-            "source": "projected",
-            "delta": 1671,
-            "days": 23,
-            "perDay": 73
+            "source": "measured",
+            "delta": 42,
+            "days": 1,
+            "perDay": 42
           },
           "tutorials": {
             "keyword": "NotProton 安装教程",
@@ -3010,7 +3010,7 @@
                 0
               ],
               [
-                1792157166,
+                1792159721,
                 1631
               ]
             ],
@@ -3046,7 +3046,7 @@
           "descriptionZh": "React、Vue、Svelte、Solid、JS和Framer的WebGPU组件",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 4942,
+          "stars": 4943,
           "starsText": "4.9k",
           "forks": 210,
           "forksText": "210",
@@ -3085,18 +3085,18 @@
           "curve": {
             "points": [
               [
-                1790699786,
-                0
+                1792072535,
+                4896
               ],
               [
-                1792157166,
-                4942
+                1792159721,
+                4943
               ]
             ],
-            "source": "projected",
-            "delta": 4942,
-            "days": 17,
-            "perDay": 291
+            "source": "measured",
+            "delta": 47,
+            "days": 1,
+            "perDay": 47
           },
           "tutorials": {
             "keyword": "shaders 安装教程",
@@ -3144,7 +3144,7 @@
           "descriptionZh": "可免费访问前沿模型的桌面编码代理。",
           "language": "TypeScript",
           "license": "",
-          "stars": 3467,
+          "stars": 3469,
           "starsText": "3.5k",
           "forks": 78,
           "forksText": "78",
@@ -3158,24 +3158,24 @@
           "curve": {
             "points": [
               [
-                1789968386,
-                0
+                1792072535,
+                3424
               ],
               [
-                1792157166,
-                3467
+                1792159721,
+                3469
               ]
             ],
-            "source": "projected",
-            "delta": 3467,
-            "days": 25,
-            "perDay": 139
+            "source": "measured",
+            "delta": 45,
+            "days": 1,
+            "perDay": 45
           },
           "tutorials": {
             "keyword": "omnirush-gui 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=omnirush-gui%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -3189,7 +3189,7 @@
           "descriptionZh": "Omarchy的查找和删除磁盘填充物的树形图。Rust + GPUI。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 2984,
+          "stars": 2986,
           "starsText": "3k",
           "forks": 183,
           "forksText": "183",
@@ -3203,24 +3203,24 @@
           "curve": {
             "points": [
               [
-                1790283389,
-                0
+                1792072535,
+                2948
               ],
               [
-                1792157166,
-                2984
+                1792159721,
+                2986
               ]
             ],
-            "source": "projected",
-            "delta": 2984,
-            "days": 22,
-            "perDay": 136
+            "source": "measured",
+            "delta": 38,
+            "days": 1,
+            "perDay": 38
           },
           "tutorials": {
             "keyword": "disktree 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=disktree%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -3248,18 +3248,18 @@
           "curve": {
             "points": [
               [
-                1789900187,
-                0
+                1792072535,
+                2538
               ],
               [
-                1792157166,
+                1792159721,
                 2541
               ]
             ],
-            "source": "projected",
-            "delta": 2541,
-            "days": 26,
-            "perDay": 98
+            "source": "measured",
+            "delta": 3,
+            "days": 1,
+            "perDay": 3
           },
           "tutorials": {
             "keyword": "Search 安装教程",
@@ -3279,7 +3279,7 @@
           "descriptionZh": "从不剪切到下一张幻灯片的运动胶片：每一个节拍都从前一个节拍中生长出来，一个连续的相机，由预言机测量的连续性。产品发布电影和特写演示，由编码代理制作。",
           "language": "Python",
           "license": "",
-          "stars": 2512,
+          "stars": 2513,
           "starsText": "2.5k",
           "forks": 166,
           "forksText": "166",
@@ -3318,18 +3318,18 @@
           "curve": {
             "points": [
               [
-                1790400917,
-                0
+                1792072535,
+                2432
               ],
               [
-                1792157166,
-                2512
+                1792159721,
+                2513
               ]
             ],
-            "source": "projected",
-            "delta": 2512,
-            "days": 20,
-            "perDay": 126
+            "source": "measured",
+            "delta": 81,
+            "days": 1,
+            "perDay": 80
           },
           "tutorials": {
             "keyword": "onetake 安装教程",
@@ -3353,7 +3353,7 @@
           "starsText": "2.2k",
           "forks": 466,
           "forksText": "466",
-          "openIssues": 102,
+          "openIssues": 103,
           "archived": false,
           "topics": [],
           "category": "web",
@@ -3363,18 +3363,18 @@
           "curve": {
             "points": [
               [
-                1790965283,
-                0
+                1792072535,
+                2187
               ],
               [
-                1792157166,
+                1792159721,
                 2223
               ]
             ],
-            "source": "projected",
-            "delta": 2223,
-            "days": 14,
-            "perDay": 159
+            "source": "measured",
+            "delta": 36,
+            "days": 1,
+            "perDay": 36
           },
           "tutorials": {
             "keyword": "muse-gadget-sdk 安装教程",
@@ -3394,7 +3394,7 @@
           "descriptionZh": "在 Go 中使用原生 UI 或 Web frontend 开发桌面应用程序",
           "language": "Go",
           "license": "MIT",
-          "stars": 2151,
+          "stars": 2154,
           "starsText": "2.2k",
           "forks": 115,
           "forksText": "115",
@@ -3408,18 +3408,18 @@
           "curve": {
             "points": [
               [
-                1790436097,
-                0
+                1792072535,
+                2021
               ],
               [
-                1792157166,
-                2151
+                1792159721,
+                2154
               ]
             ],
-            "source": "projected",
-            "delta": 2151,
-            "days": 20,
-            "perDay": 108
+            "source": "measured",
+            "delta": 133,
+            "days": 1,
+            "perDay": 132
           },
           "tutorials": {
             "keyword": "mygo 安装教程",
@@ -3439,7 +3439,7 @@
           "descriptionZh": "六个同位素线数字,以响应指针. 对于 React 和任何有 DOM 的东西。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2103,
+          "stars": 2105,
           "starsText": "2.1k",
           "forks": 122,
           "forksText": "122",
@@ -3478,18 +3478,18 @@
           "curve": {
             "points": [
               [
-                1790862739,
-                0
+                1792072535,
+                2043
               ],
               [
-                1792157166,
-                2103
+                1792159721,
+                2105
               ]
             ],
-            "source": "projected",
-            "delta": 2103,
-            "days": 15,
-            "perDay": 140
+            "source": "measured",
+            "delta": 62,
+            "days": 1,
+            "perDay": 61
           },
           "tutorials": {
             "keyword": "hairline 安装教程",
@@ -3518,11 +3518,11 @@
           "descriptionZh": "PhotoCraft：用纯Rust编写的开源照片编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 64336,
+          "stars": 64410,
           "starsText": "6.4 万",
-          "forks": 11191,
+          "forks": 11209,
           "forksText": "1.1 万",
-          "openIssues": 2335,
+          "openIssues": 2348,
           "archived": false,
           "topics": [
             {
@@ -3557,18 +3557,18 @@
           "curve": {
             "points": [
               [
-                1790775468,
-                0
+                1792072484,
+                62451
               ],
               [
-                1792157166,
-                64336
+                1792159721,
+                64410
               ]
             ],
-            "source": "projected",
-            "delta": 64336,
-            "days": 16,
-            "perDay": 4021
+            "source": "measured",
+            "delta": 1959,
+            "days": 1,
+            "perDay": 1940
           },
           "tutorials": {
             "keyword": "photocraft 安装教程",
@@ -3616,7 +3616,7 @@
           "descriptionZh": "适用于Mac的Photoshop替代品",
           "language": "Swift",
           "license": "MIT",
-          "stars": 17162,
+          "stars": 17163,
           "starsText": "1.7 万",
           "forks": 1679,
           "forksText": "1.7k",
@@ -3630,18 +3630,18 @@
           "curve": {
             "points": [
               [
-                1789590954,
-                0
+                1792072535,
+                17018
               ],
               [
-                1792157166,
-                17162
+                1792159721,
+                17163
               ]
             ],
-            "source": "projected",
-            "delta": 17162,
-            "days": 30,
-            "perDay": 572
+            "source": "measured",
+            "delta": 145,
+            "days": 1,
+            "perDay": 144
           },
           "tutorials": {
             "keyword": "Compositor 安装教程",
@@ -3680,11 +3680,11 @@
           "descriptionZh": "LightCraft：用纯Rust编写的开源无损照片编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 13099,
+          "stars": 13107,
           "starsText": "1.3 万",
-          "forks": 4910,
+          "forks": 4913,
           "forksText": "4.9k",
-          "openIssues": 768,
+          "openIssues": 775,
           "archived": false,
           "topics": [
             {
@@ -3719,24 +3719,24 @@
           "curve": {
             "points": [
               [
-                1790777367,
-                0
+                1792072535,
+                12816
               ],
               [
-                1792157166,
-                13099
+                1792159721,
+                13107
               ]
             ],
-            "source": "projected",
-            "delta": 13099,
-            "days": 16,
-            "perDay": 819
+            "source": "measured",
+            "delta": 291,
+            "days": 1,
+            "perDay": 288
           },
           "tutorials": {
             "keyword": "lightcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=lightcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -3750,7 +3750,7 @@
           "descriptionZh": "“I 'm Upping My P (DOOM)”的代码渲染音乐视频",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2818,
+          "stars": 2820,
           "starsText": "2.8k",
           "forks": 308,
           "forksText": "308",
@@ -3764,24 +3764,24 @@
           "curve": {
             "points": [
               [
-                1790285633,
-                0
+                1792072535,
+                2785
               ],
               [
-                1792157166,
-                2818
+                1792159721,
+                2820
               ]
             ],
-            "source": "projected",
-            "delta": 2818,
-            "days": 22,
-            "perDay": 128
+            "source": "measured",
+            "delta": 35,
+            "days": 1,
+            "perDay": 35
           },
           "tutorials": {
             "keyword": "pdoom-video 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pdoom-video%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -3809,18 +3809,18 @@
           "curve": {
             "points": [
               [
-                1790119939,
-                0
+                1792072535,
+                2120
               ],
               [
-                1792157166,
+                1792159721,
                 2146
               ]
             ],
-            "source": "projected",
-            "delta": 2146,
-            "days": 24,
-            "perDay": 89
+            "source": "measured",
+            "delta": 26,
+            "days": 1,
+            "perDay": 26
           },
           "tutorials": {
             "keyword": "PDoomVideo 安装教程",
@@ -3879,18 +3879,18 @@
           "curve": {
             "points": [
               [
-                1789890675,
-                0
+                1792072535,
+                1898
               ],
               [
-                1792157166,
+                1792159721,
                 1899
               ]
             ],
-            "source": "projected",
-            "delta": 1899,
-            "days": 26,
-            "perDay": 73
+            "source": "measured",
+            "delta": 1,
+            "days": 1,
+            "perDay": 1
           },
           "tutorials": {
             "keyword": "ISpotify 安装教程",
@@ -3919,11 +3919,11 @@
           "descriptionZh": "GridCraft：纯Rust的开源洁净室电子表格（Microsoft Excel风格）。由ArtCraft提供。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 5315,
+          "stars": 5321,
           "starsText": "5.3k",
-          "forks": 2410,
+          "forks": 2416,
           "forksText": "2.4k",
-          "openIssues": 980,
+          "openIssues": 985,
           "archived": false,
           "topics": [],
           "category": "data",
@@ -3933,24 +3933,24 @@
           "curve": {
             "points": [
               [
-                1791350296,
-                0
+                1792072535,
+                5058
               ],
               [
-                1792157166,
-                5315
+                1792159721,
+                5321
               ]
             ],
-            "source": "projected",
-            "delta": 5315,
-            "days": 9,
-            "perDay": 591
+            "source": "measured",
+            "delta": 263,
+            "days": 1,
+            "perDay": 261
           },
           "tutorials": {
             "keyword": "gridcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=gridcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         }
@@ -3973,11 +3973,11 @@
           "descriptionZh": "PdfCraft：用纯Rust通过scratch编写的开源PDF阅读器和编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 14751,
+          "stars": 14768,
           "starsText": "1.5 万",
-          "forks": 5701,
+          "forks": 5711,
           "forksText": "5.7k",
-          "openIssues": 1301,
+          "openIssues": 1307,
           "archived": false,
           "topics": [
             {
@@ -4012,24 +4012,24 @@
           "curve": {
             "points": [
               [
-                1790775577,
-                0
+                1792072535,
+                14143
               ],
               [
-                1792157166,
-                14751
+                1792159721,
+                14768
               ]
             ],
-            "source": "projected",
-            "delta": 14751,
-            "days": 16,
-            "perDay": 922
+            "source": "measured",
+            "delta": 625,
+            "days": 1,
+            "perDay": 619
           },
           "tutorials": {
             "keyword": "pdfcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pdfcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4043,11 +4043,11 @@
           "descriptionZh": "FilmCraft：用纯Rust编写的开源非线性视频编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 14056,
+          "stars": 14072,
           "starsText": "1.4 万",
-          "forks": 5796,
+          "forks": 5805,
           "forksText": "5.8k",
-          "openIssues": 1082,
+          "openIssues": 1087,
           "archived": false,
           "topics": [
             {
@@ -4082,24 +4082,24 @@
           "curve": {
             "points": [
               [
-                1790775680,
-                0
+                1792072535,
+                13621
               ],
               [
-                1792157166,
-                14056
+                1792159721,
+                14072
               ]
             ],
-            "source": "projected",
-            "delta": 14056,
-            "days": 16,
-            "perDay": 879
+            "source": "measured",
+            "delta": 451,
+            "days": 1,
+            "perDay": 447
           },
           "tutorials": {
             "keyword": "filmcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=filmcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4113,11 +4113,11 @@
           "descriptionZh": "VectorCraft：用纯Rust编写的开源矢量艺术工具",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 9352,
+          "stars": 9359,
           "starsText": "9.4k",
-          "forks": 4514,
+          "forks": 4517,
           "forksText": "4.5k",
-          "openIssues": 484,
+          "openIssues": 493,
           "archived": false,
           "topics": [
             {
@@ -4152,24 +4152,24 @@
           "curve": {
             "points": [
               [
-                1790775783,
-                0
+                1792072535,
+                9060
               ],
               [
-                1792157166,
-                9352
+                1792159721,
+                9359
               ]
             ],
-            "source": "projected",
-            "delta": 9352,
-            "days": 16,
-            "perDay": 585
+            "source": "measured",
+            "delta": 299,
+            "days": 1,
+            "perDay": 296
           },
           "tutorials": {
             "keyword": "vectorcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=vectorcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4183,11 +4183,11 @@
           "descriptionZh": "CADCraft：计算机辅助设计和绘图—纯Rust的开源、无尘室AutoCAD风格应用程序",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 5295,
+          "stars": 5303,
           "starsText": "5.3k",
-          "forks": 2339,
+          "forks": 2344,
           "forksText": "2.3k",
-          "openIssues": 645,
+          "openIssues": 650,
           "archived": false,
           "topics": [],
           "category": "devtools",
@@ -4197,24 +4197,24 @@
           "curve": {
             "points": [
               [
-                1791350551,
-                0
+                1792072535,
+                5018
               ],
               [
-                1792157166,
-                5295
+                1792159721,
+                5303
               ]
             ],
-            "source": "projected",
-            "delta": 5295,
-            "days": 9,
-            "perDay": 588
+            "source": "measured",
+            "delta": 285,
+            "days": 1,
+            "perDay": 282
           },
           "tutorials": {
             "keyword": "cadcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=cadcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4228,11 +4228,11 @@
           "descriptionZh": "DesignCraft：用纯Rust编写的开源页面和布局设计编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 4159,
+          "stars": 4161,
           "starsText": "4.2k",
-          "forks": 2860,
+          "forks": 2864,
           "forksText": "2.9k",
-          "openIssues": 545,
+          "openIssues": 292,
           "archived": false,
           "topics": [
             {
@@ -4259,24 +4259,24 @@
           "curve": {
             "points": [
               [
-                1790860394,
-                0
+                1792072535,
+                4031
               ],
               [
-                1792157166,
-                4159
+                1792159721,
+                4161
               ]
             ],
-            "source": "projected",
-            "delta": 4159,
-            "days": 15,
-            "perDay": 277
+            "source": "measured",
+            "delta": 130,
+            "days": 1,
+            "perDay": 129
           },
           "tutorials": {
             "keyword": "designcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=designcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4290,11 +4290,11 @@
           "descriptionZh": "演示文稿和幻灯片放映：在纯Rust中重新实现Microsoft PowerPoint的开源洁净室。ArtCraft Crafting应用程序的一部分。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 3528,
+          "stars": 3530,
           "starsText": "3.5k",
-          "forks": 1976,
+          "forks": 1983,
           "forksText": "2k",
-          "openIssues": 322,
+          "openIssues": 323,
           "archived": false,
           "topics": [],
           "category": "devtools",
@@ -4304,24 +4304,24 @@
           "curve": {
             "points": [
               [
-                1791350841,
-                0
+                1792072535,
+                3368
               ],
               [
-                1792157166,
-                3528
+                1792159721,
+                3530
               ]
             ],
-            "source": "projected",
-            "delta": 3528,
-            "days": 9,
-            "perDay": 392
+            "source": "measured",
+            "delta": 162,
+            "days": 1,
+            "perDay": 161
           },
           "tutorials": {
             "keyword": "deckcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=deckcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4374,24 +4374,24 @@
           "curve": {
             "points": [
               [
-                1790723160,
-                0
+                1792072535,
+                2752
               ],
               [
-                1792157166,
+                1792159721,
                 2758
               ]
             ],
-            "source": "projected",
-            "delta": 2758,
-            "days": 17,
-            "perDay": 162
+            "source": "measured",
+            "delta": 6,
+            "days": 1,
+            "perDay": 6
           },
           "tutorials": {
             "keyword": "invisible_playwright_mcp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=invisible_playwright_mcp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4405,11 +4405,11 @@
           "descriptionZh": "FigCraft：界面设计和原型设计；纯Rust中协作设计工作流程的开源、无尘室重新实现",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 1633,
-          "starsText": "1.6k",
-          "forks": 697,
-          "forksText": "697",
-          "openIssues": 192,
+          "stars": 1660,
+          "starsText": "1.7k",
+          "forks": 703,
+          "forksText": "703",
+          "openIssues": 196,
           "archived": false,
           "topics": [
             {
@@ -4432,18 +4432,18 @@
           "curve": {
             "points": [
               [
-                1791561733,
-                0
+                1792072477,
+                1230
               ],
               [
-                1792157166,
-                1633
+                1792159682,
+                1659
               ]
             ],
-            "source": "projected",
-            "delta": 1633,
-            "days": 7,
-            "perDay": 233
+            "source": "measured",
+            "delta": 429,
+            "days": 1,
+            "perDay": 425
           },
           "tutorials": {
             "keyword": "figcraft 安装教程",
@@ -4472,11 +4472,11 @@
           "descriptionZh": "根据文件中的内容（照片、PDF、文档、录制、视频和代码）搜索您的计算机。Mac、Windows和Linux上的设备，基于Google DeepMind的EmbeddingGemma 2构建。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 4232,
+          "stars": 4242,
           "starsText": "4.2k",
           "forks": 295,
           "forksText": "295",
-          "openIssues": 87,
+          "openIssues": 88,
           "archived": false,
           "topics": [
             {
@@ -4511,24 +4511,24 @@
           "curve": {
             "points": [
               [
-                1791491871,
-                0
+                1792072477,
+                3946
               ],
               [
-                1792157166,
-                4232
+                1792159721,
+                4242
               ]
             ],
-            "source": "projected",
-            "delta": 4232,
-            "days": 8,
-            "perDay": 529
+            "source": "measured",
+            "delta": 296,
+            "days": 1,
+            "perDay": 293
           },
           "tutorials": {
             "keyword": "DigUp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=DigUp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4542,11 +4542,11 @@
           "descriptionZh": "MacOS Sequoia上的NVIDIA GeForce卡金属驱动程序",
           "language": "Rust",
           "license": "",
-          "stars": 3211,
+          "stars": 3212,
           "starsText": "3.2k",
           "forks": 307,
           "forksText": "307",
-          "openIssues": 155,
+          "openIssues": 156,
           "archived": false,
           "topics": [
             {
@@ -4581,24 +4581,24 @@
           "curve": {
             "points": [
               [
-                1791360792,
-                0
+                1792072535,
+                3089
               ],
               [
-                1792157166,
-                3211
+                1792159721,
+                3212
               ]
             ],
-            "source": "projected",
-            "delta": 3211,
-            "days": 9,
-            "perDay": 357
+            "source": "measured",
+            "delta": 123,
+            "days": 1,
+            "perDay": 122
           },
           "tutorials": {
             "keyword": "nvidia-macos-driver 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=nvidia-macos-driver%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4612,10 +4612,10 @@
           "descriptionZh": "在播放前杀死着色器编译的口吃。提前将游戏的着色器编译到GPU驱动程序的缓存中。Windows、NVIDIA和AMD。",
           "language": "C#",
           "license": "GPL-3.0",
-          "stars": 2880,
+          "stars": 2886,
           "starsText": "2.9k",
-          "forks": 71,
-          "forksText": "71",
+          "forks": 72,
+          "forksText": "72",
           "openIssues": 75,
           "archived": false,
           "topics": [
@@ -4651,24 +4651,24 @@
           "curve": {
             "points": [
               [
-                1790715670,
-                0
+                1792072535,
+                2823
               ],
               [
-                1792157166,
-                2880
+                1792159721,
+                2886
               ]
             ],
-            "source": "projected",
-            "delta": 2880,
-            "days": 17,
-            "perDay": 169
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "SCSKiller 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=SCSKiller%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4682,7 +4682,7 @@
           "descriptionZh": "MacOS全磁盘文件搜索：模糊名称、拼写容差、索引内容grep。超过800万个文件，约1毫秒。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 2097,
+          "stars": 2099,
           "starsText": "2.1k",
           "forks": 136,
           "forksText": "136",
@@ -4696,18 +4696,18 @@
           "curve": {
             "points": [
               [
-                1791481833,
-                0
+                1792072477,
+                2073
               ],
               [
-                1792157166,
-                2097
+                1792159721,
+                2099
               ]
             ],
-            "source": "projected",
-            "delta": 2097,
-            "days": 8,
-            "perDay": 262
+            "source": "measured",
+            "delta": 26,
+            "days": 1,
+            "perDay": 26
           },
           "tutorials": {
             "keyword": "fsearch 安装教程",
@@ -4736,11 +4736,11 @@
           "descriptionZh": "适用于兼容Android头显的独立CarPlay接收器。有线和无线公共预览。",
           "language": "Kotlin",
           "license": "GPL-3.0",
-          "stars": 11067,
+          "stars": 11077,
           "starsText": "1.1 万",
-          "forks": 1408,
+          "forks": 1411,
           "forksText": "1.4k",
-          "openIssues": 205,
+          "openIssues": 208,
           "archived": false,
           "topics": [],
           "category": "mobile",
@@ -4750,18 +4750,18 @@
           "curve": {
             "points": [
               [
-                1790264198,
-                0
+                1792072535,
+                10860
               ],
               [
-                1792157166,
-                11067
+                1792159721,
+                11077
               ]
             ],
-            "source": "projected",
-            "delta": 11067,
-            "days": 22,
-            "perDay": 503
+            "source": "measured",
+            "delta": 217,
+            "days": 1,
+            "perDay": 215
           },
           "tutorials": {
             "keyword": "DiPlay 安装教程",
@@ -4809,11 +4809,11 @@
           "descriptionZh": "DroidDeck为Android带来SteamOS体验",
           "language": "Kotlin",
           "license": "GPL-3.0",
-          "stars": 9298,
+          "stars": 9319,
           "starsText": "9.3k",
           "forks": 457,
           "forksText": "457",
-          "openIssues": 300,
+          "openIssues": 284,
           "archived": false,
           "topics": [],
           "category": "mobile",
@@ -4823,18 +4823,18 @@
           "curve": {
             "points": [
               [
-                1790262853,
-                0
+                1792072535,
+                8717
               ],
               [
-                1792157166,
-                9298
+                1792159721,
+                9319
               ]
             ],
-            "source": "projected",
-            "delta": 9298,
-            "days": 22,
-            "perDay": 423
+            "source": "measured",
+            "delta": 602,
+            "days": 1,
+            "perDay": 597
           },
           "tutorials": {
             "keyword": "DroidDeck 安装教程",
@@ -4882,7 +4882,7 @@
           "descriptionZh": "聊天决策助理：在您回复之前， Jev会阅读聊天，判断意图和风险，并轻触一下即可起草您填写的回复。您按发送。Android · Windows · macOS · iOS 聊天辅助决策工具|先看懂对方再回复，发不发由你。",
           "language": "Kotlin",
           "license": "MIT",
-          "stars": 7803,
+          "stars": 7804,
           "starsText": "7.8k",
           "forks": 1274,
           "forksText": "1.3k",
@@ -4921,24 +4921,24 @@
           "curve": {
             "points": [
               [
-                1789989173,
-                0
+                1792072535,
+                7771
               ],
               [
-                1792157166,
-                7803
+                1792159721,
+                7804
               ]
             ],
-            "source": "projected",
-            "delta": 7803,
-            "days": 25,
-            "perDay": 312
+            "source": "measured",
+            "delta": 33,
+            "days": 1,
+            "perDay": 33
           },
           "tutorials": {
             "keyword": "jev-chat-jarvis 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=jev-chat-jarvis%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -4966,18 +4966,18 @@
           "curve": {
             "points": [
               [
-                1789597215,
-                0
+                1792072535,
+                6617
               ],
               [
-                1792157166,
+                1792159721,
                 6656
               ]
             ],
-            "source": "projected",
-            "delta": 6656,
-            "days": 30,
-            "perDay": 222
+            "source": "measured",
+            "delta": 39,
+            "days": 1,
+            "perDay": 39
           },
           "tutorials": {
             "keyword": "AirCard 安装教程",
@@ -5025,7 +5025,7 @@
           "descriptionZh": "Debloat macOS：关闭Apple Intelligence、分析、广告和弹出窗口。原生应用程序和CLI，每个更改都可以撤消。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 4818,
+          "stars": 4819,
           "starsText": "4.8k",
           "forks": 140,
           "forksText": "140",
@@ -5064,24 +5064,24 @@
           "curve": {
             "points": [
               [
-                1790679759,
-                0
+                1792072535,
+                4736
               ],
               [
-                1792157166,
-                4818
+                1792159721,
+                4819
               ]
             ],
-            "source": "projected",
-            "delta": 4818,
-            "days": 17,
-            "perDay": 283
+            "source": "measured",
+            "delta": 83,
+            "days": 1,
+            "perDay": 82
           },
           "tutorials": {
             "keyword": "RemoveMacAI 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=RemoveMacAI%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5109,24 +5109,24 @@
           "curve": {
             "points": [
               [
-                1791299373,
-                0
+                1792072535,
+                3812
               ],
               [
-                1792157166,
+                1792159721,
                 3960
               ]
             ],
-            "source": "projected",
-            "delta": 3960,
-            "days": 10,
-            "perDay": 396
+            "source": "measured",
+            "delta": 148,
+            "days": 1,
+            "perDay": 147
           },
           "tutorials": {
             "keyword": "iPhone-use 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=iPhone-use%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5140,10 +5140,10 @@
           "descriptionZh": "Craft应用启动器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2946,
-          "starsText": "2.9k",
-          "forks": 991,
-          "forksText": "991",
+          "stars": 2952,
+          "starsText": "3k",
+          "forks": 995,
+          "forksText": "995",
           "openIssues": 364,
           "archived": false,
           "topics": [],
@@ -5154,24 +5154,24 @@
           "curve": {
             "points": [
               [
-                1791588119,
-                0
+                1792072477,
+                2788
               ],
               [
-                1792157166,
-                2946
+                1792159682,
+                2952
               ]
             ],
-            "source": "projected",
-            "delta": 2946,
-            "days": 7,
-            "perDay": 421
+            "source": "measured",
+            "delta": 164,
+            "days": 1,
+            "perDay": 162
           },
           "tutorials": {
             "keyword": "craft-launcher 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=craft-launcher%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5185,10 +5185,10 @@
           "descriptionZh": "Mac上的任何窗口，都可以在iPhone或iPad上实时显示。触摸、Apple Pencil、触控板和按键。免费、开源，无服务器。",
           "language": "Swift",
           "license": "Apache-2.0",
-          "stars": 2344,
-          "starsText": "2.3k",
-          "forks": 105,
-          "forksText": "105",
+          "stars": 2385,
+          "starsText": "2.4k",
+          "forks": 109,
+          "forksText": "109",
           "openIssues": 59,
           "archived": false,
           "topics": [
@@ -5228,14 +5228,14 @@
                 0
               ],
               [
-                1792157166,
-                2344
+                1792159721,
+                2385
               ]
             ],
             "source": "projected",
-            "delta": 2344,
+            "delta": 2385,
             "days": 24,
-            "perDay": 98
+            "perDay": 99
           },
           "tutorials": {
             "keyword": "sill 安装教程",
@@ -5255,7 +5255,7 @@
           "descriptionZh": "屏幕截图,挂在干燥上. 一个小小的原生macOS应用程序,将每个屏幕截图挂在屏幕顶部的一行上。",
           "language": "Swift",
           "license": "",
-          "stars": 2240,
+          "stars": 2242,
           "starsText": "2.2k",
           "forks": 194,
           "forksText": "194",
@@ -5263,24 +5263,24 @@
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 9,
+          "ageDays": 10,
           "createdAt": "2026-10-07T01:29:54Z",
           "avatar": "https://avatars.githubusercontent.com/u/62165585?v=4",
           "curve": {
             "points": [
               [
-                1791336594,
-                0
+                1792072535,
+                2200
               ],
               [
-                1792157166,
-                2240
+                1792159721,
+                2242
               ]
             ],
-            "source": "projected",
-            "delta": 2240,
-            "days": 9,
-            "perDay": 249
+            "source": "measured",
+            "delta": 42,
+            "days": 1,
+            "perDay": 42
           },
           "tutorials": {
             "keyword": "tendedero 安装教程",
@@ -5314,18 +5314,18 @@
           "curve": {
             "points": [
               [
-                1789809743,
-                0
+                1792072535,
+                1849
               ],
               [
-                1792157166,
+                1792159721,
                 1858
               ]
             ],
-            "source": "projected",
-            "delta": 1858,
-            "days": 27,
-            "perDay": 69
+            "source": "measured",
+            "delta": 9,
+            "days": 1,
+            "perDay": 9
           },
           "tutorials": {
             "keyword": "AirCard-iOS 安装教程",
@@ -5354,7 +5354,7 @@
           "descriptionZh": "用Claude Opus 5.5及其背后的提示制作的越来越多的病毒视频。观看Skillry现场重制版旁边的每个原创内容。定期更新。",
           "language": "",
           "license": "MIT",
-          "stars": 5415,
+          "stars": 5420,
           "starsText": "5.4k",
           "forks": 568,
           "forksText": "568",
@@ -5393,24 +5393,24 @@
           "curve": {
             "points": [
               [
-                1790489976,
-                0
+                1792072535,
+                5161
               ],
               [
-                1792157166,
-                5415
+                1792159721,
+                5420
               ]
             ],
-            "source": "projected",
-            "delta": 5415,
-            "days": 19,
-            "perDay": 285
+            "source": "measured",
+            "delta": 259,
+            "days": 1,
+            "perDay": 257
           },
           "tutorials": {
             "keyword": "awesome-opus5-5-videos 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=awesome-opus5-5-videos%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5438,18 +5438,18 @@
           "curve": {
             "points": [
               [
-                1790191796,
-                0
+                1792072535,
+                3031
               ],
               [
-                1792157166,
+                1792159721,
                 3048
               ]
             ],
-            "source": "projected",
-            "delta": 3048,
-            "days": 23,
-            "perDay": 133
+            "source": "measured",
+            "delta": 17,
+            "days": 1,
+            "perDay": 17
           },
           "tutorials": {
             "keyword": "CLM 安装教程",
@@ -5479,7 +5479,7 @@
           "descriptionZh": "基于Jev构建的公共项目、集成和讨论的编制列表 - TypeSafe AI的系统一模型用于编写决策。",
           "language": "Python",
           "license": "",
-          "stars": 2371,
+          "stars": 2372,
           "starsText": "2.4k",
           "forks": 360,
           "forksText": "360",
@@ -5510,18 +5510,18 @@
           "curve": {
             "points": [
               [
-                1789655001,
-                0
+                1792072535,
+                2351
               ],
               [
-                1792157166,
-                2371
+                1792159721,
+                2372
               ]
             ],
-            "source": "projected",
-            "delta": 2371,
-            "days": 29,
-            "perDay": 82
+            "source": "measured",
+            "delta": 21,
+            "days": 1,
+            "perDay": 21
           },
           "tutorials": {
             "keyword": "awesome-jev 安装教程",
@@ -5580,18 +5580,18 @@
           "curve": {
             "points": [
               [
-                1789791283,
-                0
+                1792072535,
+                1748
               ],
               [
-                1792157166,
+                1792159721,
                 1752
               ]
             ],
-            "source": "projected",
-            "delta": 1752,
-            "days": 27,
-            "perDay": 65
+            "source": "measured",
+            "delta": 4,
+            "days": 1,
+            "perDay": 4
           },
           "tutorials": {
             "keyword": "ai-engineering-interview-questions-company-wise 安装教程",
@@ -5620,9 +5620,9 @@
           "descriptionZh": "",
           "language": "Lean",
           "license": "Apache-2.0",
-          "stars": 14996,
+          "stars": 15000,
           "starsText": "1.5 万",
-          "forks": 1722,
+          "forks": 1724,
           "forksText": "1.7k",
           "openIssues": 0,
           "archived": false,
@@ -5634,18 +5634,18 @@
           "curve": {
             "points": [
               [
-                1791323222,
-                0
+                1792072535,
+                14883
               ],
               [
-                1792157166,
-                14996
+                1792159721,
+                15000
               ]
             ],
-            "source": "projected",
-            "delta": 14996,
-            "days": 10,
-            "perDay": 1500
+            "source": "measured",
+            "delta": 117,
+            "days": 1,
+            "perDay": 116
           },
           "tutorials": {
             "keyword": "math 安装教程",
@@ -5675,11 +5675,11 @@
           "descriptionZh": "在纯Rust中重新实现Microsoft Word的开源洁净室",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 13492,
-          "starsText": "1.3 万",
-          "forks": 3485,
+          "stars": 13501,
+          "starsText": "1.4 万",
+          "forks": 3491,
           "forksText": "3.5k",
-          "openIssues": 1225,
+          "openIssues": 1231,
           "archived": false,
           "topics": [],
           "category": "other",
@@ -5689,24 +5689,24 @@
           "curve": {
             "points": [
               [
-                1791362064,
-                0
+                1792072535,
+                12893
               ],
               [
-                1792157166,
-                13492
+                1792159721,
+                13501
               ]
             ],
-            "source": "projected",
-            "delta": 13492,
-            "days": 9,
-            "perDay": 1499
+            "source": "measured",
+            "delta": 608,
+            "days": 1,
+            "perDay": 603
           },
           "tutorials": {
             "keyword": "wordcraft 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=wordcraft%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5720,10 +5720,10 @@
           "descriptionZh": "",
           "language": "HTML",
           "license": "",
-          "stars": 12195,
+          "stars": 12201,
           "starsText": "1.2 万",
-          "forks": 895,
-          "forksText": "895",
+          "forks": 896,
+          "forksText": "896",
           "openIssues": 9,
           "archived": false,
           "topics": [],
@@ -5734,18 +5734,18 @@
           "curve": {
             "points": [
               [
-                1789742108,
-                0
+                1792072535,
+                12035
               ],
               [
-                1792157166,
-                12195
+                1792159721,
+                12201
               ]
             ],
-            "source": "projected",
-            "delta": 12195,
-            "days": 28,
-            "perDay": 436
+            "source": "measured",
+            "delta": 166,
+            "days": 1,
+            "perDay": 165
           },
           "tutorials": {
             "keyword": "how-to-live-better 安装教程",
@@ -5775,11 +5775,11 @@
           "descriptionZh": "EffectCraft：用纯Rust编写的开源动态图形和合成工具",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 6936,
+          "stars": 6938,
           "starsText": "6.9k",
-          "forks": 3661,
+          "forks": 3665,
           "forksText": "3.7k",
-          "openIssues": 562,
+          "openIssues": 570,
           "archived": false,
           "topics": [
             {
@@ -5810,18 +5810,18 @@
           "curve": {
             "points": [
               [
-                1790864686,
-                0
+                1792072535,
+                6709
               ],
               [
-                1792157166,
-                6936
+                1792159721,
+                6938
               ]
             ],
-            "source": "projected",
-            "delta": 6936,
-            "days": 15,
-            "perDay": 462
+            "source": "measured",
+            "delta": 229,
+            "days": 1,
+            "perDay": 227
           },
           "tutorials": {
             "keyword": "effectcraft 安装教程",
@@ -5851,10 +5851,10 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 4120,
+          "stars": 4125,
           "starsText": "4.1k",
-          "forks": 448,
-          "forksText": "448",
+          "forks": 449,
+          "forksText": "449",
           "openIssues": 7,
           "archived": false,
           "topics": [],
@@ -5865,24 +5865,24 @@
           "curve": {
             "points": [
               [
-                1791262177,
-                0
+                1792072535,
+                4042
               ],
               [
-                1792157166,
-                4120
+                1792159721,
+                4125
               ]
             ],
-            "source": "projected",
-            "delta": 4120,
-            "days": 10,
-            "perDay": 412
+            "source": "measured",
+            "delta": 83,
+            "days": 1,
+            "perDay": 82
           },
           "tutorials": {
             "keyword": "huashu-art-motion 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=huashu-art-motion%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5896,11 +5896,11 @@
           "descriptionZh": "纯Rust中Avid Pro Tools的开源洁净室重新实现",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 3015,
+          "stars": 3019,
           "starsText": "3k",
-          "forks": 1898,
+          "forks": 1902,
           "forksText": "1.9k",
-          "openIssues": 370,
+          "openIssues": 372,
           "archived": false,
           "topics": [],
           "category": "other",
@@ -5910,18 +5910,18 @@
           "curve": {
             "points": [
               [
-                1791361891,
-                0
+                1792072535,
+                2890
               ],
               [
-                1792157166,
-                3015
+                1792159721,
+                3019
               ]
             ],
-            "source": "projected",
-            "delta": 3015,
-            "days": 9,
-            "perDay": 335
+            "source": "measured",
+            "delta": 129,
+            "days": 1,
+            "perDay": 128
           },
           "tutorials": {
             "keyword": "soundcraft 安装教程",
@@ -5951,7 +5951,7 @@
           "descriptionZh": "",
           "language": "C++",
           "license": "GPL-2.0",
-          "stars": 3002,
+          "stars": 3005,
           "starsText": "3k",
           "forks": 691,
           "forksText": "691",
@@ -5965,24 +5965,24 @@
           "curve": {
             "points": [
               [
-                1790833831,
-                0
+                1792072535,
+                2897
               ],
               [
-                1792157166,
-                3002
+                1792159721,
+                3005
               ]
             ],
-            "source": "projected",
-            "delta": 3002,
-            "days": 15,
-            "perDay": 200
+            "source": "measured",
+            "delta": 108,
+            "days": 1,
+            "perDay": 107
           },
           "tutorials": {
             "keyword": "bloodborne_pc 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=bloodborne_pc%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:08.256Z",
+            "fetchedAt": "2026-10-16T14:08:43.490Z",
             "videos": []
           }
         },
@@ -5996,11 +5996,11 @@
           "descriptionZh": "DSH中低级操作的工具包，旨在减少令牌使用和任务执行时间/DSH 底层操作工具插件，旨在减少令牌消耗与任务耗时",
           "language": "JavaScript",
           "license": "",
-          "stars": 2488,
+          "stars": 2499,
           "starsText": "2.5k",
           "forks": 61,
           "forksText": "61",
-          "openIssues": 55,
+          "openIssues": 58,
           "archived": false,
           "topics": [
             {
@@ -6023,18 +6023,18 @@
           "curve": {
             "points": [
               [
-                1791443365,
-                0
+                1792072477,
+                2139
               ],
               [
-                1792157166,
-                2488
+                1792159721,
+                2499
               ]
             ],
-            "source": "projected",
-            "delta": 2488,
-            "days": 8,
-            "perDay": 311
+            "source": "measured",
+            "delta": 360,
+            "days": 1,
+            "perDay": 357
           },
           "tutorials": {
             "keyword": "dsh-ops 安装教程",
@@ -6054,7 +6054,7 @@
           "descriptionZh": "",
           "language": "Rust",
           "license": "MIT",
-          "stars": 2386,
+          "stars": 2388,
           "starsText": "2.4k",
           "forks": 239,
           "forksText": "239",
@@ -6068,18 +6068,18 @@
           "curve": {
             "points": [
               [
-                1791690426,
-                0
+                1792072477,
+                2325
               ],
               [
-                1792157166,
-                2386
+                1792159682,
+                2388
               ]
             ],
-            "source": "projected",
-            "delta": 2386,
-            "days": 5,
-            "perDay": 477
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "CCBaga 安装教程",
@@ -6113,18 +6113,18 @@
           "curve": {
             "points": [
               [
-                1789956744,
-                0
+                1792072535,
+                2048
               ],
               [
-                1792157166,
+                1792159721,
                 2048
               ]
             ],
-            "source": "projected",
-            "delta": 2048,
-            "days": 25,
-            "perDay": 82
+            "source": "measured",
+            "delta": 0,
+            "days": 1,
+            "perDay": 0
           },
           "tutorials": {
             "keyword": "deepopen 安装教程",
@@ -6158,18 +6158,18 @@
           "curve": {
             "points": [
               [
-                1790136253,
-                0
+                1792072535,
+                1920
               ],
               [
-                1792157166,
+                1792159721,
                 1952
               ]
             ],
-            "source": "projected",
-            "delta": 1952,
-            "days": 23,
-            "perDay": 85
+            "source": "measured",
+            "delta": 32,
+            "days": 1,
+            "perDay": 32
           },
           "tutorials": {
             "keyword": "JIZURA 安装教程",
@@ -6189,7 +6189,7 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 1718,
+          "stars": 1719,
           "starsText": "1.7k",
           "forks": 376,
           "forksText": "376",
@@ -6203,18 +6203,18 @@
           "curve": {
             "points": [
               [
-                1791111358,
-                0
+                1792072535,
+                1713
               ],
               [
-                1792157166,
-                1718
+                1792159721,
+                1719
               ]
             ],
-            "source": "projected",
-            "delta": 1718,
-            "days": 12,
-            "perDay": 143
+            "source": "measured",
+            "delta": 6,
+            "days": 1,
+            "perDay": 6
           },
           "tutorials": {
             "keyword": "sales-crm 安装教程",
@@ -6248,18 +6248,18 @@
           "curve": {
             "points": [
               [
-                1791362235,
-                0
+                1792072535,
+                1621
               ],
               [
-                1792157166,
+                1792159721,
                 1644
               ]
             ],
-            "source": "projected",
-            "delta": 1644,
-            "days": 9,
-            "perDay": 183
+            "source": "measured",
+            "delta": 23,
+            "days": 1,
+            "perDay": 23
           },
           "tutorials": {
             "keyword": "playgta5 安装教程",

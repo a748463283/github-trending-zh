@@ -3,29 +3,29 @@
   "period": "year",
   "periodName": "今年",
   "periodNote": "近 365 天内新建的仓库",
-  "generatedAt": "2026-10-16T13:26:45.492Z",
+  "generatedAt": "2026-10-16T14:09:19.463Z",
   "source": "static-snapshot:build",
   "meta": {
     "period": "year",
     "query": "created:>=2025-10-16 stars:>=1000",
     "totalCount": 3972,
     "fetched": 100,
-    "rateLimitRemaining": "9",
-    "generatedAt": "2026-10-16T13:26:45.492Z",
+    "rateLimitRemaining": "6",
+    "generatedAt": "2026-10-16T14:09:19.463Z",
     "translation": {
       "targets": 92,
       "translated": 92,
       "provider": "mymemory"
     },
     "tutorials": {
-      "kvHits": 28,
+      "kvHits": 44,
       "filled": 40,
       "errors": 0
     },
     "starHistory": {
       "loaded": 100,
-      "written": 0,
-      "skipped": 100
+      "written": 99,
+      "skipped": 1
     },
     "snapshot": true,
     "categories": 11
@@ -62,11 +62,11 @@
           "descriptionZh": "使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 283880,
+          "stars": 284475,
           "starsText": "28.4 万",
-          "forks": 71518,
+          "forks": 71650,
           "forksText": "7.2 万",
-          "openIssues": 1087,
+          "openIssues": 1100,
           "archived": false,
           "topics": [
             {
@@ -101,18 +101,18 @@
           "curve": {
             "points": [
               [
-                1776127892,
-                0
+                1792072484,
+                260611
               ],
               [
-                1792157205,
-                283880
+                1792159759,
+                284475
               ]
             ],
-            "source": "projected",
-            "delta": 283880,
-            "days": 186,
-            "perDay": 1526
+            "source": "measured",
+            "delta": 23864,
+            "days": 1,
+            "perDay": 23625
           },
           "tutorials": {
             "keyword": "rea 安装教程",
@@ -160,11 +160,11 @@
           "descriptionZh": "该代理利用性能优化系统. 技能,本能,记忆,安全和研究 - 首先为 Claude Code, Codex,Opencode,Cursor和其他开发。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 280952,
+          "stars": 280986,
           "starsText": "28.1 万",
-          "forks": 41778,
+          "forks": 41786,
           "forksText": "4.2 万",
-          "openIssues": 222,
+          "openIssues": 227,
           "archived": false,
           "topics": [
             {
@@ -199,18 +199,18 @@
           "curve": {
             "points": [
               [
-                1768697511,
-                0
+                1792072484,
+                279952
               ],
               [
-                1792157205,
-                280952
+                1792159759,
+                280986
               ]
             ],
-            "source": "projected",
-            "delta": 280952,
-            "days": 272,
-            "perDay": 1033
+            "source": "measured",
+            "delta": 1034,
+            "days": 1,
+            "perDay": 1024
           },
           "tutorials": {
             "keyword": "ECC 安装教程",
@@ -249,9 +249,9 @@
           "descriptionZh": "一个单一的 CLAUDE.md 文件来改善Claude Code行为,源自Andrej Karpathy对LLM编码陷阱的观察。",
           "language": "",
           "license": "",
-          "stars": 220247,
+          "stars": 220261,
           "starsText": "22 万",
-          "forks": 22137,
+          "forks": 22139,
           "forksText": "2.2 万",
           "openIssues": 133,
           "archived": false,
@@ -263,24 +263,24 @@
           "curve": {
             "points": [
               [
-                1769485993,
-                0
+                1792072484,
+                219983
               ],
               [
-                1792157205,
-                220247
+                1792159759,
+                220261
               ]
             ],
-            "source": "projected",
-            "delta": 220247,
-            "days": 262,
-            "perDay": 841
+            "source": "measured",
+            "delta": 278,
+            "days": 1,
+            "perDay": 275
           },
           "tutorials": {
             "keyword": "andrej-karpathy-skills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=andrej-karpathy-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -294,7 +294,7 @@
           "descriptionZh": "使用Garry Tan的准确的Claude Code设置:作为首席执行官,设计师,Eng经理,发布经理,Doc工程师和QA的23个有意见的工具",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 136640,
+          "stars": 136645,
           "starsText": "13.7 万",
           "forks": 20276,
           "forksText": "2 万",
@@ -308,18 +308,18 @@
           "curve": {
             "points": [
               [
-                1773264165,
-                0
+                1792072484,
+                136497
               ],
               [
-                1792157205,
-                136640
+                1792159759,
+                136645
               ]
             ],
-            "source": "projected",
-            "delta": 136640,
-            "days": 219,
-            "perDay": 624
+            "source": "measured",
+            "delta": 148,
+            "days": 1,
+            "perDay": 147
           },
           "tutorials": {
             "keyword": "gstack 安装教程",
@@ -349,11 +349,11 @@
           "descriptionZh": "提供设计智能的AI技能,可在多个平台上构建专业的UI/UX。",
           "language": "Python",
           "license": "MIT",
-          "stars": 136437,
+          "stars": 136452,
           "starsText": "13.6 万",
-          "forks": 14506,
+          "forks": 14509,
           "forksText": "1.5 万",
-          "openIssues": 90,
+          "openIssues": 91,
           "archived": false,
           "topics": [
             {
@@ -388,18 +388,18 @@
           "curve": {
             "points": [
               [
-                1764502591,
-                0
+                1792072484,
+                136096
               ],
               [
-                1792157205,
-                136437
+                1792159759,
+                136452
               ]
             ],
-            "source": "projected",
-            "delta": 136437,
-            "days": 320,
-            "perDay": 426
+            "source": "measured",
+            "delta": 356,
+            "days": 1,
+            "perDay": 352
           },
           "tutorials": {
             "keyword": "ui-ux-pro-max-skill 安装教程",
@@ -447,9 +447,9 @@
           "descriptionZh": "将任何代码库,其文件、SQL 方案、配置和 PDF 转换为可查询的知识图表. Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能:本地确定性 AST 解析,每个边缘都解释,没有矢量存储。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 127117,
+          "stars": 127131,
           "starsText": "12.7 万",
-          "forks": 12262,
+          "forks": 12264,
           "forksText": "1.2 万",
           "openIssues": 1527,
           "archived": false,
@@ -486,18 +486,18 @@
           "curve": {
             "points": [
               [
-                1775231347,
-                0
+                1792072484,
+                126742
               ],
               [
-                1792157205,
-                127117
+                1792159759,
+                127131
               ]
             ],
-            "source": "projected",
-            "delta": 127117,
-            "days": 196,
-            "perDay": 649
+            "source": "measured",
+            "delta": 389,
+            "days": 1,
+            "perDay": 385
           },
           "tutorials": {
             "keyword": "graphify 安装教程",
@@ -536,9 +536,9 @@
           "descriptionZh": "对于AI编码代理人的生产级工程技能。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 107244,
+          "stars": 107247,
           "starsText": "10.7 万",
-          "forks": 11156,
+          "forks": 11158,
           "forksText": "1.1 万",
           "openIssues": 128,
           "archived": false,
@@ -575,18 +575,18 @@
           "curve": {
             "points": [
               [
-                1771186826,
-                0
+                1792072484,
+                106894
               ],
               [
-                1792157205,
-                107244
+                1792159759,
+                107247
               ]
             ],
-            "source": "projected",
-            "delta": 107244,
-            "days": 243,
-            "perDay": 441
+            "source": "measured",
+            "delta": 353,
+            "days": 1,
+            "perDay": 349
           },
           "tutorials": {
             "keyword": "agent-skills 安装教程",
@@ -616,11 +616,11 @@
           "descriptionZh": "每个人都使用的开源应用程序来管理工作中的代理人",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 103002,
+          "stars": 103010,
           "starsText": "10.3 万",
-          "forks": 17235,
+          "forks": 17239,
           "forksText": "1.7 万",
-          "openIssues": 6036,
+          "openIssues": 6038,
           "archived": false,
           "topics": [
             {
@@ -655,18 +655,18 @@
           "curve": {
             "points": [
               [
-                1772463711,
-                0
+                1792072484,
+                102483
               ],
               [
-                1792157205,
-                103002
+                1792159759,
+                103010
               ]
             ],
-            "source": "projected",
-            "delta": 103002,
-            "days": 228,
-            "perDay": 452
+            "source": "measured",
+            "delta": 527,
+            "days": 1,
+            "perDay": 522
           },
           "tutorials": {
             "keyword": "paperclip 安装教程",
@@ -696,11 +696,11 @@
           "descriptionZh": "第 1 个协作 AI 设计代理工作区. 局部第一和开源. 创建原型,网站,应用程序,仪表板,演示文稿,图像和视频与您的团队和 AI 代理商。",
           "language": "TypeScript",
           "license": "Apache-2.0",
-          "stars": 101469,
+          "stars": 101480,
           "starsText": "10.1 万",
-          "forks": 11669,
+          "forks": 11670,
           "forksText": "1.2 万",
-          "openIssues": 1171,
+          "openIssues": 1170,
           "archived": false,
           "topics": [
             {
@@ -735,18 +735,18 @@
           "curve": {
             "points": [
               [
-                1777350320,
-                0
+                1792072484,
+                101288
               ],
               [
-                1792157205,
-                101469
+                1792159759,
+                101480
               ]
             ],
-            "source": "projected",
-            "delta": 101469,
-            "days": 171,
-            "perDay": 593
+            "source": "measured",
+            "delta": 192,
+            "days": 1,
+            "perDay": 190
           },
           "tutorials": {
             "keyword": "open-design 安装教程",
@@ -785,9 +785,9 @@
           "descriptionZh": "给你的AI代理人眼睛看整个互联网阅读和搜索Twitter,Reddit,YouTube,GitHub,Bilibili, XiaoHongShu - 一个CLI,零API费用。",
           "language": "Python",
           "license": "MIT",
-          "stars": 98006,
+          "stars": 98017,
           "starsText": "9.8 万",
-          "forks": 8591,
+          "forks": 8593,
           "forksText": "8.6k",
           "openIssues": 218,
           "archived": false,
@@ -824,18 +824,18 @@
           "curve": {
             "points": [
               [
-                1771899024,
-                0
+                1792072484,
+                97610
               ],
               [
-                1792157205,
-                98006
+                1792159759,
+                98017
               ]
             ],
-            "source": "projected",
-            "delta": 98006,
-            "days": 234,
-            "perDay": 419
+            "source": "measured",
+            "delta": 407,
+            "days": 1,
+            "perDay": 403
           },
           "tutorials": {
             "keyword": "Agent-Reach 安装教程",
@@ -865,9 +865,9 @@
           "descriptionZh": "提供编码代理品味的代理技能:艺术方向,参考图像和浏览器检查,而不是通用AI页面",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 97801,
+          "stars": 97823,
           "starsText": "9.8 万",
-          "forks": 6633,
+          "forks": 6635,
           "forksText": "6.6k",
           "openIssues": 1,
           "archived": false,
@@ -904,18 +904,18 @@
           "curve": {
             "points": [
               [
-                1771537445,
-                0
+                1792072484,
+                97020
               ],
               [
-                1792157205,
-                97801
+                1792159759,
+                97823
               ]
             ],
-            "source": "projected",
-            "delta": 97801,
-            "days": 239,
-            "perDay": 409
+            "source": "measured",
+            "delta": 803,
+            "days": 1,
+            "perDay": 795
           },
           "tutorials": {
             "keyword": "taste-skill 安装教程",
@@ -945,11 +945,11 @@
           "descriptionZh": "Orca 是与一批平行代理商合作的 ADE。使用自己的订阅运行任何编码代理,可在桌面、移动和远程运行时使用。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 94098,
+          "stars": 94139,
           "starsText": "9.4 万",
-          "forks": 6010,
+          "forks": 6014,
           "forksText": "6k",
-          "openIssues": 8418,
+          "openIssues": 8425,
           "archived": false,
           "topics": [
             {
@@ -984,18 +984,18 @@
           "curve": {
             "points": [
               [
-                1773718137,
-                0
+                1792072484,
+                93063
               ],
               [
-                1792157205,
-                94098
+                1792159759,
+                94139
               ]
             ],
-            "source": "projected",
-            "delta": 94098,
-            "days": 213,
-            "perDay": 442
+            "source": "measured",
+            "delta": 1076,
+            "days": 1,
+            "perDay": 1065
           },
           "tutorials": {
             "keyword": "orca 安装教程",
@@ -1043,7 +1043,7 @@
           "descriptionZh": "将任何代码转化为一个交互式知识图,您可以探索,搜索,并提出问题。 它与 Claude Code, Codex, Cursor, Copilot, Gemini CLI 和更多相同。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 86570,
+          "stars": 86572,
           "starsText": "8.7 万",
           "forks": 7297,
           "forksText": "7.3k",
@@ -1082,18 +1082,18 @@
           "curve": {
             "points": [
               [
-                1773541851,
-                0
+                1792072484,
+                86410
               ],
               [
-                1792157205,
-                86570
+                1792159759,
+                86572
               ]
             ],
-            "source": "projected",
-            "delta": 86570,
-            "days": 215,
-            "perDay": 403
+            "source": "measured",
+            "delta": 162,
+            "days": 1,
+            "perDay": 160
           },
           "tutorials": {
             "keyword": "Understand-Anything 安装教程",
@@ -1123,7 +1123,7 @@
           "descriptionZh": "将任何想法,计划或代码库转化为一个美丽的交互式图表。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 84318,
+          "stars": 84335,
           "starsText": "8.4 万",
           "forks": 5705,
           "forksText": "5.7k",
@@ -1162,18 +1162,18 @@
           "curve": {
             "points": [
               [
-                1776230857,
-                0
+                1792072484,
+                83907
               ],
               [
-                1792157205,
-                84318
+                1792159759,
+                84335
               ]
             ],
-            "source": "projected",
-            "delta": 84318,
-            "days": 184,
-            "perDay": 458
+            "source": "measured",
+            "delta": 428,
+            "days": 1,
+            "perDay": 424
           },
           "tutorials": {
             "keyword": "archify 安装教程",
@@ -1214,9 +1214,9 @@
           "license": "",
           "stars": 77231,
           "starsText": "7.7 万",
-          "forks": 9139,
+          "forks": 9141,
           "forksText": "9.1k",
-          "openIssues": 1753,
+          "openIssues": 1754,
           "archived": false,
           "topics": [
             {
@@ -1251,24 +1251,24 @@
           "curve": {
             "points": [
               [
-                1760685301,
-                0
+                1792072484,
+                77157
               ],
               [
-                1792157205,
+                1792159759,
                 77231
               ]
             ],
-            "source": "projected",
-            "delta": 77231,
-            "days": 364,
-            "perDay": 212
+            "source": "measured",
+            "delta": 74,
+            "days": 1,
+            "perDay": 73
           },
           "tutorials": {
             "keyword": "awesome-claude-skills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=awesome-claude-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -1282,11 +1282,11 @@
           "descriptionZh": "永遠不要停止編碼. 免費MIT AI門口:一個終點,359個提供商(150多個免費),1200多個模型Kimi,Claude,GPT,Gemini,GLM,DeepSeek,MiniMax。 與Claude Code,Codex,Cursor,OpenCode,Cline & Copilot合作。 意識到自動倒退,RTK+Caveman壓縮節省了15%至95%的代幣,MCP/A2A,桌面/PWA。 由數百名貢獻者建造",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 77204,
+          "stars": 77211,
           "starsText": "7.7 万",
-          "forks": 11170,
+          "forks": 11172,
           "forksText": "1.1 万",
-          "openIssues": 352,
+          "openIssues": 354,
           "archived": false,
           "topics": [
             {
@@ -1321,18 +1321,18 @@
           "curve": {
             "points": [
               [
-                1770986311,
-                0
+                1792072484,
+                76837
               ],
               [
-                1792157205,
-                77204
+                1792159759,
+                77211
               ]
             ],
-            "source": "projected",
-            "delta": 77204,
-            "days": 245,
-            "perDay": 315
+            "source": "measured",
+            "delta": 374,
+            "days": 1,
+            "perDay": 370
           },
           "tutorials": {
             "keyword": "OmniRoute 安装教程",
@@ -1371,7 +1371,7 @@
           "descriptionZh": "开源AI求职代理和求职者:扫描求职表,在申请前对你的简历进行1-5分,定制一个ATS友好的简历和封面,获得面试准备和工作申请跟踪器。它帮助你填写每个申请;你按下提交。在你的AI编码CLI(Claude Code,Codex,OpenCode等)中本地运行。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 75165,
+          "stars": 75167,
           "starsText": "7.5 万",
           "forks": 14030,
           "forksText": "1.4 万",
@@ -1410,24 +1410,24 @@
           "curve": {
             "points": [
               [
-                1775326878,
-                0
+                1792072484,
+                74858
               ],
               [
-                1792157205,
-                75165
+                1792159759,
+                75167
               ]
             ],
-            "source": "projected",
-            "delta": 75165,
-            "days": 195,
-            "perDay": 385
+            "source": "measured",
+            "delta": 309,
+            "days": 1,
+            "perDay": 306
           },
           "tutorials": {
             "keyword": "career-ops 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=career-ops%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -1441,7 +1441,7 @@
           "descriptionZh": "预先索引的代码知识图表,自动同步代码更改,对于Claude Code,Codex,Gemini,Cursor,OpenCode,AntiGravity,Kiro,CoPilot和Hermes Agent - 更少的代码,更少的工具调用,100%本地",
           "language": "C",
           "license": "MIT",
-          "stars": 74268,
+          "stars": 74270,
           "starsText": "7.4 万",
           "forks": 4803,
           "forksText": "4.8k",
@@ -1455,18 +1455,18 @@
           "curve": {
             "points": [
               [
-                1768772737,
-                0
+                1792072484,
+                74166
               ],
               [
-                1792157205,
-                74268
+                1792159759,
+                74270
               ]
             ],
-            "source": "projected",
-            "delta": 74268,
-            "days": 271,
-            "perDay": 274
+            "source": "measured",
+            "delta": 104,
+            "days": 1,
+            "perDay": 103
           },
           "tutorials": {
             "keyword": "codegraph 安装教程",
@@ -1496,9 +1496,9 @@
           "descriptionZh": "世界上第一個開源的代理視頻生產系統. 12 個生產管道, 100 多個工具, 700 多個代理技能和生產知識檔案. 將你的 AI 編碼助理變成一個完整的視頻生產工作室。",
           "language": "Python",
           "license": "AGPL-3.0",
-          "stars": 68795,
+          "stars": 68804,
           "starsText": "6.9 万",
-          "forks": 8823,
+          "forks": 8825,
           "forksText": "8.8k",
           "openIssues": 398,
           "archived": false,
@@ -1535,18 +1535,18 @@
           "curve": {
             "points": [
               [
-                1774797802,
-                0
+                1792072484,
+                68471
               ],
               [
-                1792157205,
-                68795
+                1792159759,
+                68804
               ]
             ],
-            "source": "projected",
-            "delta": 68795,
-            "days": 201,
-            "perDay": 342
+            "source": "measured",
+            "delta": 333,
+            "days": 1,
+            "perDay": 330
           },
           "tutorials": {
             "keyword": "OpenMontage 安装教程",
@@ -1624,24 +1624,24 @@
           "curve": {
             "points": [
               [
-                1761920128,
-                0
+                1792072484,
+                67584
               ],
               [
-                1792157205,
+                1792159759,
                 67633
               ]
             ],
-            "source": "projected",
-            "delta": 67633,
-            "days": 350,
-            "perDay": 193
+            "source": "measured",
+            "delta": 49,
+            "days": 1,
+            "perDay": 49
           },
           "tutorials": {
             "keyword": "claude-code-best-practice 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=claude-code-best-practice%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -1655,9 +1655,9 @@
           "descriptionZh": "人工智能代理技能,研究Reddit,X,YouTube,HN,Polymarket和Web上的任何主题 - 然后合成一个基本的总结",
           "language": "Python",
           "license": "MIT",
-          "stars": 64476,
+          "stars": 64481,
           "starsText": "6.4 万",
-          "forks": 5623,
+          "forks": 5624,
           "forksText": "5.6k",
           "openIssues": 16,
           "archived": false,
@@ -1694,18 +1694,18 @@
           "curve": {
             "points": [
               [
-                1769200657,
-                0
+                1792072484,
+                64373
               ],
               [
-                1792157205,
-                64476
+                1792159759,
+                64481
               ]
             ],
-            "source": "projected",
-            "delta": 64476,
-            "days": 266,
-            "perDay": 242
+            "source": "measured",
+            "delta": 108,
+            "days": 1,
+            "perDay": 107
           },
           "tutorials": {
             "keyword": "last30days-skill 安装教程",
@@ -1766,24 +1766,24 @@
           "curve": {
             "points": [
               [
-                1765721832,
-                0
+                1792072484,
+                64288
               ],
               [
-                1792157205,
+                1792159759,
                 64284
               ]
             ],
-            "source": "projected",
-            "delta": 64284,
-            "days": 306,
-            "perDay": 210
+            "source": "measured",
+            "delta": -4,
+            "days": 1,
+            "perDay": -4
           },
           "tutorials": {
             "keyword": "get-shit-done 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=get-shit-done%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -1797,7 +1797,7 @@
           "descriptionZh": "一个技能来阻止你的编码代理埋葬答案.ADHD友好的输出。",
           "language": "Python",
           "license": "MIT",
-          "stars": 57388,
+          "stars": 57392,
           "starsText": "5.7 万",
           "forks": 3306,
           "forksText": "3.3k",
@@ -1836,18 +1836,18 @@
           "curve": {
             "points": [
               [
-                1778704926,
-                0
+                1792072484,
+                57232
               ],
               [
-                1792157205,
-                57388
+                1792159759,
+                57392
               ]
             ],
-            "source": "projected",
-            "delta": 57388,
-            "days": 156,
-            "perDay": 368
+            "source": "measured",
+            "delta": 160,
+            "days": 1,
+            "perDay": 158
           },
           "tutorials": {
             "keyword": "i-have-adhd 安装教程",
@@ -1877,9 +1877,9 @@
           "descriptionZh": "编辑图表设计为 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid 和 Pi. 44 个图表类型.自含的 HTML + SVG. 没有阴影. 没有水母斜坡。",
           "language": "HTML",
           "license": "MIT",
-          "stars": 56217,
+          "stars": 56241,
           "starsText": "5.6 万",
-          "forks": 3561,
+          "forks": 3562,
           "forksText": "3.6k",
           "openIssues": 45,
           "archived": false,
@@ -1916,24 +1916,24 @@
           "curve": {
             "points": [
               [
-                1776362476,
-                0
+                1792072484,
+                55702
               ],
               [
-                1792157205,
-                56217
+                1792159759,
+                56241
               ]
             ],
-            "source": "projected",
-            "delta": 56217,
-            "days": 183,
-            "perDay": 307
+            "source": "measured",
+            "delta": 539,
+            "days": 1,
+            "perDay": 534
           },
           "tutorials": {
             "keyword": "diagram-design 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=diagram-design%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -1947,9 +1947,9 @@
           "descriptionZh": "营销技能为Claude Code和AI代理,CRO,写作,SEO,分析和增长工程。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 55019,
+          "stars": 55025,
           "starsText": "5.5 万",
-          "forks": 8151,
+          "forks": 8153,
           "forksText": "8.2k",
           "openIssues": 25,
           "archived": false,
@@ -1986,24 +1986,24 @@
           "curve": {
             "points": [
               [
-                1768506323,
-                0
+                1792072484,
+                54844
               ],
               [
-                1792157205,
-                55019
+                1792159759,
+                55025
               ]
             ],
-            "source": "projected",
-            "delta": 55019,
-            "days": 274,
-            "perDay": 201
+            "source": "measured",
+            "delta": 181,
+            "days": 1,
+            "perDay": 179
           },
           "tutorials": {
             "keyword": "marketingskills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=marketingskills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2017,9 +2017,9 @@
           "descriptionZh": "Claude Code的学术研究技能:研究 → 写 → 评论 → 修订 → 完成",
           "language": "Python",
           "license": "",
-          "stars": 52370,
+          "stars": 52375,
           "starsText": "5.2 万",
-          "forks": 4010,
+          "forks": 4011,
           "forksText": "4k",
           "openIssues": 33,
           "archived": false,
@@ -2056,18 +2056,18 @@
           "curve": {
             "points": [
               [
-                1772087461,
-                0
+                1792072484,
+                52164
               ],
               [
-                1792157205,
-                52370
+                1792159759,
+                52375
               ]
             ],
-            "source": "projected",
-            "delta": 52370,
-            "days": 232,
-            "perDay": 226
+            "source": "measured",
+            "delta": 211,
+            "days": 1,
+            "perDay": 209
           },
           "tutorials": {
             "keyword": "academic-research-skills 安装教程",
@@ -2106,9 +2106,9 @@
           "descriptionZh": "将任何人工智能代理人变成人工智能科学家. 全球超过 250,000 名科学家使用的 #1 代理技能图书馆。 177 个可用验证技能,加上 100 多个涵盖生物学、化学、医学和药物发现的科学数据库。 兼容 Cursor、Claude Code、Codex、Pi、Antigravity 和开放代理技能标准。",
           "language": "Python",
           "license": "MIT",
-          "stars": 51126,
+          "stars": 51152,
           "starsText": "5.1 万",
-          "forks": 4534,
+          "forks": 4536,
           "forksText": "4.5k",
           "openIssues": 42,
           "archived": false,
@@ -2145,18 +2145,18 @@
           "curve": {
             "points": [
               [
-                1760907255,
-                0
+                1792072484,
+                50060
               ],
               [
-                1792157205,
-                51126
+                1792159759,
+                51152
               ]
             ],
-            "source": "projected",
-            "delta": 51126,
-            "days": 362,
-            "perDay": 141
+            "source": "measured",
+            "delta": 1092,
+            "days": 1,
+            "perDay": 1081
           },
           "tutorials": {
             "keyword": "scientific-agent-skills 安装教程",
@@ -2186,7 +2186,7 @@
           "descriptionZh": "教你的代理人使用Obsidian CLI和开放格式,包括Markdown,Bases,JSON Canvas。",
           "language": "",
           "license": "MIT",
-          "stars": 49630,
+          "stars": 49631,
           "starsText": "5 万",
           "forks": 3524,
           "forksText": "3.5k",
@@ -2225,24 +2225,24 @@
           "curve": {
             "points": [
               [
-                1767390311,
-                0
+                1792072484,
+                49581
               ],
               [
-                1792157205,
-                49630
+                1792159759,
+                49631
               ]
             ],
-            "source": "projected",
-            "delta": 49630,
-            "days": 287,
-            "perDay": 173
+            "source": "measured",
+            "delta": 50,
+            "days": 1,
+            "perDay": 49
           },
           "tutorials": {
             "keyword": "obsidian-skills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=obsidian-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2256,7 +2256,7 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 48685,
+          "stars": 48699,
           "starsText": "4.9 万",
           "forks": 2530,
           "forksText": "2.5k",
@@ -2283,18 +2283,18 @@
           "curve": {
             "points": [
               [
-                1777000306,
-                0
+                1792072484,
+                48484
               ],
               [
-                1792157205,
-                48685
+                1792159759,
+                48699
               ]
             ],
-            "source": "projected",
-            "delta": 48685,
-            "days": 175,
-            "perDay": 278
+            "source": "measured",
+            "delta": 215,
+            "days": 1,
+            "perDay": 213
           },
           "tutorials": {
             "keyword": "nature-skills 安装教程",
@@ -2342,11 +2342,11 @@
           "descriptionZh": "工作搜索运行在您的机器上. AI 工作申请框架建立在 Claude Code 上:评估帖子,定制简历,写封面信,准备面试。",
           "language": "Python",
           "license": "MIT",
-          "stars": 47872,
+          "stars": 47919,
           "starsText": "4.8 万",
-          "forks": 16507,
+          "forks": 16514,
           "forksText": "1.7 万",
-          "openIssues": 13,
+          "openIssues": 26,
           "archived": false,
           "topics": [
             {
@@ -2381,24 +2381,24 @@
           "curve": {
             "points": [
               [
-                1773844384,
-                0
+                1792072484,
+                46957
               ],
               [
-                1792157205,
-                47872
+                1792159759,
+                47919
               ]
             ],
-            "source": "projected",
-            "delta": 47872,
-            "days": 212,
-            "perDay": 226
+            "source": "measured",
+            "delta": 962,
+            "days": 1,
+            "perDay": 952
           },
           "tutorials": {
             "keyword": "ai-job-search 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ai-job-search%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2412,7 +2412,7 @@
           "descriptionZh": "AAS Core 是本地的,代理第一的控制飞机,用于完整的目录发现,代理所有选择,堆栈验证和规划,由 2600 多种代理技能支持。",
           "language": "Python",
           "license": "MIT",
-          "stars": 47713,
+          "stars": 47716,
           "starsText": "4.8 万",
           "forks": 6964,
           "forksText": "7k",
@@ -2451,24 +2451,24 @@
           "curve": {
             "points": [
               [
-                1768412889,
-                0
+                1792072484,
+                47659
               ],
               [
-                1792157205,
-                47713
+                1792159759,
+                47716
               ]
             ],
-            "source": "projected",
-            "delta": 47713,
-            "days": 275,
-            "perDay": 174
+            "source": "measured",
+            "delta": 57,
+            "days": 1,
+            "perDay": 56
           },
           "tutorials": {
             "keyword": "agentic-awesome-skills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=agentic-awesome-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2482,11 +2482,11 @@
           "descriptionZh": "高性能代码智能MCP服务器。将代码库编入持久知识图表—以毫秒为单位的平均代码仓库。162种语言，子MS查询，令牌减少99 ％。单个静态二进制文件，零依赖关系。",
           "language": "C",
           "license": "MIT",
-          "stars": 46699,
+          "stars": 46700,
           "starsText": "4.7 万",
           "forks": 3847,
           "forksText": "3.8k",
-          "openIssues": 637,
+          "openIssues": 638,
           "archived": false,
           "topics": [
             {
@@ -2521,24 +2521,24 @@
           "curve": {
             "points": [
               [
-                1771970460,
-                0
+                1792072484,
+                46641
               ],
               [
-                1792157205,
-                46699
+                1792159759,
+                46700
               ]
             ],
-            "source": "projected",
-            "delta": 46699,
-            "days": 234,
-            "perDay": 200
+            "source": "measured",
+            "delta": 59,
+            "days": 1,
+            "perDay": 58
           },
           "tutorials": {
             "keyword": "codebase-memory-mcp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=codebase-memory-mcp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2552,7 +2552,7 @@
           "descriptionZh": "设计师和工程师的技能。",
           "language": "Markdown",
           "license": "MIT",
-          "stars": 46623,
+          "stars": 46631,
           "starsText": "4.7 万",
           "forks": 2680,
           "forksText": "2.7k",
@@ -2566,18 +2566,18 @@
           "curve": {
             "points": [
               [
-                1773669151,
-                0
+                1792072484,
+                46400
               ],
               [
-                1792157205,
-                46623
+                1792159759,
+                46631
               ]
             ],
-            "source": "projected",
-            "delta": 46623,
-            "days": 214,
-            "perDay": 218
+            "source": "measured",
+            "delta": 231,
+            "days": 1,
+            "perDay": 229
           },
           "tutorials": {
             "keyword": "skills 安装教程",
@@ -2625,7 +2625,7 @@
           "descriptionZh": "运行时间您的编码代理人生活在",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 44312,
+          "stars": 44319,
           "starsText": "4.4 万",
           "forks": 3518,
           "forksText": "3.5k",
@@ -2664,25 +2664,53 @@
           "curve": {
             "points": [
               [
-                1774634073,
-                0
+                1792072484,
+                44146
               ],
               [
-                1792157205,
-                44312
+                1792159759,
+                44319
               ]
             ],
-            "source": "projected",
-            "delta": 44312,
-            "days": 203,
-            "perDay": 218
+            "source": "measured",
+            "delta": 173,
+            "days": 1,
+            "perDay": 171
           },
           "tutorials": {
             "keyword": "herdr 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=herdr%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1j5ud6CEEb",
+                "title": "Herdr 实战教程：安装、分屏、多 Agent 协作",
+                "author": "kate人不错",
+                "play": 12047,
+                "playText": "1.2 万",
+                "durationText": "9:32",
+                "url": "https://www.bilibili.com/video/BV1j5ud6CEEb"
+              },
+              {
+                "bvid": "BV1PcpK6jEGr",
+                "title": "Tmux 和 Herdr 过时了？这个终端新系统你两分钟就能上手！",
+                "author": "AI外卖员",
+                "play": 1377,
+                "playText": "1.4k",
+                "durationText": "4:12",
+                "url": "https://www.bilibili.com/video/BV1PcpK6jEGr"
+              },
+              {
+                "bvid": "BV1vQpw6REpN",
+                "title": "Herdr 接入 Telegram 教程",
+                "author": "vyatta",
+                "play": 49,
+                "playText": "49",
+                "durationText": "26:42",
+                "url": "https://www.bilibili.com/video/BV1vQpw6REpN"
+              }
+            ]
           }
         },
         {
@@ -2695,7 +2723,7 @@
           "descriptionZh": "Claude Code 的视觉,示例导游 - 从基本概念到先进的代理,具有带有即时价值的模板。",
           "language": "Python",
           "license": "MIT",
-          "stars": 41916,
+          "stars": 41918,
           "starsText": "4.2 万",
           "forks": 5151,
           "forksText": "5.2k",
@@ -2722,24 +2750,82 @@
           "curve": {
             "points": [
               [
-                1762556374,
-                0
+                1792072484,
+                41897
               ],
               [
-                1792157205,
-                41916
+                1792159759,
+                41918
               ]
             ],
-            "source": "projected",
-            "delta": 41916,
-            "days": 343,
-            "perDay": 122
+            "source": "measured",
+            "delta": 21,
+            "days": 1,
+            "perDay": 21
           },
           "tutorials": {
             "keyword": "claude-howto 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=claude-howto%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "claude-plugins-official",
+          "owner": "anthropics",
+          "fullName": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "homepage": "https://code.claude.com/docs/en/plugins",
+          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "descriptionZh": "官方,人類管理的高質量目錄 Claude Code 插件s。",
+          "language": "Python",
+          "license": "Apache-2.0",
+          "stars": 39961,
+          "starsText": "4 万",
+          "forks": 4365,
+          "forksText": "4.4k",
+          "openIssues": 1133,
+          "archived": false,
+          "topics": [
+            {
+              "key": "claude-code",
+              "zh": "Claude Code"
+            },
+            {
+              "key": "mcp",
+              "zh": "MCP 协议"
+            },
+            {
+              "key": "skills",
+              "zh": "技能包"
+            }
+          ],
+          "category": "ai-plugin",
+          "ageDays": 330,
+          "createdAt": "2025-11-20T18:36:20Z",
+          "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+          "curve": {
+            "points": [
+              [
+                1792072484,
+                38441
+              ],
+              [
+                1792159759,
+                39961
+              ]
+            ],
+            "source": "measured",
+            "delta": 1520,
+            "days": 1,
+            "perDay": 1505
+          },
+          "tutorials": {
+            "keyword": "claude-plugins-official 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=claude-plugins-official%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2753,7 +2839,7 @@
           "descriptionZh": "团队第一台为Claude·科德的多代理管弦乐队",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 39959,
+          "stars": 39960,
           "starsText": "4 万",
           "forks": 3583,
           "forksText": "3.6k",
@@ -2792,82 +2878,24 @@
           "curve": {
             "points": [
               [
-                1767929789,
-                0
+                1792072484,
+                39924
               ],
               [
-                1792157205,
-                39959
+                1792159759,
+                39960
               ]
             ],
-            "source": "projected",
-            "delta": 39959,
-            "days": 280,
-            "perDay": 143
+            "source": "measured",
+            "delta": 36,
+            "days": 1,
+            "perDay": 36
           },
           "tutorials": {
             "keyword": "oh-my-claudecode 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=oh-my-claudecode%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
-          "name": "claude-plugins-official",
-          "owner": "anthropics",
-          "fullName": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "homepage": "https://code.claude.com/docs/en/plugins",
-          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-          "descriptionZh": "官方,人類管理的高質量目錄 Claude Code 插件s。",
-          "language": "Python",
-          "license": "Apache-2.0",
-          "stars": 39913,
-          "starsText": "4 万",
-          "forks": 4363,
-          "forksText": "4.4k",
-          "openIssues": 1133,
-          "archived": false,
-          "topics": [
-            {
-              "key": "claude-code",
-              "zh": "Claude Code"
-            },
-            {
-              "key": "mcp",
-              "zh": "MCP 协议"
-            },
-            {
-              "key": "skills",
-              "zh": "技能包"
-            }
-          ],
-          "category": "ai-plugin",
-          "ageDays": 330,
-          "createdAt": "2025-11-20T18:36:20Z",
-          "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-          "curve": {
-            "points": [
-              [
-                1763663780,
-                0
-              ],
-              [
-                1792157205,
-                39913
-              ]
-            ],
-            "source": "projected",
-            "delta": 39913,
-            "days": 330,
-            "perDay": 121
-          },
-          "tutorials": {
-            "keyword": "claude-plugins-official 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=claude-plugins-official%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -2881,7 +2909,7 @@
           "descriptionZh": "用一个命令克隆任何网站使用AI编码代理",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 36865,
+          "stars": 36868,
           "starsText": "3.7 万",
           "forks": 5424,
           "forksText": "5.4k",
@@ -2920,18 +2948,18 @@
           "curve": {
             "points": [
               [
-                1773400479,
-                0
+                1792072484,
+                36818
               ],
               [
-                1792157205,
-                36865
+                1792159759,
+                36868
               ]
             ],
-            "source": "projected",
-            "delta": 36865,
-            "days": 217,
-            "perDay": 170
+            "source": "measured",
+            "delta": 50,
+            "days": 1,
+            "perDay": 49
           },
           "tutorials": {
             "keyword": "ai-website-cloner-template 安装教程",
@@ -2951,9 +2979,9 @@
           "descriptionZh": "由官方开发团队和社区组成的1000多个代理技能,兼容 Claude Code、Codex、Gemini CLI、Cursor等。",
           "language": "",
           "license": "MIT",
-          "stars": 35824,
+          "stars": 35826,
           "starsText": "3.6 万",
-          "forks": 3886,
+          "forks": 3887,
           "forksText": "3.9k",
           "openIssues": 49,
           "archived": false,
@@ -2990,18 +3018,18 @@
           "curve": {
             "points": [
               [
-                1761641732,
-                0
+                1792072484,
+                35759
               ],
               [
-                1792157205,
-                35824
+                1792159759,
+                35826
               ]
             ],
-            "source": "projected",
-            "delta": 35824,
-            "days": 353,
-            "perDay": 101
+            "source": "measured",
+            "delta": 67,
+            "days": 1,
+            "perDay": 66
           },
           "tutorials": {
             "keyword": "awesome-agent-skills 安装教程",
@@ -3021,7 +3049,7 @@
           "descriptionZh": "开放代理技能工具 - npx技能",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 35194,
+          "stars": 35201,
           "starsText": "3.5 万",
           "forks": 3003,
           "forksText": "3k",
@@ -3035,18 +3063,18 @@
           "curve": {
             "points": [
               [
-                1768426278,
-                0
+                1792072484,
+                35047
               ],
               [
-                1792157205,
-                35194
+                1792159759,
+                35201
               ]
             ],
-            "source": "projected",
-            "delta": 35194,
-            "days": 275,
-            "perDay": 128
+            "source": "measured",
+            "delta": 154,
+            "days": 1,
+            "perDay": 152
           },
           "tutorials": {
             "keyword": "skills 安装教程",
@@ -3094,9 +3122,9 @@
           "descriptionZh": "将任何技术书 PDF 转化为 Claude Code 技能 - 准备在您工作时学习,参考和使用。",
           "language": "Python",
           "license": "MIT",
-          "stars": 35035,
+          "stars": 35039,
           "starsText": "3.5 万",
-          "forks": 3687,
+          "forks": 3688,
           "forksText": "3.7k",
           "openIssues": 20,
           "archived": false,
@@ -3133,18 +3161,18 @@
           "curve": {
             "points": [
               [
-                1777601379,
-                0
+                1792072484,
+                34939
               ],
               [
-                1792157205,
-                35035
+                1792159759,
+                35039
               ]
             ],
-            "source": "projected",
-            "delta": 35035,
-            "days": 168,
-            "perDay": 209
+            "source": "measured",
+            "delta": 100,
+            "days": 1,
+            "perDay": 99
           },
           "tutorials": {
             "keyword": "book-to-skill 安装教程",
@@ -3164,7 +3192,7 @@
           "descriptionZh": "人工智能代理的817个结构化网络安全技能 · 地图为6个框架:MITRE ATT&CK,NIST CSF 2.0,MITRE ATLAS,D3FEND,NIST AI RMF & MITRE F3 (打击欺诈) · agentskills.io标准 · 与Claude Code,GitHub Copilot,Codex CLI,Cursor,Gemini CLI和20多个平台合作 · 29个安全域 ·Apache 2.0",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 34542,
+          "stars": 34544,
           "starsText": "3.5 万",
           "forks": 4213,
           "forksText": "4.2k",
@@ -3203,18 +3231,18 @@
           "curve": {
             "points": [
               [
-                1772012870,
-                0
+                1792072484,
+                34490
               ],
               [
-                1792157205,
-                34542
+                1792159759,
+                34544
               ]
             ],
-            "source": "projected",
-            "delta": 34542,
-            "days": 233,
-            "perDay": 148
+            "source": "measured",
+            "delta": 54,
+            "days": 1,
+            "perDay": 53
           },
           "tutorials": {
             "keyword": "Anthropic-Cybersecurity-Skills 安装教程",
@@ -3234,7 +3262,7 @@
           "descriptionZh": "使用 Claude Code 的 Codex 来审查代码或授权任务。",
           "language": "JavaScript",
           "license": "Apache-2.0",
-          "stars": 34282,
+          "stars": 34283,
           "starsText": "3.4 万",
           "forks": 2419,
           "forksText": "2.4k",
@@ -3248,18 +3276,18 @@
           "curve": {
             "points": [
               [
-                1774884592,
-                0
+                1792072484,
+                34252
               ],
               [
-                1792157205,
-                34282
+                1792159759,
+                34283
               ]
             ],
-            "source": "projected",
-            "delta": 34282,
-            "days": 200,
-            "perDay": 171
+            "source": "measured",
+            "delta": 31,
+            "days": 1,
+            "perDay": 31
           },
           "tutorials": {
             "keyword": "codex-plugin-cc 安装教程",
@@ -3292,7 +3320,7 @@
           "starsText": "39.2 万",
           "forks": 82461,
           "forksText": "8.2 万",
-          "openIssues": 9395,
+          "openIssues": 9394,
           "archived": false,
           "topics": [
             {
@@ -3327,18 +3355,18 @@
           "curve": {
             "points": [
               [
-                1763979407,
-                0
+                1792072484,
+                392078
               ],
               [
-                1792157205,
+                1792159759,
                 392165
               ]
             ],
-            "source": "projected",
-            "delta": 392165,
-            "days": 326,
-            "perDay": 1203
+            "source": "measured",
+            "delta": 87,
+            "days": 1,
+            "perDay": 86
           },
           "tutorials": {
             "keyword": "openclaw 安装教程",
@@ -3386,9 +3414,9 @@
           "descriptionZh": "真正的工程师技能. 直接从我的 .agents 目录。",
           "language": "Shell",
           "license": "MIT",
-          "stars": 293613,
+          "stars": 293651,
           "starsText": "29.4 万",
-          "forks": 24617,
+          "forks": 24619,
           "forksText": "2.5 万",
           "openIssues": 187,
           "archived": false,
@@ -3400,18 +3428,18 @@
           "curve": {
             "points": [
               [
-                1770117353,
-                0
+                1792072484,
+                292242
               ],
               [
-                1792157205,
-                293613
+                1792159759,
+                293651
               ]
             ],
-            "source": "projected",
-            "delta": 293613,
-            "days": 255,
-            "perDay": 1151
+            "source": "measured",
+            "delta": 1409,
+            "days": 1,
+            "perDay": 1395
           },
           "tutorials": {
             "keyword": "skills 安装教程",
@@ -3459,9 +3487,9 @@
           "descriptionZh": "DeepSeek Harness:一切都是一个插件。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 250958,
+          "stars": 250987,
           "starsText": "25.1 万",
-          "forks": 30175,
+          "forks": 30178,
           "forksText": "3 万",
           "openIssues": 0,
           "archived": false,
@@ -3490,18 +3518,18 @@
           "curve": {
             "points": [
               [
-                1786622192,
-                0
+                1792072484,
+                250238
               ],
               [
-                1792157205,
-                250958
+                1792159759,
+                250987
               ]
             ],
-            "source": "projected",
-            "delta": 250958,
-            "days": 64,
-            "perDay": 3921
+            "source": "measured",
+            "delta": 749,
+            "days": 1,
+            "perDay": 741
           },
           "tutorials": {
             "keyword": "deepseek-harness 安装教程",
@@ -3549,9 +3577,9 @@
           "descriptionZh": "由代理人管理的博物馆展览,用Gajae-Code / LazyCodex在鲁斯特建造 - 没有人为干预而开发和维护。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 194925,
+          "stars": 194926,
           "starsText": "19.5 万",
-          "forks": 107953,
+          "forks": 107951,
           "forksText": "10.8 万",
           "openIssues": 7,
           "archived": false,
@@ -3563,24 +3591,24 @@
           "curve": {
             "points": [
               [
-                1774947488,
-                0
+                1792072484,
+                194913
               ],
               [
-                1792157205,
-                194925
+                1792159759,
+                194926
               ]
             ],
-            "source": "projected",
-            "delta": 194925,
-            "days": 199,
-            "perDay": 980
+            "source": "measured",
+            "delta": 13,
+            "days": 1,
+            "perDay": 13
           },
           "tutorials": {
             "keyword": "claw-code 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=claw-code%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -3594,9 +3622,9 @@
           "descriptionZh": "让你的AI代理人像房间里最懒惰的高级开发人员一样思考,最好的代码是你从未写过的代码。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 164917,
+          "stars": 164938,
           "starsText": "16.5 万",
-          "forks": 8897,
+          "forks": 8899,
           "forksText": "8.9k",
           "openIssues": 19,
           "archived": false,
@@ -3633,18 +3661,18 @@
           "curve": {
             "points": [
               [
-                1781225557,
-                0
+                1792072484,
+                164093
               ],
               [
-                1792157205,
-                164917
+                1792159759,
+                164938
               ]
             ],
-            "source": "projected",
-            "delta": 164917,
-            "days": 127,
-            "perDay": 1299
+            "source": "measured",
+            "delta": 845,
+            "days": 1,
+            "perDay": 837
           },
           "tutorials": {
             "keyword": "ponytail 安装教程",
@@ -3683,9 +3711,9 @@
           "descriptionZh": "为什么要使用许多代币,而只有少数代币可以做些什么? 病毒技能 + 代理程序用于编码代理商,通过像洞穴人一样说话来削减65%的代币。",
           "language": "Go",
           "license": "Apache-2.0",
-          "stars": 112986,
+          "stars": 112995,
           "starsText": "11.3 万",
-          "forks": 6537,
+          "forks": 6538,
           "forksText": "6.5k",
           "openIssues": 74,
           "archived": false,
@@ -3722,24 +3750,24 @@
           "curve": {
             "points": [
               [
-                1775296980,
-                0
+                1792072484,
+                112166
               ],
               [
-                1792157205,
-                112986
+                1792159759,
+                112995
               ]
             ],
-            "source": "projected",
-            "delta": 112986,
-            "days": 195,
-            "perDay": 579
+            "source": "measured",
+            "delta": 829,
+            "days": 1,
+            "perDay": 821
           },
           "tutorials": {
             "keyword": "caveman 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=caveman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -3767,18 +3795,18 @@
           "curve": {
             "points": [
               [
-                1772834443,
-                0
+                1792072484,
+                97950
               ],
               [
-                1792157205,
+                1792159759,
                 98013
               ]
             ],
-            "source": "projected",
-            "delta": 98013,
-            "days": 224,
-            "perDay": 438
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "autoresearch 安装教程",
@@ -3808,11 +3836,11 @@
           "descriptionZh": "CLI代理,可在常见的开发者命令中降低LLM代币消耗量60%至90%。单Rust二进制,零依赖",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 83591,
+          "stars": 83597,
           "starsText": "8.4 万",
-          "forks": 5304,
+          "forks": 5306,
           "forksText": "5.3k",
-          "openIssues": 1535,
+          "openIssues": 1537,
           "archived": false,
           "topics": [
             {
@@ -3847,18 +3875,18 @@
           "curve": {
             "points": [
               [
-                1769100856,
-                0
+                1792072484,
+                83449
               ],
               [
-                1792157205,
-                83591
+                1792159759,
+                83597
               ]
             ],
-            "source": "projected",
-            "delta": 83591,
-            "days": 267,
-            "perDay": 313
+            "source": "measured",
+            "delta": 148,
+            "days": 1,
+            "perDay": 147
           },
           "tutorials": {
             "keyword": "rtk 安装教程",
@@ -3906,32 +3934,32 @@
           "descriptionZh": "设计语言,使你的AI在设计上更好地利用。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 81835,
+          "stars": 81852,
           "starsText": "8.2 万",
-          "forks": 4907,
+          "forks": 4911,
           "forksText": "4.9k",
           "openIssues": 43,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 334,
+          "ageDays": 335,
           "createdAt": "2025-11-16T01:52:04Z",
           "avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
           "curve": {
             "points": [
               [
-                1763257924,
-                0
+                1792072484,
+                81461
               ],
               [
-                1792157205,
-                81835
+                1792159759,
+                81852
               ]
             ],
-            "source": "projected",
-            "delta": 81835,
-            "days": 334,
-            "perDay": 245
+            "source": "measured",
+            "delta": 391,
+            "days": 1,
+            "perDay": 387
           },
           "tutorials": {
             "keyword": "impeccable 安装教程",
@@ -3970,7 +3998,7 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "AGPL-3.0",
-          "stars": 79638,
+          "stars": 79649,
           "starsText": "8 万",
           "forks": 12082,
           "forksText": "1.2 万",
@@ -4009,18 +4037,18 @@
           "curve": {
             "points": [
               [
-                1764130982,
-                0
+                1792072484,
+                79391
               ],
               [
-                1792157205,
-                79638
+                1792159759,
+                79649
               ]
             ],
-            "source": "projected",
-            "delta": 79638,
-            "days": 324,
-            "perDay": 246
+            "source": "measured",
+            "delta": 258,
+            "days": 1,
+            "perDay": 255
           },
           "tutorials": {
             "keyword": "MiroFish 安装教程",
@@ -4059,9 +4087,9 @@
           "descriptionZh": "在他们到达LLM之前,压缩工具输出、日志、文件和RAG片段. 编码代理的代币减少20%,JSON的代币减少60%至95%,相同的答案。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 75488,
+          "stars": 75490,
           "starsText": "7.5 万",
-          "forks": 5861,
+          "forks": 5862,
           "forksText": "5.9k",
           "openIssues": 449,
           "archived": false,
@@ -4098,18 +4126,18 @@
           "curve": {
             "points": [
               [
-                1767815931,
-                0
+                1792072484,
+                75408
               ],
               [
-                1792157205,
-                75488
+                1792159759,
+                75490
               ]
             ],
-            "source": "projected",
-            "delta": 75488,
-            "days": 282,
-            "perDay": 268
+            "source": "measured",
+            "delta": 82,
+            "days": 1,
+            "perDay": 81
           },
           "tutorials": {
             "keyword": "headroom 安装教程",
@@ -4148,11 +4176,11 @@
           "descriptionZh": "OmO:只需用你的提示键入“mass ulw”关键字,现在你是图形工程的主人。",
           "language": "TypeScript",
           "license": "",
-          "stars": 70103,
+          "stars": 70105,
           "starsText": "7 万",
           "forks": 5768,
           "forksText": "5.8k",
-          "openIssues": 1372,
+          "openIssues": 1373,
           "archived": false,
           "topics": [
             {
@@ -4181,24 +4209,24 @@
             }
           ],
           "category": "ai",
-          "ageDays": 317,
+          "ageDays": 318,
           "createdAt": "2025-12-03T01:40:05Z",
           "avatar": "https://avatars.githubusercontent.com/u/11153873?v=4",
           "curve": {
             "points": [
               [
-                1764726005,
-                0
+                1792072484,
+                70057
               ],
               [
-                1792157205,
-                70103
+                1792159759,
+                70105
               ]
             ],
-            "source": "projected",
-            "delta": 70103,
-            "days": 317,
-            "perDay": 221
+            "source": "measured",
+            "delta": 48,
+            "days": 1,
+            "perDay": 48
           },
           "tutorials": {
             "keyword": "oh-my-openagent 安装教程",
@@ -4239,7 +4267,7 @@
           "license": "MIT",
           "stars": 66460,
           "starsText": "6.6 万",
-          "forks": 55300,
+          "forks": 55301,
           "forksText": "5.5 万",
           "openIssues": 38,
           "archived": false,
@@ -4276,24 +4304,24 @@
           "curve": {
             "points": [
               [
-                1768027400,
-                0
+                1792072484,
+                66397
               ],
               [
-                1792157205,
+                1792159759,
                 66460
               ]
             ],
-            "source": "projected",
-            "delta": 66460,
-            "days": 279,
-            "perDay": 238
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "daily_stock_analysis 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=daily_stock_analysis%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -4307,7 +4335,7 @@
           "descriptionZh": "人工智能将文档或主题转化为真实的原生PowerPoint桌面 - 具有原生形状,过渡和动画,基于数据的图表和按需表,来自扬声器笔记的音频叙述,并支持您自己的 .pptx 模板。",
           "language": "Python",
           "license": "MIT",
-          "stars": 62656,
+          "stars": 62669,
           "starsText": "6.3 万",
           "forks": 4967,
           "forksText": "5k",
@@ -4346,24 +4374,24 @@
           "curve": {
             "points": [
               [
-                1765349673,
-                0
+                1792072484,
+                62354
               ],
               [
-                1792157205,
-                62656
+                1792159759,
+                62669
               ]
             ],
-            "source": "projected",
-            "delta": 62656,
-            "days": 310,
-            "perDay": 202
+            "source": "measured",
+            "delta": 315,
+            "days": 1,
+            "perDay": 312
           },
           "tutorials": {
             "keyword": "ppt-master 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ppt-master%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -4381,7 +4409,7 @@
           "starsText": "6 万",
           "forks": 7564,
           "forksText": "7.6k",
-          "openIssues": 823,
+          "openIssues": 818,
           "archived": false,
           "topics": [
             {
@@ -4416,24 +4444,24 @@
           "curve": {
             "points": [
               [
-                1775351527,
-                0
+                1792072484,
+                59572
               ],
               [
-                1792157205,
+                1792159759,
                 59592
               ]
             ],
-            "source": "projected",
-            "delta": 59592,
-            "days": 195,
-            "perDay": 306
+            "source": "measured",
+            "delta": 20,
+            "days": 1,
+            "perDay": 20
           },
           "tutorials": {
             "keyword": "mempalace 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=mempalace%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -4447,7 +4475,7 @@
           "descriptionZh": "开源AI语音工作室:克隆、命令、创造。",
           "language": "Python",
           "license": "MIT",
-          "stars": 57664,
+          "stars": 57670,
           "starsText": "5.8 万",
           "forks": 7223,
           "forksText": "7.2k",
@@ -4486,18 +4514,18 @@
           "curve": {
             "points": [
               [
-                1769344023,
-                0
+                1792072484,
+                57553
               ],
               [
-                1792157205,
-                57664
+                1792159759,
+                57670
               ]
             ],
-            "source": "projected",
-            "delta": 57664,
-            "days": 264,
-            "perDay": 218
+            "source": "measured",
+            "delta": 117,
+            "days": 1,
+            "perDay": 116
           },
           "tutorials": {
             "keyword": "voicebox 安装教程",
@@ -4545,9 +4573,9 @@
           "descriptionZh": "代理技能,从文本中删除人工智能生成的写作迹象",
           "language": "Python",
           "license": "MIT",
-          "stars": 57470,
+          "stars": 57483,
           "starsText": "5.7 万",
-          "forks": 4551,
+          "forks": 4552,
           "forksText": "4.6k",
           "openIssues": 5,
           "archived": false,
@@ -4584,18 +4612,18 @@
           "curve": {
             "points": [
               [
-                1768714215,
-                0
+                1792072484,
+                57170
               ],
               [
-                1792157205,
-                57470
+                1792159759,
+                57483
               ]
             ],
-            "source": "projected",
-            "delta": 57470,
-            "days": 271,
-            "perDay": 212
+            "source": "measured",
+            "delta": 313,
+            "days": 1,
+            "perDay": 310
           },
           "tutorials": {
             "keyword": "humanizer 安装教程",
@@ -4647,7 +4675,7 @@
           "starsText": "5.3 万",
           "forks": 6939,
           "forksText": "6.9k",
-          "openIssues": 1883,
+          "openIssues": 1884,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -4657,18 +4685,18 @@
           "curve": {
             "points": [
               [
-                1768327186,
-                0
+                1792072484,
+                52896
               ],
               [
-                1792157205,
+                1792159759,
                 53006
               ]
             ],
-            "source": "projected",
-            "delta": 53006,
-            "days": 276,
-            "perDay": 192
+            "source": "measured",
+            "delta": 110,
+            "days": 1,
+            "perDay": 109
           },
           "tutorials": {
             "keyword": "multica 安装教程",
@@ -4716,11 +4744,11 @@
           "descriptionZh": "洞察力:学习的代理记忆",
           "language": "Python",
           "license": "MIT",
-          "stars": 50327,
+          "stars": 50342,
           "starsText": "5 万",
           "forks": 6097,
           "forksText": "6.1k",
-          "openIssues": 169,
+          "openIssues": 160,
           "archived": false,
           "topics": [
             {
@@ -4747,18 +4775,18 @@
           "curve": {
             "points": [
               [
-                1761824988,
-                0
+                1792072484,
+                49937
               ],
               [
-                1792157205,
-                50327
+                1792159759,
+                50342
               ]
             ],
-            "source": "projected",
-            "delta": 50327,
-            "days": 351,
-            "perDay": 143
+            "source": "measured",
+            "delta": 405,
+            "days": 1,
+            "perDay": 401
           },
           "tutorials": {
             "keyword": "hindsight 安装教程",
@@ -4845,18 +4873,18 @@
           "curve": {
             "points": [
               [
-                1769930175,
-                0
+                1792072484,
+                49052
               ],
               [
-                1792157205,
+                1792159759,
                 49086
               ]
             ],
-            "source": "projected",
-            "delta": 49086,
-            "days": 257,
-            "perDay": 191
+            "source": "measured",
+            "delta": 34,
+            "days": 1,
+            "perDay": 34
           },
           "tutorials": {
             "keyword": "nanobot 安装教程",
@@ -4904,9 +4932,9 @@
           "descriptionZh": "混合架构代码审查工具:确定性管道 + LLM代理,精确的线程级评论,内置的多语言规则集(NPE,线程安全,XSS,SQL注射),OpenAI & Anthropic兼容。",
           "language": "Go",
           "license": "Apache-2.0",
-          "stars": 47473,
+          "stars": 47478,
           "starsText": "4.7 万",
-          "forks": 3458,
+          "forks": 3459,
           "forksText": "3.5k",
           "openIssues": 315,
           "archived": false,
@@ -4943,18 +4971,18 @@
           "curve": {
             "points": [
               [
-                1779070596,
-                0
+                1792072484,
+                47311
               ],
               [
-                1792157205,
-                47473
+                1792159759,
+                47478
               ]
             ],
-            "source": "projected",
-            "delta": 47473,
-            "days": 151,
-            "perDay": 314
+            "source": "measured",
+            "delta": 167,
+            "days": 1,
+            "perDay": 165
           },
           "tutorials": {
             "keyword": "open-code-review 安装教程",
@@ -4993,11 +5021,11 @@
           "descriptionZh": "",
           "language": "Go",
           "license": "LGPL-3.0",
-          "stars": 44201,
+          "stars": 44206,
           "starsText": "4.4 万",
-          "forks": 9459,
+          "forks": 9461,
           "forksText": "9.5k",
-          "openIssues": 3617,
+          "openIssues": 3618,
           "archived": false,
           "topics": [
             {
@@ -5032,25 +5060,53 @@
           "curve": {
             "points": [
               [
-                1766024778,
-                0
+                1792072484,
+                44105
               ],
               [
-                1792157205,
-                44201
+                1792159759,
+                44206
               ]
             ],
-            "source": "projected",
-            "delta": 44201,
-            "days": 302,
-            "perDay": 146
+            "source": "measured",
+            "delta": 101,
+            "days": 1,
+            "perDay": 100
           },
           "tutorials": {
             "keyword": "sub2api 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=sub2api%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1aCdSBYEhY",
+                "title": "第1期：sub2api小白手把手部署教程，把大模型网页会员订阅转化成api，实现token自由",
+                "author": "吴宾",
+                "play": 15998,
+                "playText": "1.6 万",
+                "durationText": "14:33",
+                "url": "https://www.bilibili.com/video/BV1aCdSBYEhY"
+              },
+              {
+                "bvid": "BV1T3dSBsEtC",
+                "title": "第2期：手把手教你用Codex对接sub2api，告别Codex 官方 API 经常抽风、网络不稳定、Token 价格越来越贵",
+                "author": "吴宾",
+                "play": 17893,
+                "playText": "1.8 万",
+                "durationText": "7:28",
+                "url": "https://www.bilibili.com/video/BV1T3dSBsEtC"
+              },
+              {
+                "bvid": "BV1KX9UBDE6E",
+                "title": "sub2api的部署教程",
+                "author": "MMBOA",
+                "play": 3723,
+                "playText": "3.7k",
+                "durationText": "18:50",
+                "url": "https://www.bilibili.com/video/BV1KX9UBDE6E"
+              }
+            ]
           }
         },
         {
@@ -5063,11 +5119,11 @@
           "descriptionZh": "用于AI代理的浏览器自动化 CLI",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 44081,
+          "stars": 44084,
           "starsText": "4.4 万",
           "forks": 2993,
           "forksText": "3k",
-          "openIssues": 886,
+          "openIssues": 887,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -5077,25 +5133,44 @@
           "curve": {
             "points": [
               [
-                1768109895,
-                0
+                1792072484,
+                44010
               ],
               [
-                1792157205,
-                44081
+                1792159759,
+                44084
               ]
             ],
-            "source": "projected",
-            "delta": 44081,
-            "days": 278,
-            "perDay": 159
+            "source": "measured",
+            "delta": 74,
+            "days": 1,
+            "perDay": 73
           },
           "tutorials": {
             "keyword": "agent-browser 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=agent-browser%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1UvXVBnEy6",
+                "title": "AI 浏览器自动化工具实测：Agent Browser、Browser Use、Playwright CLI 谁更强？ | 中文配音",
+                "author": "未来变量relaunch",
+                "play": 13785,
+                "playText": "1.4 万",
+                "durationText": "20:58",
+                "url": "https://www.bilibili.com/video/BV1UvXVBnEy6"
+              },
+              {
+                "bvid": "BV1Kvc6z1EQu",
+                "title": "全网最详细教程：OpenClaw + Agent Browser 省 93% 上下文的浏览器方案！",
+                "author": "Harness工程",
+                "play": 2479,
+                "playText": "2.5k",
+                "durationText": "11:7",
+                "url": "https://www.bilibili.com/video/BV1Kvc6z1EQu"
+              }
+            ]
           }
         },
         {
@@ -5108,11 +5183,11 @@
           "descriptionZh": "最快、最便宜、最有效的开源代理工具,在10美元的VPS上运行超过500个代理。",
           "language": "Rust",
           "license": "GPL-3.0",
-          "stars": 42105,
+          "stars": 42106,
           "starsText": "4.2 万",
-          "forks": 4150,
+          "forks": 4151,
           "forksText": "4.2k",
-          "openIssues": 337,
+          "openIssues": 336,
           "archived": false,
           "topics": [
             {
@@ -5147,25 +5222,35 @@
           "curve": {
             "points": [
               [
-                1771444887,
-                0
+                1792072484,
+                42017
               ],
               [
-                1792157205,
-                42105
+                1792159759,
+                42106
               ]
             ],
-            "source": "projected",
-            "delta": 42105,
-            "days": 240,
-            "perDay": 175
+            "source": "measured",
+            "delta": 89,
+            "days": 1,
+            "perDay": 88
           },
           "tutorials": {
             "keyword": "openhuman 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=openhuman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1LGLP61Esk",
+                "title": "openhuman-AI智能助手/Agent智能体安装教程及注意事项",
+                "author": "ThinkIn2024",
+                "play": 3060,
+                "playText": "3.1k",
+                "durationText": "10:47",
+                "url": "https://www.bilibili.com/video/BV1LGLP61Esk"
+              }
+            ]
           }
         },
         {
@@ -5178,9 +5263,9 @@
           "descriptionZh": "深度导师:终身个性化导师. https://deeptutor.info/.",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 41493,
+          "stars": 41494,
           "starsText": "4.1 万",
-          "forks": 5231,
+          "forks": 5232,
           "forksText": "5.2k",
           "openIssues": 256,
           "archived": false,
@@ -5217,25 +5302,53 @@
           "curve": {
             "points": [
               [
-                1766936154,
-                0
+                1792072484,
+                41440
               ],
               [
-                1792157205,
-                41493
+                1792159759,
+                41494
               ]
             ],
-            "source": "projected",
-            "delta": 41493,
-            "days": 292,
-            "perDay": 142
+            "source": "measured",
+            "delta": 54,
+            "days": 1,
+            "perDay": 53
           },
           "tutorials": {
             "keyword": "DeepTutor 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=DeepTutor%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1dTrvBfE1U",
+                "title": "deeptutor本地部署与桌面版对比",
+                "author": "黄楚峰",
+                "play": 5923,
+                "playText": "5.9k",
+                "durationText": "12:11",
+                "url": "https://www.bilibili.com/video/BV1dTrvBfE1U"
+              },
+              {
+                "bvid": "BV1gFgs62EbX",
+                "title": "港大爆火AI导师DeepTutor本地部署，零基础也能装！",
+                "author": "君泽Ai",
+                "play": 4754,
+                "playText": "4.8k",
+                "durationText": "6:34",
+                "url": "https://www.bilibili.com/video/BV1gFgs62EbX"
+              },
+              {
+                "bvid": "BV1yi876iECe",
+                "title": "DeepTutor教研工作台完整使用教程",
+                "author": "SmartSchool教学助手",
+                "play": 1967,
+                "playText": "2k",
+                "durationText": "8:3",
+                "url": "https://www.bilibili.com/video/BV1yi876iECe"
+              }
+            ]
           }
         },
         {
@@ -5248,7 +5361,7 @@
           "descriptionZh": "开放的多代理互动教室 - 只需单击获得沉浸式的多代理学习体验",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 40875,
+          "stars": 40879,
           "starsText": "4.1 万",
           "forks": 6333,
           "forksText": "6.3k",
@@ -5262,25 +5375,53 @@
           "curve": {
             "points": [
               [
-                1773223996,
-                0
+                1792072484,
+                40803
               ],
               [
-                1792157205,
-                40875
+                1792159759,
+                40879
               ]
             ],
-            "source": "projected",
-            "delta": 40875,
-            "days": 219,
-            "perDay": 187
+            "source": "measured",
+            "delta": 76,
+            "days": 1,
+            "perDay": 75
           },
           "tutorials": {
             "keyword": "OpenMAIC 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=OpenMAIC%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1tjAgzAEtQ",
+                "title": "一句话自动生成一整门课！清华开源AI课堂OpenMAIC，非常实用的学习、备课工具。附本地部署与使用教程。",
+                "author": "AI百晓生",
+                "play": 16350,
+                "playText": "1.6 万",
+                "durationText": "7:36",
+                "url": "https://www.bilibili.com/video/BV1tjAgzAEtQ"
+              },
+              {
+                "bvid": "BV1isYy66E98",
+                "title": "OpenMAIC本地部署完整教程：20分钟搭建多智能体AI课堂｜Node.js＋Docker＋本地模",
+                "author": "AIStackNav",
+                "play": 461,
+                "playText": "461",
+                "durationText": "20:1",
+                "url": "https://www.bilibili.com/video/BV1isYy66E98"
+              },
+              {
+                "bvid": "BV1sNdoBrEFL",
+                "title": "用OpenMAIC编写安装OpenMAIC的教程",
+                "author": "tonguecyt",
+                "play": 172,
+                "playText": "172",
+                "durationText": "4:37",
+                "url": "https://www.bilibili.com/video/BV1sNdoBrEFL"
+              }
+            ]
           }
         },
         {
@@ -5293,9 +5434,9 @@
           "descriptionZh": "人工智能代理人的自我发展背景数据库. 统一代理记忆,知识RAG和技能。",
           "language": "Python",
           "license": "AGPL-3.0",
-          "stars": 40081,
+          "stars": 40087,
           "starsText": "4 万",
-          "forks": 3188,
+          "forks": 3190,
           "forksText": "3.2k",
           "openIssues": 940,
           "archived": false,
@@ -5332,25 +5473,53 @@
           "curve": {
             "points": [
               [
-                1767597077,
-                0
+                1792072484,
+                39986
               ],
               [
-                1792157205,
-                40081
+                1792159759,
+                40087
               ]
             ],
-            "source": "projected",
-            "delta": 40081,
-            "days": 284,
-            "perDay": 141
+            "source": "measured",
+            "delta": 101,
+            "days": 1,
+            "perDay": 100
           },
           "tutorials": {
             "keyword": "OpenViking 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=OpenViking%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1uaWA6HEwd",
+                "title": "OpenViking 和 Hindsight 怎么选？同一套资料实测 14 题",
+                "author": "AIlazy俊",
+                "play": 1316,
+                "playText": "1.3k",
+                "durationText": "5:17",
+                "url": "https://www.bilibili.com/video/BV1uaWA6HEwd"
+              },
+              {
+                "bvid": "BV1i7tt6kEt8",
+                "title": "【中配】AI智能体记忆层开源项目OpenViking：成本暴降91%！",
+                "author": "薛定猫AI",
+                "play": 338,
+                "playText": "338",
+                "durationText": "20:0",
+                "url": "https://www.bilibili.com/video/BV1i7tt6kEt8"
+              },
+              {
+                "bvid": "BV1oEe26LEtz",
+                "title": "给 DeepSeek Harness 装个记忆：OpenViking 实测，token 降 91%",
+                "author": "嘟嘟嘟嘟君",
+                "play": 10706,
+                "playText": "1.1 万",
+                "durationText": "1:36",
+                "url": "https://www.bilibili.com/video/BV1oEe26LEtz"
+              }
+            ]
           }
         },
         {
@@ -5363,9 +5532,9 @@
           "descriptionZh": "数以百计的模型和供应商. 一个命令来找出在您的硬件上运行的是什么。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 37978,
+          "stars": 37980,
           "starsText": "3.8 万",
-          "forks": 2442,
+          "forks": 2441,
           "forksText": "2.4k",
           "openIssues": 52,
           "archived": false,
@@ -5402,25 +5571,35 @@
           "curve": {
             "points": [
               [
-                1771171891,
-                0
+                1792072484,
+                37942
               ],
               [
-                1792157205,
-                37978
+                1792159759,
+                37980
               ]
             ],
-            "source": "projected",
-            "delta": 37978,
-            "days": 243,
-            "perDay": 156
+            "source": "measured",
+            "delta": 38,
+            "days": 1,
+            "perDay": 38
           },
           "tutorials": {
             "keyword": "llmfit 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=llmfit%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV15vZrBXEdh",
+                "title": "一条命令告诉你电脑能跑哪些大模型！LLMfit 开源硬件匹配神器",
+                "author": "锋芒AI",
+                "play": 1881,
+                "playText": "1.9k",
+                "durationText": "1:15",
+                "url": "https://www.bilibili.com/video/BV15vZrBXEdh"
+              }
+            ]
           }
         },
         {
@@ -5433,11 +5612,11 @@
           "descriptionZh": "每月有 7.4 亿个代币. 34 个免费的 LLM 提供商. 635 个免费的模型终端点. 一切都落后于一个 /v1 终端点,加上任何自定义的 OpenAI 兼容终端点. 智能路由,自动故障转移,加密密钥. 个人实验。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 36019,
+          "stars": 36031,
           "starsText": "3.6 万",
-          "forks": 4853,
+          "forks": 4857,
           "forksText": "4.9k",
-          "openIssues": 35,
+          "openIssues": 36,
           "archived": false,
           "topics": [],
           "category": "ai",
@@ -5447,18 +5626,18 @@
           "curve": {
             "points": [
               [
-                1776778739,
-                0
+                1792072484,
+                35582
               ],
               [
-                1792157205,
-                36019
+                1792159759,
+                36031
               ]
             ],
-            "source": "projected",
-            "delta": 36019,
-            "days": 178,
-            "perDay": 202
+            "source": "measured",
+            "delta": 449,
+            "days": 1,
+            "perDay": 444
           },
           "tutorials": {
             "keyword": "freellmapi 安装教程",
@@ -5478,11 +5657,11 @@
           "descriptionZh": "可靠的编码代理,用于复杂的软件工程任务。",
           "language": "Go",
           "license": "MIT",
-          "stars": 35818,
+          "stars": 35819,
           "starsText": "3.6 万",
           "forks": 2454,
           "forksText": "2.5k",
-          "openIssues": 319,
+          "openIssues": 324,
           "archived": false,
           "topics": [
             {
@@ -5517,18 +5696,18 @@
           "curve": {
             "points": [
               [
-                1776760022,
-                0
+                1792072484,
+                35803
               ],
               [
-                1792157205,
-                35818
+                1792159759,
+                35819
               ]
             ],
-            "source": "projected",
-            "delta": 35818,
-            "days": 178,
-            "perDay": 201
+            "source": "measured",
+            "delta": 16,
+            "days": 1,
+            "perDay": 16
           },
           "tutorials": {
             "keyword": "DeepSeek-Reasonix 安装教程",
@@ -5548,7 +5727,7 @@
           "descriptionZh": "您的个人AI助理;易于安装,在自己的机器上或云端部署;支持多个聊天应用程序,功能易于扩展。",
           "language": "TypeScript",
           "license": "Apache-2.0",
-          "stars": 35753,
+          "stars": 35754,
           "starsText": "3.6 万",
           "forks": 3183,
           "forksText": "3.2k",
@@ -5587,18 +5766,18 @@
           "curve": {
             "points": [
               [
-                1771904576,
-                0
+                1792072484,
+                35718
               ],
               [
-                1792157205,
-                35753
+                1792159759,
+                35754
               ]
             ],
-            "source": "projected",
-            "delta": 35753,
-            "days": 234,
-            "perDay": 153
+            "source": "measured",
+            "delta": 36,
+            "days": 1,
+            "perDay": 36
           },
           "tutorials": {
             "keyword": "QwenPaw 安装教程",
@@ -5618,11 +5797,11 @@
           "descriptionZh": "IDE 带有线程的编码代理. 由 Stencil Labs 构建。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 35651,
+          "stars": 35654,
           "starsText": "3.6 万",
           "forks": 3904,
           "forksText": "3.9k",
-          "openIssues": 3808,
+          "openIssues": 3811,
           "archived": false,
           "topics": [
             {
@@ -5657,18 +5836,18 @@
           "curve": {
             "points": [
               [
-                1767189688,
-                0
+                1792072484,
+                35524
               ],
               [
-                1792157205,
-                35651
+                1792159759,
+                35654
               ]
             ],
-            "source": "projected",
-            "delta": 35651,
-            "days": 289,
-            "perDay": 123
+            "source": "measured",
+            "delta": 130,
+            "days": 1,
+            "perDay": 129
           },
           "tutorials": {
             "keyword": "oh-my-pi 安装教程",
@@ -5688,7 +5867,7 @@
           "descriptionZh": "“Vibe-Trading:您的个人交易代理”",
           "language": "Python",
           "license": "MIT",
-          "stars": 35617,
+          "stars": 35620,
           "starsText": "3.6 万",
           "forks": 5776,
           "forksText": "5.8k",
@@ -5727,18 +5906,18 @@
           "curve": {
             "points": [
               [
-                1775037140,
-                0
+                1792072484,
+                35551
               ],
               [
-                1792157205,
-                35617
+                1792159759,
+                35620
               ]
             ],
-            "source": "projected",
-            "delta": 35617,
-            "days": 198,
-            "perDay": 180
+            "source": "measured",
+            "delta": 69,
+            "days": 1,
+            "perDay": 68
           },
           "tutorials": {
             "keyword": "Vibe-Trading 安装教程",
@@ -5797,18 +5976,18 @@
           "curve": {
             "points": [
               [
-                1777108753,
-                0
+                1792072484,
+                34525
               ],
               [
-                1792157205,
+                1792159759,
                 34566
               ]
             ],
-            "source": "projected",
-            "delta": 34566,
-            "days": 174,
-            "perDay": 199
+            "source": "measured",
+            "delta": 41,
+            "days": 1,
+            "perDay": 41
           },
           "tutorials": {
             "keyword": "awesome-gpt-image-2 安装教程",
@@ -5828,9 +6007,9 @@
           "descriptionZh": "走在任何地方,使用任何东西",
           "language": "TypeScript",
           "license": "",
-          "stars": 33940,
+          "stars": 33943,
           "starsText": "3.4 万",
-          "forks": 9147,
+          "forks": 9148,
           "forksText": "9.1k",
           "openIssues": 69,
           "archived": false,
@@ -5863,18 +6042,18 @@
           "curve": {
             "points": [
               [
-                1775013349,
-                0
+                1792072484,
+                33903
               ],
               [
-                1792157205,
-                33940
+                1792159759,
+                33943
               ]
             ],
-            "source": "projected",
-            "delta": 33940,
-            "days": 198,
-            "perDay": 171
+            "source": "measured",
+            "delta": 40,
+            "days": 1,
+            "perDay": 40
           },
           "tutorials": {
             "keyword": "openclaude 安装教程",
@@ -5903,7 +6082,7 @@
           "descriptionZh": "自助工作空间。",
           "language": "Python",
           "license": "AGPL-3.0",
-          "stars": 93678,
+          "stars": 93682,
           "starsText": "9.4 万",
           "forks": 1623,
           "forksText": "1.6k",
@@ -5917,18 +6096,18 @@
           "curve": {
             "points": [
               [
-                1780236351,
-                0
+                1792072484,
+                93544
               ],
               [
-                1792157205,
-                93678
+                1792159759,
+                93682
               ]
             ],
-            "source": "projected",
-            "delta": 93678,
-            "days": 138,
-            "perDay": 679
+            "source": "measured",
+            "delta": 138,
+            "days": 1,
+            "perDay": 137
           },
           "tutorials": {
             "keyword": "odysseus 安装教程",
@@ -5967,11 +6146,11 @@
           "descriptionZh": "实时全球情报仪表板:人工智能驱动的新闻汇总、地缘政治监测和基础设施跟踪在统一的局势意识界面中",
           "language": "TypeScript",
           "license": "AGPL-3.0",
-          "stars": 88555,
+          "stars": 88559,
           "starsText": "8.9 万",
-          "forks": 13556,
+          "forks": 13558,
           "forksText": "1.4 万",
-          "openIssues": 371,
+          "openIssues": 369,
           "archived": false,
           "topics": [
             {
@@ -6006,24 +6185,24 @@
           "curve": {
             "points": [
               [
-                1767893166,
-                0
+                1792072484,
+                88496
               ],
               [
-                1792157205,
-                88555
+                1792159759,
+                88559
               ]
             ],
-            "source": "projected",
-            "delta": 88555,
-            "days": 281,
-            "perDay": 315
+            "source": "measured",
+            "delta": 63,
+            "days": 1,
+            "perDay": 62
           },
           "tutorials": {
             "keyword": "worldmonitor 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=worldmonitor%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         }
@@ -6046,9 +6225,9 @@
           "descriptionZh": "你的浏览器中的间谍卫星模拟器,除了数据是真实的。",
           "language": "JavaScript",
           "license": "",
-          "stars": 57103,
+          "stars": 57113,
           "starsText": "5.7 万",
-          "forks": 11128,
+          "forks": 11129,
           "forksText": "1.1 万",
           "openIssues": 363,
           "archived": false,
@@ -6085,24 +6264,24 @@
           "curve": {
             "points": [
               [
-                1782171442,
-                0
+                1792072484,
+                56746
               ],
               [
-                1792157205,
-                57103
+                1792159759,
+                57113
               ]
             ],
-            "source": "projected",
-            "delta": 57103,
-            "days": 116,
-            "perDay": 492
+            "source": "measured",
+            "delta": 367,
+            "days": 1,
+            "perDay": 363
           },
           "tutorials": {
             "keyword": "gods-eye-view 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=gods-eye-view%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -6116,9 +6295,9 @@
           "descriptionZh": "反向工程 / 授权渗透测试 / 安全研究技能路由器包 AI 驱动路由 + 按需自举工具链 + 自动进化知识库支持 Claude Code, Kiro, Cursor, Cline 和其他 AI 编码客户端逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
           "language": "PowerShell",
           "license": "MIT",
-          "stars": 42259,
+          "stars": 42267,
           "starsText": "4.2 万",
-          "forks": 6130,
+          "forks": 6131,
           "forksText": "6.1k",
           "openIssues": 35,
           "archived": false,
@@ -6130,24 +6309,24 @@
           "curve": {
             "points": [
               [
-                1778683077,
-                0
+                1792072484,
+                42071
               ],
               [
-                1792157205,
-                42259
+                1792159759,
+                42267
               ]
             ],
-            "source": "projected",
-            "delta": 42259,
-            "days": 156,
-            "perDay": 271
+            "source": "measured",
+            "delta": 196,
+            "days": 1,
+            "perDay": 194
           },
           "tutorials": {
             "keyword": "reverse-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=reverse-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         }
@@ -6170,11 +6349,11 @@
           "descriptionZh": "在你已经拥有的硬件上运行边界MoE模型 - 纯粹的C,零沉积,专家从磁盘中流传。",
           "language": "C",
           "license": "Apache-2.0",
-          "stars": 42330,
+          "stars": 42337,
           "starsText": "4.2 万",
-          "forks": 4720,
+          "forks": 4722,
           "forksText": "4.7k",
-          "openIssues": 117,
+          "openIssues": 118,
           "archived": false,
           "topics": [],
           "category": "game",
@@ -6184,25 +6363,35 @@
           "curve": {
             "points": [
               [
-                1782908869,
-                0
+                1792072484,
+                42074
               ],
               [
-                1792157205,
-                42330
+                1792159759,
+                42337
               ]
             ],
-            "source": "projected",
-            "delta": 42330,
-            "days": 107,
-            "perDay": 396
+            "source": "measured",
+            "delta": 263,
+            "days": 1,
+            "perDay": 260
           },
           "tutorials": {
             "keyword": "colibri 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=colibri%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV16re66KEcf",
+                "title": "Colibri！CPU本地跑大模型！开源模型推理神器！",
+                "author": "AI产品狙击手",
+                "play": 5254,
+                "playText": "5.3k",
+                "durationText": "1:5",
+                "url": "https://www.bilibili.com/video/BV16re66KEcf"
+              }
+            ]
           }
         }
       ]
@@ -6224,9 +6413,9 @@
           "descriptionZh": "由受欢迎的品牌设计系统分析 DESIGN.md 文件的集合. 将其投放到您的项目中,并让编码代理人生成匹配的 UI。",
           "language": "",
           "license": "MIT",
-          "stars": 121716,
+          "stars": 121723,
           "starsText": "12.2 万",
-          "forks": 13540,
+          "forks": 13542,
           "forksText": "1.4 万",
           "openIssues": 313,
           "archived": false,
@@ -6263,24 +6452,24 @@
           "curve": {
             "points": [
               [
-                1774975021,
-                0
+                1792072484,
+                121506
               ],
               [
-                1792157205,
-                121716
+                1792159759,
+                121723
               ]
             ],
-            "source": "projected",
-            "delta": 121716,
-            "days": 199,
-            "perDay": 612
+            "source": "measured",
+            "delta": 217,
+            "days": 1,
+            "perDay": 215
           },
           "tutorials": {
             "keyword": "awesome-design-md 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=awesome-design-md%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -6294,11 +6483,11 @@
           "descriptionZh": "编写HTML. 视频渲染器. 专为代理人构建。",
           "language": "TypeScript",
           "license": "Apache-2.0",
-          "stars": 65008,
+          "stars": 65029,
           "starsText": "6.5 万",
           "forks": 5853,
           "forksText": "5.9k",
-          "openIssues": 309,
+          "openIssues": 310,
           "archived": false,
           "topics": [
             {
@@ -6327,24 +6516,24 @@
             }
           ],
           "category": "web",
-          "ageDays": 220,
+          "ageDays": 221,
           "createdAt": "2026-03-10T01:51:06Z",
           "avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
           "curve": {
             "points": [
               [
-                1773107466,
-                0
+                1792072484,
+                64200
               ],
               [
-                1792157205,
-                65008
+                1792159759,
+                65029
               ]
             ],
-            "source": "projected",
-            "delta": 65008,
-            "days": 220,
-            "perDay": 295
+            "source": "measured",
+            "delta": 829,
+            "days": 1,
+            "perDay": 821
           },
           "tutorials": {
             "keyword": "hyperframes 安装教程",
@@ -6401,9 +6590,9 @@
           "descriptionZh": "VoiceStudio 是开放源代码,完全本地的 ElevenLabs 替代方案 - 语音克隆,语音设计,视频翻译,定义,转录和音频图书创作 646 种语言。",
           "language": "Python",
           "license": "AGPL-3.0",
-          "stars": 70191,
+          "stars": 70256,
           "starsText": "7 万",
-          "forks": 7690,
+          "forks": 7700,
           "forksText": "7.7k",
           "openIssues": 192,
           "archived": false,
@@ -6440,18 +6629,18 @@
           "curve": {
             "points": [
               [
-                1775770826,
-                0
+                1792072484,
+                68088
               ],
               [
-                1792157205,
-                70191
+                1792159759,
+                70256
               ]
             ],
-            "source": "projected",
-            "delta": 70191,
-            "days": 190,
-            "perDay": 369
+            "source": "measured",
+            "delta": 2168,
+            "days": 1,
+            "perDay": 2146
           },
           "tutorials": {
             "keyword": "VoiceStudio 安装教程",
@@ -6499,11 +6688,11 @@
           "descriptionZh": "PhotoCraft：用纯Rust编写的开源照片编辑器",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 64340,
+          "stars": 64411,
           "starsText": "6.4 万",
-          "forks": 11191,
+          "forks": 11210,
           "forksText": "1.1 万",
-          "openIssues": 2335,
+          "openIssues": 2348,
           "archived": false,
           "topics": [
             {
@@ -6538,18 +6727,18 @@
           "curve": {
             "points": [
               [
-                1790775468,
-                0
+                1792072484,
+                62451
               ],
               [
-                1792157205,
-                64340
+                1792159721,
+                64410
               ]
             ],
-            "source": "projected",
-            "delta": 64340,
-            "days": 16,
-            "perDay": 4021
+            "source": "measured",
+            "delta": 1959,
+            "days": 1,
+            "perDay": 1940
           },
           "tutorials": {
             "keyword": "photocraft 安装教程",
@@ -6606,9 +6795,9 @@
           "descriptionZh": "使用 Claude Code、Codex、VSCode、Pi 和 OpenCode(以及其他 6 种工具)从您的终端、应用程序、IDE 或手机免费使用 (1.3B + 免费代币),现在从本地浏览器会话(多功能 + 多模型)的浏览器,如 OpenClaw(语音支持 + ToS 友好)",
           "language": "Python",
           "license": "",
-          "stars": 60915,
+          "stars": 60929,
           "starsText": "6.1 万",
-          "forks": 9543,
+          "forks": 9547,
           "forksText": "9.5k",
           "openIssues": 307,
           "archived": false,
@@ -6620,18 +6809,18 @@
           "curve": {
             "points": [
               [
-                1769626950,
-                0
+                1792072484,
+                60677
               ],
               [
-                1792157205,
-                60915
+                1792159759,
+                60929
               ]
             ],
-            "source": "projected",
-            "delta": 60915,
-            "days": 261,
-            "perDay": 233
+            "source": "measured",
+            "delta": 252,
+            "days": 1,
+            "perDay": 249
           },
           "tutorials": {
             "keyword": "free-claude-code 安装教程",
@@ -6670,7 +6859,7 @@
           "descriptionZh": "“CLI-Anything: 使所有软件代理原生” -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 53239,
+          "stars": 53262,
           "starsText": "5.3 万",
           "forks": 4829,
           "forksText": "4.8k",
@@ -6684,24 +6873,24 @@
           "curve": {
             "points": [
               [
-                1772977977,
-                0
+                1792072484,
+                52943
               ],
               [
-                1792157205,
-                53239
+                1792159759,
+                53262
               ]
             ],
-            "source": "projected",
-            "delta": 53239,
-            "days": 222,
-            "perDay": 240
+            "source": "measured",
+            "delta": 319,
+            "days": 1,
+            "perDay": 316
           },
           "tutorials": {
             "keyword": "CLI-Anything 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=CLI-Anything%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -6715,11 +6904,11 @@
           "descriptionZh": "开源 Rust 代理引擎和 Codewhale 的终端客户端,提供提供商选择、工具、批准和收据。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 41093,
+          "stars": 41092,
           "starsText": "4.1 万",
-          "forks": 3568,
+          "forks": 3567,
           "forksText": "3.6k",
-          "openIssues": 214,
+          "openIssues": 215,
           "archived": false,
           "topics": [
             {
@@ -6754,25 +6943,35 @@
           "curve": {
             "points": [
               [
-                1768846861,
-                0
+                1792072484,
+                41094
               ],
               [
-                1792157205,
-                41093
+                1792159759,
+                41092
               ]
             ],
-            "source": "projected",
-            "delta": 41093,
-            "days": 270,
-            "perDay": 152
+            "source": "measured",
+            "delta": -2,
+            "days": 1,
+            "perDay": -2
           },
           "tutorials": {
             "keyword": "Codewhale 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=Codewhale%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1zMV26hEgh",
+                "title": "CodeWhale从安装到终端项目实战全攻略｜手把手教你使用TUI自动化编程。DeepSeek-TUI安装、rust、TUI终端编程、会话管理、版本管理",
+                "author": "博学谷",
+                "play": 14697,
+                "playText": "1.5 万",
+                "durationText": "79:59",
+                "url": "https://www.bilibili.com/video/BV1zMV26hEgh"
+              }
+            ]
           }
         }
       ]
@@ -6794,11 +6993,11 @@
           "descriptionZh": "工具自动PS5可执行的端口到Linux和Windows",
           "language": "C++",
           "license": "GPL-2.0",
-          "stars": 39383,
+          "stars": 39425,
           "starsText": "3.9 万",
-          "forks": 3524,
+          "forks": 3527,
           "forksText": "3.5k",
-          "openIssues": 958,
+          "openIssues": 978,
           "archived": false,
           "topics": [
             {
@@ -6833,25 +7032,35 @@
           "curve": {
             "points": [
               [
-                1785792625,
-                0
+                1792072484,
+                37938
               ],
               [
-                1792157205,
-                39383
+                1792159759,
+                39425
               ]
             ],
-            "source": "projected",
-            "delta": 39383,
-            "days": 74,
-            "perDay": 532
+            "source": "measured",
+            "delta": 1487,
+            "days": 1,
+            "perDay": 1472
           },
           "tutorials": {
             "keyword": "AnyPS5 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=AnyPS5%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV12Bpk6dELh",
+                "title": "PS5游戏想上电脑？千万别乱折腾，AnyPS5 实测",
+                "author": "无竹无肉",
+                "play": 210,
+                "playText": "210",
+                "durationText": "0:56",
+                "url": "https://www.bilibili.com/video/BV12Bpk6dELh"
+              }
+            ]
           }
         },
         {
@@ -6864,9 +7073,9 @@
           "descriptionZh": "创建磨损的演示视频而无需编辑技能. Mac/Windows/Linux",
           "language": "TypeScript",
           "license": "",
-          "stars": 33957,
+          "stars": 33962,
           "starsText": "3.4 万",
-          "forks": 2751,
+          "forks": 2752,
           "forksText": "2.8k",
           "openIssues": 485,
           "archived": false,
@@ -6903,18 +7112,18 @@
           "curve": {
             "points": [
               [
-                1773358712,
-                0
+                1792072484,
+                33849
               ],
               [
-                1792157205,
-                33957
+                1792159759,
+                33962
               ]
             ],
-            "source": "projected",
-            "delta": 33957,
-            "days": 218,
-            "perDay": 156
+            "source": "measured",
+            "delta": 113,
+            "days": 1,
+            "perDay": 112
           },
           "tutorials": {
             "keyword": "Recordly 安装教程",
@@ -6943,9 +7152,9 @@
           "descriptionZh": "学习AI工程!学习它!构建它。",
           "language": "Python",
           "license": "MIT",
-          "stars": 70065,
+          "stars": 70085,
           "starsText": "7 万",
-          "forks": 12314,
+          "forks": 12318,
           "forksText": "1.2 万",
           "openIssues": 78,
           "archived": false,
@@ -6982,24 +7191,24 @@
           "curve": {
             "points": [
               [
-                1773859082,
-                0
+                1792072484,
+                69545
               ],
               [
-                1792157205,
-                70065
+                1792159759,
+                70085
               ]
             ],
-            "source": "projected",
-            "delta": 70065,
-            "days": 212,
-            "perDay": 330
+            "source": "measured",
+            "delta": 540,
+            "days": 1,
+            "perDay": 535
           },
           "tutorials": {
             "keyword": "ai-engineering-from-scratch 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ai-engineering-from-scratch%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -7013,7 +7222,7 @@
           "descriptionZh": "超過 5,400 種技能從官方 OpenClaw 技能登記處過濾和分類。",
           "language": "",
           "license": "MIT",
-          "stars": 53161,
+          "stars": 53162,
           "starsText": "5.3 万",
           "forks": 5056,
           "forksText": "5.1k",
@@ -7052,24 +7261,24 @@
           "curve": {
             "points": [
               [
-                1769332952,
-                0
+                1792072484,
+                53146
               ],
               [
-                1792157205,
-                53161
+                1792159759,
+                53162
               ]
             ],
-            "source": "projected",
-            "delta": 53161,
-            "days": 264,
-            "perDay": 201
+            "source": "measured",
+            "delta": 16,
+            "days": 1,
+            "perDay": 16
           },
           "tutorials": {
             "keyword": "awesome-openclaw-skills 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=awesome-openclaw-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -7097,18 +7306,18 @@
           "curve": {
             "points": [
               [
-                1769759970,
-                0
+                1792072484,
+                34846
               ],
               [
-                1792157205,
+                1792159759,
                 34874
               ]
             ],
-            "source": "projected",
-            "delta": 34874,
-            "days": 259,
-            "perDay": 135
+            "source": "measured",
+            "delta": 28,
+            "days": 1,
+            "perDay": 28
           },
           "tutorials": {
             "keyword": "awesome-ai-research-writing 安装教程",
@@ -7137,38 +7346,38 @@
           "descriptionZh": "",
           "language": "HTML",
           "license": "CC-BY-4.0",
-          "stars": 64369,
+          "stars": 64392,
           "starsText": "6.4 万",
-          "forks": 5479,
+          "forks": 5478,
           "forksText": "5.5k",
           "openIssues": 14,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 39,
+          "ageDays": 40,
           "createdAt": "2026-09-07T01:53:36Z",
           "avatar": "https://avatars.githubusercontent.com/u/230156667?v=4",
           "curve": {
             "points": [
               [
-                1788746016,
-                0
+                1792072484,
+                63694
               ],
               [
-                1792157205,
-                64369
+                1792159759,
+                64392
               ]
             ],
-            "source": "projected",
-            "delta": 64369,
-            "days": 39,
-            "perDay": 1650
+            "source": "measured",
+            "delta": 698,
+            "days": 1,
+            "perDay": 691
           },
           "tutorials": {
             "keyword": "HowToLiveBetter 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=HowToLiveBetter%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -7196,24 +7405,24 @@
           "curve": {
             "points": [
               [
-                1772917588,
-                0
+                1792072484,
+                50787
               ],
               [
-                1792157205,
+                1792159759,
                 50808
               ]
             ],
-            "source": "projected",
-            "delta": 50808,
-            "days": 223,
-            "perDay": 228
+            "source": "measured",
+            "delta": 21,
+            "days": 1,
+            "perDay": 21
           },
           "tutorials": {
             "keyword": "pretext 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pretext%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-16T13:26:47.557Z",
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
             "videos": []
           }
         },
@@ -7227,7 +7436,7 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 40054,
+          "stars": 40055,
           "starsText": "4 万",
           "forks": 5626,
           "forksText": "5.6k",
@@ -7241,25 +7450,35 @@
           "curve": {
             "points": [
               [
-                1771874690,
-                0
+                1792072484,
+                39947
               ],
               [
-                1792157205,
-                40054
+                1792159759,
+                40055
               ]
             ],
-            "source": "projected",
-            "delta": 40054,
-            "days": 235,
-            "perDay": 170
+            "source": "measured",
+            "delta": 108,
+            "days": 1,
+            "perDay": 107
           },
           "tutorials": {
             "keyword": "financial-services 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=financial-services%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
+            "fetchedAt": "2026-10-16T14:09:21.240Z",
+            "videos": [
+              {
+                "bvid": "BV1X9E86pECU",
+                "title": "开源了！Claude Financial Services中国版正式发布，替换官方Demo，金融AI Agent效果展示，业务分析能力太强了",
+                "author": "鲲鹏Talk",
+                "play": 10152,
+                "playText": "1 万",
+                "durationText": "6:27",
+                "url": "https://www.bilibili.com/video/BV1X9E86pECU"
+              }
+            ]
           }
         },
         {
@@ -7272,11 +7491,11 @@
           "descriptionZh": "Hive Mind 通信平台",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 36043,
+          "stars": 36046,
           "starsText": "3.6 万",
-          "forks": 4779,
+          "forks": 4778,
           "forksText": "4.8k",
-          "openIssues": 3629,
+          "openIssues": 3630,
           "archived": false,
           "topics": [],
           "category": "other",
@@ -7286,18 +7505,18 @@
           "curve": {
             "points": [
               [
-                1772830856,
-                0
+                1792072484,
+                35991
               ],
               [
-                1792157205,
-                36043
+                1792159759,
+                36046
               ]
             ],
-            "source": "projected",
-            "delta": 36043,
-            "days": 224,
-            "perDay": 161
+            "source": "measured",
+            "delta": 55,
+            "days": 1,
+            "perDay": 54
           },
           "tutorials": {
             "keyword": "buzz 安装教程",
@@ -7317,7 +7536,7 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "MIT",
-          "stars": 34665,
+          "stars": 34670,
           "starsText": "3.5 万",
           "forks": 4582,
           "forksText": "4.6k",
@@ -7331,18 +7550,18 @@
           "curve": {
             "points": [
               [
-                1775363584,
-                0
+                1792072484,
+                34508
               ],
               [
-                1792157205,
-                34665
+                1792159759,
+                34670
               ]
             ],
-            "source": "projected",
-            "delta": 34665,
-            "days": 194,
-            "perDay": 179
+            "source": "measured",
+            "delta": 162,
+            "days": 1,
+            "perDay": 160
           },
           "tutorials": {
             "keyword": "nuwa-skill 安装教程",
