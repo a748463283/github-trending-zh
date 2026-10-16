@@ -24,3 +24,7 @@ GITHUB_CLIENT_SECRET=
 # 会话签名密钥（可选）：设置后会话用 HMAC 签名 Cookie，不依赖 KV 写入。
 # 不设置则回退使用 GITHUB_CLIENT_SECRET 作为密钥。建议单独设置一串 32+ 位随机字符。
 SESSION_SECRET=
+
+# ---- 管理后台（可选）----
+# 逗号分隔的 GitHub 用户名，这些账号能访问 /admin/ 与 /api/admin/*
+ADMIN_LOGINS=你的GitHub用户名

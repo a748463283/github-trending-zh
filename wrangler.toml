@@ -8,6 +8,7 @@ pages_build_output_dir = "public"
 #   GITHUB_CLIENT_ID     GitHub 登录用（OAuth App），可选
 #   GITHUB_CLIENT_SECRET GitHub 登录用（OAuth App），可选
 #   SESSION_SECRET       会话签名密钥，可选（不设则退回用 GITHUB_CLIENT_SECRET 作密钥）
+#   ADMIN_LOGINS         GitHub 用户名（逗号分隔），拥有 /admin/ 管理后台权限，可选
 # 说明：这些变量不在 [vars] 里写死（属于机密），只在控制台/CI 里注入。
 # 通过命令行本地调试时，写入 .dev.vars（已在 .gitignore 中忽略）
 

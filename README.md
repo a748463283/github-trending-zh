@@ -439,6 +439,16 @@ Star 曲线的实测/推算判定与采样节流、Cookie 与同源校验、会�
 - 机器翻译会有误差，专有名词已用术语表与 topics 词表兜底，但仍建议以原文为准。
 - GitHub 与哔哩哔哩内容版权归原作者所有，本站仅做聚合与跳转。
 
+## 管理后台（管理员）
+
+站点内置管理后台 `/admin/`：登录的管理员可以浏览**所有已登录用户**及其**收藏列表、B 站绑定**。
+
+- 谁算管理员：在 Cloudflare Pages → Settings → Environment variables 添加 `ADMIN_LOGINS`，
+  值为**逗号分隔的 GitHub 用户名**（大小写不敏感），例如 `ADMIN_LOGINS=你的用户名,另一个用户名`。
+- 未配置 `ADMIN_LOGINS` 时任何人都不是管理员，`/admin/` 会提示「没有管理员权限」。
+- 权限在服务端校验（签名 Cookie 判定登录 + 登录名匹配），前端只做展示。
+- 管理后台需要 D1（USER_DB）才能枚举用户；KV 兜底模式不支持列出全部用户。
+
 ## 许可
 
 本项目源码基于 **Mozilla Public License 2.0（MPL-2.0）** 授权，许可证全文见仓库根目录的 [`LICENSE`](./LICENSE)。

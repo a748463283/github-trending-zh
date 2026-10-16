@@ -10,6 +10,7 @@
 const state = {
   mode: 'self',
   authConfigured: false,
+  admin: false,
   me: null,
   profile: null,
   favorites: [],
@@ -119,7 +120,8 @@ function renderAuth() {
   el.authSlot.innerHTML = `<span class="auth-user" style="cursor:default">
     ${u.avatar ? `<img src="${escapeHtml(u.avatar)}" alt="" width="26" height="26">` : ''}
     <span class="auth-name">${escapeHtml(u.name)}</span>
-  </span>`;
+  </span>
+  ${state.admin ? '<a class="icon-button" href="../admin/">管理后台</a>' : ''}`;
 }
 
 function renderProfile() {
@@ -321,6 +323,7 @@ async function loadSelf() {
   try {
     const me = await fetchJson('../api/me');
     state.authConfigured = Boolean(me.configured);
+    state.admin = Boolean(me.admin);
     state.me = me.user;
 
     if (me.user) {

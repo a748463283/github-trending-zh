@@ -176,6 +176,43 @@ export function createD1Store(db) {
     return Number(row && row.n) || 0;
   }
 
+  /** 管理后台：分页列出全部用户（含各自收藏）。KV 兜底实现不提供此能力。 */
+  async function listUsers({ limit = 50, offset = 0 } = {}) {
+    const safeLimit = Math.min(Math.max(Number(limit) || 50, 1), 100);
+    const safeOffset = Math.max(Number(offset) || 0, 0);
+
+    const countRow = await db.prepare('SELECT COUNT(*) AS n FROM users').bind().first();
+    const total = Number(countRow && countRow.n) || 0;
+
+    const { results } = await db.prepare(
+      `SELECT ${USER_FIELDS} FROM users ORDER BY last_login_at DESC, rowid DESC LIMIT ? OFFSET ?`,
+    ).bind(safeLimit, safeOffset).all();
+
+    const rows = results || [];
+    const byId = new Map(rows.map((u) => [String(u.github_id), []]));
+
+    if (rows.length) {
+      const placeholders = rows.map(() => '?').join(',');
+      const favRes = await db.prepare(
+        `SELECT github_id, full_name, name, owner, url, avatar, stars, language,
+                description, description_zh, topics, saved_at
+           FROM favorites WHERE github_id IN (${placeholders})
+          ORDER BY saved_at DESC, rowid DESC`,
+      ).bind(...rows.map((u) => String(u.github_id))).all();
+      for (const f of (favRes.results || [])) {
+        const bucket = byId.get(String(f.github_id));
+        if (bucket) bucket.push(rowToFavorite(f));
+      }
+    }
+
+    return {
+      total,
+      limit: safeLimit,
+      offset: safeOffset,
+      users: rows.map((u) => rowToUser(u, byId.get(String(u.github_id)) || [])),
+    };
+  }
+
   return {
     kind: 'd1',
     listFavorites,
@@ -186,6 +223,7 @@ export function createD1Store(db) {
     addFavorite,
     removeFavorite,
     countFavorites,
+    listUsers,
   };
 }
 

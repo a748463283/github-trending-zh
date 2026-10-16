@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>管理后台 · GitHub 热门项目中文榜</title>
+<meta name="description" content="站点管理后台：浏览已登录用户及其收藏、B 站绑定。">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1f6feb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f6feb'/%3E%3Ctext x='32' y='43' font-family='sans-serif' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3EGH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .admin-stats { display:flex; gap:1rem; flex-wrap:wrap; margin:0.5rem 0 1rem; }
+  .admin-stat { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:0.6rem 1rem; }
+  .admin-stat strong { font-size:1.2rem; color:var(--accent); margin-left:0.4rem; }
+  .admin-user { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1rem; margin-bottom:1rem; }
+  .admin-user-head { display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap; }
+  .admin-user-head img { border-radius:50%; }
+  .admin-meta { color:var(--muted); font-size:0.85rem; display:flex; gap:1rem; flex-wrap:wrap; margin-top:0.5rem; }
+  .admin-meta a { color:var(--accent); }
+  .admin-favs { margin-top:0.75rem; border-top:1px dashed var(--border); padding-top:0.5rem; }
+  .admin-fav { display:flex; gap:0.6rem; align-items:baseline; padding:0.35rem 0; border-bottom:1px solid var(--border); font-size:0.9rem; }
+  .admin-fav:last-child { border-bottom:0; }
+  .admin-fav a { font-weight:600; }
+  .admin-fav .zh { color:var(--muted); }
+  .pager { display:flex; gap:0.6rem; align-items:center; justify-content:center; margin:1rem 0; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">GH</span>
+      <div>
+        <h1>管理后台</h1>
+        <p id="page-subtitle">已登录用户 · 收藏 · B 站绑定</p>
+      </div>
+    </div>
+    <a class="icon-button" href="../">← 回到榜单</a>
+    <div class="auth" id="auth-slot" aria-live="polite"></div>
+  </div>
+</header>
+
+<main class="layout layout--single" id="main">
+  <div id="notice-slot"></div>
+  <div id="stats" class="admin-stats" hidden></div>
+  <section class="section" id="users-section" hidden>
+    <div class="section-head">
+      <span class="emoji" aria-hidden="true">👥</span>
+      <h2>用户列表</h2>
+      <span class="badge" id="user-count">0 个</span>
+    </div>
+    <div id="user-list"></div>
+    <div class="pager" id="pager" hidden>
+      <button class="icon-button" type="button" id="prev-page" disabled>上一页</button>
+      <span id="page-info"></span>
+      <button class="icon-button" type="button" id="next-page" disabled>下一页</button>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p id="footer-hint">管理后台仅对 ADMIN_LOGINS 里配置的 GitHub 账号可见。数据来自 D1 用户库，收藏展示为「收藏那一刻」的项目快照。</p>
+</footer>
+
+<script type="module" src="./admin.js"></script>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

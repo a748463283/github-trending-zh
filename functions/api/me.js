@@ -13,6 +13,7 @@ import {
 } from '../../shared/auth.js';
 import { createUserStore } from '../../shared/user-store.js';
 import { fetchUserInfo } from '../../shared/bilibili.js';
+import { isAdmin } from '../../shared/admin.js';
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), {
   status,
@@ -28,6 +29,7 @@ export async function onRequestGet({ request, env }) {
     kvBound: Boolean(env.TRENDING_KV),
     d1Bound: Boolean(env.USER_DB),
     store: store ? store.kind : null,
+    admin: isAdmin(env, user && user.login),
     user: publicUser(user),
   });
 }

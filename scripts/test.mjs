@@ -32,6 +32,7 @@ import {
   signSession, verifySession, SESSION_TTL, MAX_FAVORITES,
 } from '../shared/auth.js';
 import { createKvStore, createD1Store, createUserStore } from '../shared/user-store.js';
+import { adminLogins, isAdmin, adminUserView } from '../shared/admin.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const lines = [];
@@ -445,7 +446,40 @@ if (DatabaseSync) {
   check('D1：不同用户的收藏互相隔离', await store.countFavorites('8') === 0);
   check('D1：用户表行数正确', sqlite.prepare('SELECT COUNT(*) AS n FROM users').get().n === 2);
   check('D1：公开视图仍不含验证码', publicProfile(reLogin).bilibili.code === undefined);
+
+  // —— 管理后台 listUsers ——
+  const allUsers = await store.listUsers({ limit: 10, offset: 0 });
+  check('D1：listUsers 返回总数', allUsers.total === 2, String(allUsers.total));
+  check('D1：listUsers 返回全部用户', allUsers.users.length === 2, String(allUsers.users.length));
+  const aliceRow = allUsers.users.find((u) => u.login === 'Alice2');
+  check('D1：listUsers 用户带收藏', Boolean(aliceRow) && aliceRow.favorites.length === 2,
+    JSON.stringify(aliceRow && aliceRow.favorites));
+  check('D1：listUsers 用户带 B 站绑定', Boolean(aliceRow) && aliceRow.bilibili.mid === '123');
+  const paged = await store.listUsers({ limit: 1, offset: 1 });
+  check('D1：listUsers 分页正确', paged.total === 2 && paged.users.length === 1,
+    JSON.stringify({ total: paged.total, n: paged.users.length }));
 }
+
+section('管理后台（ADMIN_LOGINS）');
+check('adminLogins 解析、去重、小写',
+  JSON.stringify(adminLogins({ ADMIN_LOGINS: 'Alice, Bob ,alICE' })) === JSON.stringify(['alice', 'bob']),
+  JSON.stringify(adminLogins({ ADMIN_LOGINS: 'Alice, Bob ,alICE' })));
+check('adminLogins 未配置为空', adminLogins({}).length === 0);
+check('isAdmin 大小写不敏感', isAdmin({ ADMIN_LOGINS: 'Alice' }, 'alice') === true);
+check('isAdmin 非管理员为假', isAdmin({ ADMIN_LOGINS: 'Alice' }, 'bob') === false);
+check('isAdmin 空登录名为假', isAdmin({ ADMIN_LOGINS: 'Alice' }, '') === false);
+check('isAdmin 未配置为假', isAdmin({}, 'Alice') === false);
+const adminView = adminUserView({
+  login: 'tester', name: 'Tester', avatar: '', htmlUrl: 'https://github.com/tester',
+  createdAt: '2026-10-15T00:00:00Z', lastLoginAt: '2026-10-16T00:00:00Z',
+  publicProfile: false,
+  favoriteItems: [{ fullName: 'a/b', name: 'b', owner: 'a', stars: 5, savedAt: '2026-10-15T00:00:00Z' }],
+  favorites: ['a/b'],
+  bilibili: { mid: '999', code: 'GTZ-AAAAAA', verified: true, label: '测试UP', reason: null },
+});
+check('adminUserView 含收藏数与 B 站 mid', adminView.favoritesCount === 1 && adminView.bilibili.mid === '999');
+check('adminUserView 不含验证码原文', adminView.bilibili.code === undefined);
+check('adminUserView 反映公开设置', adminView.publicProfile === false);
 
 section('个人主页与收藏快照');
 

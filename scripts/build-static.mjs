@@ -103,6 +103,16 @@ function copyStaticAssets() {
   }
   log('· 个人主页已复制到 public/me/（index.html, me.js）');
 
+  // 管理后台（/admin/）
+  const adminDir = join(PUBLIC_DIR, 'admin');
+  mkdirSync(adminDir, { recursive: true });
+  for (const f of ['index.html', 'admin.js']) {
+    const from = join(SRC_DIR, 'admin', f);
+    if (!existsSync(from)) throw new Error(`缺少前端文件 src/admin/${f}`);
+    writeFileSync(join(adminDir, f), readFileSync(from));
+  }
+  log('· 管理后台已复制到 public/admin/（index.html, admin.js）');
+
   writeFileSync(join(PUBLIC_DIR, '_headers'), [
     '/*',
     '  X-Content-Type-Options: nosniff',
@@ -119,6 +129,7 @@ function copyStaticAssets() {
     'User-agent: *',
     'Allow: /',
     'Disallow: /api/',
+    'Disallow: /admin/',
     '',
   ].join('\n'), 'utf8');
 
