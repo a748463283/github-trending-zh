@@ -3,29 +3,29 @@
   "period": "week",
   "periodName": "本周",
   "periodNote": "近 7 天内新建的仓库",
-  "generatedAt": "2026-11-12T08:21:43.278Z",
+  "generatedAt": "2026-11-13T07:59:39.925Z",
   "source": "static-snapshot:build",
   "meta": {
     "period": "week",
-    "query": "created:>=2026-11-05 stars:>=20",
-    "totalCount": 2229,
+    "query": "created:>=2026-11-06 stars:>=20",
+    "totalCount": 1977,
     "fetched": 100,
-    "rateLimitRemaining": "8",
-    "generatedAt": "2026-11-12T08:21:43.278Z",
+    "rateLimitRemaining": "6",
+    "generatedAt": "2026-11-13T07:59:39.925Z",
     "translation": {
       "targets": 94,
       "translated": 94,
       "provider": "mymemory"
     },
     "tutorials": {
-      "kvHits": 7,
+      "kvHits": 9,
       "filled": 40,
       "errors": 0
     },
     "starHistory": {
-      "loaded": 91,
-      "written": 100,
-      "skipped": 0
+      "loaded": 88,
+      "written": 14,
+      "skipped": 86
     },
     "snapshot": true,
     "categories": 14
@@ -50,7 +50,7 @@
       "name": "AI 插件 / Agent 扩展",
       "emoji": "🧩",
       "desc": "浏览器插件、编辑器插件、MCP 工具与 Claude/ChatGPT 扩展",
-      "count": 2,
+      "count": 4,
       "repos": [
         {
           "name": "autodesk-revit-2026-standalone",
@@ -62,8 +62,8 @@
           "descriptionZh": "Autodesk Revit 2026桌面版完整独立设置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -95,7 +95,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:39:51Z",
           "avatar": "https://avatars.githubusercontent.com/u/189458362?v=4",
           "curve": {
@@ -123,113 +123,209 @@
           }
         },
         {
-          "name": "poki",
-          "owner": "JosssphZhou",
-          "fullName": "JosssphZhou/poki",
-          "url": "https://github.com/JosssphZhou/poki",
-          "homepage": "https://poki.bot",
-          "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-          "descriptionZh": "让人工智能代理操作真正的iPhone。本地MCP服务器和代理，没有越狱，没有额外的硬件。",
-          "language": "Swift",
-          "license": "AGPL-3.0",
-          "stars": 1002,
-          "starsText": "1k",
-          "forks": 182,
-          "forksText": "182",
-          "openIssues": 68,
+          "name": "mt5-tradeprotocol",
+          "owner": "Marcian15350",
+          "fullName": "Marcian15350/mt5-tradeprotocol",
+          "url": "https://github.com/Marcian15350/mt5-tradeprotocol",
+          "homepage": "",
+          "description": "",
+          "descriptionZh": "",
+          "language": "TypeScript",
+          "license": "",
+          "stars": 1103,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
           "archived": false,
           "topics": [
             {
-              "key": "ai-agents",
-              "zh": "AI 智能体"
+              "key": "algorithmic-trading-quantitative",
+              "zh": "algorithmic-trading-quantitative"
             },
             {
-              "key": "automation",
-              "zh": "自动化"
+              "key": "crypto",
+              "zh": "crypto"
             },
             {
-              "key": "ios",
-              "zh": "iOS"
+              "key": "foreign-exchange",
+              "zh": "foreign-exchange"
             },
             {
-              "key": "iphone",
-              "zh": "iphone"
+              "key": "forex",
+              "zh": "forex"
             },
             {
               "key": "mcp",
               "zh": "MCP 协议"
             },
             {
-              "key": "model-context-protocol",
-              "zh": "MCP 协议"
+              "key": "metatrader-5",
+              "zh": "metatrader-5"
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T15:04:31Z",
-          "avatar": "https://avatars.githubusercontent.com/u/260232027?v=4",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:20:48Z",
+          "avatar": "https://avatars.githubusercontent.com/u/108626894?v=4",
           "curve": {
             "points": [
               [
-                1794035518,
-                442
+                1794000048,
+                0
               ],
               [
-                1794122554,
-                537
-              ],
-              [
-                1794211156,
-                631
-              ],
-              [
-                1794299158,
-                824
-              ],
-              [
-                1794471703,
-                1002
+                1794556779,
+                1103
               ]
             ],
-            "source": "measured",
-            "delta": 560,
-            "days": 5,
-            "perDay": 111
+            "source": "projected",
+            "delta": 1103,
+            "days": 6,
+            "perDay": 184
           },
           "tutorials": {
-            "keyword": "poki 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=poki%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "mt5-tradeprotocol 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=mt5-tradeprotocol%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-07T07:11:59.892Z",
-            "videos": [
-              {
-                "bvid": "BV1RxLg6FEVB",
-                "title": "教你怎么下载poki！",
-                "author": "谁叫其他的给我点赞",
-                "play": 3729,
-                "playText": "3.7k",
-                "durationText": "26:58",
-                "url": "https://www.bilibili.com/video/BV1RxLg6FEVB"
-              },
-              {
-                "bvid": "BV1MTiBYJEp1",
-                "title": "HYPERSNAKE - 免费在线玩! _ Poki (宝玩) 和另外 21 个页面 - 用户配置 1 - Microsoft Edge 2024-12-06",
-                "author": "甜甜疯狂玩",
-                "play": 644,
-                "playText": "644",
-                "durationText": "38:46",
-                "url": "https://www.bilibili.com/video/BV1MTiBYJEp1"
-              },
-              {
-                "bvid": "BV1BH4y1n7oH",
-                "title": "如何打开Poki",
-                "author": "冯鸡阳Fxy",
-                "play": 12928,
-                "playText": "1.3 万",
-                "durationText": "0:53",
-                "url": "https://www.bilibili.com/video/BV1BH4y1n7oH"
-              }
-            ]
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "solo-to-team-skills",
+          "owner": "dabingfy-dot",
+          "fullName": "dabingfy-dot/solo-to-team-skills",
+          "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+          "homepage": "",
+          "description": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
+          "descriptionZh": "人机协作 AI 团队的技能：委派任务、核验证据、清楚说明步骤，以及从真实案例中学习。一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
+          "language": "",
+          "license": "MIT",
+          "stars": 817,
+          "starsText": "817",
+          "forks": 82,
+          "forksText": "82",
+          "openIssues": 23,
+          "archived": false,
+          "topics": [
+            {
+              "key": "agent-skills",
+              "zh": "智能体技能"
+            },
+            {
+              "key": "ai-agents",
+              "zh": "AI 智能体"
+            },
+            {
+              "key": "collaboration",
+              "zh": "collaboration"
+            },
+            {
+              "key": "human-in-the-loop",
+              "zh": "human-in-the-loop"
+            },
+            {
+              "key": "workflow",
+              "zh": "workflow"
+            }
+          ],
+          "category": "ai-plugin",
+          "ageDays": 6,
+          "createdAt": "2026-11-07T01:36:28Z",
+          "avatar": "https://avatars.githubusercontent.com/u/344453732?v=4",
+          "curve": {
+            "points": [
+              [
+                1794015388,
+                0
+              ],
+              [
+                1794556779,
+                817
+              ]
+            ],
+            "source": "projected",
+            "delta": 817,
+            "days": 6,
+            "perDay": 136
+          },
+          "tutorials": {
+            "keyword": "solo-to-team-skills 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=solo-to-team-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "lot-map",
+          "owner": "alexeyw",
+          "fullName": "alexeyw/lot-map",
+          "url": "https://github.com/alexeyw/lot-map",
+          "homepage": "",
+          "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+          "descriptionZh": "聊天窗口旁边有一个实时地图，显示 Claude Code 正在做什么：工具调用、模型步骤、钩子、技能和子代理在发生时会亮起。仅限本地使用，提供 7 种语言。",
+          "language": "TypeScript",
+          "license": "MIT",
+          "stars": 647,
+          "starsText": "647",
+          "forks": 74,
+          "forksText": "74",
+          "openIssues": 2,
+          "archived": false,
+          "topics": [
+            {
+              "key": "agent-observability",
+              "zh": "agent-observability"
+            },
+            {
+              "key": "ai-agents",
+              "zh": "AI 智能体"
+            },
+            {
+              "key": "claude",
+              "zh": "Claude"
+            },
+            {
+              "key": "claude-code",
+              "zh": "Claude Code"
+            },
+            {
+              "key": "claude-code-plugin",
+              "zh": "Claude Code 插件"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            }
+          ],
+          "category": "ai-plugin",
+          "ageDays": 4,
+          "createdAt": "2026-11-09T19:13:52Z",
+          "avatar": "https://avatars.githubusercontent.com/u/1450804?v=4",
+          "curve": {
+            "points": [
+              [
+                1794251632,
+                0
+              ],
+              [
+                1794556779,
+                647
+              ]
+            ],
+            "source": "projected",
+            "delta": 647,
+            "days": 4,
+            "perDay": 162
+          },
+          "tutorials": {
+            "keyword": "lot-map 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=lot-map%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
           }
         }
       ]
@@ -239,82 +335,8 @@
       "name": "AI 与大模型",
       "emoji": "🤖",
       "desc": "大模型、推理框架、RAG、语音与图像生成",
-      "count": 5,
+      "count": 7,
       "repos": [
-        {
-          "name": "ram-altman",
-          "owner": "IainKay",
-          "fullName": "IainKay/ram-altman",
-          "url": "https://github.com/IainKay/ram-altman",
-          "homepage": "https://ram-altman.lol",
-          "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
-          "descriptionZh": "监控您的RAM，并将任何“相当糟糕”的未使用容量直接报告给OpenAI的首席执行官。",
-          "language": "Shell",
-          "license": "Unlicense",
-          "stars": 1964,
-          "starsText": "2k",
-          "forks": 60,
-          "forksText": "60",
-          "openIssues": 31,
-          "archived": false,
-          "topics": [
-            {
-              "key": "bash",
-              "zh": "bash"
-            },
-            {
-              "key": "cron",
-              "zh": "cron"
-            },
-            {
-              "key": "dram",
-              "zh": "dram"
-            },
-            {
-              "key": "email",
-              "zh": "邮件"
-            },
-            {
-              "key": "humor",
-              "zh": "humor"
-            },
-            {
-              "key": "linux",
-              "zh": "Linux"
-            }
-          ],
-          "category": "ai",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T16:16:41Z",
-          "avatar": "https://avatars.githubusercontent.com/u/798621?v=4",
-          "curve": {
-            "points": [
-              [
-                1794211156,
-                895
-              ],
-              [
-                1794299158,
-                1543
-              ],
-              [
-                1794471703,
-                1964
-              ]
-            ],
-            "source": "measured",
-            "delta": 1069,
-            "days": 3,
-            "perDay": 354
-          },
-          "tutorials": {
-            "keyword": "ram-altman 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=ram-altman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
         {
           "name": "pinky",
           "owner": "DIYgod",
@@ -325,15 +347,15 @@
           "descriptionZh": "让人工智能代理与您一起使用您的手机。",
           "language": "Go",
           "license": "Apache-2.0",
-          "stars": 1921,
-          "starsText": "1.9k",
-          "forks": 200,
-          "forksText": "200",
-          "openIssues": 20,
+          "stars": 2042,
+          "starsText": "2k",
+          "forks": 221,
+          "forksText": "221",
+          "openIssues": 23,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 6,
+          "ageDays": 7,
           "createdAt": "2026-11-06T16:53:14Z",
           "avatar": "https://avatars.githubusercontent.com/u/8266075?v=4",
           "curve": {
@@ -375,84 +397,72 @@
           }
         },
         {
-          "name": "vork",
-          "owner": "voyager-so",
-          "fullName": "voyager-so/vork",
-          "url": "https://github.com/voyager-so/vork",
-          "homepage": "https://voyager.so/vork",
-          "description": "Headless 3D and VFX engine for agents. Research preview.",
-          "descriptionZh": "代理的无头3D和VFX引擎。研究预览。",
-          "language": "Rust",
-          "license": "",
-          "stars": 1471,
-          "starsText": "1.5k",
-          "forks": 122,
-          "forksText": "122",
-          "openIssues": 11,
+          "name": "agentes-chat",
+          "owner": "agentes-chat",
+          "fullName": "agentes-chat/agentes-chat",
+          "url": "https://github.com/agentes-chat/agentes-chat",
+          "homepage": "https://agentes.chat",
+          "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+          "descriptionZh": "一款开源、自托管的 Slack 替代产品，您的团队和 AI 代理可以在其中通过频道和私信开展协作。代理运行在Claude、ChatGPT/Codex、Gemini或Grok上，配备MCP工具、专属计算机和浏览器、例程、记忆和审批功能。网页、桌面和手机应用程序。Docker Compose + Postgres。AGPL-3.0。",
+          "language": "TypeScript",
+          "license": "AGPL-3.0",
+          "stars": 1251,
+          "starsText": "1.3k",
+          "forks": 205,
+          "forksText": "205",
+          "openIssues": 151,
           "archived": false,
           "topics": [
             {
-              "key": "3d",
-              "zh": "3d"
+              "key": "agentic-ai",
+              "zh": "智能体 AI"
             },
             {
               "key": "ai-agents",
               "zh": "AI 智能体"
             },
             {
-              "key": "gpu",
-              "zh": "gpu"
+              "key": "browser-automation",
+              "zh": "浏览器自动化"
             },
             {
-              "key": "metal",
-              "zh": "metal"
+              "key": "chat",
+              "zh": "chat"
             },
             {
-              "key": "ray-tracing",
-              "zh": "ray-tracing"
+              "key": "claude",
+              "zh": "Claude"
             },
             {
-              "key": "rendering",
-              "zh": "rendering"
+              "key": "claude-code",
+              "zh": "Claude Code"
             }
           ],
           "category": "ai",
-          "ageDays": 6,
-          "createdAt": "2026-11-05T22:37:07Z",
-          "avatar": "https://avatars.githubusercontent.com/u/329758707?v=4",
+          "ageDays": 4,
+          "createdAt": "2026-11-09T00:50:28Z",
+          "avatar": "https://avatars.githubusercontent.com/u/343980363?v=4",
           "curve": {
             "points": [
               [
-                1794035518,
-                497
+                1794185428,
+                0
               ],
               [
-                1794122554,
-                949
-              ],
-              [
-                1794211156,
-                1194
-              ],
-              [
-                1794299158,
-                1320
-              ],
-              [
-                1794471703,
-                1471
+                1794556779,
+                1251
               ]
             ],
-            "source": "measured",
-            "delta": 974,
-            "days": 5,
-            "perDay": 193
+            "source": "projected",
+            "delta": 1251,
+            "days": 4,
+            "perDay": 313
           },
           "tutorials": {
-            "keyword": "vork 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=vork%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "agentes-chat 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=agentes-chat%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -466,8 +476,8 @@
           "descriptionZh": "AIDA 64 Extreme 2026：完整的独立桌面设置，具有完整的功能配置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1304,
-          "starsText": "1.3k",
+          "stars": 1208,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -499,7 +509,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:33:44Z",
           "avatar": "https://avatars.githubusercontent.com/u/232789375?v=4",
           "curve": {
@@ -522,7 +532,7 @@
             "keyword": "aida-64-extreme 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=aida-64-extreme%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -536,8 +546,8 @@
           "descriptionZh": "Systemcare Pro：完整的独立桌面设置，所有功能均已预先配置并可随时运行",
           "language": "HTML",
           "license": "",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -569,7 +579,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:27:21Z",
           "avatar": "https://avatars.githubusercontent.com/u/106125035?v=4",
           "curve": {
@@ -595,6 +605,203 @@
             "fetchedAt": null,
             "videos": []
           }
+        },
+        {
+          "name": "yogurt",
+          "owner": "FrigadeHQ",
+          "fullName": "FrigadeHQ/yogurt",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "homepage": "https://yogurt.so",
+          "description": "Private AI meeting notes. Free and open source.",
+          "descriptionZh": "私人 AI 会议纪要。免费且开源。",
+          "language": "TypeScript",
+          "license": "MIT",
+          "stars": 1059,
+          "starsText": "1.1k",
+          "forks": 39,
+          "forksText": "39",
+          "openIssues": 14,
+          "archived": false,
+          "topics": [
+            {
+              "key": "ai-meeting-assistant",
+              "zh": "ai-meeting-assistant"
+            },
+            {
+              "key": "electron",
+              "zh": "Electron"
+            },
+            {
+              "key": "linux",
+              "zh": "Linux"
+            },
+            {
+              "key": "llama-cpp",
+              "zh": "llama.cpp"
+            },
+            {
+              "key": "local-ai",
+              "zh": "local-ai"
+            },
+            {
+              "key": "macos",
+              "zh": "macOS"
+            }
+          ],
+          "category": "ai",
+          "ageDays": 2,
+          "createdAt": "2026-11-10T20:01:01Z",
+          "avatar": "https://avatars.githubusercontent.com/u/117952255?v=4",
+          "curve": {
+            "points": [
+              [
+                1794340861,
+                0
+              ],
+              [
+                1794556779,
+                1059
+              ]
+            ],
+            "source": "projected",
+            "delta": 1059,
+            "days": 2,
+            "perDay": 530
+          },
+          "tutorials": {
+            "keyword": "yogurt 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=yogurt%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "phoneuse",
+          "owner": "lxe",
+          "fullName": "lxe/phoneuse",
+          "url": "https://github.com/lxe/phoneuse",
+          "homepage": "",
+          "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
+          "descriptionZh": "从Linux PC查看和操作未修改的iPhone： AirPlay镜像输入，蓝牙隐藏鼠标/键盘输出，以及CLI和代理技能。",
+          "language": "Python",
+          "license": "MIT",
+          "stars": 638,
+          "starsText": "638",
+          "forks": 61,
+          "forksText": "61",
+          "openIssues": 10,
+          "archived": false,
+          "topics": [],
+          "category": "ai",
+          "ageDays": 6,
+          "createdAt": "2026-11-07T01:28:30Z",
+          "avatar": "https://avatars.githubusercontent.com/u/1486609?v=4",
+          "curve": {
+            "points": [
+              [
+                1794211156,
+                487
+              ],
+              [
+                1794299158,
+                547
+              ],
+              [
+                1794556779,
+                638
+              ]
+            ],
+            "source": "measured",
+            "delta": 151,
+            "days": 4,
+            "perDay": 38
+          },
+          "tutorials": {
+            "keyword": "phoneuse 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=phoneuse%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "devvm",
+          "owner": "devvmhq",
+          "fullName": "devvmhq/devvm",
+          "url": "https://github.com/devvmhq/devvm",
+          "homepage": "https://devvm.dev",
+          "description": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding",
+          "descriptionZh": "每个项目只需一个虚拟机。带有项目工具链的隔离沙箱，可供您或编码代理开始编码",
+          "language": "Go",
+          "license": "MIT",
+          "stars": 603,
+          "starsText": "603",
+          "forks": 30,
+          "forksText": "30",
+          "openIssues": 3,
+          "archived": false,
+          "topics": [
+            {
+              "key": "coding-agent",
+              "zh": "coding-agent"
+            },
+            {
+              "key": "coding-agents",
+              "zh": "coding-agents"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "development",
+              "zh": "development"
+            },
+            {
+              "key": "lima",
+              "zh": "lima"
+            },
+            {
+              "key": "lima-vm",
+              "zh": "lima-vm"
+            }
+          ],
+          "category": "ai",
+          "ageDays": 7,
+          "createdAt": "2026-11-06T07:02:30Z",
+          "avatar": "https://avatars.githubusercontent.com/u/353211386?v=4",
+          "curve": {
+            "points": [
+              [
+                1794122554,
+                373
+              ],
+              [
+                1794211156,
+                427
+              ],
+              [
+                1794299158,
+                506
+              ],
+              [
+                1794556779,
+                603
+              ]
+            ],
+            "source": "measured",
+            "delta": 230,
+            "days": 5,
+            "perDay": 46
+          },
+          "tutorials": {
+            "keyword": "devvm 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=devvm%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
         }
       ]
     },
@@ -615,8 +822,8 @@
           "descriptionZh": "ARCHICAD 2026完整的独立桌面设置，具有预配置的可运行安装版本",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1301,
-          "starsText": "1.3k",
+          "stars": 1207,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -648,7 +855,7 @@
             }
           ],
           "category": "printer3d",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:36:04Z",
           "avatar": "https://avatars.githubusercontent.com/u/168607718?v=4",
           "curve": {
@@ -671,7 +878,7 @@
             "keyword": "archicad-desktop-setup 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=archicad-desktop-setup%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -685,8 +892,8 @@
           "descriptionZh": "Designcenter-NX：用于即时部署的全功能桌面安装程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1279,
-          "starsText": "1.3k",
+          "stars": 1182,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -718,7 +925,7 @@
             }
           ],
           "category": "printer3d",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:52:51Z",
           "avatar": "https://avatars.githubusercontent.com/u/211725048?v=4",
           "curve": {
@@ -741,7 +948,7 @@
             "keyword": "designcenter-nx-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=designcenter-nx-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -755,8 +962,8 @@
           "descriptionZh": "Sketchup Pro 2026完整的独立桌面设置，所有功能均已预先激活",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -788,7 +995,7 @@
             }
           ],
           "category": "printer3d",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:23:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/78216597?v=4",
           "curve": {
@@ -822,8 +1029,78 @@
       "name": "自托管与服务端",
       "emoji": "🏠",
       "desc": "开源自托管应用、容器化部署与运维基建",
-      "count": 3,
+      "count": 4,
       "repos": [
+        {
+          "name": "HolyArrs",
+          "owner": "HolyArrs",
+          "fullName": "HolyArrs/HolyArrs",
+          "url": "https://github.com/HolyArrs/HolyArrs",
+          "homepage": "https://holyarrs.com",
+          "description": "One self-hosted app for your shows, movies and music.",
+          "descriptionZh": "一款用于您的节目、电影和音乐的自托管应用程序。",
+          "language": "Go",
+          "license": "AGPL-3.0",
+          "stars": 1022,
+          "starsText": "1k",
+          "forks": 56,
+          "forksText": "56",
+          "openIssues": 86,
+          "archived": false,
+          "topics": [
+            {
+              "key": "docker",
+              "zh": "Docker"
+            },
+            {
+              "key": "homelab",
+              "zh": "家庭实验室"
+            },
+            {
+              "key": "jellyfin",
+              "zh": "jellyfin"
+            },
+            {
+              "key": "media-server",
+              "zh": "media-server"
+            },
+            {
+              "key": "plex",
+              "zh": "plex"
+            },
+            {
+              "key": "self-hosted",
+              "zh": "自托管"
+            }
+          ],
+          "category": "selfhost",
+          "ageDays": 3,
+          "createdAt": "2026-11-09T23:53:25Z",
+          "avatar": "https://avatars.githubusercontent.com/u/348458842?v=4",
+          "curve": {
+            "points": [
+              [
+                1794268405,
+                0
+              ],
+              [
+                1794556779,
+                1022
+              ]
+            ],
+            "source": "projected",
+            "delta": 1022,
+            "days": 3,
+            "perDay": 341
+          },
+          "tutorials": {
+            "keyword": "HolyArrs 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=HolyArrs%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
         {
           "name": "microstation-2026-setup",
           "owner": "vigilantediurno2-del",
@@ -834,8 +1111,8 @@
           "descriptionZh": "microstation-2026：用于配置和部署的专业桌面实用程序安装程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1090,
-          "starsText": "1.1k",
+          "stars": 993,
+          "starsText": "993",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -867,7 +1144,7 @@
             }
           ],
           "category": "selfhost",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:11:20Z",
           "avatar": "https://avatars.githubusercontent.com/u/316278641?v=4",
           "curve": {
@@ -904,15 +1181,15 @@
           "descriptionZh": "根据 YAML 清单生成 r/homelab 风格的网络拓扑图（Python → SVG/PNG）。使用 Claude 编写。",
           "language": "Python",
           "license": "MIT",
-          "stars": 893,
-          "starsText": "893",
-          "forks": 75,
-          "forksText": "75",
+          "stars": 955,
+          "starsText": "955",
+          "forks": 79,
+          "forksText": "79",
           "openIssues": 2,
           "archived": false,
           "topics": [],
           "category": "selfhost",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-07T12:45:46Z",
           "avatar": "https://avatars.githubusercontent.com/u/113011860?v=4",
           "curve": {
@@ -922,14 +1199,14 @@
                 0
               ],
               [
-                1794471703,
-                893
+                1794556779,
+                955
               ]
             ],
             "source": "projected",
-            "delta": 893,
-            "days": 5,
-            "perDay": 179
+            "delta": 955,
+            "days": 6,
+            "perDay": 159
           },
           "tutorials": {
             "keyword": "homelab-diagram 安装教程",
@@ -940,41 +1217,41 @@
           }
         },
         {
-          "name": "HolyArrs",
-          "owner": "HolyArrs",
-          "fullName": "HolyArrs/HolyArrs",
-          "url": "https://github.com/HolyArrs/HolyArrs",
-          "homepage": "https://holyarrs.com",
-          "description": "One self-hosted app for your shows, movies and music.",
-          "descriptionZh": "一款用于您的节目、电影和音乐的自托管应用程序。",
-          "language": "Go",
+          "name": "panel",
+          "owner": "serveroshq",
+          "fullName": "serveroshq/panel",
+          "url": "https://github.com/serveroshq/panel",
+          "homepage": "https://serveros.com",
+          "description": "The open source ServerOS panel: one place to run the Linux servers you already own.",
+          "descriptionZh": "开源 ServerOS 面板：在一个地方运行您已拥有的 Linux 服务器。",
+          "language": "PHP",
           "license": "AGPL-3.0",
-          "stars": 866,
-          "starsText": "866",
-          "forks": 42,
-          "forksText": "42",
-          "openIssues": 111,
+          "stars": 659,
+          "starsText": "659",
+          "forks": 54,
+          "forksText": "54",
+          "openIssues": 21,
           "archived": false,
           "topics": [
             {
-              "key": "docker",
-              "zh": "Docker"
+              "key": "agpl",
+              "zh": "agpl"
             },
             {
-              "key": "homelab",
-              "zh": "家庭实验室"
+              "key": "control-panel",
+              "zh": "control-panel"
             },
             {
-              "key": "jellyfin",
-              "zh": "jellyfin"
+              "key": "devops",
+              "zh": "DevOps"
             },
             {
-              "key": "media-server",
-              "zh": "media-server"
+              "key": "laravel",
+              "zh": "laravel"
             },
             {
-              "key": "plex",
-              "zh": "plex"
+              "key": "open-source",
+              "zh": "开源"
             },
             {
               "key": "self-hosted",
@@ -982,28 +1259,28 @@
             }
           ],
           "category": "selfhost",
-          "ageDays": 2,
-          "createdAt": "2026-11-09T23:53:25Z",
-          "avatar": "https://avatars.githubusercontent.com/u/348458842?v=4",
+          "ageDays": 4,
+          "createdAt": "2026-11-09T00:47:33Z",
+          "avatar": "https://avatars.githubusercontent.com/u/300786045?v=4",
           "curve": {
             "points": [
               [
-                1794268405,
+                1794185253,
                 0
               ],
               [
-                1794471703,
-                866
+                1794556779,
+                659
               ]
             ],
             "source": "projected",
-            "delta": 866,
-            "days": 2,
-            "perDay": 433
+            "delta": 659,
+            "days": 4,
+            "perDay": 165
           },
           "tutorials": {
-            "keyword": "HolyArrs 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=HolyArrs%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "panel 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=panel%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -1016,7 +1293,7 @@
       "name": "安全与隐私",
       "emoji": "🔐",
       "desc": "渗透测试、漏洞研究、隐私保护与加密",
-      "count": 6,
+      "count": 5,
       "repos": [
         {
           "name": "delta-executor-toolkit",
@@ -1028,8 +1305,8 @@
           "descriptionZh": "PC版Delta Executor：预先配置了所有工具的完整工作安装程序",
           "language": "TypeScript",
           "license": "",
-          "stars": 1295,
-          "starsText": "1.3k",
+          "stars": 1198,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -1061,7 +1338,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:51:54Z",
           "avatar": "https://avatars.githubusercontent.com/u/329385096?v=4",
           "curve": {
@@ -1084,77 +1361,7 @@
             "keyword": "delta-executor-toolkit 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=delta-executor-toolkit%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "secure-desktop-installer",
-          "owner": "groschen81-web",
-          "fullName": "groschen81-web/secure-desktop-installer",
-          "url": "https://github.com/groschen81-web/secure-desktop-installer",
-          "homepage": "",
-          "description": "Professional Desktop Installer with Enhanced Security Features",
-          "descriptionZh": "具备增强安全功能的专业桌面安装程序",
-          "language": "HTML",
-          "license": "",
-          "stars": 1210,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "android-repair-tools",
-              "zh": "android-repair-tools"
-            },
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "open-source",
-              "zh": "开源"
-            },
-            {
-              "key": "python",
-              "zh": "Python"
-            }
-          ],
-          "category": "security",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:23:15Z",
-          "avatar": "https://avatars.githubusercontent.com/u/250739217?v=4",
-          "curve": {
-            "points": [
-              [
-                1794000195,
-                0
-              ],
-              [
-                1794471703,
-                1210
-              ]
-            ],
-            "source": "projected",
-            "delta": 1210,
-            "days": 5,
-            "perDay": 242
-          },
-          "tutorials": {
-            "keyword": "secure-desktop-installer 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=secure-desktop-installer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -1168,8 +1375,8 @@
           "descriptionZh": "Rust External 2026：完整的独立培训师设置、工具和依赖项已准备好运行",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -1201,7 +1408,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:21:20Z",
           "avatar": "https://avatars.githubusercontent.com/u/210262216?v=4",
           "curve": {
@@ -1224,7 +1431,7 @@
             "keyword": "rust-external-trainer-tool 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=rust-external-trainer-tool%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -1238,8 +1445,8 @@
           "descriptionZh": "Uttorent 2026：无缝Torrent管理的桌面安装程序",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -1271,7 +1478,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:29:41Z",
           "avatar": "https://avatars.githubusercontent.com/u/249160431?v=4",
           "curve": {
@@ -1308,8 +1515,8 @@
           "descriptionZh": "ExitLag安装程序，针对桌面优化系统性能增强",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 1,
           "forksText": "1",
           "openIssues": 0,
@@ -1341,7 +1548,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:58:34Z",
           "avatar": "https://avatars.githubusercontent.com/u/281131554?v=4",
           "curve": {
@@ -1378,8 +1585,8 @@
           "descriptionZh": "Fabfilter Total 2026安全评估工具包，具有完整的功能验证和安装程序验证",
           "language": "HTML",
           "license": "",
-          "stars": 1096,
-          "starsText": "1.1k",
+          "stars": 999,
+          "starsText": "999",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -1411,7 +1618,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:58:36Z",
           "avatar": "https://avatars.githubusercontent.com/u/192868170?v=4",
           "curve": {
@@ -1473,355 +1680,8 @@
       "name": "游戏与娱乐",
       "emoji": "🎮",
       "desc": "游戏引擎、开源游戏、模拟器与模组",
-      "count": 7,
+      "count": 8,
       "repos": [
-        {
-          "name": "Hookshot",
-          "owner": "NotRexed",
-          "fullName": "NotRexed/Hookshot",
-          "url": "https://github.com/NotRexed/Hookshot",
-          "homepage": "",
-          "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-          "descriptionZh": "《塞尔达传说：时光之塔》原生重编任天堂Switch 2翻拍",
-          "language": "C++",
-          "license": "GPL-3.0",
-          "stars": 8126,
-          "starsText": "8.1k",
-          "forks": 732,
-          "forksText": "732",
-          "openIssues": 229,
-          "archived": false,
-          "topics": [],
-          "category": "game",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T12:18:58Z",
-          "avatar": "https://avatars.githubusercontent.com/u/179062254?v=4",
-          "curve": {
-            "points": [
-              [
-                1794035518,
-                513
-              ],
-              [
-                1794122554,
-                2101
-              ],
-              [
-                1794211156,
-                3463
-              ],
-              [
-                1794299158,
-                5572
-              ],
-              [
-                1794471703,
-                8126
-              ]
-            ],
-            "source": "measured",
-            "delta": 7613,
-            "days": 5,
-            "perDay": 1508
-          },
-          "tutorials": {
-            "keyword": "Hookshot 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=Hookshot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-10T08:26:00.190Z",
-            "videos": [
-              {
-                "bvid": "BV1RsWt6AEgF",
-                "title": "（11月9日）时之笛重制版系列 (17）这期是教程 PC用模拟器Fritchii-v5.3 和PC原生移植程序 Hookshot v2.0.7 使用教程",
-                "author": "有点躺平够了的老丁",
-                "play": 7573,
-                "playText": "7.6k",
-                "durationText": "24:7",
-                "url": "https://www.bilibili.com/video/BV1RsWt6AEgF"
-              }
-            ]
-          }
-        },
-        {
-          "name": "aion-2-trainer-tool",
-          "owner": "Arda313131882",
-          "fullName": "Arda313131882/aion-2-trainer-tool",
-          "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
-          "homepage": "",
-          "description": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup",
-          "descriptionZh": "AION 2 AI提示工程工具包-独立桌面培训师设置",
-          "language": "HTML",
-          "license": "MIT",
-          "stars": 1296,
-          "starsText": "1.3k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "aion-2",
-              "zh": "aion-2"
-            },
-            {
-              "key": "aion-2-2026",
-              "zh": "aion-2-2026"
-            },
-            {
-              "key": "aion-2-game",
-              "zh": "aion-2-game"
-            },
-            {
-              "key": "aion-2-optimizer",
-              "zh": "aion-2-optimizer"
-            },
-            {
-              "key": "aion-2-trainer",
-              "zh": "aion-2-trainer"
-            },
-            {
-              "key": "aion-2-trainer-tool",
-              "zh": "aion-2-trainer-tool"
-            }
-          ],
-          "category": "game",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T20:34:15Z",
-          "avatar": "https://avatars.githubusercontent.com/u/215182801?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                480
-              ],
-              [
-                1794471703,
-                1296
-              ]
-            ],
-            "source": "measured",
-            "delta": 816,
-            "days": 2,
-            "perDay": 409
-          },
-          "tutorials": {
-            "keyword": "aion-2-trainer-tool 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=aion-2-trainer-tool%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "metatrader-5-bot",
-          "owner": "RolandoV3",
-          "fullName": "RolandoV3/metatrader-5-bot",
-          "url": "https://github.com/RolandoV3/metatrader-5-bot",
-          "homepage": "",
-          "description": "Community-driven MetaTrader 5 bot with full features ready for desktop use",
-          "descriptionZh": "社区驱动的MetaTrader 5机器人，具有完整的功能，可供桌面使用",
-          "language": "TypeScript",
-          "license": "",
-          "stars": 1204,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 2,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "background-process",
-              "zh": "background-process"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "metatrader5-no-gui",
-              "zh": "metatrader5-no-gui"
-            },
-            {
-              "key": "mt5-api",
-              "zh": "mt5-api"
-            },
-            {
-              "key": "mt5-bot",
-              "zh": "mt5-bot"
-            }
-          ],
-          "category": "game",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:09:36Z",
-          "avatar": "https://avatars.githubusercontent.com/u/92120047?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                481
-              ],
-              [
-                1794471703,
-                1204
-              ]
-            ],
-            "source": "measured",
-            "delta": 723,
-            "days": 2,
-            "perDay": 362
-          },
-          "tutorials": {
-            "keyword": "metatrader-5-bot 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=metatrader-5-bot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "ninjatrader-bot",
-          "owner": "janitoff0",
-          "fullName": "janitoff0/ninjatrader-bot",
-          "url": "https://github.com/janitoff0/ninjatrader-bot",
-          "homepage": "",
-          "description": "Ninjatrader Bot 2026: a friendly, community-driven trading companion packed with powerful features",
-          "descriptionZh": "Ninjatrader Bot 2026：一个友好、社区驱动的交易伙伴，拥有强大的功能",
-          "language": "HTML",
-          "license": "",
-          "stars": 1201,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "ninjatrader",
-              "zh": "ninjatrader"
-            },
-            {
-              "key": "ninjatrader-8",
-              "zh": "ninjatrader-8"
-            },
-            {
-              "key": "ninjatrader-addon",
-              "zh": "ninjatrader-addon"
-            }
-          ],
-          "category": "game",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:13:59Z",
-          "avatar": "https://avatars.githubusercontent.com/u/316681706?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                480
-              ],
-              [
-                1794471703,
-                1201
-              ]
-            ],
-            "source": "measured",
-            "delta": 721,
-            "days": 2,
-            "perDay": 361
-          },
-          "tutorials": {
-            "keyword": "ninjatrader-bot 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=ninjatrader-bot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "fortnite-skin-swapper-enhancement",
-          "owner": "Gacktadactle",
-          "fullName": "Gacktadactle/fortnite-skin-swapper-enhancement",
-          "url": "https://github.com/Gacktadactle/fortnite-skin-swapper-enhancement",
-          "homepage": "",
-          "description": "Fortnite Skin Swapper: Standalone 2026 Desktop Setup, Ready to Run",
-          "descriptionZh": "Fortnite皮肤交换器：独立的2026台式机设置，准备运行",
-          "language": "JavaScript",
-          "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 1,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "community-skins",
-              "zh": "community-skins"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "fortnite-crashes-on-launch-pc",
-              "zh": "fortnite-crashes-on-launch-pc"
-            },
-            {
-              "key": "fortnite-sprites",
-              "zh": "fortnite-sprites"
-            }
-          ],
-          "category": "game",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:01:35Z",
-          "avatar": "https://avatars.githubusercontent.com/u/76502711?v=4",
-          "curve": {
-            "points": [
-              [
-                1794383138,
-                772
-              ],
-              [
-                1794471703,
-                1200
-              ]
-            ],
-            "source": "measured",
-            "delta": 428,
-            "days": 1,
-            "perDay": 418
-          },
-          "tutorials": {
-            "keyword": "fortnite-skin-swapper-enhancement 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=fortnite-skin-swapper-enhancement%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
         {
           "name": "supermimic",
           "owner": "HybridRobotics",
@@ -1832,15 +1692,15 @@
           "descriptionZh": "使用一个可微分世界模型的人形全身运动跟踪。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 1174,
-          "starsText": "1.2k",
-          "forks": 79,
-          "forksText": "79",
+          "stars": 1368,
+          "starsText": "1.4k",
+          "forks": 89,
+          "forksText": "89",
           "openIssues": 23,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 2,
+          "ageDays": 3,
           "createdAt": "2026-11-10T10:46:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/10053058?v=4",
           "curve": {
@@ -1887,6 +1747,76 @@
           }
         },
         {
+          "name": "aion-2-trainer-tool",
+          "owner": "Arda313131882",
+          "fullName": "Arda313131882/aion-2-trainer-tool",
+          "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
+          "homepage": "",
+          "description": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup",
+          "descriptionZh": "AION 2 AI提示工程工具包-独立桌面培训师设置",
+          "language": "HTML",
+          "license": "MIT",
+          "stars": 1199,
+          "starsText": "1.2k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "aion-2",
+              "zh": "aion-2"
+            },
+            {
+              "key": "aion-2-2026",
+              "zh": "aion-2-2026"
+            },
+            {
+              "key": "aion-2-game",
+              "zh": "aion-2-game"
+            },
+            {
+              "key": "aion-2-optimizer",
+              "zh": "aion-2-optimizer"
+            },
+            {
+              "key": "aion-2-trainer",
+              "zh": "aion-2-trainer"
+            },
+            {
+              "key": "aion-2-trainer-tool",
+              "zh": "aion-2-trainer-tool"
+            }
+          ],
+          "category": "game",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T20:34:15Z",
+          "avatar": "https://avatars.githubusercontent.com/u/215182801?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                480
+              ],
+              [
+                1794471703,
+                1296
+              ]
+            ],
+            "source": "measured",
+            "delta": 816,
+            "days": 2,
+            "perDay": 409
+          },
+          "tutorials": {
+            "keyword": "aion-2-trainer-tool 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=aion-2-trainer-tool%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
           "name": "ocarina-recomp",
           "owner": "sostenesfreitas",
           "fullName": "sostenesfreitas/ocarina-recomp",
@@ -1896,15 +1826,15 @@
           "descriptionZh": "时间之笛在Windows上本机运行，没有模拟器。从您自己的副本构建在您的PC上。不包括游戏文件。",
           "language": "C",
           "license": "GPL-3.0",
-          "stars": 1157,
+          "stars": 1172,
           "starsText": "1.2k",
-          "forks": 75,
-          "forksText": "75",
-          "openIssues": 98,
+          "forks": 77,
+          "forksText": "77",
+          "openIssues": 97,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T22:24:03Z",
           "avatar": "https://avatars.githubusercontent.com/u/13871345?v=4",
           "curve": {
@@ -1939,6 +1869,398 @@
             "keyword": "ocarina-recomp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ocarina-recomp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "metatrader-5-bot",
+          "owner": "RolandoV3",
+          "fullName": "RolandoV3/metatrader-5-bot",
+          "url": "https://github.com/RolandoV3/metatrader-5-bot",
+          "homepage": "",
+          "description": "Community-driven MetaTrader 5 bot with full features ready for desktop use",
+          "descriptionZh": "社区驱动的MetaTrader 5机器人，具有完整的功能，可供桌面使用",
+          "language": "TypeScript",
+          "license": "",
+          "stars": 1108,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 2,
+          "archived": false,
+          "topics": [
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "background-process",
+              "zh": "background-process"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "metatrader5-no-gui",
+              "zh": "metatrader5-no-gui"
+            },
+            {
+              "key": "mt5-api",
+              "zh": "mt5-api"
+            },
+            {
+              "key": "mt5-bot",
+              "zh": "mt5-bot"
+            }
+          ],
+          "category": "game",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:09:36Z",
+          "avatar": "https://avatars.githubusercontent.com/u/92120047?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                481
+              ],
+              [
+                1794471703,
+                1204
+              ]
+            ],
+            "source": "measured",
+            "delta": 723,
+            "days": 2,
+            "perDay": 362
+          },
+          "tutorials": {
+            "keyword": "metatrader-5-bot 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=metatrader-5-bot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "ninjatrader-bot",
+          "owner": "janitoff0",
+          "fullName": "janitoff0/ninjatrader-bot",
+          "url": "https://github.com/janitoff0/ninjatrader-bot",
+          "homepage": "",
+          "description": "Ninjatrader Bot 2026: a friendly, community-driven trading companion packed with powerful features",
+          "descriptionZh": "Ninjatrader Bot 2026：一个友好、社区驱动的交易伙伴，拥有强大的功能",
+          "language": "HTML",
+          "license": "",
+          "stars": 1104,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "desktop",
+              "zh": "desktop"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "ninjatrader",
+              "zh": "ninjatrader"
+            },
+            {
+              "key": "ninjatrader-8",
+              "zh": "ninjatrader-8"
+            },
+            {
+              "key": "ninjatrader-addon",
+              "zh": "ninjatrader-addon"
+            }
+          ],
+          "category": "game",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:13:59Z",
+          "avatar": "https://avatars.githubusercontent.com/u/316681706?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                480
+              ],
+              [
+                1794471703,
+                1201
+              ]
+            ],
+            "source": "measured",
+            "delta": 721,
+            "days": 2,
+            "perDay": 361
+          },
+          "tutorials": {
+            "keyword": "ninjatrader-bot 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=ninjatrader-bot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "fortnite-skin-swapper-enhancement",
+          "owner": "Gacktadactle",
+          "fullName": "Gacktadactle/fortnite-skin-swapper-enhancement",
+          "url": "https://github.com/Gacktadactle/fortnite-skin-swapper-enhancement",
+          "homepage": "",
+          "description": "Fortnite Skin Swapper: Standalone 2026 Desktop Setup, Ready to Run",
+          "descriptionZh": "Fortnite皮肤交换器：独立的2026台式机设置，准备运行",
+          "language": "JavaScript",
+          "license": "",
+          "stars": 1103,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 1,
+          "archived": false,
+          "topics": [
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "community-skins",
+              "zh": "community-skins"
+            },
+            {
+              "key": "desktop",
+              "zh": "desktop"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "fortnite-crashes-on-launch-pc",
+              "zh": "fortnite-crashes-on-launch-pc"
+            },
+            {
+              "key": "fortnite-sprites",
+              "zh": "fortnite-sprites"
+            }
+          ],
+          "category": "game",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:01:35Z",
+          "avatar": "https://avatars.githubusercontent.com/u/76502711?v=4",
+          "curve": {
+            "points": [
+              [
+                1794383138,
+                772
+              ],
+              [
+                1794471703,
+                1200
+              ]
+            ],
+            "source": "measured",
+            "delta": 428,
+            "days": 1,
+            "perDay": 418
+          },
+          "tutorials": {
+            "keyword": "fortnite-skin-swapper-enhancement 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=fortnite-skin-swapper-enhancement%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "fefw-recomp",
+          "owner": "Goldoire",
+          "fullName": "Goldoire/fefw-recomp",
+          "url": "https://github.com/Goldoire/fefw-recomp",
+          "homepage": "",
+          "description": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
+          "descriptionZh": "通过静态重编译实现的《火焰纹章：命运之织》原生Windows PC移植版。请自带转储文件；不包含游戏文件。",
+          "language": "C++",
+          "license": "GPL-3.0",
+          "stars": 674,
+          "starsText": "674",
+          "forks": 51,
+          "forksText": "51",
+          "openIssues": 43,
+          "archived": false,
+          "topics": [
+            {
+              "key": "pc-port",
+              "zh": "pc-port"
+            },
+            {
+              "key": "recompilation",
+              "zh": "recompilation"
+            },
+            {
+              "key": "static-recompilation",
+              "zh": "static-recompilation"
+            },
+            {
+              "key": "vulkan",
+              "zh": "vulkan"
+            },
+            {
+              "key": "windows",
+              "zh": "Windows"
+            }
+          ],
+          "category": "game",
+          "ageDays": 5,
+          "createdAt": "2026-11-07T21:58:07Z",
+          "avatar": "https://avatars.githubusercontent.com/u/84254875?v=4",
+          "curve": {
+            "points": [
+              [
+                1794088687,
+                0
+              ],
+              [
+                1794556779,
+                674
+              ]
+            ],
+            "source": "projected",
+            "delta": 674,
+            "days": 5,
+            "perDay": 135
+          },
+          "tutorials": {
+            "keyword": "fefw-recomp 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=fefw-recomp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "mkw-recomp",
+          "owner": "adriadam10",
+          "fullName": "adriadam10/mkw-recomp",
+          "url": "https://github.com/adriadam10/mkw-recomp",
+          "homepage": "",
+          "description": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
+          "descriptionZh": "将《马里奥赛车世界》（Nintendo Switch 2）静态重编译为原生PC程序",
+          "language": "C",
+          "license": "MIT",
+          "stars": 606,
+          "starsText": "606",
+          "forks": 30,
+          "forksText": "30",
+          "openIssues": 121,
+          "archived": false,
+          "topics": [],
+          "category": "game",
+          "ageDays": 4,
+          "createdAt": "2026-11-09T15:40:06Z",
+          "avatar": "https://avatars.githubusercontent.com/u/57327458?v=4",
+          "curve": {
+            "points": [
+              [
+                1794238806,
+                0
+              ],
+              [
+                1794556779,
+                606
+              ]
+            ],
+            "source": "projected",
+            "delta": 606,
+            "days": 4,
+            "perDay": 152
+          },
+          "tutorials": {
+            "keyword": "mkw-recomp 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=mkw-recomp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "name": "Web 前端",
+      "emoji": "🌐",
+      "desc": "前端框架、UI 组件库、建站模板与动效",
+      "count": 1,
+      "repos": [
+        {
+          "name": "line-art-animation",
+          "owner": "JDhruv14",
+          "fullName": "JDhruv14/line-art-animation",
+          "url": "https://github.com/JDhruv14/line-art-animation",
+          "homepage": "",
+          "description": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
+          "descriptionZh": "用于动画线绘SVG组件的Claude技能和TypeScript库：会行走和做出反应的墨迹图形，具有昼夜循环的场景。",
+          "language": "TypeScript",
+          "license": "MIT",
+          "stars": 607,
+          "starsText": "607",
+          "forks": 97,
+          "forksText": "97",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "claude-skill",
+              "zh": "Claude 技能"
+            },
+            {
+              "key": "line-art",
+              "zh": "line-art"
+            },
+            {
+              "key": "svg-animation",
+              "zh": "svg-animation"
+            },
+            {
+              "key": "typescript",
+              "zh": "TypeScript"
+            }
+          ],
+          "category": "web",
+          "ageDays": 3,
+          "createdAt": "2026-11-10T09:25:25Z",
+          "avatar": "https://avatars.githubusercontent.com/u/112489039?v=4",
+          "curve": {
+            "points": [
+              [
+                1794302725,
+                0
+              ],
+              [
+                1794556779,
+                607
+              ]
+            ],
+            "source": "projected",
+            "delta": 607,
+            "days": 3,
+            "perDay": 202
+          },
+          "tutorials": {
+            "keyword": "line-art-animation 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=line-art-animation%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
             "fetchedAt": null,
             "videos": []
           }
@@ -1950,61 +2272,8 @@
       "name": "音视频与图像",
       "emoji": "🎬",
       "desc": "播放器、剪辑、下载、录屏与图像处理",
-      "count": 8,
+      "count": 7,
       "repos": [
-        {
-          "name": "gif-factory",
-          "owner": "WoYun520",
-          "fullName": "WoYun520/gif-factory",
-          "url": "https://github.com/WoYun520/gif-factory",
-          "homepage": "",
-          "description": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
-          "descriptionZh": "",
-          "language": "Python",
-          "license": "MIT",
-          "stars": 1493,
-          "starsText": "1.5k",
-          "forks": 167,
-          "forksText": "167",
-          "openIssues": 1,
-          "archived": false,
-          "topics": [],
-          "category": "media",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T04:08:24Z",
-          "avatar": "https://avatars.githubusercontent.com/u/329836734?v=4",
-          "curve": {
-            "points": [
-              [
-                1794122554,
-                669
-              ],
-              [
-                1794211156,
-                958
-              ],
-              [
-                1794299158,
-                1050
-              ],
-              [
-                1794471703,
-                1493
-              ]
-            ],
-            "source": "measured",
-            "delta": 824,
-            "days": 4,
-            "perDay": 204
-          },
-          "tutorials": {
-            "keyword": "gif-factory 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=gif-factory%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
         {
           "name": "power-director",
           "owner": "SnehalSukale27",
@@ -2015,8 +2284,8 @@
           "descriptionZh": "Power Director：带完整安装程序的独立桌面视频编辑套件",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2048,7 +2317,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:18:39Z",
           "avatar": "https://avatars.githubusercontent.com/u/233766645?v=4",
           "curve": {
@@ -2113,8 +2382,8 @@
           "descriptionZh": "Melodyne-5：专业音频编辑桌面套件，配备全套功能",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2146,7 +2415,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:09:49Z",
           "avatar": "https://avatars.githubusercontent.com/u/243696364?v=4",
           "curve": {
@@ -2169,7 +2438,7 @@
             "keyword": "melodyne-5-desktop-setup 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=melodyne-5-desktop-setup%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -2183,8 +2452,8 @@
           "descriptionZh": "Ozone 12 Advanced：具有增强配置的专业桌面实用程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2216,7 +2485,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:14:51Z",
           "avatar": "https://avatars.githubusercontent.com/u/314411424?v=4",
           "curve": {
@@ -2253,8 +2522,8 @@
           "descriptionZh": "on1-photo-raw-max：使用高级图像工具完成独立设置",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2286,7 +2555,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:14:39Z",
           "avatar": "https://avatars.githubusercontent.com/u/75119630?v=4",
           "curve": {
@@ -2323,8 +2592,8 @@
           "descriptionZh": "独立桌面音频修改套件，具有完整的预配置设置，适用于专业语音",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2356,7 +2625,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:31:28Z",
           "avatar": "https://avatars.githubusercontent.com/u/290643141?v=4",
           "curve": {
@@ -2393,8 +2662,8 @@
           "descriptionZh": "Auslogics Audio Studio 2026台式机版：预激活独立设置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2426,7 +2695,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:37:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/283338792?v=4",
           "curve": {
@@ -2463,8 +2732,8 @@
           "descriptionZh": "Sylenth 1配置实用程序：独立桌面设置，准备运行",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2496,7 +2765,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:27:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/162561127?v=4",
           "curve": {
@@ -2542,8 +2811,8 @@
           "descriptionZh": "具有完整功能配置的IBM SPSS Statistics 2026独立设置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1201,
-          "starsText": "1.2k",
+          "stars": 1104,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2575,7 +2844,7 @@
             }
           ],
           "category": "data",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:04:22Z",
           "avatar": "https://avatars.githubusercontent.com/u/241537273?v=4",
           "curve": {
@@ -2598,7 +2867,7 @@
             "keyword": "ibm-spss-desktop-suite 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ibm-spss-desktop-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -2612,8 +2881,8 @@
           "descriptionZh": "使用预配置工具的Microsoft 365 2024独立桌面设置",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 1,
@@ -2645,7 +2914,7 @@
             }
           ],
           "category": "data",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:11:04Z",
           "avatar": "https://avatars.githubusercontent.com/u/169668232?v=4",
           "curve": {
@@ -2668,7 +2937,7 @@
             "keyword": "microsoft-365-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=microsoft-365-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         }
@@ -2679,7 +2948,7 @@
       "name": "开发工具与效率",
       "emoji": "🛠️",
       "desc": "命令行工具、编辑器配置、API 调试与工程效率",
-      "count": 44,
+      "count": 40,
       "repos": [
         {
           "name": "secure-pdf-document-processor",
@@ -2691,8 +2960,8 @@
           "descriptionZh": "Adobe Acrobat Pro 2026：桌面版安全独立PDF文档处理器",
           "language": "HTML",
           "license": "",
-          "stars": 1305,
-          "starsText": "1.3k",
+          "stars": 1212,
+          "starsText": "1.2k",
           "forks": 1,
           "forksText": "1",
           "openIssues": 0,
@@ -2724,7 +2993,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:23:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/191867361?v=4",
           "curve": {
@@ -2747,7 +3016,7 @@
             "keyword": "secure-pdf-document-processor 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=secure-pdf-document-processor%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -2761,10 +3030,10 @@
           "descriptionZh": "Adobe Substance 3D Creative Studio 2026 -安全资产管道桌面安装程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1304,
-          "starsText": "1.3k",
-          "forks": 0,
-          "forksText": "0",
+          "stars": 1210,
+          "starsText": "1.2k",
+          "forks": 1,
+          "forksText": "1",
           "openIssues": 0,
           "archived": false,
           "topics": [
@@ -2794,7 +3063,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:33:06Z",
           "avatar": "https://avatars.githubusercontent.com/u/226122531?v=4",
           "curve": {
@@ -2817,77 +3086,7 @@
             "keyword": "adobe-substance-3d-studio 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=adobe-substance-3d-studio%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "ashampoo-winoptimizer-desktop",
-          "owner": "Somenicehispanic",
-          "fullName": "Somenicehispanic/ashampoo-winoptimizer-desktop",
-          "url": "https://github.com/Somenicehispanic/ashampoo-winoptimizer-desktop",
-          "homepage": "",
-          "description": "Ashampoo WinOptimizer 2026 Standalone Setup with Full Feature Set Enabled",
-          "descriptionZh": "Ashampoo WinOptimizer 2026独立设置，已启用完整功能集",
-          "language": "HTML",
-          "license": "",
-          "stars": 1301,
-          "starsText": "1.3k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "ashampoo-gmbh",
-              "zh": "ashampoo-gmbh"
-            },
-            {
-              "key": "ashampoo-uninstaller-install-setup-windows-2026",
-              "zh": "ashampoo-uninstaller-install-setup-windows-2026"
-            },
-            {
-              "key": "ashampoo-winoptimizer-system-clea",
-              "zh": "ashampoo-winoptimizer-system-clea"
-            },
-            {
-              "key": "ashampoo-winoptimizer-windows",
-              "zh": "ashampoo-winoptimizer-windows"
-            },
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "clean-up",
-              "zh": "clean-up"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T20:36:25Z",
-          "avatar": "https://avatars.githubusercontent.com/u/163243711?v=4",
-          "curve": {
-            "points": [
-              [
-                1794383138,
-                772
-              ],
-              [
-                1794471703,
-                1301
-              ]
-            ],
-            "source": "measured",
-            "delta": 529,
-            "days": 1,
-            "perDay": 516
-          },
-          "tutorials": {
-            "keyword": "ashampoo-winoptimizer-desktop 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=ashampoo-winoptimizer-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -2901,8 +3100,8 @@
           "descriptionZh": "Autodesk Inventor 2026专业桌面安装程序，具有预配置的完整功能集",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1300,
-          "starsText": "1.3k",
+          "stars": 1203,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -2934,7 +3133,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:40:29Z",
           "avatar": "https://avatars.githubusercontent.com/u/119608582?v=4",
           "curve": {
@@ -2957,7 +3156,7 @@
             "keyword": "autodesk-inventor-desktop-config 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=autodesk-inventor-desktop-config%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -2971,8 +3170,8 @@
           "descriptionZh": "CLion完整安装程序：完成独立设置，所有功能均已激活",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1298,
-          "starsText": "1.3k",
+          "stars": 1201,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3004,7 +3203,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:48:32Z",
           "avatar": "https://avatars.githubusercontent.com/u/91956912?v=4",
           "curve": {
@@ -3027,7 +3226,7 @@
             "keyword": "clion-standalone-enhancement 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=clion-standalone-enhancement%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3041,8 +3240,8 @@
           "descriptionZh": "Aomei Backupper 2026：全功能桌面备份和恢复套件",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 1296,
-          "starsText": "1.3k",
+          "stars": 1199,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3074,7 +3273,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:53:28Z",
           "avatar": "https://avatars.githubusercontent.com/u/304171179?v=4",
           "curve": {
@@ -3097,7 +3296,7 @@
             "keyword": "desktop-backup-suite 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=desktop-backup-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3111,8 +3310,8 @@
           "descriptionZh": "directory-opus：完整的独立桌面设置，预先启用所有功能，准备运行",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1294,
-          "starsText": "1.3k",
+          "stars": 1197,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3144,7 +3343,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:54:11Z",
           "avatar": "https://avatars.githubusercontent.com/u/26808605?v=4",
           "curve": {
@@ -3209,8 +3408,8 @@
           "descriptionZh": "Delta Force Trainer工具：具有所有工具和配置的完整工作安装程序",
           "language": "HTML",
           "license": "",
-          "stars": 1294,
-          "starsText": "1.3k",
+          "stars": 1197,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3242,7 +3441,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:51:48Z",
           "avatar": "https://avatars.githubusercontent.com/u/260553024?v=4",
           "curve": {
@@ -3265,7 +3464,7 @@
             "keyword": "delta-force-trainer-tool 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=delta-force-trainer-tool%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3279,8 +3478,8 @@
           "descriptionZh": "Display Fusion 2026独立台式机设置，具有完整的功能配置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1271,
-          "starsText": "1.3k",
+          "stars": 1175,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3312,7 +3511,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:54:55Z",
           "avatar": "https://avatars.githubusercontent.com/u/140272233?v=4",
           "curve": {
@@ -3335,7 +3534,7 @@
             "keyword": "display-fusion 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=display-fusion%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3349,8 +3548,8 @@
           "descriptionZh": "DVD-Creator 2026：完整的桌面构建，每个功能均已启用",
           "language": "HTML",
           "license": "",
-          "stars": 1252,
-          "starsText": "1.3k",
+          "stars": 1155,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3382,7 +3581,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:55:25Z",
           "avatar": "https://avatars.githubusercontent.com/u/283097884?v=4",
           "curve": {
@@ -3405,7 +3604,7 @@
             "keyword": "dvd-creator-game-enhancement 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dvd-creator-game-enhancement%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3419,8 +3618,8 @@
           "descriptionZh": "dxo-photolab-10：完整的独立配置，准备运行，没有任何阻碍",
           "language": "HTML",
           "license": "",
-          "stars": 1241,
-          "starsText": "1.2k",
+          "stars": 1144,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3452,7 +3651,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:56:41Z",
           "avatar": "https://avatars.githubusercontent.com/u/84156239?v=4",
           "curve": {
@@ -3475,77 +3674,7 @@
             "keyword": "dxo-photolab-10-config 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dxo-photolab-10-config%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "dxo-photolab-10-desktop",
-          "owner": "flgomes",
-          "fullName": "flgomes/dxo-photolab-10-desktop",
-          "url": "https://github.com/flgomes/dxo-photolab-10-desktop",
-          "homepage": "",
-          "description": "DxO PhotoLab 10 desktop build for professional photo processing workflows",
-          "descriptionZh": "DxO PhotoLab 10桌面版，适用于专业照片处理工作流程",
-          "language": "HTML",
-          "license": "MIT",
-          "stars": 1229,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "digital-photography",
-              "zh": "digital-photography"
-            },
-            {
-              "key": "dxo-photolab-coupon",
-              "zh": "dxo-photolab-coupon"
-            },
-            {
-              "key": "dxo-photolab-discount-code",
-              "zh": "dxo-photolab-discount-code"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T20:56:37Z",
-          "avatar": "https://avatars.githubusercontent.com/u/64888754?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                480
-              ],
-              [
-                1794471703,
-                1229
-              ]
-            ],
-            "source": "measured",
-            "delta": 749,
-            "days": 2,
-            "perDay": 375
-          },
-          "tutorials": {
-            "keyword": "dxo-photolab-10-desktop 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=dxo-photolab-10-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3559,8 +3688,8 @@
           "descriptionZh": "Easy-Worship 2026：完整的独立桌面设置，启用所有功能",
           "language": "HTML",
           "license": "",
-          "stars": 1210,
-          "starsText": "1.2k",
+          "stars": 1113,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3592,7 +3721,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:57:14Z",
           "avatar": "https://avatars.githubusercontent.com/u/210539056?v=4",
           "curve": {
@@ -3615,7 +3744,7 @@
             "keyword": "easy-worship-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=easy-worship-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3629,8 +3758,8 @@
           "descriptionZh": "KONTAKT 8桌面实用程序配置：固执己见的点文件，准备运行",
           "language": "HTML",
           "license": "",
-          "stars": 1201,
-          "starsText": "1.2k",
+          "stars": 1104,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3662,7 +3791,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:07:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/285762251?v=4",
           "curve": {
@@ -3685,7 +3814,7 @@
             "keyword": "kontakt-8-config 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=kontakt-8-config%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3699,8 +3828,8 @@
           "descriptionZh": "Android屏幕镜像和控制工作流程，简化",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1201,
-          "starsText": "1.2k",
+          "stars": 1104,
+          "starsText": "1.1k",
           "forks": 1,
           "forksText": "1",
           "openIssues": 0,
@@ -3732,7 +3861,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:21:53Z",
           "avatar": "https://avatars.githubusercontent.com/u/25369456?v=4",
           "curve": {
@@ -3755,7 +3884,147 @@
             "keyword": "scrcpy-mirror-control 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=scrcpy-mirror-control%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "soundpad-audio-suite",
+          "owner": "manjushree-iyer",
+          "fullName": "manjushree-iyer/soundpad-audio-suite",
+          "url": "https://github.com/manjushree-iyer/soundpad-audio-suite",
+          "homepage": "",
+          "description": "Soundpad: Advanced Audio Processing for Professional DAW Workflows",
+          "descriptionZh": "Soundpad：专业DAW工作流程的高级音频处理",
+          "language": "Go",
+          "license": "",
+          "stars": 1104,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "desktop",
+              "zh": "desktop"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "open-source",
+              "zh": "开源"
+            },
+            {
+              "key": "python",
+              "zh": "Python"
+            },
+            {
+              "key": "scripts",
+              "zh": "scripts"
+            }
+          ],
+          "category": "devtools",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:24:56Z",
+          "avatar": "https://avatars.githubusercontent.com/u/195894983?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                480
+              ],
+              [
+                1794471703,
+                1200
+              ]
+            ],
+            "source": "measured",
+            "delta": 720,
+            "days": 2,
+            "perDay": 361
+          },
+          "tutorials": {
+            "keyword": "soundpad-audio-suite 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=soundpad-audio-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "musicmakerunlimited",
+          "owner": "ethangangasingh-crypto",
+          "fullName": "ethangangasingh-crypto/musicmakerunlimited",
+          "url": "https://github.com/ethangangasingh-crypto/musicmakerunlimited",
+          "homepage": "",
+          "description": "Musicmakerunlimited 2026: Full-Feature Desktop Installer with Complete Toolset",
+          "descriptionZh": "Musicmaker unlimited 2026：功能齐全的桌面安装程序，配备完整的工具集",
+          "language": "TypeScript",
+          "license": "",
+          "stars": 1103,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "beat-creator",
+              "zh": "beat-creator"
+            },
+            {
+              "key": "beginner-daw",
+              "zh": "beginner-daw"
+            },
+            {
+              "key": "desktop",
+              "zh": "desktop"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            },
+            {
+              "key": "loop-music-maker",
+              "zh": "loop-music-maker"
+            }
+          ],
+          "category": "devtools",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:14:04Z",
+          "avatar": "https://avatars.githubusercontent.com/u/322881863?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                480
+              ],
+              [
+                1794471703,
+                1200
+              ]
+            ],
+            "source": "measured",
+            "delta": 720,
+            "days": 2,
+            "perDay": 361
+          },
+          "tutorials": {
+            "keyword": "musicmakerunlimited 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=musicmakerunlimited%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3769,8 +4038,8 @@
           "descriptionZh": "Rufus：高级USB格式化和可启动驱动器创建实用程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -3802,7 +4071,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:21:15Z",
           "avatar": "https://avatars.githubusercontent.com/u/84886095?v=4",
           "curve": {
@@ -3825,147 +4094,7 @@
             "keyword": "rufus-usb-formatter 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=rufus-usb-formatter%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "musicmakerunlimited",
-          "owner": "ethangangasingh-crypto",
-          "fullName": "ethangangasingh-crypto/musicmakerunlimited",
-          "url": "https://github.com/ethangangasingh-crypto/musicmakerunlimited",
-          "homepage": "",
-          "description": "Musicmakerunlimited 2026: Full-Feature Desktop Installer with Complete Toolset",
-          "descriptionZh": "Musicmaker unlimited 2026：功能齐全的桌面安装程序，配备完整的工具集",
-          "language": "TypeScript",
-          "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "beat-creator",
-              "zh": "beat-creator"
-            },
-            {
-              "key": "beginner-daw",
-              "zh": "beginner-daw"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "loop-music-maker",
-              "zh": "loop-music-maker"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:14:04Z",
-          "avatar": "https://avatars.githubusercontent.com/u/322881863?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                480
-              ],
-              [
-                1794471703,
-                1200
-              ]
-            ],
-            "source": "measured",
-            "delta": 720,
-            "days": 2,
-            "perDay": 361
-          },
-          "tutorials": {
-            "keyword": "musicmakerunlimited 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=musicmakerunlimited%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "quicken-deluxe-installer",
-          "owner": "rdeepak-wq121",
-          "fullName": "rdeepak-wq121/quicken-deluxe-installer",
-          "url": "https://github.com/rdeepak-wq121/quicken-deluxe-installer",
-          "homepage": "",
-          "description": "Quicken Deluxe Desktop Installer with Full Feature Set Enabled",
-          "descriptionZh": "启用全功能集的Quicken Deluxe桌面安装程序",
-          "language": "TypeScript",
-          "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "free-quicken-download",
-              "zh": "free-quicken-download"
-            },
-            {
-              "key": "open-source",
-              "zh": "开源"
-            },
-            {
-              "key": "python",
-              "zh": "Python"
-            },
-            {
-              "key": "quicken",
-              "zh": "quicken"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:20:42Z",
-          "avatar": "https://avatars.githubusercontent.com/u/263535579?v=4",
-          "curve": {
-            "points": [
-              [
-                1794383138,
-                773
-              ],
-              [
-                1794471703,
-                1200
-              ]
-            ],
-            "source": "measured",
-            "delta": 427,
-            "days": 1,
-            "perDay": 417
-          },
-          "tutorials": {
-            "keyword": "quicken-deluxe-installer 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=quicken-deluxe-installer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -3979,8 +4108,8 @@
           "descriptionZh": "Payday 3 Trainer工具-完全激活的桌面构建，随时可玩",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4012,7 +4141,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:16:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/24428628?v=4",
           "curve": {
@@ -4035,22 +4164,22 @@
             "keyword": "payday-3-enhancement-toolkit 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=payday-3-enhancement-toolkit%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
         {
-          "name": "honkai-star-rail-companion-suite",
-          "owner": "shayannazar84-hero",
-          "fullName": "shayannazar84-hero/honkai-star-rail-companion-suite",
-          "url": "https://github.com/shayannazar84-hero/honkai-star-rail-companion-suite",
+          "name": "quicken-deluxe-installer",
+          "owner": "rdeepak-wq121",
+          "fullName": "rdeepak-wq121/quicken-deluxe-installer",
+          "url": "https://github.com/rdeepak-wq121/quicken-deluxe-installer",
           "homepage": "",
-          "description": "Honkai Star Rail 2026 Trainer Tool: Complete Standalone Setup, Ready to Run",
-          "descriptionZh": "Honkai Star Rail 2026教练工具：完成独立设置，准备运行",
-          "language": "HTML",
+          "description": "Quicken Deluxe Desktop Installer with Full Feature Set Enabled",
+          "descriptionZh": "启用全功能集的Quicken Deluxe桌面安装程序",
+          "language": "TypeScript",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4061,12 +4190,12 @@
               "zh": "自动化"
             },
             {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
               "key": "developer-tools",
               "zh": "开发者工具"
+            },
+            {
+              "key": "free-quicken-download",
+              "zh": "free-quicken-download"
             },
             {
               "key": "open-source",
@@ -4077,19 +4206,19 @@
               "zh": "Python"
             },
             {
-              "key": "scripts",
-              "zh": "scripts"
+              "key": "quicken",
+              "zh": "quicken"
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:03:36Z",
-          "avatar": "https://avatars.githubusercontent.com/u/241646723?v=4",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:20:42Z",
+          "avatar": "https://avatars.githubusercontent.com/u/263535579?v=4",
           "curve": {
             "points": [
               [
-                1794299158,
-                480
+                1794383138,
+                773
               ],
               [
                 1794471703,
@@ -4097,15 +4226,15 @@
               ]
             ],
             "source": "measured",
-            "delta": 720,
-            "days": 2,
-            "perDay": 361
+            "delta": 427,
+            "days": 1,
+            "perDay": 417
           },
           "tutorials": {
-            "keyword": "honkai-star-rail-companion-suite 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=honkai-star-rail-companion-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "quicken-deluxe-installer 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=quicken-deluxe-installer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -4119,8 +4248,8 @@
           "descriptionZh": "带增强显示选项的多显示器桌面配置安装程序",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4152,7 +4281,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:30:50Z",
           "avatar": "https://avatars.githubusercontent.com/u/193115624?v=4",
           "curve": {
@@ -4175,92 +4304,22 @@
             "keyword": "actual-multi-display-configurator 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=actual-multi-display-configurator%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
         {
-          "name": "rx-11-audio-editor-config",
-          "owner": "farhatullah0006-art",
-          "fullName": "farhatullah0006-art/rx-11-audio-editor-config",
-          "url": "https://github.com/farhatullah0006-art/rx-11-audio-editor-config",
+          "name": "honkai-star-rail-companion-suite",
+          "owner": "shayannazar84-hero",
+          "fullName": "shayannazar84-hero/honkai-star-rail-companion-suite",
+          "url": "https://github.com/shayannazar84-hero/honkai-star-rail-companion-suite",
           "homepage": "",
-          "description": "rx-11-audio-editor config: full standalone installer and dotfiles for professional audio editing",
-          "descriptionZh": "rx-11-audio-editor配置：用于专业音频编辑的完整独立安装程序和点文件",
-          "language": "Python",
-          "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "audio-mastering",
-              "zh": "audio-mastering"
-            },
-            {
-              "key": "audio-restoration",
-              "zh": "audio-restoration"
-            },
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "descript-pro",
-              "zh": "descript-pro"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:21:42Z",
-          "avatar": "https://avatars.githubusercontent.com/u/337244869?v=4",
-          "curve": {
-            "points": [
-              [
-                1794299158,
-                480
-              ],
-              [
-                1794471703,
-                1200
-              ]
-            ],
-            "source": "measured",
-            "delta": 720,
-            "days": 2,
-            "perDay": 361
-          },
-          "tutorials": {
-            "keyword": "rx-11-audio-editor-config 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=rx-11-audio-editor-config%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
-          "name": "soundpad-audio-suite",
-          "owner": "manjushree-iyer",
-          "fullName": "manjushree-iyer/soundpad-audio-suite",
-          "url": "https://github.com/manjushree-iyer/soundpad-audio-suite",
-          "homepage": "",
-          "description": "Soundpad: Advanced Audio Processing for Professional DAW Workflows",
-          "descriptionZh": "Soundpad：专业DAW工作流程的高级音频处理",
-          "language": "Go",
-          "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "description": "Honkai Star Rail 2026 Trainer Tool: Complete Standalone Setup, Ready to Run",
+          "descriptionZh": "Honkai Star Rail 2026教练工具：完成独立设置，准备运行",
+          "language": "HTML",
+          "license": "MIT",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4292,9 +4351,9 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:24:56Z",
-          "avatar": "https://avatars.githubusercontent.com/u/195894983?v=4",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:03:36Z",
+          "avatar": "https://avatars.githubusercontent.com/u/241646723?v=4",
           "curve": {
             "points": [
               [
@@ -4312,8 +4371,78 @@
             "perDay": 361
           },
           "tutorials": {
-            "keyword": "soundpad-audio-suite 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=soundpad-audio-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "honkai-star-rail-companion-suite 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=honkai-star-rail-companion-suite%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "rx-11-audio-editor-config",
+          "owner": "farhatullah0006-art",
+          "fullName": "farhatullah0006-art/rx-11-audio-editor-config",
+          "url": "https://github.com/farhatullah0006-art/rx-11-audio-editor-config",
+          "homepage": "",
+          "description": "rx-11-audio-editor config: full standalone installer and dotfiles for professional audio editing",
+          "descriptionZh": "rx-11-audio-editor配置：用于专业音频编辑的完整独立安装程序和点文件",
+          "language": "Python",
+          "license": "",
+          "stars": 1103,
+          "starsText": "1.1k",
+          "forks": 0,
+          "forksText": "0",
+          "openIssues": 0,
+          "archived": false,
+          "topics": [
+            {
+              "key": "audio-mastering",
+              "zh": "audio-mastering"
+            },
+            {
+              "key": "audio-restoration",
+              "zh": "audio-restoration"
+            },
+            {
+              "key": "automation",
+              "zh": "自动化"
+            },
+            {
+              "key": "descript-pro",
+              "zh": "descript-pro"
+            },
+            {
+              "key": "desktop",
+              "zh": "desktop"
+            },
+            {
+              "key": "developer-tools",
+              "zh": "开发者工具"
+            }
+          ],
+          "category": "devtools",
+          "ageDays": 6,
+          "createdAt": "2026-11-06T21:21:42Z",
+          "avatar": "https://avatars.githubusercontent.com/u/337244869?v=4",
+          "curve": {
+            "points": [
+              [
+                1794299158,
+                480
+              ],
+              [
+                1794471703,
+                1200
+              ]
+            ],
+            "source": "measured",
+            "delta": 720,
+            "days": 2,
+            "perDay": 361
+          },
+          "tutorials": {
+            "keyword": "rx-11-audio-editor-config 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=rx-11-audio-editor-config%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -4329,8 +4458,8 @@
           "descriptionZh": "MusicMakerUnlimited：功能齐全的桌面音乐制作安装程序，可随时运行",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4362,7 +4491,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:13:35Z",
           "avatar": "https://avatars.githubusercontent.com/u/111632858?v=4",
           "curve": {
@@ -4399,8 +4528,8 @@
           "descriptionZh": "Ultra Iso 2026桌面应用程序，具有完整的独立设置和所有预先配置的功能",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4432,7 +4561,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:28:52Z",
           "avatar": "https://avatars.githubusercontent.com/u/192577409?v=4",
           "curve": {
@@ -4469,8 +4598,8 @@
           "descriptionZh": "Multiaccountmanager 2026：完整的独立设置，完全预激活，准备安装",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4502,7 +4631,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:13:18Z",
           "avatar": "https://avatars.githubusercontent.com/u/66173880?v=4",
           "curve": {
@@ -4539,8 +4668,8 @@
           "descriptionZh": "Honkai Star Rail 2026：预激活的独立台式机版本，准备运行",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4572,7 +4701,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:03:58Z",
           "avatar": "https://avatars.githubusercontent.com/u/145575677?v=4",
           "curve": {
@@ -4609,8 +4738,8 @@
           "descriptionZh": "FoneTrans 2026：完整的独立桌面实用程序设置和配置",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4642,7 +4771,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:01:39Z",
           "avatar": "https://avatars.githubusercontent.com/u/208271584?v=4",
           "curve": {
@@ -4679,8 +4808,8 @@
           "descriptionZh": "原因-14：专业桌面软件的完整工作安装程序，准备在2026年运行",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4712,7 +4841,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:20:39Z",
           "avatar": "https://avatars.githubusercontent.com/u/280083847?v=4",
           "curve": {
@@ -4749,8 +4878,8 @@
           "descriptionZh": "Pump Fun 2026：具有预激活功能的完整桌面实用程序设置",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4782,7 +4911,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:20:42Z",
           "avatar": "https://avatars.githubusercontent.com/u/193239798?v=4",
           "curve": {
@@ -4810,76 +4939,6 @@
           }
         },
         {
-          "name": "robux-generator-enhancement",
-          "owner": "Marcian15350",
-          "fullName": "Marcian15350/robux-generator-enhancement",
-          "url": "https://github.com/Marcian15350/robux-generator-enhancement",
-          "homepage": "",
-          "description": "Robux-Generator: Full Installer, All Features Activated, Desktop-Ready",
-          "descriptionZh": "Robux-Generator：完整安装程序，所有功能已激活，桌面就绪",
-          "language": "TypeScript",
-          "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 0,
-          "archived": false,
-          "topics": [
-            {
-              "key": "automation",
-              "zh": "自动化"
-            },
-            {
-              "key": "desktop",
-              "zh": "desktop"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "open-source",
-              "zh": "开源"
-            },
-            {
-              "key": "python",
-              "zh": "Python"
-            },
-            {
-              "key": "rbxdev",
-              "zh": "rbxdev"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 5,
-          "createdAt": "2026-11-06T21:20:48Z",
-          "avatar": "https://avatars.githubusercontent.com/u/108626894?v=4",
-          "curve": {
-            "points": [
-              [
-                1794383138,
-                773
-              ],
-              [
-                1794471703,
-                1200
-              ]
-            ],
-            "source": "measured",
-            "delta": 427,
-            "days": 1,
-            "perDay": 417
-          },
-          "tutorials": {
-            "keyword": "robux-generator-enhancement 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=robux-generator-enhancement%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
           "name": "windows-optimizer",
           "owner": "shivsupratik",
           "fullName": "shivsupratik/windows-optimizer",
@@ -4889,8 +4948,8 @@
           "descriptionZh": "Windows优化器：高级系统调整和性能增强",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4922,7 +4981,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:32:24Z",
           "avatar": "https://avatars.githubusercontent.com/u/122694804?v=4",
           "curve": {
@@ -4959,8 +5018,8 @@
           "descriptionZh": "IMEI Repair 2026：设备维修解决方案的独立安装程序和完整设置",
           "language": "TypeScript",
           "license": "",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -4992,7 +5051,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:04:17Z",
           "avatar": "https://avatars.githubusercontent.com/u/257790893?v=4",
           "curve": {
@@ -5029,8 +5088,8 @@
           "descriptionZh": "Startall Back 2026：桌面实用程序配置的完整安装程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5062,7 +5121,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:26:10Z",
           "avatar": "https://avatars.githubusercontent.com/u/50162181?v=4",
           "curve": {
@@ -5099,8 +5158,8 @@
           "descriptionZh": "Serato DJ Pro 2026：具备全套功能的完整独立版配置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5132,7 +5191,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:23:43Z",
           "avatar": "https://avatars.githubusercontent.com/u/183686762?v=4",
           "curve": {
@@ -5142,14 +5201,14 @@
                 0
               ],
               [
-                1794471703,
-                1199
+                1794556779,
+                1102
               ]
             ],
             "source": "projected",
-            "delta": 1199,
-            "days": 5,
-            "perDay": 240
+            "delta": 1102,
+            "days": 6,
+            "perDay": 184
           },
           "tutorials": {
             "keyword": "serato-dj-pro-2026 安装教程",
@@ -5169,8 +5228,8 @@
           "descriptionZh": "Chief Architect Premier 2026：预配置桌面版，启用所有功能",
           "language": "Rust",
           "license": "MIT",
-          "stars": 1197,
-          "starsText": "1.2k",
+          "stars": 1100,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5202,7 +5261,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:45:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/292235154?v=4",
           "curve": {
@@ -5249,8 +5308,8 @@
           "descriptionZh": "HitFilm：全功能桌面视频编辑和VFX套件",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 1194,
-          "starsText": "1.2k",
+          "stars": 1098,
+          "starsText": "1.1k",
           "forks": 1,
           "forksText": "1",
           "openIssues": 0,
@@ -5282,7 +5341,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:02:28Z",
           "avatar": "https://avatars.githubusercontent.com/u/295299555?v=4",
           "curve": {
@@ -5319,8 +5378,8 @@
           "descriptionZh": "PhpStorm 2026独立台式机设置，预配置全功能集",
           "language": "HTML",
           "license": "",
-          "stars": 1130,
-          "starsText": "1.1k",
+          "stars": 1033,
+          "starsText": "1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5352,7 +5411,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:18:06Z",
           "avatar": "https://avatars.githubusercontent.com/u/315583377?v=4",
           "curve": {
@@ -5389,8 +5448,8 @@
           "descriptionZh": "passfab-unlocker：独立离线密码恢复解决方案",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1103,
-          "starsText": "1.1k",
+          "stars": 1006,
+          "starsText": "1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5422,7 +5481,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:15:18Z",
           "avatar": "https://avatars.githubusercontent.com/u/133104898?v=4",
           "curve": {
@@ -5459,8 +5518,8 @@
           "descriptionZh": "Sony Vegas Pro 2026独立设置，预装专业视频编辑和VFX工具",
           "language": "TypeScript",
           "license": "",
-          "stars": 1102,
-          "starsText": "1.1k",
+          "stars": 1005,
+          "starsText": "1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5492,7 +5551,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:24:21Z",
           "avatar": "https://avatars.githubusercontent.com/u/304911518?v=4",
           "curve": {
@@ -5529,8 +5588,8 @@
           "descriptionZh": "具备完整数据恢复功能的 Wondershare Recoverit 桌面版安装程序",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1098,
-          "starsText": "1.1k",
+          "stars": 1001,
+          "starsText": "1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5562,7 +5621,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:32:43Z",
           "avatar": "https://avatars.githubusercontent.com/u/244285762?v=4",
           "curve": {
@@ -5572,14 +5631,14 @@
                 0
               ],
               [
-                1794471703,
-                1098
+                1794556779,
+                1001
               ]
             ],
             "source": "projected",
-            "delta": 1098,
-            "days": 5,
-            "perDay": 220
+            "delta": 1001,
+            "days": 6,
+            "perDay": 167
           },
           "tutorials": {
             "keyword": "wondshare-recoverit 安装教程",
@@ -5599,8 +5658,8 @@
           "descriptionZh": "Data-Grip 2026：实现高效数据管理的完整独立桌面实用程序",
           "language": "TypeScript",
           "license": "",
-          "stars": 991,
-          "starsText": "991",
+          "stars": 894,
+          "starsText": "894",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5632,7 +5691,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:51:37Z",
           "avatar": "https://avatars.githubusercontent.com/u/293379548?v=4",
           "curve": {
@@ -5660,76 +5719,6 @@
           }
         },
         {
-          "name": "fl-studio",
-          "owner": "seizepupatackle",
-          "fullName": "seizepupatackle/fl-studio",
-          "url": "https://github.com/seizepupatackle/fl-studio",
-          "homepage": "",
-          "description": "Fl Studio 2026 pre-configured environment for professional digital audio workstation deployment, ensuring seamless local execution and integration.",
-          "descriptionZh": "FL Studio 2026 预配置环境，用于专业数字音频工作站部署，确保无缝的本地执行和集成。",
-          "language": "",
-          "license": "",
-          "stars": 982,
-          "starsText": "982",
-          "forks": 0,
-          "forksText": "0",
-          "openIssues": 1,
-          "archived": false,
-          "topics": [
-            {
-              "key": "audio-engineering",
-              "zh": "audio-engineering"
-            },
-            {
-              "key": "beat-making",
-              "zh": "beat-making"
-            },
-            {
-              "key": "developer-tools",
-              "zh": "开发者工具"
-            },
-            {
-              "key": "digital-audio-workstation",
-              "zh": "digital-audio-workstation"
-            },
-            {
-              "key": "fl",
-              "zh": "fl"
-            },
-            {
-              "key": "fl-studio-10",
-              "zh": "fl-studio-10"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 4,
-          "createdAt": "2026-11-08T08:38:33Z",
-          "avatar": "https://avatars.githubusercontent.com/u/292615294?v=4",
-          "curve": {
-            "points": [
-              [
-                1794127113,
-                0
-              ],
-              [
-                1794471703,
-                982
-              ]
-            ],
-            "source": "projected",
-            "delta": 982,
-            "days": 4,
-            "perDay": 246
-          },
-          "tutorials": {
-            "keyword": "fl-studio 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=fl-studio%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
           "name": "dvd-creator-setup",
           "owner": "Mistercat12",
           "fullName": "Mistercat12/dvd-creator-setup",
@@ -5739,8 +5728,8 @@
           "descriptionZh": "启用所有功能的完整DVD Creator 2026独立设置",
           "language": "HTML",
           "license": "",
-          "stars": 893,
-          "starsText": "893",
+          "stars": 796,
+          "starsText": "796",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5772,7 +5761,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:56:11Z",
           "avatar": "https://avatars.githubusercontent.com/u/142825383?v=4",
           "curve": {
@@ -5818,8 +5807,8 @@
           "descriptionZh": "daemon-pro：使用全功能设置完成独立桌面设置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1295,
-          "starsText": "1.3k",
+          "stars": 1198,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5851,7 +5840,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:50:44Z",
           "avatar": "https://avatars.githubusercontent.com/u/135254378?v=4",
           "curve": {
@@ -5874,7 +5863,7 @@
             "keyword": "daemon-pro-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=daemon-pro-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -5888,8 +5877,8 @@
           "descriptionZh": "CorelDraw 2026专业桌面安装程序，带即用型实用程序配置",
           "language": "HTML",
           "license": "",
-          "stars": 1201,
-          "starsText": "1.2k",
+          "stars": 1104,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 1,
@@ -5921,7 +5910,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:49:17Z",
           "avatar": "https://avatars.githubusercontent.com/u/270724707?v=4",
           "curve": {
@@ -5944,7 +5933,7 @@
             "keyword": "coreldraw-desktop-installer 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=coreldraw-desktop-installer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -5958,8 +5947,8 @@
           "descriptionZh": "SP-Flash-Tool：带驱动程序和实用程序的独立固件闪存套件",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -5991,7 +5980,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:25:32Z",
           "avatar": "https://avatars.githubusercontent.com/u/240220541?v=4",
           "curve": {
@@ -6047,8 +6036,8 @@
           "descriptionZh": "Chimera：带完整安装程序的预配置桌面实用程序套件",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -6080,7 +6069,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:46:25Z",
           "avatar": "https://avatars.githubusercontent.com/u/240442694?v=4",
           "curve": {
@@ -6117,8 +6106,8 @@
           "descriptionZh": "Burning Studio 2026：具有完整功能配置的完整独立桌面设置",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1199,
-          "starsText": "1.2k",
+          "stars": 1102,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -6150,7 +6139,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:43:05Z",
           "avatar": "https://avatars.githubusercontent.com/u/212016379?v=4",
           "curve": {
@@ -6178,78 +6167,45 @@
           }
         },
         {
-          "name": "CUI",
-          "owner": "yappologistic",
-          "fullName": "yappologistic/CUI",
-          "url": "https://github.com/yappologistic/CUI",
+          "name": "WowType",
+          "owner": "Gloridust",
+          "fullName": "Gloridust/WowType",
+          "url": "https://github.com/Gloridust/WowType",
           "homepage": "",
-          "description": "Native UI components for C: about 150 of them, with spring motion and full keyboard support. Windows, macOS and Linux, no dependencies.",
-          "descriptionZh": "C的本机UI组件：约150个，具有弹簧运动和全键盘支持。Windows、macOS和Linux，无依赖关系。",
-          "language": "C",
-          "license": "MIT",
-          "stars": 927,
-          "starsText": "927",
-          "forks": 56,
-          "forksText": "56",
-          "openIssues": 26,
+          "description": "像微信输入法一样顺手的Linux输入法：长句一次打完、按错键也能认出来、纯离线语音输入、实时翻译，越用越懂你。",
+          "descriptionZh": "",
+          "language": "Rust",
+          "license": "",
+          "stars": 737,
+          "starsText": "737",
+          "forks": 34,
+          "forksText": "34",
+          "openIssues": 24,
           "archived": false,
-          "topics": [
-            {
-              "key": "c",
-              "zh": "c"
-            },
-            {
-              "key": "c99",
-              "zh": "c99"
-            },
-            {
-              "key": "cross-platform",
-              "zh": "跨平台"
-            },
-            {
-              "key": "gui",
-              "zh": "gui"
-            },
-            {
-              "key": "native",
-              "zh": "native"
-            },
-            {
-              "key": "ui-components",
-              "zh": "UI 组件"
-            }
-          ],
+          "topics": [],
           "category": "os",
           "ageDays": 7,
-          "createdAt": "2026-11-05T08:18:08Z",
-          "avatar": "https://avatars.githubusercontent.com/u/262229790?v=4",
+          "createdAt": "2026-11-06T14:48:19Z",
+          "avatar": "https://avatars.githubusercontent.com/u/88082356?v=4",
           "curve": {
             "points": [
               [
-                1794122554,
-                309
+                1793976499,
+                0
               ],
               [
-                1794211156,
-                464
-              ],
-              [
-                1794299158,
-                786
-              ],
-              [
-                1794471703,
-                927
+                1794556779,
+                737
               ]
             ],
-            "source": "measured",
-            "delta": 618,
-            "days": 4,
-            "perDay": 153
+            "source": "projected",
+            "delta": 737,
+            "days": 7,
+            "perDay": 105
           },
           "tutorials": {
-            "keyword": "CUI 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=CUI%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "WowType 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=WowType%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -6262,7 +6218,7 @@
       "name": "移动与跨端",
       "emoji": "📱",
       "desc": "Android / iOS 应用、跨端框架与桌面客户端",
-      "count": 4,
+      "count": 5,
       "repos": [
         {
           "name": "GestaltX",
@@ -6270,19 +6226,19 @@
           "fullName": "huamidev/GestaltX",
           "url": "https://github.com/huamidev/GestaltX",
           "homepage": "",
-          "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-          "descriptionZh": "适用于iOS 27.x的MobileGestalt编辑器，具有区域代码调整、设备预设、备份以及对7种语言的支持。",
+          "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+          "descriptionZh": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具有区域代码调整、设备预设、备份等功能。",
           "language": "Swift",
           "license": "GPL-3.0",
-          "stars": 6631,
-          "starsText": "6.6k",
-          "forks": 2489,
-          "forksText": "2.5k",
-          "openIssues": 57,
+          "stars": 7086,
+          "starsText": "7.1k",
+          "forks": 2579,
+          "forksText": "2.6k",
+          "openIssues": 70,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 3,
+          "ageDays": 4,
           "createdAt": "2026-11-09T05:15:48Z",
           "avatar": "https://avatars.githubusercontent.com/u/354314991?v=4",
           "curve": {
@@ -6329,11 +6285,11 @@
           "descriptionZh": "在iPhone、iPad和Mac上本地运行您自己的Switch游戏：游戏代码重写到ARM64，图形直接到Metal，一个应用程序用于整个库。自带游戏和钥匙。把你自己的切换游戏原生带到iPhone/iPad/Mac。",
           "language": "C#",
           "license": "Apache-2.0",
-          "stars": 2674,
-          "starsText": "2.7k",
-          "forks": 489,
-          "forksText": "489",
-          "openIssues": 310,
+          "stars": 2806,
+          "starsText": "2.8k",
+          "forks": 515,
+          "forksText": "515",
+          "openIssues": 347,
           "archived": false,
           "topics": [
             {
@@ -6362,7 +6318,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 4,
+          "ageDays": 5,
           "createdAt": "2026-11-08T05:49:46Z",
           "avatar": "https://avatars.githubusercontent.com/u/258432107?v=4",
           "curve": {
@@ -6389,7 +6345,7 @@
             "keyword": "S2Arm 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=S2Arm%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -6403,15 +6359,15 @@
           "descriptionZh": "",
           "language": "Swift",
           "license": "GPL-3.0",
-          "stars": 1651,
-          "starsText": "1.7k",
-          "forks": 367,
-          "forksText": "367",
-          "openIssues": 12,
+          "stars": 1764,
+          "starsText": "1.8k",
+          "forks": 380,
+          "forksText": "380",
+          "openIssues": 15,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 2,
+          "ageDays": 3,
           "createdAt": "2026-11-10T02:37:31Z",
           "avatar": "https://avatars.githubusercontent.com/u/354704145?v=4",
           "curve": {
@@ -6434,7 +6390,7 @@
             "keyword": "Erosion-CN 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=Erosion-CN%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -6448,8 +6404,8 @@
           "descriptionZh": "Fonepaw Unlocker 2026 独立桌面版安装程序，具备全套功能",
           "language": "HTML",
           "license": "",
-          "stars": 1167,
-          "starsText": "1.2k",
+          "stars": 1070,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -6481,7 +6437,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T21:00:43Z",
           "avatar": "https://avatars.githubusercontent.com/u/113181932?v=4",
           "curve": {
@@ -6491,14 +6447,14 @@
                 0
               ],
               [
-                1794471703,
-                1167
+                1794556779,
+                1070
               ]
             ],
             "source": "projected",
-            "delta": 1167,
-            "days": 5,
-            "perDay": 233
+            "delta": 1070,
+            "days": 6,
+            "perDay": 178
           },
           "tutorials": {
             "keyword": "fonepaw-unlocker-setup 安装教程",
@@ -6507,81 +6463,47 @@
             "fetchedAt": null,
             "videos": []
           }
-        }
-      ]
-    },
-    {
-      "id": "blockchain",
-      "name": "区块链与 Web3",
-      "emoji": "⛓️",
-      "desc": "公链、智能合约、DeFi 与钱包工具",
-      "count": 1,
-      "repos": [
+        },
         {
-          "name": "Exodus-Fake-Balance",
-          "owner": "Danuse84",
-          "fullName": "Danuse84/Exodus-Fake-Balance",
-          "url": "https://github.com/Danuse84/Exodus-Fake-Balance",
+          "name": "WQFiles",
+          "owner": "kolbicz",
+          "fullName": "kolbicz/WQFiles",
+          "url": "https://github.com/kolbicz/WQFiles",
           "homepage": "",
-          "description": "Wallet UI simulation tool for BTC, ETH, SOL, XRP, and 200+ assets. Customize displayed balances in a controlled demo environment with persistent visual settings and screenshot-ready previews. Designed for testing, demonstrations, and UI prototyping without altering actual blockchain balances or transactions.",
-          "descriptionZh": "适用于BTC、ETH、SOL、XRP和200多种资产的钱包UI模拟工具。在受控的演示环境中自定义显示的余额，提供持久的视觉设置和可截屏的预览。专为测试、演示和UI原型设计而打造，不会改变实际的区块链余额或交易。",
-          "language": "Python",
-          "license": "MIT",
-          "stars": 933,
-          "starsText": "933",
-          "forks": 52,
-          "forksText": "52",
-          "openIssues": 1,
+          "description": "File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)",
+          "descriptionZh": "适用于 iOS 26 和 27 的文件浏览器、应用数据管理器和缓存清理工具（worse_query，无需越狱）",
+          "language": "Objective-C",
+          "license": "GPL-3.0",
+          "stars": 766,
+          "starsText": "766",
+          "forks": 55,
+          "forksText": "55",
+          "openIssues": 9,
           "archived": false,
-          "topics": [
-            {
-              "key": "bitcoin-transaction-tool",
-              "zh": "bitcoin-transaction-tool"
-            },
-            {
-              "key": "browser-crypto-wallet",
-              "zh": "browser-crypto-wallet"
-            },
-            {
-              "key": "crypto-broadcast-api",
-              "zh": "crypto-broadcast-api"
-            },
-            {
-              "key": "electrum-payment",
-              "zh": "electrum-payment"
-            },
-            {
-              "key": "exodus-balance-demo",
-              "zh": "exodus-balance-demo"
-            },
-            {
-              "key": "exodus-fake-wallet",
-              "zh": "exodus-fake-wallet"
-            }
-          ],
-          "category": "blockchain",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T04:48:43Z",
-          "avatar": "https://avatars.githubusercontent.com/u/337429798?v=4",
+          "topics": [],
+          "category": "mobile",
+          "ageDays": 4,
+          "createdAt": "2026-11-09T13:43:40Z",
+          "avatar": "https://avatars.githubusercontent.com/u/34033735?v=4",
           "curve": {
             "points": [
               [
-                1793854123,
+                1794231820,
                 0
               ],
               [
-                1794471703,
-                933
+                1794556779,
+                766
               ]
             ],
             "source": "projected",
-            "delta": 933,
-            "days": 7,
-            "perDay": 133
+            "delta": 766,
+            "days": 4,
+            "perDay": 192
           },
           "tutorials": {
-            "keyword": "Exodus-Fake-Balance 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=Exodus-Fake-Balance%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "WQFiles 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=WQFiles%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -6606,8 +6528,8 @@
           "descriptionZh": "Cubase Studio 2026桌面设置，带有完整的插件套件和完整的功能集",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1298,
-          "starsText": "1.3k",
+          "stars": 1201,
+          "starsText": "1.2k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -6639,7 +6561,7 @@
             }
           ],
           "category": "learning",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:50:21Z",
           "avatar": "https://avatars.githubusercontent.com/u/175314697?v=4",
           "curve": {
@@ -6662,7 +6584,7 @@
             "keyword": "cubase-studio-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=cubase-studio-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         }
@@ -6673,7 +6595,7 @@
       "name": "其他",
       "emoji": "📦",
       "desc": "暂未归类的热门项目",
-      "count": 8,
+      "count": 7,
       "repos": [
         {
           "name": "NX2navi",
@@ -6685,15 +6607,15 @@
           "descriptionZh": "",
           "language": "C",
           "license": "MIT",
-          "stars": 3347,
-          "starsText": "3.3k",
-          "forks": 223,
-          "forksText": "223",
-          "openIssues": 531,
+          "stars": 3656,
+          "starsText": "3.7k",
+          "forks": 260,
+          "forksText": "260",
+          "openIssues": 623,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-07T10:01:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/178368288?v=4",
           "curve": {
@@ -6748,15 +6670,15 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "ISC",
-          "stars": 2046,
-          "starsText": "2k",
-          "forks": 1110,
-          "forksText": "1.1k",
+          "stars": 2136,
+          "starsText": "2.1k",
+          "forks": 1154,
+          "forksText": "1.2k",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 6,
+          "ageDays": 7,
           "createdAt": "2026-11-06T09:28:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/51308528?v=4",
           "curve": {
@@ -6791,114 +6713,63 @@
             "keyword": "sheeridVerify 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=sheeridVerify%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
         {
-          "name": "chimera-vocal-synth",
-          "owner": "jamesondh",
-          "fullName": "jamesondh/chimera-vocal-synth",
-          "url": "https://github.com/jamesondh/chimera-vocal-synth",
-          "homepage": "https://chimera-vocal-synth.vercel.app",
-          "description": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
-          "descriptionZh": "终极声音合成器-唱歌、说话、节拍器等",
-          "language": "Rust",
-          "license": "MIT",
-          "stars": 2038,
-          "starsText": "2k",
-          "forks": 238,
-          "forksText": "238",
-          "openIssues": 30,
-          "archived": false,
-          "topics": [],
-          "category": "other",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T19:10:42Z",
-          "avatar": "https://avatars.githubusercontent.com/u/4026659?v=4",
-          "curve": {
-            "points": [
-              [
-                1794211156,
-                827
-              ],
-              [
-                1794299158,
-                1354
-              ],
-              [
-                1794471703,
-                2038
-              ]
-            ],
-            "source": "measured",
-            "delta": 1211,
-            "days": 3,
-            "perDay": 402
-          },
-          "tutorials": {
-            "keyword": "chimera-vocal-synth 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=chimera-vocal-synth%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "google-pro-helper",
-          "owner": "mmdoctor",
-          "fullName": "mmdoctor/google-pro-helper",
-          "url": "https://github.com/mmdoctor/google-pro-helper",
-          "homepage": "",
-          "description": "",
-          "descriptionZh": "",
-          "language": "Python",
+          "name": "ANR",
+          "owner": "apex-compute",
+          "fullName": "apex-compute/ANR",
+          "url": "https://github.com/apex-compute/ANR",
+          "homepage": "https://apexcompute.com/neural-rendering",
+          "description": "Apex Neural Rendering (ANR) by Apex Compute",
+          "descriptionZh": "Apex Compute 的 Apex 神经渲染 (ANR)",
+          "language": "C++",
           "license": "",
-          "stars": 1760,
-          "starsText": "1.8k",
-          "forks": 593,
-          "forksText": "593",
-          "openIssues": 3,
+          "stars": 1115,
+          "starsText": "1.1k",
+          "forks": 14,
+          "forksText": "14",
+          "openIssues": 19,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T04:52:28Z",
-          "avatar": "https://avatars.githubusercontent.com/u/155910760?v=4",
+          "ageDays": 2,
+          "createdAt": "2026-11-11T04:27:17Z",
+          "avatar": "https://avatars.githubusercontent.com/u/222723497?v=4",
           "curve": {
             "points": [
               [
-                1793951769,
-                356
+                1794371237,
+                0
               ],
               [
-                1794122554,
-                1171
-              ],
-              [
-                1794211156,
-                1282
-              ],
-              [
-                1794299158,
-                1524
-              ],
-              [
-                1794471703,
-                1760
+                1794556779,
+                1115
               ]
             ],
-            "source": "measured",
-            "delta": 1404,
-            "days": 6,
-            "perDay": 233
+            "source": "projected",
+            "delta": 1115,
+            "days": 2,
+            "perDay": 558
           },
           "tutorials": {
-            "keyword": "google-pro-helper 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=google-pro-helper%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "ANR 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=ANR%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:21:45.510Z",
-            "videos": []
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
+            "videos": [
+              {
+                "bvid": "BV1BWWa6JEGi",
+                "title": "ANR帧生成安装教程和实测",
+                "author": "真心只为他",
+                "play": 744,
+                "playText": "744",
+                "durationText": "2:52",
+                "url": "https://www.bilibili.com/video/BV1BWWa6JEGi"
+              }
+            ]
           }
         },
         {
@@ -6911,8 +6782,8 @@
           "descriptionZh": "Cinebench 2026独立台式机设置，具有预激活功能",
           "language": "HTML",
           "license": "MIT",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -6944,7 +6815,7 @@
             }
           ],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:47:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/238775303?v=4",
           "curve": {
@@ -6967,7 +6838,7 @@
             "keyword": "cinebench-desktop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=cinebench-desktop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T07:59:41.667Z",
             "videos": []
           }
         },
@@ -6981,8 +6852,8 @@
           "descriptionZh": "带有预配置功能集的Cellebrite UFED 2026独立台式机设置",
           "language": "HTML",
           "license": "",
-          "stars": 1200,
-          "starsText": "1.2k",
+          "stars": 1103,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -7014,7 +6885,7 @@
             }
           ],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:44:28Z",
           "avatar": "https://avatars.githubusercontent.com/u/268287374?v=4",
           "curve": {
@@ -7051,8 +6922,8 @@
           "descriptionZh": "",
           "language": "HTML",
           "license": "",
-          "stars": 1164,
-          "starsText": "1.2k",
+          "stars": 1067,
+          "starsText": "1.1k",
           "forks": 0,
           "forksText": "0",
           "openIssues": 0,
@@ -7084,7 +6955,7 @@
             }
           ],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-06T20:51:55Z",
           "avatar": "https://avatars.githubusercontent.com/u/97927917?v=4",
           "curve": {
@@ -7094,14 +6965,14 @@
                 0
               ],
               [
-                1794471703,
-                1164
+                1794556779,
+                1067
               ]
             ],
             "source": "projected",
-            "delta": 1164,
-            "days": 5,
-            "perDay": 233
+            "delta": 1067,
+            "days": 6,
+            "perDay": 178
           },
           "tutorials": {
             "keyword": "dlss5-manager 安装教程",
@@ -7121,15 +6992,15 @@
           "descriptionZh": "通过暖BBR TCP复用+ 1-RTT Ground-TLS + zlib （零依赖）加速高延迟GEO机上Wi-Fi",
           "language": "Python",
           "license": "MIT",
-          "stars": 1049,
-          "starsText": "1k",
-          "forks": 50,
-          "forksText": "50",
+          "stars": 1058,
+          "starsText": "1.1k",
+          "forks": 51,
+          "forksText": "51",
           "openIssues": 2,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-07T16:09:41Z",
           "avatar": "https://avatars.githubusercontent.com/u/41830259?v=4",
           "curve": {

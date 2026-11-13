@@ -3,29 +3,29 @@
   "period": "month",
   "periodName": "本月",
   "periodNote": "近 30 天内新建的仓库",
-  "generatedAt": "2026-11-12T08:22:19.463Z",
+  "generatedAt": "2026-11-13T08:00:18.574Z",
   "source": "static-snapshot:build",
   "meta": {
     "period": "month",
-    "query": "created:>=2026-10-13 stars:>=100",
-    "totalCount": 3032,
+    "query": "created:>=2026-10-14 stars:>=100",
+    "totalCount": 3006,
     "fetched": 100,
     "rateLimitRemaining": "9",
-    "generatedAt": "2026-11-12T08:22:19.463Z",
+    "generatedAt": "2026-11-13T08:00:18.574Z",
     "translation": {
-      "targets": 77,
-      "translated": 77,
+      "targets": 80,
+      "translated": 80,
       "provider": "mymemory"
     },
     "tutorials": {
-      "kvHits": 29,
+      "kvHits": 31,
       "filled": 40,
       "errors": 0
     },
     "starHistory": {
-      "loaded": 100,
-      "written": 94,
-      "skipped": 6
+      "loaded": 97,
+      "written": 5,
+      "skipped": 95
     },
     "snapshot": true,
     "categories": 13
@@ -50,8 +50,67 @@
       "name": "AI 插件 / Agent 扩展",
       "emoji": "🧩",
       "desc": "浏览器插件、编辑器插件、MCP 工具与 Claude/ChatGPT 扩展",
-      "count": 18,
+      "count": 17,
       "repos": [
+        {
+          "name": "agent_skills",
+          "owner": "janestreet",
+          "fullName": "janestreet/agent_skills",
+          "url": "https://github.com/janestreet/agent_skills",
+          "homepage": "",
+          "description": "Agent skills",
+          "descriptionZh": "",
+          "language": "",
+          "license": "MIT",
+          "stars": 7952,
+          "starsText": "8k",
+          "forks": 516,
+          "forksText": "516",
+          "openIssues": 9,
+          "archived": false,
+          "topics": [],
+          "category": "ai-plugin",
+          "ageDays": 10,
+          "createdAt": "2026-11-03T16:50:21Z",
+          "avatar": "https://avatars.githubusercontent.com/u/3384712?v=4",
+          "curve": {
+            "points": [
+              [
+                1794211156,
+                788
+              ],
+              [
+                1794299158,
+                2685
+              ],
+              [
+                1794471739,
+                6424
+              ]
+            ],
+            "source": "measured",
+            "delta": 5636,
+            "days": 3,
+            "perDay": 1869
+          },
+          "tutorials": {
+            "keyword": "agent_skills 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=agent_skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-10T08:26:00.190Z",
+            "videos": [
+              {
+                "bvid": "BV1ugdgBQED4",
+                "title": "【小白教程】手摸手彻底掌握 Agent Skills！让你少走99%的弯路！",
+                "author": "iwenwiki",
+                "play": 82683,
+                "playText": "8.3 万",
+                "durationText": "55:3",
+                "url": "https://www.bilibili.com/video/BV1ugdgBQED4"
+              }
+            ]
+          }
+        },
         {
           "name": "day-trader-skill",
           "owner": "Jakeschincariol",
@@ -62,11 +121,11 @@
           "descriptionZh": "11日内交易的Claude技能：扫描数千张图表，跟踪突发新闻，每次进出时间，并在冒一美元的风险之前重播每个结果。",
           "language": "Python",
           "license": "MIT",
-          "stars": 7202,
-          "starsText": "7.2k",
-          "forks": 1731,
-          "forksText": "1.7k",
-          "openIssues": 59,
+          "stars": 7484,
+          "starsText": "7.5k",
+          "forks": 1799,
+          "forksText": "1.8k",
+          "openIssues": 63,
           "archived": false,
           "topics": [
             {
@@ -91,7 +150,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-20T14:17:54Z",
           "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
           "curve": {
@@ -174,7 +233,7 @@
             "keyword": "day-trader-skill 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=day-trader-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -188,10 +247,10 @@
           "descriptionZh": "244像素的艺术效果，每一个都是一小段代码。再加上Claude守则技能，可以自己制作。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 7067,
-          "starsText": "7.1k",
-          "forks": 914,
-          "forksText": "914",
+          "stars": 7243,
+          "starsText": "7.2k",
+          "forks": 937,
+          "forksText": "937",
           "openIssues": 11,
           "archived": false,
           "topics": [
@@ -221,7 +280,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 13,
+          "ageDays": 14,
           "createdAt": "2026-10-30T06:43:25Z",
           "avatar": "https://avatars.githubusercontent.com/u/337959018?v=4",
           "curve": {
@@ -272,67 +331,8 @@
             "keyword": "pixelfx 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=pixelfx%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
-          }
-        },
-        {
-          "name": "agent_skills",
-          "owner": "janestreet",
-          "fullName": "janestreet/agent_skills",
-          "url": "https://github.com/janestreet/agent_skills",
-          "homepage": "",
-          "description": "Agent skills",
-          "descriptionZh": "",
-          "language": "",
-          "license": "MIT",
-          "stars": 6424,
-          "starsText": "6.4k",
-          "forks": 448,
-          "forksText": "448",
-          "openIssues": 10,
-          "archived": false,
-          "topics": [],
-          "category": "ai-plugin",
-          "ageDays": 9,
-          "createdAt": "2026-11-03T16:50:21Z",
-          "avatar": "https://avatars.githubusercontent.com/u/3384712?v=4",
-          "curve": {
-            "points": [
-              [
-                1794211156,
-                788
-              ],
-              [
-                1794299158,
-                2685
-              ],
-              [
-                1794471739,
-                6424
-              ]
-            ],
-            "source": "measured",
-            "delta": 5636,
-            "days": 3,
-            "perDay": 1869
-          },
-          "tutorials": {
-            "keyword": "agent_skills 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=agent_skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-10T08:26:00.190Z",
-            "videos": [
-              {
-                "bvid": "BV1ugdgBQED4",
-                "title": "【小白教程】手摸手彻底掌握 Agent Skills！让你少走99%的弯路！",
-                "author": "iwenwiki",
-                "play": 82683,
-                "playText": "8.3 万",
-                "durationText": "55:3",
-                "url": "https://www.bilibili.com/video/BV1ugdgBQED4"
-              }
-            ]
           }
         },
         {
@@ -345,11 +345,11 @@
           "descriptionZh": "适用于Google TV、LG webOS和Samsung Tizen的快速无广告主屏幕。只需一个按钮即可撤消。",
           "language": "Java",
           "license": "MIT",
-          "stars": 6286,
+          "stars": 6329,
           "starsText": "6.3k",
-          "forks": 1099,
+          "forks": 1110,
           "forksText": "1.1k",
-          "openIssues": 106,
+          "openIssues": 91,
           "archived": false,
           "topics": [
             {
@@ -378,7 +378,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 24,
+          "ageDays": 25,
           "createdAt": "2026-10-19T19:29:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/192837953?v=4",
           "curve": {
@@ -469,8 +469,63 @@
             "keyword": "free-my-tv 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=free-my-tv%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
+          }
+        },
+        {
+          "name": "Claude-Cage",
+          "owner": "Lee-xeo",
+          "fullName": "Lee-xeo/Claude-Cage",
+          "url": "https://github.com/Lee-xeo/Claude-Cage",
+          "homepage": "https://lee-xeo.github.io/Claude-Cage/",
+          "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+          "descriptionZh": "",
+          "language": "Go",
+          "license": "MIT",
+          "stars": 5058,
+          "starsText": "5.1k",
+          "forks": 556,
+          "forksText": "556",
+          "openIssues": 60,
+          "archived": false,
+          "topics": [],
+          "category": "ai-plugin",
+          "ageDays": 13,
+          "createdAt": "2026-10-31T15:07:08Z",
+          "avatar": "https://avatars.githubusercontent.com/u/120454108?v=4",
+          "curve": {
+            "points": [
+              [
+                1793951769,
+                334
+              ],
+              [
+                1794471739,
+                4087
+              ]
+            ],
+            "source": "measured",
+            "delta": 3753,
+            "days": 6,
+            "perDay": 624
+          },
+          "tutorials": {
+            "keyword": "Claude-Cage 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=Claude-Cage%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "videos": [
+              {
+                "bvid": "BV1kkWy6dEsk",
+                "title": "Claude Cage 实测：不登录 Claude，也能验清这个隔离笼子",
+                "author": "攒888个硬币",
+                "play": 400,
+                "playText": "400",
+                "durationText": "4:33",
+                "url": "https://www.bilibili.com/video/BV1kkWy6dEsk"
+              }
+            ]
           }
         },
         {
@@ -483,11 +538,11 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 4565,
-          "starsText": "4.6k",
-          "forks": 836,
-          "forksText": "836",
-          "openIssues": 0,
+          "stars": 4972,
+          "starsText": "5k",
+          "forks": 896,
+          "forksText": "896",
+          "openIssues": 3,
           "archived": false,
           "topics": [
             {
@@ -516,7 +571,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 9,
+          "ageDays": 10,
           "createdAt": "2026-11-03T08:02:11Z",
           "avatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
           "curve": {
@@ -559,7 +614,7 @@
             "keyword": "agent-autoloop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=agent-autoloop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -573,11 +628,11 @@
           "descriptionZh": "编码代理的耳朵：让人工智能听到、审查和发出声音。仅限CPU，开源。",
           "language": "Python",
           "license": "MIT",
-          "stars": 4547,
-          "starsText": "4.5k",
-          "forks": 290,
-          "forksText": "290",
-          "openIssues": 4,
+          "stars": 4683,
+          "starsText": "4.7k",
+          "forks": 300,
+          "forksText": "300",
+          "openIssues": 9,
           "archived": false,
           "topics": [
             {
@@ -602,7 +657,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-15T06:52:46Z",
           "avatar": "https://avatars.githubusercontent.com/u/219127460?v=4",
           "curve": {
@@ -701,213 +756,8 @@
             "keyword": "earshot 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=earshot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
-          }
-        },
-        {
-          "name": "qwen21-nsfw-pose-skill",
-          "owner": "Arekejoker",
-          "fullName": "Arekejoker/qwen21-nsfw-pose-skill",
-          "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-          "homepage": "",
-          "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
-          "descriptionZh": "",
-          "language": "Python",
-          "license": "Apache-2.0",
-          "stars": 4348,
-          "starsText": "4.3k",
-          "forks": 743,
-          "forksText": "743",
-          "openIssues": 2,
-          "archived": false,
-          "topics": [
-            {
-              "key": "agent-skill",
-              "zh": "智能体技能"
-            },
-            {
-              "key": "comfyui",
-              "zh": "ComfyUI"
-            },
-            {
-              "key": "image-generation",
-              "zh": "图像生成"
-            },
-            {
-              "key": "openclaw",
-              "zh": "openclaw"
-            },
-            {
-              "key": "pose-control",
-              "zh": "姿态控制"
-            },
-            {
-              "key": "qwen-image",
-              "zh": "Qwen 图像"
-            }
-          ],
-          "category": "ai-plugin",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T03:09:42Z",
-          "avatar": "https://avatars.githubusercontent.com/u/131444687?v=4",
-          "curve": {
-            "points": [
-              [
-                1792072477,
-                1797
-              ],
-              [
-                1792159682,
-                2398
-              ],
-              [
-                1792302928,
-                2665
-              ],
-              [
-                1792390458,
-                3086
-              ],
-              [
-                1792562612,
-                3521
-              ],
-              [
-                1792649305,
-                3596
-              ],
-              [
-                1792821360,
-                3686
-              ],
-              [
-                1792908592,
-                3710
-              ],
-              [
-                1792995414,
-                3733
-              ],
-              [
-                1793081884,
-                3751
-              ],
-              [
-                1793170383,
-                3777
-              ],
-              [
-                1793257689,
-                3808
-              ],
-              [
-                1793344154,
-                3831
-              ],
-              [
-                1793518498,
-                3881
-              ],
-              [
-                1793605324,
-                4056
-              ],
-              [
-                1793692621,
-                4097
-              ],
-              [
-                1793865365,
-                4155
-              ],
-              [
-                1793951810,
-                4177
-              ],
-              [
-                1794122594,
-                4231
-              ],
-              [
-                1794211199,
-                4247
-              ],
-              [
-                1794299199,
-                4278
-              ],
-              [
-                1794471739,
-                4348
-              ]
-            ],
-            "source": "measured",
-            "delta": 2551,
-            "days": 28,
-            "perDay": 92
-          },
-          "tutorials": {
-            "keyword": "qwen21-nsfw-pose-skill 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=qwen21-nsfw-pose-skill%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "Claude-Cage",
-          "owner": "Lee-xeo",
-          "fullName": "Lee-xeo/Claude-Cage",
-          "url": "https://github.com/Lee-xeo/Claude-Cage",
-          "homepage": "https://lee-xeo.github.io/Claude-Cage/",
-          "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-          "descriptionZh": "",
-          "language": "Go",
-          "license": "MIT",
-          "stars": 4087,
-          "starsText": "4.1k",
-          "forks": 460,
-          "forksText": "460",
-          "openIssues": 64,
-          "archived": false,
-          "topics": [],
-          "category": "ai-plugin",
-          "ageDays": 12,
-          "createdAt": "2026-10-31T15:07:08Z",
-          "avatar": "https://avatars.githubusercontent.com/u/120454108?v=4",
-          "curve": {
-            "points": [
-              [
-                1793951769,
-                334
-              ],
-              [
-                1794471739,
-                4087
-              ]
-            ],
-            "source": "measured",
-            "delta": 3753,
-            "days": 6,
-            "perDay": 624
-          },
-          "tutorials": {
-            "keyword": "Claude-Cage 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=Claude-Cage%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
-            "videos": [
-              {
-                "bvid": "BV1kkWy6dEsk",
-                "title": "Claude Cage 实测：不登录 Claude，也能验清这个隔离笼子",
-                "author": "攒888个硬币",
-                "play": 400,
-                "playText": "400",
-                "durationText": "4:33",
-                "url": "https://www.bilibili.com/video/BV1kkWy6dEsk"
-              }
-            ]
           }
         },
         {
@@ -920,11 +770,11 @@
           "descriptionZh": "看看您的应用程序实际上是如何组合在一起的。由Claude或Codex绘制的交互式简单英文代码库地图。",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3721,
-          "starsText": "3.7k",
-          "forks": 304,
-          "forksText": "304",
-          "openIssues": 68,
+          "stars": 3977,
+          "starsText": "4k",
+          "forks": 327,
+          "forksText": "327",
+          "openIssues": 73,
           "archived": false,
           "topics": [
             {
@@ -953,7 +803,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 16,
+          "ageDays": 17,
           "createdAt": "2026-10-27T12:03:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/348570593?v=4",
           "curve": {
@@ -1045,15 +895,15 @@
           "descriptionZh": "我每天使用的代理技能。适用于Claude Code和Codex。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3497,
-          "starsText": "3.5k",
-          "forks": 263,
-          "forksText": "263",
+          "stars": 3605,
+          "starsText": "3.6k",
+          "forks": 278,
+          "forksText": "278",
           "openIssues": 17,
           "archived": false,
           "topics": [],
           "category": "ai-plugin",
-          "ageDays": 19,
+          "ageDays": 20,
           "createdAt": "2026-10-24T05:00:20Z",
           "avatar": "https://avatars.githubusercontent.com/u/6751787?v=4",
           "curve": {
@@ -1116,7 +966,7 @@
             "keyword": "tstack 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=tstack%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -1130,15 +980,15 @@
           "descriptionZh": "Claude Code技能，可将任何机器变成可拆卸的3D模拟器",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 3229,
-          "starsText": "3.2k",
-          "forks": 486,
-          "forksText": "486",
+          "stars": 3376,
+          "starsText": "3.4k",
+          "forks": 504,
+          "forksText": "504",
           "openIssues": 9,
           "archived": false,
           "topics": [],
           "category": "ai-plugin",
-          "ageDays": 13,
+          "ageDays": 14,
           "createdAt": "2026-10-30T09:29:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/350203459?v=4",
           "curve": {
@@ -1231,15 +1081,15 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "",
-          "stars": 3037,
-          "starsText": "3k",
-          "forks": 330,
-          "forksText": "330",
-          "openIssues": 14,
+          "stars": 3160,
+          "starsText": "3.2k",
+          "forks": 341,
+          "forksText": "341",
+          "openIssues": 18,
           "archived": false,
           "topics": [],
           "category": "ai-plugin",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-14T23:42:03Z",
           "avatar": "https://avatars.githubusercontent.com/u/7059496?v=4",
           "curve": {
@@ -1294,15 +1144,15 @@
           "descriptionZh": "免费Claude技能：带有three.js + Remotion的病毒式动画故事短片（3D世界中的2D角色）",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 3010,
-          "starsText": "3k",
-          "forks": 660,
-          "forksText": "660",
-          "openIssues": 15,
+          "stars": 3151,
+          "starsText": "3.2k",
+          "forks": 687,
+          "forksText": "687",
+          "openIssues": 16,
           "archived": false,
           "topics": [],
           "category": "ai-plugin",
-          "ageDays": 11,
+          "ageDays": 12,
           "createdAt": "2026-11-01T05:50:38Z",
           "avatar": "https://avatars.githubusercontent.com/u/233344575?v=4",
           "curve": {
@@ -1345,7 +1195,7 @@
             "keyword": "claude-animated-shorts 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=claude-animated-shorts%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -1359,11 +1209,11 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 2658,
+          "stars": 2678,
           "starsText": "2.7k",
-          "forks": 264,
-          "forksText": "264",
-          "openIssues": 4,
+          "forks": 269,
+          "forksText": "269",
+          "openIssues": 3,
           "archived": false,
           "topics": [
             {
@@ -1392,7 +1242,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T12:19:27Z",
           "avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
           "curve": {
@@ -1467,7 +1317,7 @@
             "keyword": "huashu-motion 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=huashu-motion%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -1481,10 +1331,10 @@
           "descriptionZh": "代理技能：在句子中描述您的堆栈，获取带有官方徽标的架构图",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2421,
-          "starsText": "2.4k",
-          "forks": 127,
-          "forksText": "127",
+          "stars": 2464,
+          "starsText": "2.5k",
+          "forks": 132,
+          "forksText": "132",
           "openIssues": 1,
           "archived": false,
           "topics": [
@@ -1514,7 +1364,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 11,
+          "ageDays": 12,
           "createdAt": "2026-11-01T05:35:12Z",
           "avatar": "https://avatars.githubusercontent.com/u/166897461?v=4",
           "curve": {
@@ -1575,11 +1425,11 @@
           "descriptionZh": "人工智能代理人以证据为先的家谱技能（Codex、Claude Code）：前苏联各地的教会书籍、民事、军事、驱逐和镇压记录。以您的语言回复。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2367,
+          "stars": 2389,
           "starsText": "2.4k",
-          "forks": 234,
-          "forksText": "234",
-          "openIssues": 7,
+          "forks": 235,
+          "forksText": "235",
+          "openIssues": 10,
           "archived": false,
           "topics": [
             {
@@ -1608,7 +1458,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T10:05:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/2140110?v=4",
           "curve": {
@@ -1668,92 +1518,6 @@
           }
         },
         {
-          "name": "awesome-short-drama-skills",
-          "owner": "UnderleveledBuilder",
-          "fullName": "UnderleveledBuilder/awesome-short-drama-skills",
-          "url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
-          "homepage": "https://shortdramaskills.com",
-          "description": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
-          "descriptionZh": "AI 短剧 · 漫剧 Skill （技能技能包）精选：剧本、改编、分镜、 Seedance/可灵/MiniMax 视频提示词， OpenClaw千问、豆包、龙虾 WorkBuddy、、 Claude Code Code、 Codex 等智能体可用 |为AI短剧、微剧/微剧、垂直剧和漫画（AI漫画）策划的代理技能：编剧、故事板、Seedance/Kling/MiniMax视频提示",
-          "language": "HTML",
-          "license": "CC0-1.0",
-          "stars": 2229,
-          "starsText": "2.2k",
-          "forks": 268,
-          "forksText": "268",
-          "openIssues": 12,
-          "archived": false,
-          "topics": [
-            {
-              "key": "agent-skills",
-              "zh": "智能体技能"
-            },
-            {
-              "key": "ai-drama",
-              "zh": "ai-drama"
-            },
-            {
-              "key": "ai-short-drama",
-              "zh": "ai-short-drama"
-            },
-            {
-              "key": "awesome",
-              "zh": "Awesome 合集"
-            },
-            {
-              "key": "awesome-list",
-              "zh": "Awesome 合集"
-            },
-            {
-              "key": "claude-code",
-              "zh": "Claude Code"
-            }
-          ],
-          "category": "ai-plugin",
-          "ageDays": 29,
-          "createdAt": "2026-10-13T20:35:18Z",
-          "avatar": "https://avatars.githubusercontent.com/u/20830358?v=4",
-          "curve": {
-            "points": [
-              [
-                1792476136,
-                326
-              ],
-              [
-                1794035558,
-                1924
-              ],
-              [
-                1794122594,
-                1979
-              ],
-              [
-                1794211199,
-                2054
-              ],
-              [
-                1794299199,
-                2132
-              ],
-              [
-                1794471739,
-                2229
-              ]
-            ],
-            "source": "measured",
-            "delta": 1903,
-            "days": 23,
-            "perDay": 82
-          },
-          "tutorials": {
-            "keyword": "awesome-short-drama-skills 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=awesome-short-drama-skills%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
           "name": "raea",
           "owner": "shinyobjectz",
           "fullName": "shinyobjectz/raea",
@@ -1763,11 +1527,11 @@
           "descriptionZh": "渲染任何引擎：告诉您的人工智能制作什么。视频、动态图形、3D和游戏作为React和TypeScript，在您自己的GPU上渲染。Rust + Bevy、macOS、Linux和Windows。",
           "language": "TypeScript",
           "license": "",
-          "stars": 2199,
-          "starsText": "2.2k",
-          "forks": 154,
-          "forksText": "154",
-          "openIssues": 36,
+          "stars": 2309,
+          "starsText": "2.3k",
+          "forks": 169,
+          "forksText": "169",
+          "openIssues": 9,
           "archived": false,
           "topics": [
             {
@@ -1796,7 +1560,7 @@
             }
           ],
           "category": "ai-plugin",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T18:08:48Z",
           "avatar": "https://avatars.githubusercontent.com/u/198368214?v=4",
           "curve": {
@@ -1822,6 +1586,72 @@
             "fetchedAt": null,
             "videos": []
           }
+        },
+        {
+          "name": "Claude-Guardian",
+          "owner": "DUNHKpcc",
+          "fullName": "DUNHKpcc/Claude-Guardian",
+          "url": "https://github.com/DUNHKpcc/Claude-Guardian",
+          "homepage": "https://api.dpccgaming.xyz/guardian",
+          "description": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups.",
+          "descriptionZh": "Claude Guardian 是一款集 Claude 账号安全和风险防范于一体的技能。Claude 防封实战它会智能评估您的设备、账号历史、网络环境和支付选项，然后为本地、VPS 或虚拟机设置提供个性化指导。",
+          "language": "Python",
+          "license": "GPL-3.0",
+          "stars": 2023,
+          "starsText": "2k",
+          "forks": 250,
+          "forksText": "250",
+          "openIssues": 3,
+          "archived": false,
+          "topics": [
+            {
+              "key": "agent-skills",
+              "zh": "智能体技能"
+            },
+            {
+              "key": "ai-tools",
+              "zh": "ai-tools"
+            },
+            {
+              "key": "claude-code",
+              "zh": "Claude Code"
+            },
+            {
+              "key": "claude-skills",
+              "zh": "Claude 技能"
+            },
+            {
+              "key": "codex-skill",
+              "zh": "codex-skill"
+            }
+          ],
+          "category": "ai-plugin",
+          "ageDays": 29,
+          "createdAt": "2026-10-15T06:09:53Z",
+          "avatar": "https://avatars.githubusercontent.com/u/181722286?v=4",
+          "curve": {
+            "points": [
+              [
+                1792044593,
+                0
+              ],
+              [
+                1794556818,
+                2023
+              ]
+            ],
+            "source": "projected",
+            "delta": 2023,
+            "days": 29,
+            "perDay": 70
+          },
+          "tutorials": {
+            "keyword": "Claude-Guardian 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=Claude-Guardian%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
         }
       ]
     },
@@ -1842,15 +1672,15 @@
           "descriptionZh": "DeepInfer： DeepSeek模型的高性能、大规模推理框架",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 25886,
+          "stars": 25927,
           "starsText": "2.6 万",
-          "forks": 3175,
+          "forks": 3180,
           "forksText": "3.2k",
           "openIssues": 247,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T07:47:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
           "curve": {
@@ -1979,15 +1809,15 @@
           "descriptionZh": "迈向更自主的Agent系统",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 22617,
+          "stars": 22878,
           "starsText": "2.3 万",
-          "forks": 2748,
-          "forksText": "2.7k",
+          "forks": 2780,
+          "forksText": "2.8k",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 12,
+          "ageDays": 13,
           "createdAt": "2026-10-31T09:32:46Z",
           "avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
           "curve": {
@@ -2038,7 +1868,7 @@
             "keyword": "dsh-superagent-prototype 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dsh-superagent-prototype%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2052,11 +1882,11 @@
           "descriptionZh": "",
           "language": "Dart",
           "license": "AGPL-3.0",
-          "stars": 20155,
-          "starsText": "2 万",
-          "forks": 902,
-          "forksText": "902",
-          "openIssues": 534,
+          "stars": 21198,
+          "starsText": "2.1 万",
+          "forks": 972,
+          "forksText": "972",
+          "openIssues": 538,
           "archived": false,
           "topics": [
             {
@@ -2085,7 +1915,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T08:09:52Z",
           "avatar": "https://avatars.githubusercontent.com/u/268149062?v=4",
           "curve": {
@@ -2164,15 +1994,15 @@
           "descriptionZh": "您的GeForce以半速运行AI。这可以修复20/30/40系列卡。高达2 × FP16/BF16/TF32张量吞吐量",
           "language": "C",
           "license": "",
-          "stars": 18805,
+          "stars": 19035,
           "starsText": "1.9 万",
-          "forks": 1929,
-          "forksText": "1.9k",
-          "openIssues": 131,
+          "forks": 1954,
+          "forksText": "2k",
+          "openIssues": 132,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T01:28:31Z",
           "avatar": "https://avatars.githubusercontent.com/u/865977?v=4",
           "curve": {
@@ -2251,7 +2081,7 @@
             "keyword": "gpu-unlock 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=gpu-unlock%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2265,15 +2095,15 @@
           "descriptionZh": "一种Claude技能，将振动编码的人工智能外观用户界面转变为设计界面",
           "language": "JavaScript",
           "license": "CC-BY-4.0",
-          "stars": 14751,
+          "stars": 15313,
           "starsText": "1.5 万",
-          "forks": 839,
-          "forksText": "839",
-          "openIssues": 7,
+          "forks": 870,
+          "forksText": "870",
+          "openIssues": 8,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T15:41:21Z",
           "avatar": "https://avatars.githubusercontent.com/u/97800728?v=4",
           "curve": {
@@ -2324,7 +2154,7 @@
             "keyword": "unslop 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=unslop%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2338,11 +2168,11 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 7203,
-          "starsText": "7.2k",
-          "forks": 3236,
-          "forksText": "3.2k",
-          "openIssues": 23,
+          "stars": 7639,
+          "starsText": "7.6k",
+          "forks": 3421,
+          "forksText": "3.4k",
+          "openIssues": 19,
           "archived": false,
           "topics": [
             {
@@ -2371,7 +2201,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T07:44:27Z",
           "avatar": "https://avatars.githubusercontent.com/u/260348840?v=4",
           "curve": {
@@ -2438,109 +2268,7 @@
             "keyword": "dsh-purge 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=dsh-purge%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "TokenEconomizer",
-          "owner": "microsoft",
-          "fullName": "microsoft/TokenEconomizer",
-          "url": "https://github.com/microsoft/TokenEconomizer",
-          "homepage": "",
-          "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
-          "descriptionZh": "针对编码代理的体验驱动型黑盒成本控制",
-          "language": "Python",
-          "license": "Apache-2.0",
-          "stars": 5759,
-          "starsText": "5.8k",
-          "forks": 365,
-          "forksText": "365",
-          "openIssues": 29,
-          "archived": false,
-          "topics": [
-            {
-              "key": "agentic-ai",
-              "zh": "智能体 AI"
-            },
-            {
-              "key": "agentic-coding",
-              "zh": "agentic-coding"
-            },
-            {
-              "key": "ai-coding",
-              "zh": "AI 编程"
-            },
-            {
-              "key": "ai-coding-assistant",
-              "zh": "ai-coding-assistant"
-            },
-            {
-              "key": "anthropic",
-              "zh": "Anthropic"
-            },
-            {
-              "key": "artificial-intelligence",
-              "zh": "人工智能"
-            }
-          ],
-          "category": "ai",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T04:16:50Z",
-          "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-          "curve": {
-            "points": [
-              [
-                1793430013,
-                2332
-              ],
-              [
-                1793518498,
-                3324
-              ],
-              [
-                1793605324,
-                4190
-              ],
-              [
-                1793692621,
-                4551
-              ],
-              [
-                1793865365,
-                4801
-              ],
-              [
-                1793951810,
-                4855
-              ],
-              [
-                1794122594,
-                4964
-              ],
-              [
-                1794211199,
-                5352
-              ],
-              [
-                1794299199,
-                5568
-              ],
-              [
-                1794471739,
-                5759
-              ]
-            ],
-            "source": "measured",
-            "delta": 3427,
-            "days": 12,
-            "perDay": 284
-          },
-          "tutorials": {
-            "keyword": "TokenEconomizer 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=TokenEconomizer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2554,11 +2282,11 @@
           "descriptionZh": "🛡️ BLA （盲法学硕士代理） —对抗性防御盾牌，可保护二进制文件、Electron应用程序、JS捆绑包、Python和WebAssembly免受REA等AI逆向工程代理的攻击。中毒- >疲惫- >幻觉。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 5373,
-          "starsText": "5.4k",
-          "forks": 647,
-          "forksText": "647",
-          "openIssues": 2,
+          "stars": 5490,
+          "starsText": "5.5k",
+          "forks": 667,
+          "forksText": "667",
+          "openIssues": 8,
           "archived": false,
           "topics": [
             {
@@ -2587,7 +2315,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T05:25:45Z",
           "avatar": "https://avatars.githubusercontent.com/u/137127051?v=4",
           "curve": {
@@ -2642,133 +2370,7 @@
             "keyword": "bla 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=bla%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
-            "videos": []
-          }
-        },
-        {
-          "name": "dsh-purge",
-          "owner": "mmparko",
-          "fullName": "mmparko/dsh-purge",
-          "url": "https://github.com/mmparko/dsh-purge",
-          "homepage": "https://github.com/YuJunZhiXue/dsh-purge",
-          "description": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
-          "descriptionZh": "",
-          "language": "JavaScript",
-          "license": "MIT",
-          "stars": 4483,
-          "starsText": "4.5k",
-          "forks": 4438,
-          "forksText": "4.4k",
-          "openIssues": 7,
-          "archived": false,
-          "topics": [
-            {
-              "key": "archive",
-              "zh": "archive"
-            },
-            {
-              "key": "deepseek",
-              "zh": "DeepSeek"
-            },
-            {
-              "key": "deepseek-harness",
-              "zh": "DeepSeek Harness"
-            },
-            {
-              "key": "dsh-plugin",
-              "zh": "dsh-plugin"
-            },
-            {
-              "key": "dsh-plugins",
-              "zh": "dsh-plugins"
-            },
-            {
-              "key": "harness-jailbreak",
-              "zh": "harness-jailbreak"
-            }
-          ],
-          "category": "ai",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T05:14:47Z",
-          "avatar": "https://avatars.githubusercontent.com/u/72783367?v=4",
-          "curve": {
-            "points": [
-              [
-                1792735422,
-                1801
-              ],
-              [
-                1792908592,
-                2223
-              ],
-              [
-                1792995414,
-                2390
-              ],
-              [
-                1793081884,
-                2479
-              ],
-              [
-                1793170383,
-                2545
-              ],
-              [
-                1793257689,
-                2627
-              ],
-              [
-                1793344154,
-                2700
-              ],
-              [
-                1793518498,
-                2865
-              ],
-              [
-                1793605324,
-                2932
-              ],
-              [
-                1793692621,
-                2987
-              ],
-              [
-                1793865365,
-                3137
-              ],
-              [
-                1793951810,
-                3183
-              ],
-              [
-                1794122594,
-                3402
-              ],
-              [
-                1794211199,
-                3712
-              ],
-              [
-                1794299199,
-                4011
-              ],
-              [
-                1794471739,
-                4483
-              ]
-            ],
-            "source": "measured",
-            "delta": 2682,
-            "days": 20,
-            "perDay": 133
-          },
-          "tutorials": {
-            "keyword": "dsh-purge 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=dsh-purge%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2782,10 +2384,10 @@
           "descriptionZh": "🤖 开源， Grok Bot、OpenAI DOT和Claude Duet的本地首选替代品。通过一个Modelflare密钥，您可以在任何型号上使用自己的人工智能机器人： GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM和70多个。通过应用程序、微信或飞树联系他们；他们会记住您，在后台工作，运行命令并使用您的计算机。按次付费。",
           "language": "Python",
           "license": "MIT",
-          "stars": 3311,
-          "starsText": "3.3k",
-          "forks": 46,
-          "forksText": "46",
+          "stars": 3495,
+          "starsText": "3.5k",
+          "forks": 48,
+          "forksText": "48",
           "openIssues": 1,
           "archived": false,
           "topics": [
@@ -2815,7 +2417,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 16,
+          "ageDays": 17,
           "createdAt": "2026-10-27T08:51:18Z",
           "avatar": "https://avatars.githubusercontent.com/u/267078600?v=4",
           "curve": {
@@ -2862,7 +2464,7 @@
             "keyword": "AnyModelBot 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=AnyModelBot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -2876,15 +2478,15 @@
           "descriptionZh": "人工智能编码代理的技能。",
           "language": "TypeScript",
           "license": "",
-          "stars": 3135,
-          "starsText": "3.1k",
-          "forks": 210,
-          "forksText": "210",
+          "stars": 3230,
+          "starsText": "3.2k",
+          "forks": 213,
+          "forksText": "213",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 17,
+          "ageDays": 18,
           "createdAt": "2026-10-26T06:08:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/30378142?v=4",
           "curve": {
@@ -2969,10 +2571,10 @@
           "descriptionZh": "MOSS-Image的官方代码仓库，这是一个基于5B参数的DiT模型，具有高质量的文本渲染、布局生成和高效的微调。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 2819,
-          "starsText": "2.8k",
-          "forks": 166,
-          "forksText": "166",
+          "stars": 2855,
+          "starsText": "2.9k",
+          "forks": 169,
+          "forksText": "169",
           "openIssues": 29,
           "archived": false,
           "topics": [
@@ -2998,7 +2600,7 @@
             }
           ],
           "category": "ai",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T01:18:13Z",
           "avatar": "https://avatars.githubusercontent.com/u/156300419?v=4",
           "curve": {
@@ -3126,15 +2728,15 @@
           "descriptionZh": "",
           "language": "Go",
           "license": "MIT",
-          "stars": 2802,
+          "stars": 2826,
           "starsText": "2.8k",
-          "forks": 686,
-          "forksText": "686",
+          "forks": 689,
+          "forksText": "689",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T06:08:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/133310917?v=4",
           "curve": {
@@ -3189,7 +2791,7 @@
             "keyword": "nvzhuang 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=nvzhuang%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -3203,15 +2805,15 @@
           "descriptionZh": "使用独立密钥派生的离线FairPlay App Store IPA解密",
           "language": "C",
           "license": "GPL-3.0",
-          "stars": 2428,
+          "stars": 2434,
           "starsText": "2.4k",
-          "forks": 375,
-          "forksText": "375",
+          "forks": 377,
+          "forksText": "377",
           "openIssues": 10,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 24,
+          "ageDays": 25,
           "createdAt": "2026-10-19T10:07:58Z",
           "avatar": "https://avatars.githubusercontent.com/u/4250718?v=4",
           "curve": {
@@ -3304,15 +2906,15 @@
           "descriptionZh": "使用Claude Code或Codex让旧的Android电视再次快速运行：一个无广告的小主屏幕，再加上清理提示",
           "language": "Java",
           "license": "MIT",
-          "stars": 2335,
+          "stars": 2349,
           "starsText": "2.3k",
-          "forks": 264,
-          "forksText": "264",
+          "forks": 265,
+          "forksText": "265",
           "openIssues": 29,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T06:42:29Z",
           "avatar": "https://avatars.githubusercontent.com/u/12985873?v=4",
           "curve": {
@@ -3401,15 +3003,15 @@
           "descriptionZh": "合作任何事情：将您的AI智能体指向任何单人游戏，并与朋友一起玩（在线和/或分屏！）。MCP服务器和剧本，让您能够逆向工程、修复、测试、发布和分享所学知识。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2075,
+          "stars": 2101,
           "starsText": "2.1k",
-          "forks": 276,
-          "forksText": "276",
-          "openIssues": 161,
+          "forks": 282,
+          "forksText": "282",
+          "openIssues": 166,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T11:12:03Z",
           "avatar": "https://avatars.githubusercontent.com/u/343430477?v=4",
           "curve": {
@@ -3470,15 +3072,15 @@
           "descriptionZh": "面向积极主动的AI代理的开源模板，可完成您的工作并让您随时掌握最新动态。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2044,
+          "stars": 2048,
           "starsText": "2k",
           "forks": 281,
           "forksText": "281",
-          "openIssues": 15,
+          "openIssues": 16,
           "archived": false,
           "topics": [],
           "category": "ai",
-          "ageDays": 22,
+          "ageDays": 23,
           "createdAt": "2026-10-21T19:43:59Z",
           "avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
           "curve": {
@@ -3528,6 +3130,139 @@
             "fetchedAt": null,
             "videos": []
           }
+        },
+        {
+          "name": "pinky",
+          "owner": "DIYgod",
+          "fullName": "DIYgod/pinky",
+          "url": "https://github.com/DIYgod/pinky",
+          "homepage": "",
+          "description": "Let AI agents use your phone, with you in the loop.",
+          "descriptionZh": "让人工智能代理与您一起使用您的手机。",
+          "language": "Go",
+          "license": "Apache-2.0",
+          "stars": 2042,
+          "starsText": "2k",
+          "forks": 221,
+          "forksText": "221",
+          "openIssues": 23,
+          "archived": false,
+          "topics": [],
+          "category": "ai",
+          "ageDays": 7,
+          "createdAt": "2026-11-06T16:53:14Z",
+          "avatar": "https://avatars.githubusercontent.com/u/8266075?v=4",
+          "curve": {
+            "points": [
+              [
+                1794211156,
+                1129
+              ],
+              [
+                1794299158,
+                1555
+              ],
+              [
+                1794471703,
+                1921
+              ]
+            ],
+            "source": "measured",
+            "delta": 792,
+            "days": 3,
+            "perDay": 263
+          },
+          "tutorials": {
+            "keyword": "pinky 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=pinky%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-09T07:59:19.107Z",
+            "videos": [
+              {
+                "bvid": "BV19NRfBxE8G",
+                "title": "KATSEYE新歌 PINKY UP舞蹈分解教程",
+                "author": "Sherofficials",
+                "play": 713,
+                "playText": "713",
+                "durationText": "3:18",
+                "url": "https://www.bilibili.com/video/BV19NRfBxE8G"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ram-altman",
+          "owner": "IainKay",
+          "fullName": "IainKay/ram-altman",
+          "url": "https://github.com/IainKay/ram-altman",
+          "homepage": "https://ram-altman.lol",
+          "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+          "descriptionZh": "监控您的RAM，并将任何“相当糟糕”的未使用容量直接报告给OpenAI的首席执行官。",
+          "language": "Shell",
+          "license": "Unlicense",
+          "stars": 2042,
+          "starsText": "2k",
+          "forks": 63,
+          "forksText": "63",
+          "openIssues": 32,
+          "archived": false,
+          "topics": [
+            {
+              "key": "bash",
+              "zh": "bash"
+            },
+            {
+              "key": "cron",
+              "zh": "cron"
+            },
+            {
+              "key": "dram",
+              "zh": "dram"
+            },
+            {
+              "key": "email",
+              "zh": "邮件"
+            },
+            {
+              "key": "humor",
+              "zh": "humor"
+            },
+            {
+              "key": "linux",
+              "zh": "Linux"
+            }
+          ],
+          "category": "ai",
+          "ageDays": 8,
+          "createdAt": "2026-11-05T16:16:41Z",
+          "avatar": "https://avatars.githubusercontent.com/u/798621?v=4",
+          "curve": {
+            "points": [
+              [
+                1794211156,
+                895
+              ],
+              [
+                1794299158,
+                1543
+              ],
+              [
+                1794471703,
+                1964
+              ]
+            ],
+            "source": "measured",
+            "delta": 1069,
+            "days": 3,
+            "perDay": 354
+          },
+          "tutorials": {
+            "keyword": "ram-altman 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=ram-altman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
         }
       ]
     },
@@ -3536,186 +3271,8 @@
       "name": "3D 打印与建模",
       "emoji": "🖨️",
       "desc": "3D 打印机固件、切片软件、CAD 与建模工具",
-      "count": 2,
+      "count": 1,
       "repos": [
-        {
-          "name": "everything",
-          "owner": "HeyPuter",
-          "fullName": "HeyPuter/everything",
-          "url": "https://github.com/HeyPuter/everything",
-          "homepage": "",
-          "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
-          "descriptionZh": "我们正在从头开始重建和开源全球软件。",
-          "language": "JavaScript",
-          "license": "MIT",
-          "stars": 8169,
-          "starsText": "8.2k",
-          "forks": 882,
-          "forksText": "882",
-          "openIssues": 71,
-          "archived": false,
-          "topics": [
-            {
-              "key": "adobe",
-              "zh": "adobe"
-            },
-            {
-              "key": "cad",
-              "zh": "CAD 建模"
-            },
-            {
-              "key": "microsoft",
-              "zh": "microsoft"
-            },
-            {
-              "key": "office",
-              "zh": "office"
-            },
-            {
-              "key": "photoshop",
-              "zh": "photoshop"
-            },
-            {
-              "key": "saas",
-              "zh": "saas"
-            }
-          ],
-          "category": "printer3d",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T16:18:22Z",
-          "avatar": "https://avatars.githubusercontent.com/u/103972607?v=4",
-          "curve": {
-            "points": [
-              [
-                1792072477,
-                1001
-              ],
-              [
-                1792159682,
-                1569
-              ],
-              [
-                1792302928,
-                2086
-              ],
-              [
-                1792390458,
-                2246
-              ],
-              [
-                1792562612,
-                3275
-              ],
-              [
-                1792649305,
-                3500
-              ],
-              [
-                1792821360,
-                3752
-              ],
-              [
-                1792908592,
-                3840
-              ],
-              [
-                1792995414,
-                3892
-              ],
-              [
-                1793081884,
-                4202
-              ],
-              [
-                1793170383,
-                4663
-              ],
-              [
-                1793257689,
-                5038
-              ],
-              [
-                1793344154,
-                5653
-              ],
-              [
-                1793518498,
-                6156
-              ],
-              [
-                1793605324,
-                6408
-              ],
-              [
-                1793692621,
-                6633
-              ],
-              [
-                1793865365,
-                7215
-              ],
-              [
-                1793951810,
-                7366
-              ],
-              [
-                1794122594,
-                7601
-              ],
-              [
-                1794211199,
-                7722
-              ],
-              [
-                1794299199,
-                7911
-              ],
-              [
-                1794471739,
-                8169
-              ]
-            ],
-            "source": "measured",
-            "delta": 7168,
-            "days": 28,
-            "perDay": 258
-          },
-          "tutorials": {
-            "keyword": "everything 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=everything%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-10-15T13:04:12.983Z",
-            "videos": [
-              {
-                "bvid": "BV1P3411W7CA",
-                "title": "【电吉他】Everything-黑裙子 前奏演示+谱+伴奏 简单好听",
-                "author": "1987年的铁皮玩具",
-                "play": 92956,
-                "playText": "9.3 万",
-                "durationText": "2:5",
-                "url": "https://www.bilibili.com/video/BV1P3411W7CA"
-              },
-              {
-                "bvid": "BV1zdpieDE12",
-                "title": "everything安装步骤及使用方法",
-                "author": "纠结一族",
-                "play": 14941,
-                "playText": "1.5 万",
-                "durationText": "5:44",
-                "url": "https://www.bilibili.com/video/BV1zdpieDE12"
-              },
-              {
-                "bvid": "BV1Qw411N7wA",
-                "title": "电脑软件分享，文件搜索大师Everything怎么安装与下载？",
-                "author": "账号已注销",
-                "play": 75980,
-                "playText": "7.6 万",
-                "durationText": "1:34",
-                "url": "https://www.bilibili.com/video/BV1Qw411N7wA"
-              }
-            ]
-          }
-        },
         {
           "name": "3d-model-anything",
           "owner": "wesbos",
@@ -3726,15 +3283,15 @@
           "descriptionZh": "拍摄iPhone激光雷达和照片，重建可编辑的Three.js房间，并在浏览器中浏览它们。",
           "language": "Swift",
           "license": "",
-          "stars": 2973,
+          "stars": 2988,
           "starsText": "3k",
-          "forks": 445,
-          "forksText": "445",
+          "forks": 450,
+          "forksText": "450",
           "openIssues": 24,
           "archived": false,
           "topics": [],
           "category": "printer3d",
-          "ageDays": 22,
+          "ageDays": 23,
           "createdAt": "2026-10-21T19:38:50Z",
           "avatar": "https://avatars.githubusercontent.com/u/176013?v=4",
           "curve": {
@@ -3846,15 +3403,15 @@
           "descriptionZh": "腾讯通4090和实验性腾讯通4070 Ti SUPER的GPU张量解锁源；本地生成的固件",
           "language": "C",
           "license": "GPL-2.0",
-          "stars": 4876,
+          "stars": 4884,
           "starsText": "4.9k",
           "forks": 637,
           "forksText": "637",
-          "openIssues": 86,
+          "openIssues": 85,
           "archived": false,
           "topics": [],
           "category": "hardware",
-          "ageDays": 19,
+          "ageDays": 20,
           "createdAt": "2026-10-23T21:00:53Z",
           "avatar": "https://avatars.githubusercontent.com/u/62031663?v=4",
           "curve": {
@@ -3929,7 +3486,7 @@
             "keyword": "gpu-unlock-ada 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=gpu-unlock-ada%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         }
@@ -3952,9 +3509,9 @@
           "descriptionZh": "女娲树的第一颗果实——一支自主人工智能渗透测试军团（634支队伍的冠军，8小时无人值守，10亿个代币击败45亿个代币）。不仅仅是一款工具：设计上具有可进化性。在女娲基金会上培育您自己的果实（创建/语言/历史）。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2007,
+          "stars": 2031,
           "starsText": "2k",
-          "forks": 1023,
+          "forks": 1039,
           "forksText": "1k",
           "openIssues": 3,
           "archived": false,
@@ -3985,7 +3542,7 @@
             }
           ],
           "category": "security",
-          "ageDays": 13,
+          "ageDays": 14,
           "createdAt": "2026-10-30T15:12:35Z",
           "avatar": "https://avatars.githubusercontent.com/u/118088443?v=4",
           "curve": {
@@ -4035,123 +3592,71 @@
       "name": "游戏与娱乐",
       "emoji": "🎮",
       "desc": "游戏引擎、开源游戏、模拟器与模组",
-      "count": 9,
+      "count": 8,
       "repos": [
         {
-          "name": "nxnative",
-          "owner": "seedds",
-          "fullName": "seedds/nxnative",
-          "url": "https://github.com/seedds/nxnative",
+          "name": "Hookshot",
+          "owner": "NotRexed",
+          "fullName": "NotRexed/Hookshot",
+          "url": "https://github.com/NotRexed/Hookshot",
           "homepage": "",
-          "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-          "descriptionZh": "切换在iPhone、iPad和Mac上本机运行的游戏： NSP文件夹变为未签名的IPA （NSO重写器、Horizon HLE主机、NVN→ Metal）",
-          "language": "Python",
-          "license": "MIT",
-          "stars": 14910,
-          "starsText": "1.5 万",
-          "forks": 2664,
-          "forksText": "2.7k",
-          "openIssues": 1139,
+          "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+          "descriptionZh": "《塞尔达传说：时光之塔》原生重编任天堂Switch 2翻拍",
+          "language": "C++",
+          "license": "GPL-3.0",
+          "stars": 9030,
+          "starsText": "9k",
+          "forks": 826,
+          "forksText": "826",
+          "openIssues": 340,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T05:20:14Z",
-          "avatar": "https://avatars.githubusercontent.com/u/3463322?v=4",
+          "ageDays": 8,
+          "createdAt": "2026-11-05T12:18:58Z",
+          "avatar": "https://avatars.githubusercontent.com/u/179062254?v=4",
           "curve": {
             "points": [
               [
-                1792302928,
-                332
+                1794035518,
+                513
               ],
               [
-                1792390458,
-                504
+                1794122554,
+                2101
               ],
               [
-                1792735422,
-                1989
+                1794211156,
+                3463
               ],
               [
-                1792908592,
-                3223
+                1794299158,
+                5572
               ],
               [
-                1792995414,
-                4588
-              ],
-              [
-                1793081884,
-                6582
-              ],
-              [
-                1793170383,
-                8188
-              ],
-              [
-                1793257689,
-                9211
-              ],
-              [
-                1793344154,
-                9887
-              ],
-              [
-                1793518498,
-                10719
-              ],
-              [
-                1793605324,
-                11107
-              ],
-              [
-                1793692621,
-                11609
-              ],
-              [
-                1793865365,
-                12274
-              ],
-              [
-                1793951810,
-                12657
-              ],
-              [
-                1794122594,
-                13468
-              ],
-              [
-                1794211199,
-                13859
-              ],
-              [
-                1794299199,
-                14287
-              ],
-              [
-                1794471739,
-                14910
+                1794471703,
+                8126
               ]
             ],
             "source": "measured",
-            "delta": 14578,
-            "days": 25,
-            "perDay": 581
+            "delta": 7613,
+            "days": 5,
+            "perDay": 1508
           },
           "tutorials": {
-            "keyword": "nxnative 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=nxnative%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "Hookshot 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=Hookshot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-10-28T06:53:04.913Z",
+            "fetchedAt": "2026-11-10T08:26:00.190Z",
             "videos": [
               {
-                "bvid": "BV1Lbna6KEGG",
-                "title": "nxnative：号称让Switch游戏原生跑在iPhone，没Mac走不通、中文要写zh-Hans｜开源验货 027",
-                "author": "锋奈徳",
-                "play": 1035,
-                "playText": "1k",
-                "durationText": "4:47",
-                "url": "https://www.bilibili.com/video/BV1Lbna6KEGG"
+                "bvid": "BV1RsWt6AEgF",
+                "title": "（11月9日）时之笛重制版系列 (17）这期是教程 PC用模拟器Fritchii-v5.3 和PC原生移植程序 Hookshot v2.0.7 使用教程",
+                "author": "有点躺平够了的老丁",
+                "play": 7573,
+                "playText": "7.6k",
+                "durationText": "24:7",
+                "url": "https://www.bilibili.com/video/BV1RsWt6AEgF"
               }
             ]
           }
@@ -4166,15 +3671,15 @@
           "descriptionZh": "非常实验性的Nintendo Switch 2仿真器",
           "language": "C++",
           "license": "GPL-3.0",
-          "stars": 8621,
-          "starsText": "8.6k",
-          "forks": 1387,
+          "stars": 8836,
+          "starsText": "8.8k",
+          "forks": 1414,
           "forksText": "1.4k",
-          "openIssues": 679,
+          "openIssues": 724,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 12,
+          "ageDays": 13,
           "createdAt": "2026-10-31T14:17:26Z",
           "avatar": "https://avatars.githubusercontent.com/u/65777760?v=4",
           "curve": {
@@ -4232,73 +3737,6 @@
           }
         },
         {
-          "name": "Hookshot",
-          "owner": "NotRexed",
-          "fullName": "NotRexed/Hookshot",
-          "url": "https://github.com/NotRexed/Hookshot",
-          "homepage": "",
-          "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-          "descriptionZh": "《塞尔达传说：时光之塔》原生重编任天堂Switch 2翻拍",
-          "language": "C++",
-          "license": "GPL-3.0",
-          "stars": 8126,
-          "starsText": "8.1k",
-          "forks": 732,
-          "forksText": "732",
-          "openIssues": 229,
-          "archived": false,
-          "topics": [],
-          "category": "game",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T12:18:58Z",
-          "avatar": "https://avatars.githubusercontent.com/u/179062254?v=4",
-          "curve": {
-            "points": [
-              [
-                1794035518,
-                513
-              ],
-              [
-                1794122554,
-                2101
-              ],
-              [
-                1794211156,
-                3463
-              ],
-              [
-                1794299158,
-                5572
-              ],
-              [
-                1794471703,
-                8126
-              ]
-            ],
-            "source": "measured",
-            "delta": 7613,
-            "days": 5,
-            "perDay": 1508
-          },
-          "tutorials": {
-            "keyword": "Hookshot 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=Hookshot%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": "2026-11-10T08:26:00.190Z",
-            "videos": [
-              {
-                "bvid": "BV1RsWt6AEgF",
-                "title": "（11月9日）时之笛重制版系列 (17）这期是教程 PC用模拟器Fritchii-v5.3 和PC原生移植程序 Hookshot v2.0.7 使用教程",
-                "author": "有点躺平够了的老丁",
-                "play": 7573,
-                "playText": "7.6k",
-                "durationText": "24:7",
-                "url": "https://www.bilibili.com/video/BV1RsWt6AEgF"
-              }
-            ]
-          }
-        },
-        {
           "name": "ub-mode",
           "owner": "unclebob",
           "fullName": "unclebob/ub-mode",
@@ -4308,15 +3746,15 @@
           "descriptionZh": "",
           "language": "",
           "license": "MIT",
-          "stars": 7793,
-          "starsText": "7.8k",
-          "forks": 446,
-          "forksText": "446",
-          "openIssues": 10,
+          "stars": 7874,
+          "starsText": "7.9k",
+          "forks": 451,
+          "forksText": "451",
+          "openIssues": 11,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T16:04:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/36901?v=4",
           "curve": {
@@ -4383,7 +3821,7 @@
             "keyword": "ub-mode 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ub-mode%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -4397,11 +3835,11 @@
           "descriptionZh": "在Apple Silicon Mac、iPhone和iPad上玩自己的《王国之泪》和《荒野之息》。不是模拟器：游戏的ARM64代码直接运行， NVN在Metal上重建。带上您自己的游戏。",
           "language": "C",
           "license": "MIT",
-          "stars": 7603,
-          "starsText": "7.6k",
-          "forks": 1139,
+          "stars": 7694,
+          "starsText": "7.7k",
+          "forks": 1146,
           "forksText": "1.1k",
-          "openIssues": 160,
+          "openIssues": 142,
           "archived": false,
           "topics": [
             {
@@ -4430,7 +3868,7 @@
             }
           ],
           "category": "game",
-          "ageDays": 26,
+          "ageDays": 27,
           "createdAt": "2026-10-17T19:52:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/1425386?v=4",
           "curve": {
@@ -4521,7 +3959,7 @@
             "keyword": "MacNativeGames 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=MacNativeGames%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -4535,15 +3973,15 @@
           "descriptionZh": "非常实验性的Nintendo Switch 2仿真器",
           "language": "C++",
           "license": "GPL-3.0",
-          "stars": 5862,
+          "stars": 5907,
           "starsText": "5.9k",
-          "forks": 632,
-          "forksText": "632",
-          "openIssues": 371,
+          "forks": 634,
+          "forksText": "634",
+          "openIssues": 373,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T00:25:18Z",
           "avatar": "https://avatars.githubusercontent.com/u/353829115?v=4",
           "curve": {
@@ -4570,7 +4008,7 @@
             "keyword": "Eglantine 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=Eglantine%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -4584,10 +4022,10 @@
           "descriptionZh": "REAP -提示您使用REA （Reverse Engineer Anything），充分利用它，并克隆或分解任何程序",
           "language": "Batchfile",
           "license": "MIT",
-          "stars": 3969,
+          "stars": 4011,
           "starsText": "4k",
-          "forks": 704,
-          "forksText": "704",
+          "forks": 707,
+          "forksText": "707",
           "openIssues": 1,
           "archived": false,
           "topics": [
@@ -4605,7 +4043,7 @@
             }
           ],
           "category": "game",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-19T22:20:47Z",
           "avatar": "https://avatars.githubusercontent.com/u/34966120?v=4",
           "curve": {
@@ -4692,7 +4130,7 @@
             "keyword": "REA-Prompts 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=REA-Prompts%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -4706,11 +4144,11 @@
           "descriptionZh": "用于制作游戏或您自己的游戏引擎的免费开源C #框架。直接访问原生API和Vulkan，周围有低级库。该基金会由小猫航天局和RimWorld的Waylith引擎打造。",
           "language": "C#",
           "license": "",
-          "stars": 2464,
+          "stars": 2476,
           "starsText": "2.5k",
-          "forks": 163,
-          "forksText": "163",
-          "openIssues": 21,
+          "forks": 165,
+          "forksText": "165",
+          "openIssues": 22,
           "archived": false,
           "topics": [
             {
@@ -4735,7 +4173,7 @@
             }
           ],
           "category": "game",
-          "ageDays": 29,
+          "ageDays": 30,
           "createdAt": "2026-10-14T19:33:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/189169933?v=4",
           "curve": {
@@ -4862,15 +4300,15 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "MIT",
-          "stars": 1976,
+          "stars": 2003,
           "starsText": "2k",
-          "forks": 189,
-          "forksText": "189",
+          "forks": 190,
+          "forksText": "190",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "game",
-          "ageDays": 29,
+          "ageDays": 30,
           "createdAt": "2026-10-14T11:34:19Z",
           "avatar": "https://avatars.githubusercontent.com/u/41701394?v=4",
           "curve": {
@@ -4920,7 +4358,7 @@
       "name": "Web 前端",
       "emoji": "🌐",
       "desc": "前端框架、UI 组件库、建站模板与动效",
-      "count": 5,
+      "count": 6,
       "repos": [
         {
           "name": "rune",
@@ -4932,15 +4370,15 @@
           "descriptionZh": "Rune：原生UI框架",
           "language": "Rust",
           "license": "MIT",
-          "stars": 6745,
-          "starsText": "6.7k",
-          "forks": 241,
-          "forksText": "241",
-          "openIssues": 334,
+          "stars": 6951,
+          "starsText": "7k",
+          "forks": 259,
+          "forksText": "259",
+          "openIssues": 361,
           "archived": false,
           "topics": [],
           "category": "web",
-          "ageDays": 21,
+          "ageDays": 22,
           "createdAt": "2026-10-22T05:51:40Z",
           "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
           "curve": {
@@ -4999,11 +4437,11 @@
           "descriptionZh": "编写一次应用程序。它在网络、macOS、iOS和Linux上本地运行， AI代理可以构建、运行、查看并在其中的每一个上进行测试。",
           "language": "Rust",
           "license": "MIT",
-          "stars": 3076,
-          "starsText": "3.1k",
-          "forks": 69,
-          "forksText": "69",
-          "openIssues": 118,
+          "stars": 3541,
+          "starsText": "3.5k",
+          "forks": 85,
+          "forksText": "85",
+          "openIssues": 57,
           "archived": false,
           "topics": [
             {
@@ -5032,7 +4470,7 @@
             }
           ],
           "category": "web",
-          "ageDays": 10,
+          "ageDays": 11,
           "createdAt": "2026-11-02T01:29:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/12504344?v=4",
           "curve": {
@@ -5070,6 +4508,76 @@
           }
         },
         {
+          "name": "ui",
+          "owner": "vercel-labs",
+          "fullName": "vercel-labs/ui",
+          "url": "https://github.com/vercel-labs/ui",
+          "homepage": "https://ui-sdk.dev",
+          "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+          "descriptionZh": "一个用于代理构建下一代用户界面的行为库。",
+          "language": "TypeScript",
+          "license": "Apache-2.0",
+          "stars": 2422,
+          "starsText": "2.4k",
+          "forks": 51,
+          "forksText": "51",
+          "openIssues": 3,
+          "archived": false,
+          "topics": [
+            {
+              "key": "accessibility",
+              "zh": "accessibility"
+            },
+            {
+              "key": "agent",
+              "zh": "智能体 Agent"
+            },
+            {
+              "key": "agents",
+              "zh": "智能体 Agent"
+            },
+            {
+              "key": "aria",
+              "zh": "aria"
+            },
+            {
+              "key": "behaviors",
+              "zh": "behaviors"
+            },
+            {
+              "key": "component",
+              "zh": "component"
+            }
+          ],
+          "category": "web",
+          "ageDays": 18,
+          "createdAt": "2026-10-26T17:39:27Z",
+          "avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+          "curve": {
+            "points": [
+              [
+                1793036367,
+                0
+              ],
+              [
+                1794556818,
+                2422
+              ]
+            ],
+            "source": "projected",
+            "delta": 2422,
+            "days": 18,
+            "perDay": 135
+          },
+          "tutorials": {
+            "keyword": "ui 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=ui%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
           "name": "handwired",
           "owner": "chenglou",
           "fullName": "chenglou/handwired",
@@ -5079,15 +4587,15 @@
           "descriptionZh": "将常规JavaScript代码转换为神经网络。",
           "language": "TypeScript",
           "license": "MIT",
-          "stars": 2148,
-          "starsText": "2.1k",
-          "forks": 164,
-          "forksText": "164",
+          "stars": 2151,
+          "starsText": "2.2k",
+          "forks": 165,
+          "forksText": "165",
           "openIssues": 9,
           "archived": false,
           "topics": [],
           "category": "web",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-15T02:15:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/1909539?v=4",
           "curve": {
@@ -5204,10 +4712,10 @@
           "descriptionZh": "创建UI组件的Apple风格尺寸图。",
           "language": "HTML",
           "license": "MIT",
-          "stars": 2069,
+          "stars": 2088,
           "starsText": "2.1k",
-          "forks": 149,
-          "forksText": "149",
+          "forks": 152,
+          "forksText": "152",
           "openIssues": 4,
           "archived": false,
           "topics": [
@@ -5221,7 +4729,7 @@
             }
           ],
           "category": "web",
-          "ageDays": 20,
+          "ageDays": 21,
           "createdAt": "2026-10-23T12:20:16Z",
           "avatar": "https://avatars.githubusercontent.com/u/19428358?v=4",
           "curve": {
@@ -5282,15 +4790,15 @@
           "descriptionZh": "免费Claude技能：让Claude构建奖项级别的电影登录页面。由MotionSites提供。",
           "language": "Python",
           "license": "",
-          "stars": 2017,
+          "stars": 2042,
           "starsText": "2k",
-          "forks": 206,
-          "forksText": "206",
+          "forks": 210,
+          "forksText": "210",
           "openIssues": 2,
           "archived": false,
           "topics": [],
           "category": "web",
-          "ageDays": 17,
+          "ageDays": 18,
           "createdAt": "2026-10-26T06:58:45Z",
           "avatar": "https://avatars.githubusercontent.com/u/348156401?v=4",
           "curve": {
@@ -5366,11 +4874,11 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 7236,
-          "starsText": "7.2k",
-          "forks": 1059,
+          "stars": 7656,
+          "starsText": "7.7k",
+          "forks": 1132,
           "forksText": "1.1k",
-          "openIssues": 4,
+          "openIssues": 7,
           "archived": false,
           "topics": [
             {
@@ -5399,7 +4907,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T16:15:01Z",
           "avatar": "https://avatars.githubusercontent.com/u/60815510?v=4",
           "curve": {
@@ -5462,11 +4970,11 @@
           "descriptionZh": "",
           "language": "TypeScript",
           "license": "",
-          "stars": 6785,
-          "starsText": "6.8k",
-          "forks": 1721,
+          "stars": 6863,
+          "starsText": "6.9k",
+          "forks": 1745,
           "forksText": "1.7k",
-          "openIssues": 14,
+          "openIssues": 16,
           "archived": false,
           "topics": [
             {
@@ -5495,7 +5003,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 16,
+          "ageDays": 17,
           "createdAt": "2026-10-27T12:24:37Z",
           "avatar": "https://avatars.githubusercontent.com/u/9844218?v=4",
           "curve": {
@@ -5558,7 +5066,7 @@
             "keyword": "ai-pose-gallery-zh 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=ai-pose-gallery-zh%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -5572,11 +5080,11 @@
           "descriptionZh": "词光 · Word Atlas — 7,298个单词的雅思图解词汇，英国/美国音频和FSRS复习。开源APP + CC BY 4.0数据集。",
           "language": "TypeScript",
           "license": "",
-          "stars": 4734,
-          "starsText": "4.7k",
-          "forks": 1005,
+          "stars": 4790,
+          "starsText": "4.8k",
+          "forks": 1019,
           "forksText": "1k",
-          "openIssues": 54,
+          "openIssues": 58,
           "archived": false,
           "topics": [
             {
@@ -5605,7 +5113,7 @@
             }
           ],
           "category": "media",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T08:27:22Z",
           "avatar": "https://avatars.githubusercontent.com/u/17679892?v=4",
           "curve": {
@@ -5676,7 +5184,7 @@
             "keyword": "word-atlas 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=word-atlas%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -5685,20 +5193,20 @@
           "owner": "sarpstar",
           "fullName": "sarpstar/cinecode",
           "url": "https://github.com/sarpstar/cinecode",
-          "homepage": "",
+          "homepage": "https://x.com/sarpstar",
           "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
           "descriptionZh": "用代码制作的电影。短片、YouTube长视频、广告、解释器和音乐视频： AI编码代理编写脚本、构建代码中的每个帧、设计声音并向您提供MP4。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2254,
-          "starsText": "2.3k",
-          "forks": 392,
-          "forksText": "392",
+          "stars": 2367,
+          "starsText": "2.4k",
+          "forks": 407,
+          "forksText": "407",
           "openIssues": 11,
           "archived": false,
           "topics": [],
           "category": "media",
-          "ageDays": 9,
+          "ageDays": 10,
           "createdAt": "2026-11-03T10:08:16Z",
           "avatar": "https://avatars.githubusercontent.com/u/56429320?v=4",
           "curve": {
@@ -5760,11 +5268,11 @@
           "descriptionZh": "您知道的IDE是在Rust中重建的。IntelliJ IDEA风格的键盘映射、工具窗口和搜索-在快速本机应用程序中的任何地方： 60多种语言的编辑器、代码洞察、调试器、Git、终端、数据库和HTTP客户端。",
           "language": "TypeScript",
           "license": "Apache-2.0",
-          "stars": 8658,
-          "starsText": "8.7k",
-          "forks": 771,
-          "forksText": "771",
-          "openIssues": 176,
+          "stars": 8828,
+          "starsText": "8.8k",
+          "forks": 793,
+          "forksText": "793",
+          "openIssues": 168,
           "archived": false,
           "topics": [
             {
@@ -5793,7 +5301,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 22,
+          "ageDays": 23,
           "createdAt": "2026-10-21T12:23:14Z",
           "avatar": "https://avatars.githubusercontent.com/u/24760907?v=4",
           "curve": {
@@ -5848,7 +5356,7 @@
             "keyword": "openidea 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=openidea%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -5862,11 +5370,11 @@
           "descriptionZh": "在iPhone/iPad上玩您自己的Switch游戏—一键式macOS应用，无终端。|把切换游戏装进iPhone：图形界面一键构建，自不用命令行。带游戏。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 6254,
-          "starsText": "6.3k",
-          "forks": 787,
-          "forksText": "787",
-          "openIssues": 161,
+          "stars": 6596,
+          "starsText": "6.6k",
+          "forks": 825,
+          "forksText": "825",
+          "openIssues": 176,
           "archived": false,
           "topics": [
             {
@@ -5895,7 +5403,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-20T18:16:07Z",
           "avatar": "https://avatars.githubusercontent.com/u/90243050?v=4",
           "curve": {
@@ -5995,10 +5503,10 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "CC-BY-SA-4.0",
-          "stars": 4668,
-          "starsText": "4.7k",
-          "forks": 324,
-          "forksText": "324",
+          "stars": 4757,
+          "starsText": "4.8k",
+          "forks": 335,
+          "forksText": "335",
           "openIssues": 7,
           "archived": false,
           "topics": [
@@ -6028,7 +5536,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T11:28:43Z",
           "avatar": "https://avatars.githubusercontent.com/u/153735320?v=4",
           "curve": {
@@ -6116,15 +5624,15 @@
           "descriptionZh": "一项取代REA （Reverse Engineer Anything）的8 KB技能：简单的CLI工具，无MCP。基准：快38%，便宜35%。",
           "language": "Python",
           "license": "MIT",
-          "stars": 4223,
+          "stars": 4242,
           "starsText": "4.2k",
-          "forks": 642,
-          "forksText": "642",
+          "forks": 644,
+          "forksText": "644",
           "openIssues": 10,
           "archived": false,
           "topics": [],
           "category": "devtools",
-          "ageDays": 26,
+          "ageDays": 27,
           "createdAt": "2026-10-17T02:53:24Z",
           "avatar": "https://avatars.githubusercontent.com/u/167222040?v=4",
           "curve": {
@@ -6219,7 +5727,7 @@
             "keyword": "leanrea 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=leanrea%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6233,10 +5741,10 @@
           "descriptionZh": "整个MacOS在您的终端中运行。",
           "language": "Swift",
           "license": "MIT",
-          "stars": 2614,
-          "starsText": "2.6k",
-          "forks": 180,
-          "forksText": "180",
+          "stars": 2682,
+          "starsText": "2.7k",
+          "forks": 189,
+          "forksText": "189",
           "openIssues": 5,
           "archived": false,
           "topics": [
@@ -6266,7 +5774,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 9,
+          "ageDays": 10,
           "createdAt": "2026-11-03T03:22:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/111436589?v=4",
           "curve": {
@@ -6309,97 +5817,7 @@
             "keyword": "terminal-mac 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=terminal-mac%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
-          "name": "openjutsu",
-          "owner": "D3voz",
-          "fullName": "D3voz/openjutsu",
-          "url": "https://github.com/D3voz/openjutsu",
-          "homepage": "",
-          "description": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.",
-          "descriptionZh": "一键式视频角色交换：基于ComfyUI和MiniMax H3构建的开源本地Higgsfield Genjutsu替代方案，具有FLUX.3 Klein重新点亮功能。",
-          "language": "TypeScript",
-          "license": "MIT",
-          "stars": 2223,
-          "starsText": "2.2k",
-          "forks": 336,
-          "forksText": "336",
-          "openIssues": 49,
-          "archived": false,
-          "topics": [
-            {
-              "key": "character-swap",
-              "zh": "character-swap"
-            },
-            {
-              "key": "comfyui",
-              "zh": "ComfyUI"
-            },
-            {
-              "key": "minimax-h3",
-              "zh": "minimax-h3"
-            },
-            {
-              "key": "nextjs",
-              "zh": "Next.js"
-            },
-            {
-              "key": "open-weights",
-              "zh": "open-weights"
-            },
-            {
-              "key": "opensourcehiggsfield",
-              "zh": "opensourcehiggsfield"
-            }
-          ],
-          "category": "devtools",
-          "ageDays": 17,
-          "createdAt": "2026-10-26T13:48:11Z",
-          "avatar": "https://avatars.githubusercontent.com/u/139697969?v=4",
-          "curve": {
-            "points": [
-              [
-                1793344115,
-                434
-              ],
-              [
-                1793518455,
-                882
-              ],
-              [
-                1793605285,
-                1128
-              ],
-              [
-                1794122594,
-                1927
-              ],
-              [
-                1794211199,
-                1984
-              ],
-              [
-                1794299199,
-                2068
-              ],
-              [
-                1794471739,
-                2223
-              ]
-            ],
-            "source": "measured",
-            "delta": 1789,
-            "days": 13,
-            "perDay": 137
-          },
-          "tutorials": {
-            "keyword": "openjutsu 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=openjutsu%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6413,11 +5831,11 @@
           "descriptionZh": "增量生锈的速度比货物/生锈快92倍",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2129,
-          "starsText": "2.1k",
-          "forks": 79,
-          "forksText": "79",
-          "openIssues": 430,
+          "stars": 2315,
+          "starsText": "2.3k",
+          "forks": 86,
+          "forksText": "86",
+          "openIssues": 437,
           "archived": false,
           "topics": [
             {
@@ -6446,7 +5864,7 @@
             }
           ],
           "category": "devtools",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-19T23:31:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/263587422?v=4",
           "curve": {
@@ -6510,6 +5928,96 @@
           }
         },
         {
+          "name": "openjutsu",
+          "owner": "D3voz",
+          "fullName": "D3voz/openjutsu",
+          "url": "https://github.com/D3voz/openjutsu",
+          "homepage": "",
+          "description": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.",
+          "descriptionZh": "一键式视频角色交换：基于ComfyUI和MiniMax H3构建的开源本地Higgsfield Genjutsu替代方案，具有FLUX.3 Klein重新点亮功能。",
+          "language": "TypeScript",
+          "license": "MIT",
+          "stars": 2275,
+          "starsText": "2.3k",
+          "forks": 350,
+          "forksText": "350",
+          "openIssues": 49,
+          "archived": false,
+          "topics": [
+            {
+              "key": "character-swap",
+              "zh": "character-swap"
+            },
+            {
+              "key": "comfyui",
+              "zh": "ComfyUI"
+            },
+            {
+              "key": "minimax-h3",
+              "zh": "minimax-h3"
+            },
+            {
+              "key": "nextjs",
+              "zh": "Next.js"
+            },
+            {
+              "key": "open-weights",
+              "zh": "open-weights"
+            },
+            {
+              "key": "opensourcehiggsfield",
+              "zh": "opensourcehiggsfield"
+            }
+          ],
+          "category": "devtools",
+          "ageDays": 18,
+          "createdAt": "2026-10-26T13:48:11Z",
+          "avatar": "https://avatars.githubusercontent.com/u/139697969?v=4",
+          "curve": {
+            "points": [
+              [
+                1793344115,
+                434
+              ],
+              [
+                1793518455,
+                882
+              ],
+              [
+                1793605285,
+                1128
+              ],
+              [
+                1794122594,
+                1927
+              ],
+              [
+                1794211199,
+                1984
+              ],
+              [
+                1794299199,
+                2068
+              ],
+              [
+                1794471739,
+                2223
+              ]
+            ],
+            "source": "measured",
+            "delta": 1789,
+            "days": 13,
+            "perDay": 137
+          },
+          "tutorials": {
+            "keyword": "openjutsu 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=openjutsu%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
           "name": "Windows-GPU-UNLOCK",
           "owner": "windows-GPU-UNLOCK",
           "fullName": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
@@ -6519,15 +6027,15 @@
           "descriptionZh": "Windows GPU解锁： RTX3090 UEFI端口、韩语不重置Windows启动指南、已验证的源和基准证据",
           "language": "C",
           "license": "GPL-2.0",
-          "stars": 2114,
-          "starsText": "2.1k",
-          "forks": 234,
-          "forksText": "234",
-          "openIssues": 339,
+          "stars": 2153,
+          "starsText": "2.2k",
+          "forks": 239,
+          "forksText": "239",
+          "openIssues": 348,
           "archived": false,
           "topics": [],
           "category": "devtools",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-20T04:41:07Z",
           "avatar": "https://avatars.githubusercontent.com/u/350266573?v=4",
           "curve": {
@@ -6585,11 +6093,11 @@
           "descriptionZh": "misterdownloadmanager：适用于Windows、Mac和Linux的纯Rust从头开始编写的终极开源洁净室下载管理器",
           "language": "Rust",
           "license": "GPL-3.0",
-          "stars": 7183,
-          "starsText": "7.2k",
-          "forks": 558,
-          "forksText": "558",
-          "openIssues": 204,
+          "stars": 8285,
+          "starsText": "8.3k",
+          "forks": 676,
+          "forksText": "676",
+          "openIssues": 186,
           "archived": false,
           "topics": [
             {
@@ -6618,7 +6126,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T01:25:19Z",
           "avatar": "https://avatars.githubusercontent.com/u/1832078?v=4",
           "curve": {
@@ -6645,7 +6153,7 @@
             "keyword": "misterdownloadmanager 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=misterdownloadmanager%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6659,11 +6167,11 @@
           "descriptionZh": "使用Vulkan渲染器将《塞尔达传说：王国之泪》静态重新编译为本机Windows和Linux x86-64。游戏文件不包括在内。",
           "language": "C",
           "license": "MIT",
-          "stars": 6808,
-          "starsText": "6.8k",
-          "forks": 557,
-          "forksText": "557",
-          "openIssues": 376,
+          "stars": 6986,
+          "starsText": "7k",
+          "forks": 575,
+          "forksText": "575",
+          "openIssues": 392,
           "archived": false,
           "topics": [
             {
@@ -6688,7 +6196,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T12:32:46Z",
           "avatar": "https://avatars.githubusercontent.com/u/41872026?v=4",
           "curve": {
@@ -6743,7 +6251,7 @@
             "keyword": "totk-pc-recomp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=totk-pc-recomp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6757,15 +6265,15 @@
           "descriptionZh": "免费开源检查电脑、Android手机和iPhone备份上的雇佣军间谍软件痕迹（Pegasus、Predator、Graphite、Candiru等）。双击适用于Windows、Mac和Linux的应用程序，支持27种语言。",
           "language": "Python",
           "license": "Apache-2.0",
-          "stars": 4685,
+          "stars": 4706,
           "starsText": "4.7k",
-          "forks": 488,
-          "forksText": "488",
-          "openIssues": 11,
+          "forks": 492,
+          "forksText": "492",
+          "openIssues": 8,
           "archived": false,
           "topics": [],
           "category": "os",
-          "ageDays": 18,
+          "ageDays": 19,
           "createdAt": "2026-10-25T14:41:34Z",
           "avatar": "https://avatars.githubusercontent.com/u/39777629?v=4",
           "curve": {
@@ -6828,7 +6336,7 @@
             "keyword": "Zero-Breach-Toolkit 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=Zero-Breach-Toolkit%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6842,15 +6350,15 @@
           "descriptionZh": "Windows和Linux版The Legend of Zelda: Breath of the Wild （Switch， v1.9.0）正在进行静态重新编译。自带垃圾场：不包括游戏文件、钥匙或垃圾场工具。",
           "language": "C",
           "license": "",
-          "stars": 4008,
-          "starsText": "4k",
-          "forks": 234,
-          "forksText": "234",
-          "openIssues": 112,
+          "stars": 4122,
+          "starsText": "4.1k",
+          "forks": 236,
+          "forksText": "236",
+          "openIssues": 144,
           "archived": false,
           "topics": [],
           "category": "os",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T17:34:55Z",
           "avatar": "https://avatars.githubusercontent.com/u/82332536?v=4",
           "curve": {
@@ -6921,7 +6429,7 @@
             "keyword": "SavageWindRecomp 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=SavageWindRecomp%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -6935,11 +6443,11 @@
           "descriptionZh": "HatchZip是一款适用于Windows、macOS和Linux的免费开源存档提取器，可提取ZIP、7z、RAR、tar和拆分存档，因此它只需要用于提取文件的可用空间。桌面应用和CLI。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2850,
+          "stars": 2869,
           "starsText": "2.9k",
           "forks": 99,
           "forksText": "99",
-          "openIssues": 20,
+          "openIssues": 10,
           "archived": false,
           "topics": [
             {
@@ -6968,7 +6476,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 22,
+          "ageDays": 23,
           "createdAt": "2026-10-21T17:29:28Z",
           "avatar": "https://avatars.githubusercontent.com/u/77008538?v=4",
           "curve": {
@@ -7062,6 +6570,63 @@
           }
         },
         {
+          "name": "gputaskman",
+          "owner": "shanselman",
+          "fullName": "shanselman/gputaskman",
+          "url": "https://github.com/shanselman/gputaskman",
+          "homepage": "",
+          "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+          "descriptionZh": "适用于Windows、Linux和WSL的GPU任务管理器：每进程VRAM、GPU活动和LLM模型/KV缓存洞察（Windows AMD和NVIDIA）。",
+          "language": "Python",
+          "license": "MIT",
+          "stars": 2845,
+          "starsText": "2.8k",
+          "forks": 133,
+          "forksText": "133",
+          "openIssues": 8,
+          "archived": false,
+          "topics": [],
+          "category": "os",
+          "ageDays": 10,
+          "createdAt": "2026-11-03T00:49:34Z",
+          "avatar": "https://avatars.githubusercontent.com/u/2892?v=4",
+          "curve": {
+            "points": [
+              [
+                1794035518,
+                290
+              ],
+              [
+                1794122554,
+                584
+              ],
+              [
+                1794211156,
+                1220
+              ],
+              [
+                1794299158,
+                1540
+              ],
+              [
+                1794471739,
+                2198
+              ]
+            ],
+            "source": "measured",
+            "delta": 1908,
+            "days": 5,
+            "perDay": 378
+          },
+          "tutorials": {
+            "keyword": "gputaskman 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=gputaskman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
+            "videos": []
+          }
+        },
+        {
           "name": "UniXNU",
           "owner": "UniXNU",
           "fullName": "UniXNU/UniXNU",
@@ -7071,11 +6636,11 @@
           "descriptionZh": "通过UEFI在非Apple ARM64硬件上运行iOS和macOS。",
           "language": "Python",
           "license": "",
-          "stars": 2686,
-          "starsText": "2.7k",
-          "forks": 420,
-          "forksText": "420",
-          "openIssues": 31,
+          "stars": 2806,
+          "starsText": "2.8k",
+          "forks": 438,
+          "forksText": "438",
+          "openIssues": 32,
           "archived": false,
           "topics": [
             {
@@ -7084,7 +6649,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 24,
+          "ageDays": 25,
           "createdAt": "2026-10-19T10:46:55Z",
           "avatar": "https://avatars.githubusercontent.com/u/344663807?v=4",
           "curve": {
@@ -7147,7 +6712,7 @@
             "keyword": "UniXNU 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=UniXNU%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -7161,11 +6726,11 @@
           "descriptionZh": "Native Shell是在Rust中构建的用于iOS、Android、macOS、Windows、Linux和Web的原生UI框架。",
           "language": "Rust",
           "license": "",
-          "stars": 2588,
-          "starsText": "2.6k",
-          "forks": 169,
-          "forksText": "169",
-          "openIssues": 163,
+          "stars": 2651,
+          "starsText": "2.7k",
+          "forks": 179,
+          "forksText": "179",
+          "openIssues": 136,
           "archived": false,
           "topics": [
             {
@@ -7186,7 +6751,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 29,
+          "ageDays": 30,
           "createdAt": "2026-10-14T14:59:36Z",
           "avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
           "curve": {
@@ -7253,15 +6818,15 @@
           "descriptionZh": "适用于Windows Linux Hackintosh和所有EFI可引导系统（Rust）的UEFI预驱动程序NVIDIA GPU解锁器： SEC2 scrubber - > FWSEC/WPR2 - > signed Booter - > V67四写有效负载，已回读验证。已在大多数腾讯通20 30 40系列上验证。",
           "language": "Rust",
           "license": "GPL-2.0",
-          "stars": 2352,
+          "stars": 2405,
           "starsText": "2.4k",
-          "forks": 210,
-          "forksText": "210",
+          "forks": 218,
+          "forksText": "218",
           "openIssues": 20,
           "archived": false,
           "topics": [],
           "category": "os",
-          "ageDays": 17,
+          "ageDays": 18,
           "createdAt": "2026-10-26T06:22:24Z",
           "avatar": "https://avatars.githubusercontent.com/u/93106514?v=4",
           "curve": {
@@ -7318,15 +6883,15 @@
           "descriptionZh": "未知： Nathan Drake系列在Windows上本地运行-由SuperMedo提供",
           "language": "C++",
           "license": "GPL-2.0",
-          "stars": 2271,
+          "stars": 2280,
           "starsText": "2.3k",
           "forks": 142,
           "forksText": "142",
-          "openIssues": 483,
+          "openIssues": 486,
           "archived": false,
           "topics": [],
           "category": "os",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-15T00:17:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/28518750?v=4",
           "curve": {
@@ -7434,63 +6999,6 @@
           }
         },
         {
-          "name": "gputaskman",
-          "owner": "shanselman",
-          "fullName": "shanselman/gputaskman",
-          "url": "https://github.com/shanselman/gputaskman",
-          "homepage": "",
-          "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
-          "descriptionZh": "适用于Windows、Linux和WSL的GPU任务管理器：每进程VRAM、GPU活动和LLM模型/KV缓存洞察（Windows AMD和NVIDIA）。",
-          "language": "Python",
-          "license": "MIT",
-          "stars": 2198,
-          "starsText": "2.2k",
-          "forks": 112,
-          "forksText": "112",
-          "openIssues": 7,
-          "archived": false,
-          "topics": [],
-          "category": "os",
-          "ageDays": 9,
-          "createdAt": "2026-11-03T00:49:34Z",
-          "avatar": "https://avatars.githubusercontent.com/u/2892?v=4",
-          "curve": {
-            "points": [
-              [
-                1794035518,
-                290
-              ],
-              [
-                1794122554,
-                584
-              ],
-              [
-                1794211156,
-                1220
-              ],
-              [
-                1794299158,
-                1540
-              ],
-              [
-                1794471739,
-                2198
-              ]
-            ],
-            "source": "measured",
-            "delta": 1908,
-            "days": 5,
-            "perDay": 378
-          },
-          "tutorials": {
-            "keyword": "gputaskman 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=gputaskman%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
           "name": "cicada",
           "owner": "wquguru",
           "fullName": "wquguru/cicada",
@@ -7500,11 +7008,11 @@
           "descriptionZh": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要， Mac、 Windows、 Linux、 Android 免费开源。Live字幕，在Mac、Windows、Linux和Android上为任何通话或流媒体提供口译和会议笔记。",
           "language": "Swift",
           "license": "Apache-2.0",
-          "stars": 2184,
+          "stars": 2203,
           "starsText": "2.2k",
-          "forks": 375,
-          "forksText": "375",
-          "openIssues": 6,
+          "forks": 377,
+          "forksText": "377",
+          "openIssues": 7,
           "archived": false,
           "topics": [
             {
@@ -7533,7 +7041,7 @@
             }
           ],
           "category": "os",
-          "ageDays": 11,
+          "ageDays": 12,
           "createdAt": "2026-11-01T05:41:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/209866177?v=4",
           "curve": {
@@ -7590,15 +7098,15 @@
           "descriptionZh": "在iOS和iPadOS上模拟macOS",
           "language": "C",
           "license": "GPL-2.0",
-          "stars": 2068,
-          "starsText": "2.1k",
-          "forks": 170,
-          "forksText": "170",
-          "openIssues": 75,
+          "stars": 2164,
+          "starsText": "2.2k",
+          "forks": 180,
+          "forksText": "180",
+          "openIssues": 109,
           "archived": false,
           "topics": [],
           "category": "os",
-          "ageDays": 10,
+          "ageDays": 11,
           "createdAt": "2026-11-02T01:13:51Z",
           "avatar": "https://avatars.githubusercontent.com/u/281482210?v=4",
           "curve": {
@@ -7640,7 +7148,7 @@
       "name": "移动与跨端",
       "emoji": "📱",
       "desc": "Android / iOS 应用、跨端框架与桌面客户端",
-      "count": 13,
+      "count": 15,
       "repos": [
         {
           "name": "cleanyourtv",
@@ -7652,11 +7160,11 @@
           "descriptionZh": "通过Wi-Fi连接任何Android或Google TV，即可获得Apple TV风格的家居体验。",
           "language": "Python",
           "license": "",
-          "stars": 56701,
+          "stars": 57138,
           "starsText": "5.7 万",
-          "forks": 7302,
-          "forksText": "7.3k",
-          "openIssues": 210,
+          "forks": 7379,
+          "forksText": "7.4k",
+          "openIssues": 242,
           "archived": false,
           "topics": [
             {
@@ -7685,7 +7193,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 26,
+          "ageDays": 27,
           "createdAt": "2026-10-17T08:12:35Z",
           "avatar": "https://avatars.githubusercontent.com/u/94786511?v=4",
           "curve": {
@@ -7800,15 +7308,15 @@
           "descriptionZh": "",
           "language": "Kotlin",
           "license": "MIT",
-          "stars": 11353,
-          "starsText": "1.1 万",
-          "forks": 976,
-          "forksText": "976",
-          "openIssues": 368,
+          "stars": 11559,
+          "starsText": "1.2 万",
+          "forks": 1002,
+          "forksText": "1k",
+          "openIssues": 373,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 23,
+          "ageDays": 24,
           "createdAt": "2026-10-20T09:13:06Z",
           "avatar": "https://avatars.githubusercontent.com/u/16513318?v=4",
           "curve": {
@@ -7919,11 +7427,11 @@
           "descriptionZh": "YellowFruit第三方客户端",
           "language": "",
           "license": "",
-          "stars": 8356,
-          "starsText": "8.4k",
-          "forks": 4294,
-          "forksText": "4.3k",
-          "openIssues": 17,
+          "stars": 8729,
+          "starsText": "8.7k",
+          "forks": 5639,
+          "forksText": "5.6k",
+          "openIssues": 19,
           "archived": false,
           "topics": [
             {
@@ -7952,7 +7460,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 9,
+          "ageDays": 10,
           "createdAt": "2026-11-03T14:04:27Z",
           "avatar": "https://avatars.githubusercontent.com/u/328980256?v=4",
           "curve": {
@@ -7991,7 +7499,7 @@
             "keyword": "HGhub 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=HGhub%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -8005,11 +7513,11 @@
           "descriptionZh": "适用于Android的设备上AI代理，可运行应用程序和网络，为您完成任务。",
           "language": "Kotlin",
           "license": "Apache-2.0",
-          "stars": 8305,
-          "starsText": "8.3k",
-          "forks": 1892,
+          "stars": 8462,
+          "starsText": "8.5k",
+          "forks": 1927,
           "forksText": "1.9k",
-          "openIssues": 118,
+          "openIssues": 125,
           "archived": false,
           "topics": [
             {
@@ -8038,7 +7546,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 14,
+          "ageDays": 15,
           "createdAt": "2026-10-29T14:34:07Z",
           "avatar": "https://avatars.githubusercontent.com/u/102038245?v=4",
           "curve": {
@@ -8113,11 +7621,11 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "MIT",
-          "stars": 7653,
+          "stars": 7749,
           "starsText": "7.7k",
-          "forks": 680,
-          "forksText": "680",
-          "openIssues": 237,
+          "forks": 687,
+          "forksText": "687",
+          "openIssues": 183,
           "archived": false,
           "topics": [
             {
@@ -8146,7 +7654,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 19,
+          "ageDays": 20,
           "createdAt": "2026-10-24T05:35:47Z",
           "avatar": "https://avatars.githubusercontent.com/u/5119232?v=4",
           "curve": {
@@ -8221,7 +7729,7 @@
             "keyword": "android-ad-cleaner 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=android-ad-cleaner%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -8231,19 +7739,19 @@
           "fullName": "huamidev/GestaltX",
           "url": "https://github.com/huamidev/GestaltX",
           "homepage": "",
-          "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-          "descriptionZh": "适用于iOS 27.x的MobileGestalt编辑器，具有区域代码调整、设备预设、备份以及对7种语言的支持。",
+          "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+          "descriptionZh": "适用于 iOS 27.x 的 MobileGestalt 编辑器，具有区域代码调整、设备预设、备份等功能。",
           "language": "Swift",
           "license": "GPL-3.0",
-          "stars": 6631,
-          "starsText": "6.6k",
-          "forks": 2489,
-          "forksText": "2.5k",
-          "openIssues": 57,
+          "stars": 7086,
+          "starsText": "7.1k",
+          "forks": 2579,
+          "forksText": "2.6k",
+          "openIssues": 70,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 3,
+          "ageDays": 4,
           "createdAt": "2026-11-09T05:15:48Z",
           "avatar": "https://avatars.githubusercontent.com/u/354314991?v=4",
           "curve": {
@@ -8290,11 +7798,11 @@
           "descriptionZh": "您的所有电脑和手机/iPhone，就像一张办公桌。屏幕、应用程序、文件、剪贴板、通话、短信、通知、鼠标和键盘，在Mac、Windows、Linux、Android、Web和ios/ipados之间共享。免费开源。无需帐户，无需云，无需共享网络。",
           "language": "JavaScript",
           "license": "GPL-3.0",
-          "stars": 3953,
+          "stars": 4006,
           "starsText": "4k",
-          "forks": 306,
-          "forksText": "306",
-          "openIssues": 37,
+          "forks": 313,
+          "forksText": "313",
+          "openIssues": 27,
           "archived": false,
           "topics": [
             {
@@ -8323,7 +7831,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 29,
+          "ageDays": 30,
           "createdAt": "2026-10-14T01:19:02Z",
           "avatar": "https://avatars.githubusercontent.com/u/70461117?v=4",
           "curve": {
@@ -8402,11 +7910,11 @@
           "descriptionZh": "",
           "language": "Kotlin",
           "license": "MIT",
-          "stars": 3310,
+          "stars": 3342,
           "starsText": "3.3k",
-          "forks": 308,
-          "forksText": "308",
-          "openIssues": 2,
+          "forks": 310,
+          "forksText": "310",
+          "openIssues": 1,
           "archived": false,
           "topics": [
             {
@@ -8435,7 +7943,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 11,
+          "ageDays": 12,
           "createdAt": "2026-10-31T21:34:39Z",
           "avatar": "https://avatars.githubusercontent.com/u/310443301?v=4",
           "curve": {
@@ -8506,15 +8014,15 @@
           "descriptionZh": "herdr桌面应用",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 2765,
+          "stars": 2833,
           "starsText": "2.8k",
-          "forks": 498,
-          "forksText": "498",
-          "openIssues": 578,
+          "forks": 522,
+          "forksText": "522",
+          "openIssues": 548,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 26,
+          "ageDays": 27,
           "createdAt": "2026-10-16T20:36:36Z",
           "avatar": "https://avatars.githubusercontent.com/u/309108654?v=4",
           "curve": {
@@ -8557,7 +8065,81 @@
             "keyword": "herdr-app 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=herdr-app%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
+            "videos": []
+          }
+        },
+        {
+          "name": "S2Arm",
+          "owner": "jhaizhou-ops",
+          "fullName": "jhaizhou-ops/S2Arm",
+          "url": "https://github.com/jhaizhou-ops/S2Arm",
+          "homepage": "https://s2arm.com",
+          "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
+          "descriptionZh": "在iPhone、iPad和Mac上本地运行您自己的Switch游戏：游戏代码重写到ARM64，图形直接到Metal，一个应用程序用于整个库。自带游戏和钥匙。把你自己的切换游戏原生带到iPhone/iPad/Mac。",
+          "language": "C#",
+          "license": "Apache-2.0",
+          "stars": 2806,
+          "starsText": "2.8k",
+          "forks": 515,
+          "forksText": "515",
+          "openIssues": 347,
+          "archived": false,
+          "topics": [
+            {
+              "key": "apple-silicon",
+              "zh": "apple-silicon"
+            },
+            {
+              "key": "arm64",
+              "zh": "arm64"
+            },
+            {
+              "key": "game-porting",
+              "zh": "game-porting"
+            },
+            {
+              "key": "ios",
+              "zh": "iOS"
+            },
+            {
+              "key": "ipados",
+              "zh": "ipados"
+            },
+            {
+              "key": "macos",
+              "zh": "macOS"
+            }
+          ],
+          "category": "mobile",
+          "ageDays": 5,
+          "createdAt": "2026-11-08T05:49:46Z",
+          "avatar": "https://avatars.githubusercontent.com/u/258432107?v=4",
+          "curve": {
+            "points": [
+              [
+                1794211156,
+                1036
+              ],
+              [
+                1794299158,
+                2162
+              ],
+              [
+                1794471703,
+                2674
+              ]
+            ],
+            "source": "measured",
+            "delta": 1638,
+            "days": 3,
+            "perDay": 543
+          },
+          "tutorials": {
+            "keyword": "S2Arm 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=S2Arm%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -8571,15 +8153,15 @@
           "descriptionZh": "苹果在Android手机上的开源XNU内核：它自己的加载器和驱动程序， Metal on the Adreno。从RAM运行；重新启动会将手机还给Android。",
           "language": "C",
           "license": "",
-          "stars": 2735,
-          "starsText": "2.7k",
-          "forks": 447,
-          "forksText": "447",
-          "openIssues": 25,
+          "stars": 2756,
+          "starsText": "2.8k",
+          "forks": 453,
+          "forksText": "453",
+          "openIssues": 24,
           "archived": false,
           "topics": [],
           "category": "mobile",
-          "ageDays": 21,
+          "ageDays": 22,
           "createdAt": "2026-10-22T06:20:11Z",
           "avatar": "https://avatars.githubusercontent.com/u/343646710?v=4",
           "curve": {
@@ -8638,79 +8220,83 @@
             "keyword": "hakios-xnu-kernel 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=hakios-xnu-kernel%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
         {
-          "name": "S2Arm",
-          "owner": "jhaizhou-ops",
-          "fullName": "jhaizhou-ops/S2Arm",
-          "url": "https://github.com/jhaizhou-ops/S2Arm",
-          "homepage": "https://s2arm.com",
-          "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
-          "descriptionZh": "在iPhone、iPad和Mac上本地运行您自己的Switch游戏：游戏代码重写到ARM64，图形直接到Metal，一个应用程序用于整个库。自带游戏和钥匙。把你自己的切换游戏原生带到iPhone/iPad/Mac。",
-          "language": "C#",
-          "license": "Apache-2.0",
-          "stars": 2674,
-          "starsText": "2.7k",
-          "forks": 489,
-          "forksText": "489",
-          "openIssues": 311,
+          "name": "cleanyourtv-app",
+          "owner": "udhaykumarbala",
+          "fullName": "udhaykumarbala/cleanyourtv-app",
+          "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
+          "homepage": "",
+          "description": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
+          "descriptionZh": "社区打造的电话应用程序，用于清洁电视：从手机中清理Android电视。没有笔记本电脑，没有编码代理，没有卸载。",
+          "language": "Kotlin",
+          "license": "MIT",
+          "stars": 2065,
+          "starsText": "2.1k",
+          "forks": 198,
+          "forksText": "198",
+          "openIssues": 8810,
           "archived": false,
           "topics": [
             {
-              "key": "apple-silicon",
-              "zh": "apple-silicon"
+              "key": "adb",
+              "zh": "ADB 调试"
             },
             {
-              "key": "arm64",
-              "zh": "arm64"
+              "key": "android-tv",
+              "zh": "android-tv"
             },
             {
-              "key": "game-porting",
-              "zh": "game-porting"
+              "key": "debloat",
+              "zh": "debloat"
             },
             {
-              "key": "ios",
-              "zh": "iOS"
+              "key": "fire-tv",
+              "zh": "fire-tv"
             },
             {
-              "key": "ipados",
-              "zh": "ipados"
+              "key": "google-tv",
+              "zh": "google-tv"
             },
             {
-              "key": "macos",
-              "zh": "macOS"
+              "key": "launcher",
+              "zh": "launcher"
             }
           ],
           "category": "mobile",
-          "ageDays": 4,
-          "createdAt": "2026-11-08T05:49:46Z",
-          "avatar": "https://avatars.githubusercontent.com/u/258432107?v=4",
+          "ageDays": 23,
+          "createdAt": "2026-10-21T12:42:09Z",
+          "avatar": "https://avatars.githubusercontent.com/u/24606613?v=4",
           "curve": {
             "points": [
               [
-                1794211156,
-                1036
+                1792908551,
+                386
               ],
               [
-                1794299158,
-                2162
+                1792995376,
+                636
               ],
               [
-                1794471703,
-                2674
+                1793170342,
+                927
+              ],
+              [
+                1794471739,
+                2014
               ]
             ],
             "source": "measured",
-            "delta": 1638,
-            "days": 3,
-            "perDay": 543
+            "delta": 1628,
+            "days": 18,
+            "perDay": 90
           },
           "tutorials": {
-            "keyword": "S2Arm 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=S2Arm%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "cleanyourtv-app 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=cleanyourtv-app%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -8726,10 +8312,10 @@
           "descriptionZh": "通过ADB将广告、跟踪和混乱从Fire TV中移除，没有根。每个步骤都可以撤消。自带开源主屏幕。",
           "language": "Java",
           "license": "",
-          "stars": 2040,
+          "stars": 2047,
           "starsText": "2k",
-          "forks": 240,
-          "forksText": "240",
+          "forks": 242,
+          "forksText": "242",
           "openIssues": 21,
           "archived": false,
           "topics": [
@@ -8759,7 +8345,7 @@
             }
           ],
           "category": "mobile",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T17:04:12Z",
           "avatar": "https://avatars.githubusercontent.com/u/107297384?v=4",
           "curve": {
@@ -8835,78 +8421,136 @@
           }
         },
         {
-          "name": "cleanyourtv-app",
-          "owner": "udhaykumarbala",
-          "fullName": "udhaykumarbala/cleanyourtv-app",
-          "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
+          "name": "Orpheon",
+          "owner": "kota-zo",
+          "fullName": "kota-zo/Orpheon",
+          "url": "https://github.com/kota-zo/Orpheon",
           "homepage": "",
-          "description": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
-          "descriptionZh": "社区打造的电话应用程序，用于清洁电视：从手机中清理Android电视。没有笔记本电脑，没有编码代理，没有卸载。",
+          "description": "Native Android client for Spotify, built with Jetpack Compose",
+          "descriptionZh": "使用Jetpack Compose构建的Spotify原生Android客户端",
           "language": "Kotlin",
-          "license": "MIT",
+          "license": "GPL-3.0",
           "stars": 2014,
           "starsText": "2k",
-          "forks": 192,
-          "forksText": "192",
-          "openIssues": 8379,
+          "forks": 113,
+          "forksText": "113",
+          "openIssues": 175,
           "archived": false,
           "topics": [
             {
-              "key": "adb",
-              "zh": "ADB 调试"
+              "key": "ad-free",
+              "zh": "ad-free"
             },
             {
-              "key": "android-tv",
-              "zh": "android-tv"
+              "key": "adblock",
+              "zh": "adblock"
             },
             {
-              "key": "debloat",
-              "zh": "debloat"
+              "key": "android",
+              "zh": "Android"
             },
             {
-              "key": "fire-tv",
-              "zh": "fire-tv"
+              "key": "apple-music",
+              "zh": "apple-music"
             },
             {
-              "key": "google-tv",
-              "zh": "google-tv"
+              "key": "jetpack-compose",
+              "zh": "Jetpack Compose"
             },
             {
-              "key": "launcher",
-              "zh": "launcher"
+              "key": "kotlin",
+              "zh": "Kotlin"
+            }
+          ],
+          "category": "mobile",
+          "ageDays": 30,
+          "createdAt": "2026-10-14T13:01:34Z",
+          "avatar": "https://avatars.githubusercontent.com/u/193484410?v=4",
+          "curve": {
+            "points": [
+              [
+                1791982894,
+                0
+              ],
+              [
+                1794556818,
+                2014
+              ]
+            ],
+            "source": "projected",
+            "delta": 2014,
+            "days": 30,
+            "perDay": 67
+          },
+          "tutorials": {
+            "keyword": "Orpheon 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=Orpheon%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
+          }
+        },
+        {
+          "name": "tellyscope",
+          "owner": "man15h",
+          "fullName": "man15h/tellyscope",
+          "url": "https://github.com/man15h/tellyscope",
+          "homepage": "https://man15h.github.io/tellyscope/",
+          "description": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. Just 3 MB, no tracking, no root, no PC.",
+          "descriptionZh": "通过手机即可精简您的 Android TV，安装应用，浏览和传输文件。仅 3 MB，无跟踪，无需 Root，无需电脑。",
+          "language": "Kotlin",
+          "license": "GPL-3.0",
+          "stars": 1988,
+          "starsText": "2k",
+          "forks": 99,
+          "forksText": "99",
+          "openIssues": 26,
+          "archived": false,
+          "topics": [
+            {
+              "key": "android",
+              "zh": "Android"
+            },
+            {
+              "key": "androidtv",
+              "zh": "androidtv"
+            },
+            {
+              "key": "googletv",
+              "zh": "googletv"
+            },
+            {
+              "key": "privacy",
+              "zh": "隐私保护"
             }
           ],
           "category": "mobile",
           "ageDays": 22,
-          "createdAt": "2026-10-21T12:42:09Z",
-          "avatar": "https://avatars.githubusercontent.com/u/24606613?v=4",
+          "createdAt": "2026-10-22T19:51:46Z",
+          "avatar": "https://avatars.githubusercontent.com/u/13364153?v=4",
           "curve": {
             "points": [
               [
-                1792908551,
-                386
-              ],
-              [
-                1792995376,
-                636
-              ],
-              [
                 1793170342,
-                927
+                337
               ],
               [
-                1794471739,
-                2014
+                1793257650,
+                591
+              ],
+              [
+                1794556818,
+                1988
               ]
             ],
             "source": "measured",
-            "delta": 1628,
-            "days": 18,
-            "perDay": 90
+            "delta": 1651,
+            "days": 16,
+            "perDay": 103
           },
           "tutorials": {
-            "keyword": "cleanyourtv-app 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=cleanyourtv-app%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "tellyscope 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=tellyscope%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -8931,15 +8575,15 @@
           "descriptionZh": "代理利用学习困难的事情。",
           "language": "TypeScript",
           "license": "AGPL-3.0",
-          "stars": 8838,
-          "starsText": "8.8k",
-          "forks": 1186,
+          "stars": 9100,
+          "starsText": "9.1k",
+          "forks": 1214,
           "forksText": "1.2k",
-          "openIssues": 477,
+          "openIssues": 493,
           "archived": false,
           "topics": [],
           "category": "learning",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T19:35:33Z",
           "avatar": "https://avatars.githubusercontent.com/u/255718537?v=4",
           "curve": {
@@ -9006,7 +8650,7 @@
             "keyword": "learnharness 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=learnharness%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -9020,11 +8664,11 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "",
-          "stars": 7780,
-          "starsText": "7.8k",
-          "forks": 2076,
+          "stars": 7913,
+          "starsText": "7.9k",
+          "forks": 2114,
           "forksText": "2.1k",
-          "openIssues": 32,
+          "openIssues": 33,
           "archived": false,
           "topics": [
             {
@@ -9053,7 +8697,7 @@
             }
           ],
           "category": "learning",
-          "ageDays": 25,
+          "ageDays": 26,
           "createdAt": "2026-10-18T09:04:43Z",
           "avatar": "https://avatars.githubusercontent.com/u/79557224?v=4",
           "curve": {
@@ -9144,7 +8788,7 @@
             "keyword": "cn-math-taxonomy 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=cn-math-taxonomy%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
@@ -9158,11 +8802,11 @@
           "descriptionZh": "精心策划的工具、案例研究和论文，用于逆向工程网站、游戏、应用程序、二进制文件、固件和协议。经来源审核，英文和中文。",
           "language": "Python",
           "license": "MIT",
-          "stars": 2614,
-          "starsText": "2.6k",
-          "forks": 465,
-          "forksText": "465",
-          "openIssues": 1848,
+          "stars": 2693,
+          "starsText": "2.7k",
+          "forks": 474,
+          "forksText": "474",
+          "openIssues": 1849,
           "archived": false,
           "topics": [
             {
@@ -9191,7 +8835,7 @@
             }
           ],
           "category": "learning",
-          "ageDays": 27,
+          "ageDays": 28,
           "createdAt": "2026-10-16T00:42:04Z",
           "avatar": "https://avatars.githubusercontent.com/u/68239571?v=4",
           "curve": {
@@ -9218,7 +8862,7 @@
             "keyword": "Awesome-REA 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=Awesome-REA%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": null,
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         }
@@ -9241,15 +8885,15 @@
           "descriptionZh": "制作任何东西：了解任何软件的工作原理，并制作自己的软件。",
           "language": "Rust",
           "license": "Apache-2.0",
-          "stars": 28997,
-          "starsText": "2.9 万",
-          "forks": 5897,
-          "forksText": "5.9k",
-          "openIssues": 323,
+          "stars": 30530,
+          "starsText": "3.1 万",
+          "forks": 6235,
+          "forksText": "6.2k",
+          "openIssues": 359,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 12,
+          "ageDays": 13,
           "createdAt": "2026-10-31T14:50:00Z",
           "avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
           "curve": {
@@ -9329,15 +8973,15 @@
           "descriptionZh": "",
           "language": "C",
           "license": "MIT",
-          "stars": 3347,
-          "starsText": "3.3k",
-          "forks": 223,
-          "forksText": "223",
-          "openIssues": 531,
+          "stars": 3656,
+          "starsText": "3.7k",
+          "forks": 260,
+          "forksText": "260",
+          "openIssues": 623,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 5,
+          "ageDays": 6,
           "createdAt": "2026-11-07T10:01:23Z",
           "avatar": "https://avatars.githubusercontent.com/u/178368288?v=4",
           "curve": {
@@ -9392,15 +9036,15 @@
           "descriptionZh": "Todas as leis do Brasil",
           "language": "",
           "license": "",
-          "stars": 2766,
+          "stars": 2794,
           "starsText": "2.8k",
-          "forks": 473,
-          "forksText": "473",
-          "openIssues": 30,
+          "forks": 476,
+          "forksText": "476",
+          "openIssues": 29,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-15T01:40:37Z",
           "avatar": "https://avatars.githubusercontent.com/u/48084136?v=4",
           "curve": {
@@ -9487,58 +9131,54 @@
             "keyword": "leis 安装教程",
             "searchUrl": "https://search.bilibili.com/all?keyword=leis%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
-            "fetchedAt": "2026-11-12T08:22:21.886Z",
+            "fetchedAt": "2026-11-13T08:00:20.494Z",
             "videos": []
           }
         },
         {
-          "name": "InWorld",
-          "owner": "Murea-Labs",
-          "fullName": "Murea-Labs/InWorld",
-          "url": "https://github.com/Murea-Labs/InWorld",
-          "homepage": "",
-          "description": "",
-          "descriptionZh": "",
-          "language": "Python",
-          "license": "Apache-2.0",
-          "stars": 2579,
-          "starsText": "2.6k",
-          "forks": 367,
-          "forksText": "367",
-          "openIssues": 1,
+          "name": "chimera-vocal-synth",
+          "owner": "jamesondh",
+          "fullName": "jamesondh/chimera-vocal-synth",
+          "url": "https://github.com/jamesondh/chimera-vocal-synth",
+          "homepage": "https://chimera-vocal-synth.vercel.app",
+          "description": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
+          "descriptionZh": "终极声音合成器-唱歌、说话、节拍器等",
+          "language": "Rust",
+          "license": "MIT",
+          "stars": 2180,
+          "starsText": "2.2k",
+          "forks": 259,
+          "forksText": "259",
+          "openIssues": 33,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 30,
-          "createdAt": "2026-10-13T06:53:06Z",
-          "avatar": "https://avatars.githubusercontent.com/u/341457230?v=4",
+          "ageDays": 8,
+          "createdAt": "2026-11-05T19:10:42Z",
+          "avatar": "https://avatars.githubusercontent.com/u/4026659?v=4",
           "curve": {
             "points": [
               [
-                1794122594,
-                1948
+                1794211156,
+                827
               ],
               [
-                1794211199,
-                2107
+                1794299158,
+                1354
               ],
               [
-                1794299199,
-                2269
-              ],
-              [
-                1794471739,
-                2579
+                1794471703,
+                2038
               ]
             ],
             "source": "measured",
-            "delta": 631,
-            "days": 4,
-            "perDay": 156
+            "delta": 1211,
+            "days": 3,
+            "perDay": 402
           },
           "tutorials": {
-            "keyword": "InWorld 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=InWorld%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "keyword": "chimera-vocal-synth 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=chimera-vocal-synth%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
             "error": null,
             "fetchedAt": null,
             "videos": []
@@ -9554,15 +9194,15 @@
           "descriptionZh": "",
           "language": "JavaScript",
           "license": "ISC",
-          "stars": 2046,
-          "starsText": "2k",
-          "forks": 1110,
-          "forksText": "1.1k",
+          "stars": 2137,
+          "starsText": "2.1k",
+          "forks": 1154,
+          "forksText": "1.2k",
           "openIssues": 0,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 6,
+          "ageDays": 7,
           "createdAt": "2026-11-06T09:28:09Z",
           "avatar": "https://avatars.githubusercontent.com/u/51308528?v=4",
           "curve": {
@@ -9602,55 +9242,6 @@
           }
         },
         {
-          "name": "chimera-vocal-synth",
-          "owner": "jamesondh",
-          "fullName": "jamesondh/chimera-vocal-synth",
-          "url": "https://github.com/jamesondh/chimera-vocal-synth",
-          "homepage": "https://chimera-vocal-synth.vercel.app",
-          "description": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
-          "descriptionZh": "终极声音合成器-唱歌、说话、节拍器等",
-          "language": "Rust",
-          "license": "MIT",
-          "stars": 2038,
-          "starsText": "2k",
-          "forks": 238,
-          "forksText": "238",
-          "openIssues": 30,
-          "archived": false,
-          "topics": [],
-          "category": "other",
-          "ageDays": 7,
-          "createdAt": "2026-11-05T19:10:42Z",
-          "avatar": "https://avatars.githubusercontent.com/u/4026659?v=4",
-          "curve": {
-            "points": [
-              [
-                1794211156,
-                827
-              ],
-              [
-                1794299158,
-                1354
-              ],
-              [
-                1794471703,
-                2038
-              ]
-            ],
-            "source": "measured",
-            "delta": 1211,
-            "days": 3,
-            "perDay": 402
-          },
-          "tutorials": {
-            "keyword": "chimera-vocal-synth 安装教程",
-            "searchUrl": "https://search.bilibili.com/all?keyword=chimera-vocal-synth%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
-            "error": null,
-            "fetchedAt": null,
-            "videos": []
-          }
-        },
-        {
           "name": "Hy-Memory",
           "owner": "Tencent-Hunyuan",
           "fullName": "Tencent-Hunyuan/Hy-Memory",
@@ -9660,15 +9251,15 @@
           "descriptionZh": "",
           "language": "Python",
           "license": "",
-          "stars": 2031,
+          "stars": 2036,
           "starsText": "2k",
           "forks": 150,
           "forksText": "150",
-          "openIssues": 105,
+          "openIssues": 107,
           "archived": false,
           "topics": [],
           "category": "other",
-          "ageDays": 28,
+          "ageDays": 29,
           "createdAt": "2026-10-15T13:06:56Z",
           "avatar": "https://avatars.githubusercontent.com/u/210980732?v=4",
           "curve": {
@@ -9773,6 +9364,96 @@
                 "url": "https://www.bilibili.com/video/BV1Kxng6ZEvF"
               }
             ]
+          }
+        },
+        {
+          "name": "neuron-explorer",
+          "owner": "lyramakesmusic",
+          "fullName": "lyramakesmusic/neuron-explorer",
+          "url": "https://github.com/lyramakesmusic/neuron-explorer",
+          "homepage": "",
+          "description": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results",
+          "descriptionZh": "Qwen3.5-4B的Steering-first neuron explorer：推送每个MLP神经元，保留每次推出，浏览结果",
+          "language": "Python",
+          "license": "MIT",
+          "stars": 1979,
+          "starsText": "2k",
+          "forks": 244,
+          "forksText": "244",
+          "openIssues": 9,
+          "archived": false,
+          "topics": [
+            {
+              "key": "interpretability",
+              "zh": "interpretability"
+            },
+            {
+              "key": "mechanistic-interpretability",
+              "zh": "mechanistic-interpretability"
+            },
+            {
+              "key": "qwen",
+              "zh": "qwen"
+            },
+            {
+              "key": "steering",
+              "zh": "steering"
+            }
+          ],
+          "category": "other",
+          "ageDays": 23,
+          "createdAt": "2026-10-21T04:09:05Z",
+          "avatar": "https://avatars.githubusercontent.com/u/21166029?v=4",
+          "curve": {
+            "points": [
+              [
+                1792995376,
+                884
+              ],
+              [
+                1793170342,
+                1504
+              ],
+              [
+                1793605324,
+                1814
+              ],
+              [
+                1793692621,
+                1869
+              ],
+              [
+                1794035558,
+                1938
+              ],
+              [
+                1794122594,
+                1940
+              ],
+              [
+                1794211199,
+                1946
+              ],
+              [
+                1794299199,
+                1961
+              ],
+              [
+                1794556818,
+                1979
+              ]
+            ],
+            "source": "measured",
+            "delta": 1095,
+            "days": 18,
+            "perDay": 61
+          },
+          "tutorials": {
+            "keyword": "neuron-explorer 安装教程",
+            "searchUrl": "https://search.bilibili.com/all?keyword=neuron-explorer%20%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B",
+            "error": null,
+            "fetchedAt": null,
+            "videos": []
           }
         }
       ]
